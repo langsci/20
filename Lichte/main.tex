@@ -1,0 +1,194 @@
+\documentclass[ number=1
+			   ,series=eotms
+			   ,output=short    % long|short|inprep              
+			   %,blackandwhite
+			   %,smallfont
+			   ,newtxmath
+			   ,draftmode 
+			  ]{LSP/langsci}                                   
+
+\usepackage{LSP/lsp-styles/avm}
+\avmfont{\sc} 
+\avmvalfont{\it}
+
+\usepackage{linguex}
+\renewcommand{\firstrefdash}{}   % fuer linguex: kein Minuszeichen in den Beispiellabel
+%\usepackage{vaucanson-g} 
+\usepackage{pst-node,color,graphics}
+\usepackage{tikz,tikz-qtree}
+\usepackage[inference]{semantic} % fuer CCG 
+\usepackage{packages/ccg}
+\usepackage{forest}
+
+\usepackage{latexsym,amsmath,amssymb,wasysym}  
+%\usepackage{ifsym}  	% fuer das Blitzsymbol  
+\usepackage{marvosym}	% fuer das Blitzsymbol
+\usepackage{arydshln}	% Definitions of horizontal and vertical dashed lines for the array and tabular environment.
+
+\usepackage{ulem}  	% ulem für Durchstreichungen, Unterstreichungen etc.
+\normalem			% Macht eine Änderung von ulem an \emph rückgängig.
+
+\usepackage{epigraph}	% fuer Motto-Zitate
+\usepackage{rotating}
+\usepackage{ifdraft}
+\usepackage{url} 
+
+%\usepackage[printonlyused]{acronym}
+\usepackage{acronym}
+
+\usepackage{german}
+\usepackage{polyglossia}
+\setdefaultlanguage[babelshorthands=true,spelling=new]{german}
+%\usepackage{LSP/lsp-styles/lsp-german}
+% \newcommand\glqq{"`}
+% \newcommand\grqq{"'}
+%\newcommand\qlq{`}
+%\newcommand\qlq{'}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%   TIKZ SETTINGS    % 
+%%%%%%%%%%%%%%%%%%%%%%
+
+\tikzset{every tree node/.style={align=center,anchor=north}}	% to allow linebreaks
+\usetikzlibrary{calc} % for positioning arrows with ($(t.center)-(1,0)$)
+\usetikzlibrary{shapes,decorations}
+\usetikzlibrary{backgrounds,fit}
+\usetikzlibrary{arrows}
+\usetikzlibrary{matrix}
+\usetikzlibrary{positioning}
+\usetikzlibrary{automata}
+
+% Define box and box title style (see http://www.texample.net/tikz/examples/boxes-with-text-and-math/)
+\tikzstyle{mybox} = [draw=gray, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=17pt,yshift=3pt]
+\tikzstyle{fancytitle} =[draw=gray, very thick, fill=white,
+    rectangle, rounded corners, inner sep=5pt, inner ysep=5pt]
+    
+\tikzset{
+    %Define standard arrow tip
+    >=stealth',
+    %Define style for boxes
+    box/.style={
+           rectangle,
+           rounded corners,
+           draw=black, very thick,
+           text width=10em,
+           minimum height=2em,
+           text centered},
+    % Define arrow style
+    arrow/.style={
+           ->,
+           thick,
+           	shorten <=2pt,
+           shorten >=2pt,}
+}
+
+\newcommand\centertikz[1]{\tikz[baseline=(current bounding box.center)]{#1}}
+
+\forestset{
+    sn edges/.style={for tree={parent anchor=south, child anchor=north}},
+    red subtree/.style={for tree={text=red},for descendants={edge=red}}}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%   TODONOTES        % 
+%%%%%%%%%%%%%%%%%%%%%%
+ 
+\usepackage{soul}   % for text highlighting
+\usepackage[textsize=scriptsize,textwidth=2cm]{todonotes}
+\newcommand{\todoregion}[2]{\hl{#1}\todo{#2}}    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\dotted}[0]{\makedash{2pt}}
+\avmfont{\sc} \avmvalfont{\rm} 
+\newenvironment{avmnode}[1] { 
+	\avmoptions{} 
+	\avmvskip{.1ex}
+	\avmfont{\sc} \avmvalfont{\rm}
+	\hspace{-5mm}
+	\begin{tabular}{c}
+	#1 \\[-2.5ex]
+	\begin{avm}
+	\avml
+	}
+	%%%
+	{
+	\avmr
+        \end{avm}\\[-0,5ex] 
+	\end{tabular}
+}
+\newcommand{\svar}[1]
+   {\setbox2=\hbox{$\scriptstyle #1$}\lower.2ex\vbox{\hrule
+     \hbox{\vrule\kern1.25pt 
+     \vbox{\kern1.25pt\box2\kern1.25pt}\kern1.25pt\vrule}\hrule}}
+\newcommand{\tododiss}{
+   \vspace{2ex}
+    
+   \ldots TODO \ldots 
+    
+   \vspace{1ex} 
+   }
+\newcommand{\circled}[1]{\textcircled{\raisebox{-0.9pt}{#1}}}
+\newlength{\stmueTmp} 
+\newcommand*{\hspaceThisNegative}[1]{\settowidth{\stmueTmp}{#1}\hspace*{-\stmueTmp}}
+%\renewcommand{\refdash}{}   % fuer linguex: kein Minuszeichen in den Beispiellabel
+
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Korollar}
+\newtheorem{axiom}{Axiom}
+\newtheorem{idealisierung}{Idealisierung}  
+
+\newcommand{\fnex}[1]{
+  \setlength{\Exlabelsep}{0.8em}% for linguex examples
+  \setlength{\SubExleftmargin}{1.4em}% for linguex examples
+  \parbox{\linewidth-1.5em}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                      
+ 
+\title{Syntax \newlineCover und Valenz}
+\subtitle{Zur Modellierung kohärenter und elliptischer Strukturen mit Baumadjunktionsgrammatiken}  
+
+\author{Timm Lichte} 
+         
+\begin{document}               
+                                                                                                            
+\maketitle
+
+\frontmatter
+
+\chapter*{Vorwort und Danksagung}
+%\include{danksagung}
+\tableofcontents
+
+\mainmatter      
+        
+\include{01-einfuehrung}
+
+\part{Valenzbegriff und Valenzphänomene} 
+\include{02-valenz}
+\include{03-kohaerenz}
+\include{04-ellipse}    
+
+\part{Syntax mit Valenz}
+\include{05-tag}
+\include{06-tag-kohaerenz}
+\include{07-ttmctag-kohaerenz}  
+\include{08-tag-ellipse}  
+
+\part{Syntax ohne Valenz} 
+\include{09-syntax-ohne-valenz}
+\include{10-schluss}
+
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}   
+\include{acronyme}  
+  
+
+
+%\addcontentsline{toc}{chapter}{Literaturverzeichnis} 
+\bibliography{literatur}
+
+                              
+\end{document}
+      
