@@ -1,0 +1,42 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{acc}$} & \multicolumn{2}{c}{\node{2}{VP}} \\[3ex]
+ & \multicolumn{2}{c}{\node{21}{VP}} \\[2ex]
+ & \node{211}{NP$_{dat}$} & \node{212}{VP} \\[3ex]
+ & & \node{2121}{VP} \\[2ex]
+ & & \node{21211}{V} \\[2ex]
+ & & \node{212111}{{\it zu geben}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{21}{211} \nodeconnect{21}{212}
+\nodeconnect{2121}{21211} \nodeconnect{21211}{212111}
+{\makedash{2pt}
+\nodeconnect{2}{21} \nodeconnect{212}{2121}
+}
+%%%
+\hfil
+%%%
+\begin{tabular}{cccc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{V} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+\node{11}{\it hat} \\[1ex] 
+ & \multicolumn{2}{c}{\node{21}{VP}} \\[2ex]
+ & \node{211}{NP$_{nom}$} & \multicolumn{2}{c}{\node{212}{VP}} \\[3ex]
+ & & \multicolumn{2}{c}{\node{2121}{VP}} \\[2ex]
+ & & \node{21212}{VP*} & \node{21211}{V} \\[2ex]
+ & & & \node{212111}{{\it versucht}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{1}{11} 
+\nodeconnect{21}{211} \nodeconnect{21}{212}
+\nodeconnect{2121}{21211} \nodeconnect{21211}{212111}
+\nodeconnect{2121}{21212}
+{\makedash{2pt}
+\nodeconnect{2}{21} \nodeconnect{212}{2121}
+}
+
+
+\end{document}

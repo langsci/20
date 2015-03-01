@@ -1,0 +1,39 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{cccc}
+\multicolumn{3}{c}{\node{0}{
+\begin{avm} 
+  \[ phon & $\langle$ {\it NP$_2$,NP$_1$,V$_2$,V$_1$}$\rangle$ \\
+     cat & s \\
+     dom & $\langle${\it NP$_1$}$\rangle \ocircle \langle${\it V$_1$}$\rangle \ocircle \langle${\it NP$_2$,V$_2$}$\rangle$ \] 
+\end{avm}}} \\[13ex]
+\multicolumn{2}{c}{\node{3}{
+\begin{avm}
+   \[cat & vp \\ 
+     dom & $\langle${\it NP$_2$}$\rangle \ocircle \langle${\it V$_2$}$\rangle$ \]
+\end{avm}}}  
+     & \node{1}{\begin{avm}
+                  \[cat & np \\ 
+                    dom & $\langle${\it NP$_1$}$\rangle$ \]
+                \end{avm}} & \node{2}{\begin{avm}
+                                        \[cat & v \\ 
+                                          dom & $\langle${\it V$_1$}$\rangle$ \]
+                                      \end{avm}} \\[7ex]
+\node{31}{\begin{avm}
+            \[cat & np \\ 
+              dom & $\langle${\it NP$_2$}$\rangle$ \]
+          \end{avm}} & \node{32}{\begin{avm}
+                                   \[cat & v \\ 
+                                     dom & $\langle${\it V$_2$}$\rangle$ \]
+                                 \end{avm}} \\[13ex]
+$\langle$\node{41}{{\it NP$_2$}} ,~ & \node{42}{{\it NP$_1$}} , & \node{43}{{\it V$_2$}} , & ~~~\node{44}{{\it V$_1$}}$\rangle$  
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+\nodeconnect{3}{31} \nodeconnect{3}{32}
+{\makedash{2pt}
+\nodeconnect{31}{41} \nodeconnect{1}{42} \nodeconnect{2}{44} \nodeconnect{32}{43}
+}
+
+\end{document}

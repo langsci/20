@@ -1,0 +1,44 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\vspace*{3ex}
+\hspace{10em}
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{ts}{\node{0}{S}}} \\[2ex]
+\node{1}{NP$~~~$} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+	& \node{21}{V} & \node{22}{\node{tnp}{NP}} \\[2ex]
+	& \node{211}{\emph{repaired}}
+\end{tabular}
+\nodeconnect{0}{1}  \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodeconnect{21}{211}    
+%%%
+
+\hspace{0em}
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\node{1}{NP} & \node{2}{\node{fs}{S*}} \\[2ex]
+\node{11}{{\it the fridge}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodetriangle{1}{11}
+}
+,
+\mbox{
+\begin{tabular}{c}
+\node{0}{\node{rnp}{NP}} \\[2ex]
+\node{1}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1} 
+}
+\right \}$
+
+{\makedash{2pt}
+\anodecurve[tr]{fs}[tl]{ts}{50pt}
+\anodecurve[r]{rnp}[b]{tnp}{30pt}
+}
+
+
+\end{document}

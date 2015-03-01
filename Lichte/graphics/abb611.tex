@@ -1,0 +1,77 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{ccc}
+
+Hilfsbaum (source) &  Zielbaum (target) & Resultat \\[2ex]
+
+\begin{minipage}{5cm}
+\begin{minipage}{1.7cm}\hfill Top\end{minipage}
+$\left \{
+\mbox{
+\begin{tabular}{c}
+\node{s0}{X} \\[3ex]
+\node{b1}{$\beta_1$} \\[1ex]
+\node{s1}{$~~~~~~~~~~~~$} \\[-1ex]
+\end{tabular}
+\nodetriangle{s0}{s1} %\nodetriangle{s1}{s2}
+}
+\right .$
+
+%\vspace{-1ex}
+
+\begin{minipage}{1.7cm}rekursiver Teilbaum \end{minipage}
+$\left \{
+\mbox{
+\begin{tabular}{c}
+\node{s2}{Y} \\[2ex]
+$\beta_2$ \\[2ex]
+\node{s3}{$~~~~~$\node{s3Y}{Y*}$~~~~~$}
+\end{tabular}
+\nodetriangle{s2}{s3} %\nodetriangle{s1}{s2}
+}
+\right .$
+\vspace{5ex}
+\end{minipage}
+
+&
+
+\begin{minipage}{2cm}
+\begin{tabular}{c}
+\node{t0}{X} \\[2ex]
+\node{a1}{$\alpha_1$} \\[2ex]
+\node{t1}{$~~~~$\node{t1Y}{Y}$~~~~$} \\[3ex]
+$\alpha_2$ \\[1ex]
+\node{t2}{$~~~~~~~~~$}
+\end{tabular}
+\nodetriangle{t0}{t1} \nodetriangle{t1}{t2}
+\vspace{5ex}
+\end{minipage}
+{\makedash{2pt}
+\nodeconnect[r]{s2}[l]{t1Y}
+\anodecurve[r]{s3Y}[l]{t1Y}{40pt}
+\nodeconnect[r]{b1}[l]{a1}
+}
+
+&
+
+\begin{minipage}{2.3cm}
+\begin{tabular}{c}
+\node{r0}{X} \\[3ex]
+$\alpha_1 \cup \beta_1$ \\[2ex]
+\node{r1}{$~~~~~~~~~~$Y$~~~~~~~~~~$} \\[2ex]
+$\beta_2$ \\[2ex]
+\node{r2}{$~~~~~$Y*$~~~~$} \\[3ex]
+$\alpha_2$ \\[1ex]
+\node{r3}{$~~~~~~~~~$}
+\end{tabular}
+\nodetriangle{r0}{r1} \nodetriangle{r1}{r2} \nodetriangle{r2}{r3}
+\end{minipage}
+
+
+\end{tabular}
+
+
+\end{document}

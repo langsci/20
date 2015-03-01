@@ -1,0 +1,53 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{2ex}
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{0}{\begin{avmnode}{VP}
+\[ vf & + \\
+   stype & v12 \] \\ 
+\[ vf & + \]
+\end{avmnode}}} \\[7ex]
+\node{1}{NP$_{nom}$} & \multicolumn{2}{c}{\node{2}{\begin{avmnode}{VP}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}}} \\[6ex]
+ & \node{21}{\phantom{$^{NA}$}V$^{NA}$} & \node{22}{\begin{avmnode}{VP}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}} \\[6ex]
+ & \node{211}{{\it isst}} & \node{221}{V} \\[2ex]
+ & & \node{2211}{$\varepsilon$} 
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodeconnect{21}{211}
+\nodeconnect{22}{221} \nodeconnect{221}{2211}
+%%%
+\hspace{-2em}
+\begin{minipage}{1em}
+\vspace{-23ex}
+
+\scalebox{2}{\Lightning}
+\end{minipage}
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vpo0}{\begin{avmnode}{VP}
+\[ vf & \@3 \] \\
+\[ vf & \@3 \]
+\end{avmnode}}} \\[6ex]
+\node{vpo1}{NP$_{acc}$} & \node{vp2}{\begin{avmnode}{VP*}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}} \\[2ex]
+\end{tabular}
+\nodeconnect{vpo0}{vpo1}
+\nodeconnect{vpo0}{vp2}
+{\makedash{2pt}
+\anodecurve[tl]{vpo0}[r]{0}{20pt}
+}
+
+
+\end{document}

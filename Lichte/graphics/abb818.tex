@@ -1,0 +1,24 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\pstree[nodesep=2pt,levelsep=10ex]{
+\Tr{\texttt{\sout{write}}}\trput{{\sc s.222}}}{
+\pstree{\Tr{\texttt{\sout{begin}}}\tlput{{\sc a.$\epsilon$}}}{
+  \pstree{\Tr{\texttt{\sout{try}}}\tlput{{\sc a.$\epsilon$}}}{
+    \pstree{\Tr{\texttt{\sout{want}}}\tlput{{\sc a.$\epsilon$}}}{
+        \Tr{\texttt{Mary}}\tlput{{\sc s.1}}
+    }
+    \Tr{\texttt{\sout{to}}}\trput[labelsep=0pt]{{\sc a.21}}
+    $~~~~~$\Tr{\texttt{PRO}}\trput{{\sc s.1}}  
+  }
+  \Tr{\texttt{\sout{to}}}\trput[labelsep=0pt]{{\sc a.21}}
+  $~~~~~$\Tr{\texttt{PRO}}\trput{{\sc s.1}}  
+}
+\Tr{\texttt{\sout{to}}}\trput[labelsep=0pt]{{\sc a.21}}
+$~~~~~$\Tr{\texttt{PRO}}\trput{{\sc s.1}}
+$~~~~~$\Tr{\texttt{a\_play}}\trput{{\sc s.22}} 
+}
+
+\end{document}

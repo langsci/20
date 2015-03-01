@@ -1,0 +1,22 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{VP}
+\[ vf & + \\
+  stype & v3 \] \\
+\[ vf & + \]
+\end{avmnode}}} \\[7ex]
+\node{1}{COMP} & \node{2}{\begin{avmnode}{VP*}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}} \\[2ex]
+\node{11}{{\it dass}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{1}{11}
+
+
+\end{document}

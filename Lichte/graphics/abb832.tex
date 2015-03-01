@@ -1,0 +1,66 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{minipage}{20em}
+\begin{center}
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{c-0}{S}} \\[2ex]
+\node{c-1}{S} & \multicolumn{2}{c}{\node{c-2}{S}} \\[2ex]
+& \node{c-21}{{\it and}} & \node{c-22}{S}
+\end{tabular}
+\nodeconnect{c-0}{c-1} \nodeconnect{c-0}{c-2}
+\nodeconnect{c-2}{c-21} \nodeconnect{c-2}{c-22}
+
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{c1-0}{S}} \\[2ex]
+\node{c1-1}{NP} & \multicolumn{2}{c}{\node{c1-2}{S}} \\[2ex]
+\node{c1-11}{{\it Mary}} & \node{c1-21}{V} & \node{c1-22}{NP} \\[2ex]
+ & \node{c1-211}{{\it ate}} & \node{c1-221}{{\it beans}}
+\end{tabular}
+\nodeconnect{c1-0}{c1-1} \nodeconnect{c1-0}{c1-2}
+\nodeconnect{c1-1}{c1-11} 
+\nodeconnect{c1-2}{c1-21} \nodeconnect{c1-2}{c1-22}
+\nodeconnect{c1-21}{c1-211}
+\nodeconnect{c1-22}{c1-221}
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\multicolumn{2}{c}{\node{1}{VP}} \\[2ex]
+\node{11}{V} & \node{12}{NP} \\[2ex]
+\node{111}{{\it drank}} \\[2ex]
+ & \node{121}{NP} \\[2ex]
+ & \node{1211}{{\it wine}}
+\end{tabular}
+\nodeconnect{0}{1} 
+\nodeconnect{1}{11} \nodeconnect{1}{12}
+\nodeconnect{11}{111} \nodeconnect{121}{1211} 
+{\makedash{2pt}
+\anodeconnect[t]{121}[b]{12}
+}
+{\makedash{2pt}
+\anodecurve[t]{c1-0}[b]{c-1}{20pt}
+\anodecurve[t]{0}[b]{c-22}{20pt}
+}
+
+\end{center}
+\end{minipage}
+%%%
+\hfil
+\begin{tabular}{c}
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{and}}}{
+\pstree{\Tr{\texttt{ate}}\tlput{{\sc s}.1}}{
+  \Tfan
+}
+\pstree{\Tr{\texttt{drank/$\delta_1$}}\trput{{\sc s}.22}}{
+  \Tr{\texttt{wine}}\trput{{\sc s}.12}  
+}
+}
+\end{tabular}
+
+
+
+
+\end{document}

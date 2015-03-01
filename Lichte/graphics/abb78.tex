@@ -1,0 +1,57 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\begin{avmnode}{VP}
+\[vf & \@1 \\
+  stype & v3 \] \\
+\[vf & $-$ \]
+\end{avmnode}} \\[7ex]
+\node{1}{V} \\[2ex]
+\node{11}{{\it isst}}
+\end{tabular}
+\nodeconnect{0}{1} 
+\nodeconnect{1}{11}
+\hspace{-1em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{VP}
+\[ vf & \@2 \] \\
+\[ vf & \@2 \]
+\end{avmnode}}} \\[5ex]
+\node{vps1}{NP$_{nom}$} & \node{vp2}{\begin{avmnode}{VP*}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+}
+\hspace{-1em}
+,
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vpo0}{\begin{avmnode}{VP}
+\[ vf & \@3 \] \\
+\[ vf & \@3 \]
+\end{avmnode}}} \\[5ex]
+\node{vpo1}{NP$_{acc}$} & \node{vp2}{\begin{avmnode}{VP*}
+\[ vf & $-$ \] \\
+\[ vf & $-$ \]
+\end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vpo0}{vpo1}
+\nodeconnect{vpo0}{vp2}
+}
+\hspace{-1em}
+\right \}$
+}
+\right >$
+
+
+\end{document}

@@ -1,0 +1,66 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{c}
+\node{0}{} \\[2ex]
+\node{a}{$\alpha_1$} \\[0.8ex]
+\node{1}{$~~~~~~~~~~$} \\[4ex]
+\node{11}{} \\[2ex]
+$\alpha_2$ \\[0.8ex]
+\node{111}{$~~~~~~~~~~$}
+\end{tabular}
+\nodetriangle{0}{1} \nodetriangle{11}{111}
+{\makedash{2pt}
+\nodeconnect{1}{11}
+}
+%%%
+\begin{tabular}{c}
+insertion \\[7ex]
+substition
+\end{tabular}
+%%%
+\begin{tabular}{c}
+\node{t0}{} \\[2ex]
+$\beta_1$ \\[0.8ex]
+\node{t1}{$~~~~~~~~~~$} \\[2ex]
+\node{k}{} \\
+\node{t11}{} \\[2ex]
+$\beta_2$ \\[0.8ex]
+\node{t111}{$~~\node{s}{}~~~~~~~~$}
+\end{tabular}
+\nodetriangle{t0}{t1} \nodetriangle{t11}{t111}
+{\makedash{2pt}
+\nodeconnect{t1}{t11}
+\anodecurve[tr]{11}[b]{s}{45pt}
+\anodecurve[r]{a}[l]{k}{20pt}
+}
+%%%
+\hfil
+\scalebox{2}{$\leadsto$}
+\hfil
+%%%
+\begin{tabular}{c}
+\node{t0}{} \\[2ex]
+$\beta_1$ \\[0.8ex]
+\node{t1}{$~~~~~~~~~~$} \\[2ex]
+\node{0}{} \\[2ex]
+\node{a}{$\alpha_1$} \\[0.8ex]
+\node{1}{$~~~~~~~~~~$} \\[2ex]
+\node{t11}{} \\[2ex]
+$\beta_2$ \\[0.8ex]
+\node{t111}{$~~\node{s}{}~~~~~~~~$} \\[-3.5ex]
+\begin{tabular}{c}
+\node{11}{} \\[2ex]
+$\alpha_2$ \\[0.8ex]
+\node{111}{$~~~~~~~~~~$}
+\end{tabular} $~~~~$
+\end{tabular}
+\nodetriangle{t0}{t1} \nodetriangle{t11}{t111}
+\nodetriangle{0}{1} \nodetriangle{11}{111}
+{\makedash{2pt}
+\nodeconnect{t1}{0} \nodeconnect{1}{t11} 
+}
+
+
+\end{document}

@@ -1,0 +1,111 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{0}{S}} \\[2ex]
+\node{1}{S} & \node{2}{{\it et}} & \node{3}{S} \\[2ex]
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+
+\bigskip
+
+$
+\left\{
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{l0}{S}} \\[4ex]
+\node{l1}{N0} & \node{l2}{V} & \node{l3}{N1} \\[2ex]
+ & \node{l21}{{\it fabrique}} 
+\end{tabular}
+\nodeconnect{l0}{l1} \nodeconnect{l0}{l2} \nodeconnect{l0}{l3}
+\nodeconnect{l2}{l21}
+%%%
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{r0}{S}} \\[4ex]
+\node{r1}{N0} & \node{r2}{V} & \node{r3}{N1} \\[2ex]
+ & \node{r21}{{\it vend}} 
+\end{tabular}
+\nodeconnect{r0}{r1} \nodeconnect{r0}{r2} \nodeconnect{r0}{r3}
+\nodeconnect{r2}{r21}
+}
+\right\}
+$
+{\makedash{4pt}
+\anodecurve[tr]{l1}[tl]{r1}{20pt}
+\anodecurve[tl]{r3}[tr]{l3}{20pt}
+}
+{\makedash{2pt}
+\anodecurve[t]{l0}[b]{1}{10pt}
+\anodecurve[t]{r0}[b]{3}{10pt}
+}
+
+\bigskip
+
+\hspace{2em}
+\begin{tabular}{c}
+\node{N1}{N} \\[2ex]
+\node{N11}{\it Jean}
+\end{tabular}
+\nodeconnect{N1}{N11}
+\hfil
+\begin{tabular}{c}
+\node{N2}{N} \\[2ex]
+\node{N21}{$\epsilon$}
+\end{tabular}
+\nodeconnect{N2}{N21}
+\hfil
+\begin{tabular}{c}
+\node{N3}{N} \\[2ex]
+\node{N31}{\it Marie}
+\end{tabular}
+\nodeconnect{N3}{N31}
+\hfil
+\begin{tabular}{c}
+\node{N4}{N} \\[2ex]
+\node{N41}{\it des cr\^{e}pes}
+\end{tabular}
+\nodeconnect{N4}{N41}
+{\makedash{2pt}
+\anodecurve[t]{N1}[b]{l1}{10pt}
+\anodecurve[t]{N2}[b]{l3}{10pt}
+\anodecurve[t]{N3}[b]{r1}{10pt}
+\anodecurve[t]{N4}[b]{r3}{10pt}
+}
+
+\bigskip
+
+%\hspace{-2em}
+\scalebox{0.9}{
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{\texttt{fabrique}}\tlput{{\sc s}.1}}{
+  \Tr{\texttt{Jean}}\tlput{{\sc s}.1}
+  \Tr{\texttt{$\alpha_\epsilon$}}\trput{{\sc s}.3}
+}
+\pstree{\Tr{\texttt{vend}}\trput{{\sc s}.3}}{
+  \Tr{\texttt{Marie}}\tlput{{\sc s}.1}
+  \Tr{\texttt{des\_crepes}}\trput{{\sc s}.3}  
+}
+}
+\hspace{-1em}
+\begin{tabular}{c}
+\\[12ex]
+$\Longrightarrow$
+\end{tabular}
+\hspace{1em}
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr[name=fabrique]{\texttt{fabrique}}\tlput{{\sc s}.1}}{
+  \Tr{\texttt{Jean}}\tlput{{\sc s}.1}
+}
+\pstree{\Tr{\texttt{vend}}\trput{{\sc s}.3}}{
+  \Tr{\texttt{Marie}}\tlput{{\sc s}.1}
+  \Tr[name=crepes]{\texttt{des\_crepes}}\trput{{\sc s}.3}  
+}
+}
+\ncline[nodesep=3pt]{fabrique}{crepes} 
+}
+
+\end{document}

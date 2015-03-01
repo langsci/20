@@ -1,0 +1,39 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+\scalebox{0.9}{
+$\left <
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$}} \\[2ex]
+\node{1}{NP} & \multicolumn{2}{c}{\node{2}{NP}} \\[2ex]
+\node{11}{N} & \node{21}{Det} & \node{22}{N} \\[2ex]
+\node{111}{{\it Peter}} & \node{211}{{\it den}} & \node{221}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{1}{11} \nodeconnect{2}{21} \nodeconnect{2}{22} 
+\nodeconnect{11}{111} \nodeconnect{21}{211} \nodeconnect{22}{221}
+\hspace{-2em},
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ ~~~ \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ lemma & Peter \\
+                     case & nom|acc|dat \]
+  \end{avm}} %\tlput{{\sc a}}
+  \Tr{\begin{avm} \[ lemma & Kühlschrank \\
+                     case & acc \]
+  \end{avm}} %\tlput{{\sc p}}
+}
+\end{tabular}
+}
+\right >$
+}
+
+
+
+
+
+\end{document}

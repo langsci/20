@@ -1,0 +1,63 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{2ex}
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{acc}$} & \node{2}{\node{t1}{VP*}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+}
+,
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{dat}$} & \node{2}{\node{t2}{VP*}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+}
+,
+\mbox{
+\begin{tabular}{c}
+\node{0}{\node{t3}{VP}} \\[2ex]
+\node{1}{{\it zu geben}}
+\end{tabular}
+\nodeconnect{0}{1} 
+}
+\right \}$
+{\makedash{2pt}
+\nodecurve{t1}{t3}{30pt}
+\anodecurve{t2}{t3}{30pt}
+}
+
+\vspace{3ex}
+
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{nom}$} & \node{2}{\node{t1}{VP*}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+}
+,
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{{\it hat}} & \multicolumn{2}{c}{\node{2}{\node{t3}{VP}}} \\[2ex]
+ & \node{21}{VP*} & \node{22}{{\it versucht}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{2}{22}
+}
+\right \}$
+{\makedash{2pt}
+\anodecurve{t1}{t3}{30pt}
+}
+
+
+\end{document}

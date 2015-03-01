@@ -1,0 +1,23 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V}
+\[ ~~~ \] \\
+\[ stat & \@1 \\
+   e-inf & $-$ \\
+   finit & $-$
+\]
+\end{avmnode}}} \\[8ex]
+\node{1}{V$^{NA}$} & \node{2}{\begin{avmnode}{V*}
+\[ stat & \@1 \\ e-inf & + \]
+\end{avmnode}} \\
+\node{11}{{\it haben}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{1}{11}
+
+
+
+\end{document}

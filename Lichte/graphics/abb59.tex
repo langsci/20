@@ -1,0 +1,22 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{ccc}
+ & \node{0}{CP} \\[2ex]
+\node{cl1}{\phantom{l}$\cdots$\phantom{l}} & \node{c}{C'} & \node{cr1}{\phantom{l}$\cdots$\phantom{l}} \\[2ex]
+\node{tpl1}{C} & \node{tp}{TP} & \node{tpr1}{\phantom{l}$\cdots$\phantom{l}} \\[2ex]
+\node{tl1}{\phantom{l}$\cdots$\phantom{l}} & \node{t}{T'} & \node{tr1}{\phantom{l}$\cdots$\phantom{l}} \\[2ex]
+\node{l1}{T} & \node{1}{VP} & \node{r1}{\phantom{l}$\cdots$\phantom{l}} \\[2ex]
+\node{l11}{\phantom{l}$\cdots$\phantom{l}} & \node{11}{V} & \node{r11}{\phantom{l}$\cdots$\phantom{l}} \\[2ex]
+\node{l111}{\phantom{l}$\cdots$\phantom{l}} & \node{111}{{\it reads}} & \node{r111}{\phantom{l}$\cdots$\phantom{l}}
+\end{tabular}
+\nodeconnect{0}{c} \nodeconnect{0}{cr1} \nodeconnect{0}{cl1}
+\nodeconnect{c}{tp}  \nodeconnect{c}{tpl1}  \nodeconnect{c}{tpr1}  
+\nodeconnect{tp}{t}  \nodeconnect{tp}{tl1}  \nodeconnect{tp}{tr1}  
+\nodeconnect{t}{1}  \nodeconnect{t}{r1}  \nodeconnect{t}{l1}    
+\nodeconnect{1}{11} \nodeconnect{1}{l11}  \nodeconnect{1}{r11} 
+\nodeconnect{11}{111} \nodeconnect{11}{l111} \nodeconnect{11}{r111} 
+
+
+\end{document}

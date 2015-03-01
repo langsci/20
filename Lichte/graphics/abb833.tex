@@ -1,0 +1,36 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{ccccc}
+\node{1.1}{VP} & & \node{2.1}{VP} & & \node{3.1}{VP} \\[2ex]
+\node{1.2}{COORD} & & \node{2.2}{V} & & \node{3.2}{NP} \\[2ex]
+\node{1.3}{{\it and}} & & \node{2.3}{{\it drank}} & & \node{3.3}{N} \\[2ex]
+ & & & & \node{3.4}{{\it wine}}
+\end{tabular}
+\nodeconnect{1.1}{1.2} \nodeconnect{1.2}{1.3}
+\nodeconnect{2.1}{2.2} \nodeconnect{2.2}{2.3}
+\nodeconnect{3.1}{3.2} \nodeconnect{3.2}{3.3} \nodeconnect{3.3}{3.4}
+{\makedash{2pt}
+\nodeconnect[r]{1.1}[l]{2.1} \nodeconnect[r]{2.1}[l]{3.1}
+}
+%%%
+\hfil
+%%%
+\begin{tabular}{ccccc}
+\node{1.1}{VP} & & \node{2.1}{VP} & & \node{3.1}{VP} \\[2ex]
+\node{1.2}{COORD} & & \node{2.2}{NP} & & \node{3.2}{NP} \\[2ex]
+\node{1.3}{{\it and}} & & \node{2.3}{N} & & \node{3.3}{N} \\[2ex]
+ & & \node{2.4}{{\it others}} & & \node{3.4}{{\it rice}}
+\end{tabular}
+\nodeconnect{1.1}{1.2} \nodeconnect{1.2}{1.3}
+\nodeconnect{2.1}{2.2} \nodeconnect{2.2}{2.3} \nodeconnect{2.3}{2.4}
+\nodeconnect{3.1}{3.2} \nodeconnect{3.2}{3.3} \nodeconnect{3.3}{3.4}
+{\makedash{2pt}
+\nodeconnect[r]{1.1}[l]{2.1} \nodeconnect[r]{2.1}[l]{3.1}
+}
+
+
+
+\end{document}

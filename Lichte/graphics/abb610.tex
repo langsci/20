@@ -1,0 +1,60 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\hspace{-0.5em}
+\scalebox{0.9}{
+\begin{tabular}{cc@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{acc}$} & \multicolumn{2}{c}{\node{2}{VP}} \\[3ex]
+ & \multicolumn{2}{c}{\node{21}{VP}} \\[2ex]
+ & \node{211}{V} & \multicolumn{2}{c}{\node{212}{VP}} \\[2ex]
+ & \node{2111}{{\it hat}} \\[1ex]
+ & & \multicolumn{2}{c}{\node{2121}{VP}} \\[2ex]
+ & & \node{21211}{NP$_{dat}$} & \multicolumn{2}{c}{\node{21212}{VP}} \\[3ex]
+ & & & \multicolumn{2}{c}{\node{212121}{VP}} \\[2ex]
+ & & & \node{2121211}{NP$_{nom}$} & \multicolumn{2}{c}{\node{2121212}{VP}} \\[3ex]
+ & & & & \multicolumn{2}{c}{\node{21212121}{VP}} \\[2ex]
+ & & & & \node{212121211}{VP} & \node{212121212}{V} \\[2ex]
+ & & & & \node{2121212111}{V} & \node{2121212121}{{\it versucht}} \\[2ex]
+ & & & & \node{21212121111}{{\it zu geben}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} 
+\nodeconnect{21}{211} \nodeconnect{21}{212} \nodeconnect{211}{2111}
+\nodeconnect{2121}{21211} \nodeconnect{2121}{21212} 
+\nodeconnect{212121}{2121211} \nodeconnect{212121}{2121212} 
+\nodeconnect{21212121}{212121211} \nodeconnect{21212121}{212121212}
+\nodeconnect{212121211}{2121212111} \nodeconnect{2121212111}{21212121111}
+\nodeconnect{212121212}{2121212121}
+{\makedash{2pt}
+\nodeconnect{2}{21}
+\nodeconnect{212}{2121}
+\nodeconnect{21212}{212121} 
+\nodeconnect{2121212}{21212121}
+}
+%%%
+\hspace{-7.5em}
+\scalebox{2}{$\leadsto$} 
+\hspace{-1em}
+%%%
+\begin{tabular}{ccc@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{acc}$} & \multicolumn{2}{c}{\node{2}{\node{21}{VP}}} \\[3ex]
+ & \node{211}{V} & \multicolumn{2}{c}{\node{212}{\node{2121}{VP}}} \\[2ex]
+ & \node{2111}{{\it hat}} & \node{21211}{NP$_{dat}$} & \multicolumn{2}{c}{\node{21212}{\node{212121}{VP}}} \\[2ex]
+ & & & \node{2121211}{NP$_{nom}$} & \multicolumn{2}{c}{\node{2121212}{\node{21212121}{VP}}} \\[3ex]
+ & & & & \node{212121211}{VP} & \node{212121212}{V} \\[2ex]
+ & & & & \node{2121212111}{V} & \node{2121212121}{{\it versucht}} \\[2ex]
+ & & & & \node{21212121111}{{\it zu geben}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} 
+\nodeconnect{21}{211} \nodeconnect{21}{212} \nodeconnect{211}{2111}
+\nodeconnect{2121}{21211} \nodeconnect{2121}{21212} 
+\nodeconnect{212121}{2121211} \nodeconnect{212121}{2121212} 
+\nodeconnect{21212121}{212121211} \nodeconnect{21212121}{212121212}
+\nodeconnect{212121211}{2121212111} \nodeconnect{2121212111}{21212121111}
+\nodeconnect{212121212}{2121212121}
+}
+
+\end{document}

@@ -1,0 +1,16 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\node{head}{{\tt isst}}}}{% 
+  \Tr{{\tt bei\_G}}\tlput{{\sc a}.$\epsilon$}
+  \pstree{\Tr{{\tt NP$_{acc}$}}\trput{{\sc a.1}}}{
+    \Tr{{\tt eine\_pizza}}\tlput{{\sc s.1}}
+    \pstree{\Tr{\node{arg}{{\tt NP$_{nom}$}}}\trput{{\sc a}.$\epsilon$}}{\Tr{{\tt peter}}\tlput{{\sc s.1}}}
+  }
+}
+{\makedash{2pt}
+\nodecurve[r]{head}[tr]{arg}{20pt}
+}
+
+\end{document}

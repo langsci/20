@@ -1,0 +1,55 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{0}{S}} \\[2ex]
+\node{1}{S} & \node{2}{{\it et}} & \node{3}{S} \\[2ex]
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+
+\bigskip
+
+$
+\left\{
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{l0}{S}} \\[4ex]
+\node{l1}{N0} & \node{l2}{V} & \node{l3}{N0} \\[2ex]
+ & \node{l21}{{\it aime}} 
+\end{tabular}
+\nodeconnect{l0}{l1} \nodeconnect{l0}{l2} \nodeconnect{l0}{l3}
+\nodeconnect{l2}{l21}
+%%%
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{r0}{S}} \\[4ex]
+\node{r1}{N0} & \node{r2}{V} & \node{r3}{N0} \\[2ex]
+ & \node{r21}{$\epsilon$} 
+\end{tabular}
+\nodeconnect{r0}{r1} \nodeconnect{r0}{r2} \nodeconnect{r0}{r3}
+\nodeconnect{r2}{r21}
+}
+\right\}
+$
+{\dotted
+%\abarnodeconnect[15pt]{l1}{r1}
+%\abarnodeconnect[10pt]{r3}{l3}
+\anodecurve[t]{l0}[b]{1}{10pt}
+\anodecurve[t]{r0}[b]{3}{10pt}
+}
+
+\bigskip
+
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{\texttt{aime}}\tlput{{\sc s}.1}}{
+  \Tr{\texttt{Jean}}\tlput{{\sc s}.1}
+  \Tr{\texttt{Marie}}\trput{{\sc s}.3}}
+\pstree{\Tr{\texttt{aime-$\epsilon$}}\trput{{\sc s}.3}}{
+  \Tr{\texttt{Paul}}\tlput{{\sc s}.1}
+  \Tr{\texttt{Virginie}}\trput{{\sc s}.3}  
+}
+}
+
+\end{document}

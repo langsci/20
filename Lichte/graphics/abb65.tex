@@ -1,0 +1,40 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+$\gamma_2$:
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\node{1}{{\it NP$_2$}} & \node{2}{\node{t}{VP}} \\[2ex]
+ & \node{21}{{\it V$_2$}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{2}{21}
+%%%
+\hspace{3em}
+%%%
+$\gamma_1$:
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{0}{VP}} \\[1.5ex]
+\node{1}{{\it NP$_1$}} & \node{2}{\node{f}{VP*}} & \node{3}{{\it V$_1$}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+{\makedash{2pt}
+\anodecurve{f}[r]{t}{50pt}
+}
+
+%\rotatebox{-90}{$\Longrightarrow$}
+\bigskip
+
+\begin{tabular}{cccc}
+\multicolumn{4}{c}{Invertierter Ableitungsbaum:} \\[2ex]
+ & & \node{0}{$\gamma_1$} \\[2ex]
+ & \node{1}{$\gamma_2$} \\[4ex]
+\node{n2}{NP$_2$} & \node{n1}{NP$_1$} & \node{v2}{V$_2$} & \node{v1}{V$_1$} 
+\end{tabular}
+\nodeconnect{0}{1} 
+{\makedash{2pt}
+\nodeconnect{1}{n2} \nodeconnect{0}{n1} \nodeconnect{1}{v2} \nodeconnect{0}{v1}
+}
+
+\end{document}

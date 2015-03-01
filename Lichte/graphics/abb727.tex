@@ -1,0 +1,24 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{ccccc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{AP} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+\node{11}{{\it heute}} & \node{21}{V} & \multicolumn{2}{c}{\node{22}{VP}} \\[2ex]
+& \node{211}{{\it versucht}} & \node{221}{NP} & \multicolumn{2}{c}{\node{222}{VP}} \\[2ex]
+& & \node{2211}{\it ihn} & \node{2221}{NP} & \node{2222}{V|VP} \\[2ex]
+& & & \node{22211}{{\it Peter}} & \node{22221}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{1}{11} \nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodeconnect{21}{211} \nodeconnect{22}{221} \nodeconnect{22}{222}
+\nodeconnect{221}{2211} \nodeconnect{222}{2221} 
+\nodeconnect{2221}{22211} \nodeconnect{2222}{22221}  
+{\makedash{2pt}
+\nodeconnect{222}{2222}
+}
+
+
+\end{document}

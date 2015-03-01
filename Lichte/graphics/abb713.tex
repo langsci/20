@@ -1,0 +1,108 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+$\left <
+\hspace{-1em}
+\mbox{
+\begin{tabular}{c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V}
+\[phrase & +\]
+\end{avmnode}}} \\[4ex]
+\node{1}{\begin{avmnode}{V*}
+\[phrase & $-$\]
+\end{avmnode}} & \node{2}{\begin{avmnode}{V}
+\[phrase & $-$\]
+\end{avmnode}} \\[5ex]
+ & \node{21}{{\it versucht}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21}
+\hspace{-2em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{c@{\hspace{-0cm}}	c}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{V}
+\[phrase & +\]
+\end{avmnode}}} \\[4ex]
+\node{vps1}{NP$_{nom}$} & \node{vp2}{\begin{avmnode}{V*}
+\[phrase & +\]
+\end{avmnode}} 
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+% , %%%
+% \begin{tabular}{cc}
+% \multicolumn{2}{c}{\node{vpo0}{VP}} \\[2ex]
+% \node{vpo1}{NP$_{acc}\!\downarrow$} & \node{vp2}{VP*} \\[2ex]
+% \end{tabular} %\\[4ex]
+% \nodeconnect{vpo0}{vpo1}
+% \nodeconnect{vpo0}{vp2}
+}
+\hspace{-1em}
+\right \}$
+}
+\right >$
+
+\bigskip
+
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\begin{avmnode}{V}
+\[phrase & \@1\]
+\end{avmnode}} \\[4ex]
+\node{1}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1}
+, %%%
+$\left \{
+\mbox{
+% \begin{tabular}{cc}
+% \multicolumn{2}{c}{\node{vps0}{VP}} \\[2ex]
+% \node{vps1}{NP$_{nom}\!\downarrow$} & \node{vp2}{VP*} \\[2ex]
+% \end{tabular} %\\[4ex]
+% \nodeconnect{vps0}{vps1}
+% \nodeconnect{vps0}{vp2}
+% ,
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vpo0}{\begin{avmnode}{V}
+\[phrase & +\]
+\end{avmnode}}} \\[4ex]
+\node{vpo1}{NP$_{acc}$} & \node{vp2}{\begin{avmnode}{V*}
+\[phrase & +\]
+\end{avmnode}}
+\end{tabular} %\\[4ex]
+\nodeconnect{vpo0}{vpo1}
+\nodeconnect{vpo0}{vp2}
+}
+\hspace{-1em}
+\right \}$
+}
+\right >$
+
+\bigskip
+
+\rotatebox{90}{$\Longleftarrow$}
+
+\bigskip
+
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\node{head}{{\tt zu\_reparieren}}}}{% 
+  \pstree{\Tr{{\tt versucht}}\tlput{{\sc a}.$\epsilon$}}{
+    \pstree{\Tr{{\tt NP$_{nom}$}}\tlput{{\sc a}.$\epsilon$}}{
+      \pstree{\Tr{\node{arg}{{\tt NP$_{acc}$}}}\tlput{{\sc a}.$\epsilon$}}{
+        \Tr{{\tt dass}}\tlput{{\sc a}.$\epsilon$}
+        \Tr{{\tt den\_kühlschrank}}\trput{{\sc s.1}}}
+      \Tr{{\tt peter}}\trput{{\sc s.1}}
+    }
+  }
+}
+{\makedash{2pt}
+\nodecurve[l]{head}[tl]{arg}{20pt}
+}
+
+
+
+\end{document}

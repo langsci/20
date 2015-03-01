@@ -1,0 +1,61 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}NP$^{\circled{1}}$} \\[2ex]
+\node{1}{N} \\[2ex]
+\node{11}{{\it Peter}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+\hspace{-0.5em},\hspace{0.5em}
+\pstree[nodesep=3pt,levelsep=3cm]{\Tr{\begin{avm} \[ lemma & Peter \]
+                                      \end{avm}\circled{1}}}{}
+}
+\right >$
+
+\vspace{-10ex}
+
+$\left <
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\hspaceThis{$^{\circled{1}}$}NP$^{\circled{1}}$}} \\[2ex]
+\node{01}{Det} & \node{1}{N} \\[2ex]
+\node{011}{{\it den}} & \node{11}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+\nodeconnect{0}{01} \nodeconnect{01}{011}
+\hspace{-1em},\hspace{0.5em}
+\pstree[nodesep=3pt,levelsep=3cm]{\Tr{\begin{avm} \[ lemma & Kühlschrank \\
+                                                       case & acc \]
+                                      \end{avm}\circled{1}}}{}
+}
+\right >$
+
+\vspace{-10ex}
+
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{\hspaceThis{$^{\circled{1}}$}NP$^{\circled{2}}$} \\[2ex]
+\end{tabular}
+\nodeconnect{0}{1} 
+,
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{{\circled{1}}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+  \Tr{\hspaceThis{{\circled{2}}}\begin{avm} \[ ~~~  \] \end{avm}\circled{2}}}
+\end{tabular}
+} 
+\right >$
+
+
+
+
+
+\end{document}

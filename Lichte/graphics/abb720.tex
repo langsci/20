@@ -1,0 +1,43 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[ stat & 2 \\ e-inf & -\]
+\end{avmnode}}} \\[7ex]
+\node{1}{V$^{\mathit{NA}}$} & \node{h2}{\begin{avmnode}{V*}
+\[ stat & 2 \\ e-inf & +\]
+\end{avmnode}} \\
+\node{11}{{\it haben}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{h2} \nodeconnect{1}{11}
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[ stat & 2 \\ e-inf & +\]
+\end{avmnode}}} \\[9ex]
+\node{1}{\begin{avmnode}{V*} 
+\[ stat & 1\]
+\end{avmnode}} & \node{2}{V$^{\mathit{NA}}$} \\[2ex]
+& \node{21}{{\it zu können}} \\[4ex]
+\node{11}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[stat & 1 \]
+\end{avmnode}}  \\[7ex]
+\node{111}{{\it tun}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{2}{21}
+{\makedash{2pt}
+\anodeconnect{1}{11}
+\anodecurve[r]{h2}[l]{0}{20pt}
+}
+\nodeconnect{11}{111}
+
+
+\end{document}

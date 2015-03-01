@@ -1,0 +1,50 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ ~~~ \]
+                                        \end{avm}\circled{1}}\node{0}{}}{% 
+  \Tr{\begin{avm} \[ lemma & Stefan \\
+                     case & nom|acc|dat \]
+  \end{avm}}\node{1}{} %\tlput{{\sc a}}
+  \Tr{\begin{avm} \[ lemma & Karlsruhe \\
+                     case & nom|acc|dat \]
+  \end{avm}}\node{2}{} %\tlput{{\sc p}}
+}
+\end{tabular}
+
+\vspace{8ex}
+
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2.5cm]{\Tr{\begin{avm} \[ lemma & leben \\
+                                                     fin & + \]
+                                        \end{avm}\circled{2}}\node{0r}{}}{% 
+  \Tr{\begin{avm} \[ lemma & Sven \\
+                     case & nom \]
+  \end{avm}}\node{1r}{} \tlput{{\sc a}}
+  \Tr{\begin{avm} \[ lemma & Mainz \\
+                     case & in \]
+  \end{avm}}\node{2r}{} \tlput{{\sc l}} 
+}
+\end{tabular}
+{\makedash{2pt}
+\nodeconnect[l]{0}[l]{0r}
+\nodecurve[l]{1}[l]{1r}{50pt}
+\nodecurve[r]{2}[r]{2r}{50pt}
+}
+%%%
+%\hspace{-1em}
+\begin{minipage}{1em}
+\vspace{-13ex}
+
+\scalebox{2}{\Lightning}
+\end{minipage}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,47 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\hspace{2cm}
+\begin{tabular}{cccc}
+\node{10}{VP} & \node{20}{VP} &  & \node{30}{VP}\\[2ex]
+\node{11}{NP} & \node{21}{V}  &  & \node{31}{NP}\\[2ex]
+\node{12}{NP} & \node{22}{{\it repariert}} & \node{32}{NP} & \node{40}{NP} \\[2ex]
+\node{13}{N} &  & \node{33}{Det} & \node{41}{N} \\[2ex]
+\node{14}{{\it Peter}} & &  \node{34}{{\it den}} & \node{42}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{10}{11} \nodeconnect{12}{13} \nodeconnect{13}{14}
+\nodeconnect{20}{21} \nodeconnect{21}{22}
+\nodeconnect{30}{31} \nodeconnect{32}{33} \nodeconnect{33}{34}
+\nodeconnect{40}{41} \nodeconnect{41}{42}
+{\makedash{2pt}
+\nodeconnect{11}{12}
+\nodeconnect[r]{10}[l]{20}
+\nodeconnect[r]{20}[l]{30}
+\nodeconnect{31}{40}
+\nodeconnect[r]{32}[l]{40}
+}
+
+\vspace{3ex}
+
+\scalebox{1.5}{\rotatebox{-90}{$\leadsto$}}
+\vspace{3ex}
+
+\hspace{2cm}
+\begin{tabular}{cccc}
+& \node{0}{VP} \\[2ex]
+\node{1}{NP} & \node{2}{V} & \multicolumn{2}{c}{\node{3}{NP}} \\[2ex]
+\node{11}{N} & \node{21}{{\it repariert}} & \node{31}{Det} & \node{32}{N} \\[2ex]
+\node{111}{{\it Peter}} & & \node{311}{den} & \node{321}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+\nodeconnect{1}{11} \nodeconnect{11}{111}
+\nodeconnect{2}{21}
+\nodeconnect{3}{31} \nodeconnect{3}{32} \nodeconnect{31}{311} \nodeconnect{32}{321} 
+
+
+
+
+
+\end{document}

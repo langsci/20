@@ -1,0 +1,19 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{cccc}
+\multicolumn{2}{c}{\node{s0}{S}} \\[2ex]
+\node{s1}{NP$_i$} & \multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+& \node{1}{NP} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+&	& \node{21}{V} & \node{22}{NP} \\[2ex]
+&	& \node{211}{\emph{read}} & \node{221}{$t_i$}
+\end{tabular}
+\nodeconnect{s0}{s1}  \nodeconnect{s0}{0}
+\nodeconnect{0}{1}  \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodeconnect{21}{211}
+\nodeconnect{22}{221}
+
+
+\end{document}

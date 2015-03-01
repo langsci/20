@@ -1,0 +1,59 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+%\begin{minipage}{20em}
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{v.0}{S}} \\[2ex]
+\node{v.1}{NP} & \multicolumn{2}{c}{\node{v.2}{VP}} \\[2ex]
+ & \node{v.21}{V} & \node{v.22}{NP} \\[2ex]
+ & \node{v.211}{{\it praised}}
+\end{tabular}
+\nodeconnect{v.0}{v.1} \nodeconnect{v.0}{v.2}
+\nodeconnect{v.2}{v.21} \nodeconnect{v.2}{v.22}
+\nodeconnect{v.21}{v.211}
+\vspace{1em}
+
+\begin{tabular}{c}
+\node{n1.0}{NP} \\[2ex]
+\node{n1.1}{N} \\[2ex]
+\node{n1.11}{{\it Peter}}
+\end{tabular}
+\nodeconnect{n1.0}{n1.1}
+\nodeconnect{n1.1}{n1.11}
+%\hspace{3em}
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{d.0}{NP}} \\[2ex]
+\node{d.1}{D} & \node{d.2}{NP$^*$} \\[2ex]
+\node{d.11}{{\it the}}
+\end{tabular}
+\nodeconnect{d.0}{d.1} \nodeconnect{d.0}{d.2}
+\nodeconnect{d.1}{d.11} %\\[-4ex]
+%$~$ \hspace{10em}
+\begin{tabular}{c}
+\node{n2.0}{NP} \\[2ex]
+\node{n2.1}{N} \\[2ex]
+\node{n2.11}{{\it waitress}}
+\end{tabular}
+\nodeconnect{n2.0}{n2.1}
+\nodeconnect{n2.1}{n2.11}
+{\makedash{2pt}
+\anodecurve[tr]{n1.0}[b]{v.1}{15mm}
+\anodecurve{d.2}[l]{n2.0}{5mm}
+\anodecurve[r]{n2.0}[b]{v.22}{10mm}
+}
+%\end{minipage}
+\hspace{2em}
+\begin{tabular}{c}
+~~ \\[-12ex]
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{praised}}}{
+\Tr{\texttt{Peter}}\tlput{{\sc s}.1}
+\pstree{\Tr{\texttt{waitress}}\trput{{\sc s}.22}}{
+  \Tr{\texttt{the}}\trput{{\sc a}.$\varepsilon$}  
+}
+}
+\end{tabular}
+
+\end{document}

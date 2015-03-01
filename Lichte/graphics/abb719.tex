@@ -1,0 +1,33 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{V(P)}} \\[3ex]
+\node{1}{V*} & \node{v2}{V(P)} \\[2ex]
+& \node{21}{{\it versucht}} \\
+\node{11}{V(P)} \\[2ex]
+\node{111}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{v2}
+{\makedash{2pt}
+\anodeconnect{1}{11}
+} 
+\nodeconnect{11}{111}
+\nodeconnect{v2}{21}
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{V(P)}} \\[2ex]
+\node{1}{V*} & \node{2}{V} \\[2ex]
+ & \node{21}{{\it hat}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{2}{21}
+{\makedash{2pt}
+\anodecurve{1}[tr]{v2}{20pt}
+}
+
+
+\end{document}

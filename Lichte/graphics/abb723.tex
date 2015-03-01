@@ -1,0 +1,109 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{math}\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[ assign-case &  acc \\
+   stat & 2
+\]
+\end{avmnode}} \\[8ex]
+\node{1}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1}
+, %%%
+$\left \{
+\mbox{
+\hspace{-1em}
+\begin{tabular}{c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{VP}
+                               \[ assign-case & \@1 \\ agr & \@2 \]
+                               \end{avmnode}}} \\[6ex]
+\node{vps1}{\begin{avmnode}{NP}
+\[ cas & \@1 \\
+   agr & \@2
+\]
+\end{avmnode}} & \node{vp2}{\begin{avmnode}{VP*}
+\[ assign-case & \@1 \\
+   agr & \@2 \]
+\end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+\hspace{-2em}
+}
+\right \}$
+}
+\right >\end{math}
+
+\bigskip
+
+\begin{math}\left <
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[ passive & +\]
+\end{avmnode}}} \\[6ex]
+\node{2}{\begin{avmnode}{V*}
+\[ stat & 2\]
+\end{avmnode}} & \node{1}{V} \\[2ex]
+& \node{11}{{\it versucht}}
+\end{tabular}
+\nodeconnect{0}{1}
+\nodeconnect{0}{2}
+\nodeconnect{1}{11}
+\hspace{-1em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{VP}
+                               \[ assign-case & \@1 \\ agr & \@2 \]
+                               \end{avmnode}}} \\[6ex]
+\node{vps1}{PP$_{von}$} & \node{vp2}{\begin{avmnode}{VP*}
+                                     \[ assign-case & \@1 \\ agr & \@2 \]
+                                     \end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+\hspace{-2em}
+}
+\right \}$
+}
+\right >\end{math}
+
+\bigskip
+
+\begin{math}\left <
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V(P)}
+\[ agr & \[ num & sg \\ pers & 3 \] \\
+   assign-case & nom
+\]
+\end{avmnode}}} \\[8ex]
+\node{2}{\begin{avmnode}{V*}
+\[ passive & +\]
+\end{avmnode}} & \node{1}{V} \\[2ex]
+& \node{11}{{\it wird}}
+\end{tabular}
+\nodeconnect{0}{1}
+\nodeconnect{0}{2}
+\nodeconnect{1}{11}
+\hspace{-1em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{c}
+~ \\ ~
+\end{tabular}
+}
+\right \}$
+}
+\right >\end{math}
+
+
+\end{document}

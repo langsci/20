@@ -1,0 +1,67 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-1em}}c@{\hspace{-0cm}}c}
+Hilfsbaum~~~ & Zielbaum~~~ & Resultat & ~~~~~~~~~~\\[2ex]
+\begin{minipage}{3cm}
+\begin{tabular}{ccccc}
+\multicolumn{2}{c}{\node{s0}{A}} \\[2ex]
+\multicolumn{2}{c}{\node{s2}{B}} \\[2ex]
+\node{s22}{b} & \multicolumn{2}{c}{\node{s21}{C}} \\[2ex]
+& \node{s211}{c} & \multicolumn{2}{c}{\node{s212}{D}} \\[2ex]
+& & \node{s2121}{d} & \node{s2122}{C*}
+\end{tabular}
+\nodeconnect{s0}{s2}
+\nodeconnect{s2}{s21}  \nodeconnect{s2}{s22} 
+\nodeconnect{s21}{s211}
+\nodeconnect{s21}{s211} \nodeconnect{s21}{s212}
+\nodeconnect{s212}{s2121} \nodeconnect{s212}{s2122}
+\vspace{3ex}
+\end{minipage}
+&
+\begin{minipage}{3cm}
+\begin{tabular}{ccccc}
+\multicolumn{3}{c}{\node{t0}{A}} \\[2ex]
+\node{t1}{a} & \multicolumn{2}{c}{\node{t2}{B}} \\[2ex]
+ & \multicolumn{2}{c}{\node{t21}{C}} \\[2ex]
+ & \node{t211}{c} & \multicolumn{2}{c}{\node{t212}{D}} \\[2ex]
+ & & \node{t2121}{d} & \node{t2122}{e}
+\end{tabular}
+\nodeconnect{t0}{t1}\nodeconnect{t0}{t2}
+\nodeconnect{t2}{t21} \nodeconnect{t21}{t211}
+\nodeconnect{t21}{t211} \nodeconnect{t21}{t212}
+\nodeconnect{t212}{t2121} \nodeconnect{t212}{t2122}
+{\makedash{2pt}
+\nodeconnect[r]{s21}[l]{t21}
+\anodecurve[r]{s2122}[l]{t21}{20pt}
+\nodeconnect[r]{s0}[l]{t0}
+\nodeconnect[r]{s2}[l]{t2}
+}
+\vspace{3ex}
+\end{minipage}
+&
+\begin{minipage}{3cm}
+\hspace{-1em}
+\begin{tabular}{ccccccc}
+\multicolumn{3}{c}{\node{r0}{A}} \\[2ex]
+\node{r1}{a} & \multicolumn{2}{c}{\node{r2}{B}} \\[2ex]
+ & \node{r21}{b} & \multicolumn{2}{c}{\node{r22}{C}} \\[2ex]
+ & & \node{r221}{c} & \multicolumn{2}{c}{\node{r222}{D}} \\[2ex]
+ & & & \node{r2221}{d} & \multicolumn{2}{c}{\node{r2222}{C}} \\[2ex]
+ & & & & \node{r22221}{c} & \multicolumn{2}{c}{\node{r22222}{D}} \\[2ex]
+ & & & & & \node{r222221}{d} & \node{r222222}{e}
+\end{tabular}
+\nodeconnect{r0}{r1}\nodeconnect{r0}{r2}
+\nodeconnect{r2}{r21} \nodeconnect{r2}{r22} 
+\nodeconnect{r22}{r221} \nodeconnect{r22}{r222} 
+\nodeconnect{r222}{r2221} \nodeconnect{r222}{r2222}
+\nodeconnect{r2222}{r22221} \nodeconnect{r2222}{r22222}
+\nodeconnect{r22222}{r222221} \nodeconnect{r22222}{r222222}
+\end{minipage}
+
+\end{tabular}
+
+
+\end{document}

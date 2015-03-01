@@ -1,0 +1,34 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{V} \\[2ex]
+\node{11}{{\it repariert}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+,
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                       fin & + \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ case & nom \]\end{avm}!} \tlput{{\sc a}}
+  \Tr{\begin{avm} \[ case & acc \]
+  \end{avm}} \tlput{{\sc p}}
+  \Tr{\begin{avm} \[ case & dat \]
+  \end{avm}} \tlput{{\sc b}}
+}
+\end{tabular}
+}
+\right >$
+
+
+
+
+
+\end{document}

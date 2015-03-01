@@ -1,0 +1,71 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cccc}
+\multicolumn{4}{c}{\node{0}{VP}} \\[3ex]
+\node{1}{NP$_{nom}$} & \node{2}{NP$_{dat}$} & \node{3}{VP*} & \node{4}{{\it versprochen habe}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3} \nodeconnect{0}{4}
+%%%
+\begin{tabular}{cc}
+%\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\multicolumn{2}{c}{\node{1}{VP}} \\[2ex]
+\node{11}{NP$_{acc}$} & \node{12}{{\it zu reparieren}}
+\end{tabular}
+%\nodeconnect{0}{1} 
+\nodeconnect{1}{11} \nodeconnect{1}{12}
+
+\vspace{3ex}
+
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{NP$_{\svar{1}}$} & \node{2}{VP*} \\[3ex]
+\node{11}{{\it das Fahrrad}} \\
+{\it ich}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodetriangle{1}{11}
+,
+\begin{tabular}{c}
+\node{0}{NP$_{\svar{1}}$} \\[2ex]
+\node{1}{$t_{\svar{1}}$}
+\end{tabular}
+\nodeconnect{0}{1}
+}
+\right \}$
+%%%
+\begin{tabular}{c}
+\node{0}{NP$_{dat}$} \\[2ex]
+\node{1}{{\it den Kindern}}
+\end{tabular}
+\nodeconnect{0}{1}
+
+\vspace{3ex}
+
+\rotatebox{-90}{$\Longrightarrow$}
+
+\vspace{2ex}
+
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\node{rep}{{\tt zu\_reparieren}}}}{%
+%\psset{tpos=.6}
+  \Tr{{\tt t}$_{acc}$}\tlput{1}
+  \pstree{\Tr{\node{verspr}{{\tt versprochen\_habe}}}\trput{$\epsilon$}}{
+     \Tr{{\tt t}$_{nom}$}\tlput{1}
+     \Tr{{\tt den\_Kindern}}\trput{2}
+     \pstree{\Tr{\node{Fahr}{{\tt das\_Fahrrad}}}\trput{$\epsilon$}}{
+       \Tr{\node{ich}{{\tt ich}}}\trput{$\epsilon$}    
+     }  
+  }
+}
+{\makedash{2pt}
+\nodecurve[r]{verspr}[r]{ich}{60pt}
+\nodecurve[r]{rep}[r]{Fahr}{40pt}
+}
+
+
+
+\end{document}

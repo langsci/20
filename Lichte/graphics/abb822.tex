@@ -1,0 +1,34 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\pstree[nodesep=2pt,levelsep=12ex]{\Tr{\texttt{flying}}}{
+  \Tr{\texttt{$~~$I$~~$}}\tlput{{\sc s}.1}
+  \Tr{
+    \begin{avm}
+    \[anchor & am \\
+      lemma & be \\ 
+      num & sg \]
+    \end{avm}
+  }\tlput{{\sc a}.2}
+  \pstree[levelsep=8ex]{\Tr{\texttt{to}}\trput{{\sc s}.222}}{
+    \Tr{\texttt{Europe}}\trput{{\sc s}.2}  
+  }
+}
+\hspace{2em}
+\pstree[nodesep=2pt,levelsep=12ex]{\Tr{\texttt{\sout{flying}}}}{
+\Tr{\texttt{$~~$you$~~$}}\tlput{{\sc s}.1}
+  \Tr{
+    \begin{avm}
+    \[\sout{anchor} & \sout{are} \\
+      \sout{lemma} & \sout{be} \\ 
+      \sout{num} & \sout{pl} \]
+    \end{avm}
+  }\tlput{{\sc a}.2}
+  \pstree[levelsep=8ex]{\Tr{\texttt{to}}\trput{{\sc s}.222}}{
+    \Tr{\texttt{Asia}}\trput{{\sc s}.2}  
+  }
+}
+
+\end{document}

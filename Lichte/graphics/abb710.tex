@@ -1,0 +1,48 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{2ex}
+\begin{tabular}{c}
+\node{0}{\begin{avmnode}{\node{v3r}{V}}
+\[~~~~\] \\
+\[stat & 3\]
+\end{avmnode}} \\[6ex]
+\node{1}{{\it V$_3$}}
+\end{tabular}
+\nodeconnect{0}{1}
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{\node{v2r}{V}}
+\[stat & \@1\] \\
+\[stat & 2\]
+\end{avmnode}}} \\[6ex]
+\node{1}{\begin{avmnode}{\node{v2f}{V*}}
+\[stat & 3\] \\
+\[~~~~\]
+\end{avmnode}} & \node{2}{V$^{\mathit{NA}}$} \\[2ex]
+ & \node{21}{{\it V$_2$}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21}
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V}
+\[stat & \@2 \] \\
+\[stat & 1\]
+\end{avmnode}}} \\[6ex]
+\node{1}{\begin{avmnode}{\node{v1f}{V*}}
+\[stat & 2\]\\
+\[~~~~\]
+\end{avmnode}} & \node{2}{V$^{\mathit{NA}}$} \\[2ex]
+ & \node{21}{{\it V$_1$}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21}
+{\makedash{2pt}
+\anodecurve[l]{v1f}[tr]{v2r}{35pt}
+\anodecurve[l]{v2f}[tr]{v3r}{35pt}
+}
+
+\end{document}

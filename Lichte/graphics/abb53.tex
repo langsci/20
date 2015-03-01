@@ -1,0 +1,47 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\hspace{-0.5em}
+\begin{tabular}{c}
+\\[11ex]
+\node{0}{
+\begin{avmnode}{}
+\node{tr}{\[top$_r$\]}\\
+\[bot$_r$\]
+\end{avmnode}} \\[7ex]
+\node{1}{$~~~~~~~~~~~~~~~~~~~~$}
+\end{tabular}
+\nodetriangle{0}{1}
+%%%
+\begin{tabular}{c}
+\node{0}{} \\[9ex]
+\node{1}{$~~~~$
+\begin{avmnode}{}
+\\[-6ex]
+\node{t}{\[top\]}\\
+\node{b}{\[bot\]}
+\end{avmnode}
+$~~~~$} 
+\end{tabular}
+\nodetriangle{0}{1}
+{\makedash{2pt}
+\anodeconnect[r]{tr}[l]{t}
+}
+%%%
+\hspace{-1em}
+$\Longrightarrow$
+\begin{tabular}{c}
+\node{0}{} \\[9ex]
+\node{1}{$~$
+\begin{avmnode}{}
+\\[-6ex]
+\[top$_r ~ \cup$ top\]\\
+\[bot$_r$\]
+\end{avmnode}
+$~$}  \\[7ex]
+\node{11}{$~~~~~~~~~~~~~~~~~~~~$}
+\end{tabular}
+\nodetriangle{0}{1} \nodetriangle{1}{11} 
+
+\end{document}

@@ -1,0 +1,40 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{ccccc}
+& S-Tilgung + V-Bewegung & & NP-Bewegung & \\[2.5ex]
+\begin{tabular}{c}
+\node{0}{S} \\[3ex]
+\node{1}{{\it NP$_1$} $~~~$ \node{2}{S} $~~~$ {\it V$_1$}} \\[3ex]
+\node{21}{{\it NP$_2$} $~~~$ {\it V$_2$}}
+\end{tabular}
+\nodetriangle{0}{1}
+\nodetriangle{2}{21}
+\hspace{-4.5em}
+&
+$\Longrightarrow$
+&
+\hspace{-4.5em}
+\begin{tabular}{cc}
+\multicolumn{1}{c}{\node{0}{S}} \\[3ex]
+\node{1}{{\it NP$_1$} $~~~$ {\it NP$_2$} $~~~$ \node{2}{V}} \\[3ex]
+$~~~~~~~~~~~~~~~~~~$ \node{21}{{\it V$_2$} $~~~$ {\it V$_1$}}
+\end{tabular}
+\nodetriangle{0}{1}
+\nodetriangle{2}{21}
+\hspace{-3em}
+&
+$\Longrightarrow$
+&
+\hspace{-3em}
+\begin{tabular}{cc}
+\multicolumn{1}{c}{\node{0}{S}} \\[3ex]
+\node{1}{{\it NP$_2$} $~~~$ {\it NP$_1$} $~~~$ \node{2}{V}} \\[3ex]
+$~~~~~~~~~~~~~~~~~~$ \node{21}{{\it V$_2$} $~~~$ {\it V$_1$}}
+\end{tabular}
+\nodetriangle{0}{1}
+\nodetriangle{2}{21}
+\end{tabular}
+
+\end{document}

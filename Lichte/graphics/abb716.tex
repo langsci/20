@@ -1,0 +1,59 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{math}\left <
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{0}{\begin{avmnode}{VP}
+\[ vf & +\]
+\end{avmnode}}} \\[5ex]
+\node{1}{VP*} & \node{2}{V} & \node{3}{VP} \\[2ex]
+ & \node{21}{{\it versucht}} & \node{31}{V} \\[2ex]
+ & & \node{311}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1}
+\nodeconnect{0}{2}
+\nodeconnect{0}{3}
+\nodeconnect{2}{21}
+\nodeconnect{3}{31}
+\nodeconnect{31}{311}
+\hspace{-2em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vps0}{VP}} \\[2ex]
+\node{vps1}{NP$_{nom}$} & \node{vp2}{VP*} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+}
+\right \}$
+}
+\right >\end{math}
+
+\begin{math}\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{V(P)} \\[2ex]
+\node{1}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1}
+, %%%
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{vpo0}{VP}} \\[2ex]
+\node{vpo1}{NP$_{acc}$} & \node{vp2}{VP*} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vpo0}{vpo1}
+\nodeconnect{vpo0}{vp2}
+}
+\right \}$
+}
+\right >\end{math}
+
+
+
+\end{document}

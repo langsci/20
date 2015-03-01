@@ -1,0 +1,40 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}~~~~~~} \\[2ex]
+\node{1}{V} & \node{h2}{\begin{avmnode}{VP*}
+\[stat & 3 \\
+of & + \]
+\end{avmnode}} \\[2ex]
+\node{11}{{\it hat}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{h2}
+\nodeconnect{1}{11}
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{\begin{avmnode}{V(P)}
+\[ ~~ \] \\
+\[stat & 3 \\ of & + 
+\]
+\end{avmnode}}} \\[8ex]
+\node{1}{V*} & \node{2}{V} \\[2ex]
+& \node{21}{{\it lassen}} \\
+\node{11}{\begin{avmnode}{V(P)}
+\[ ~~ \] \\
+\[ of & $-$ \]
+\end{avmnode}} \\[6ex]
+\node{111}{{\it reparieren}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+{\makedash{2pt} \anodeconnect{1}{11}} 
+{\makedash{1pt} \anodecurve[r]{h2}[l]{0}{20pt}}
+\nodeconnect{11}{111}
+\nodeconnect{2}{21}
+
+
+\end{document}

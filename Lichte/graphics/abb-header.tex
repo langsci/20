@@ -1,0 +1,56 @@
+\documentclass[
+	%pstricks=true
+	,crop=true
+	,varwidth=\maxdimen
+	]{standalone}
+
+\usepackage{tree-dvips,pst-tree, pst-node,color,graphics}
+%\usepackage{vaucanson-g}
+
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%\fontsize{10}{12}\selectfont
+\usepackage[scaled=0.83]{beramono}
+\usepackage[libertine]{newtxmath}
+
+\usepackage{latexsym,amsmath,amssymb,wasysym}  
+%\usepackage{ifsym}  	% fuer das Blitzsymbol  
+\usepackage{marvosym}	% fuer das Blitzsymbol
+
+\usepackage{ulem}  	% ulem für Durchstreichungen, Unterstreichungen etc.
+\normalem			% Macht eine Änderung von ulem an \emph rückgängig.
+
+
+\usepackage{german}
+
+\usepackage{../LSP/lsp-styles/avm}
+\avmfont{\sc} 
+\avmvalfont{\it}
+
+\newcommand{\dotted}[0]{\makedash{2pt}}
+\avmfont{\sc} \avmvalfont{\rm} 
+\newenvironment{avmnode}[1] { 
+	\avmoptions{} 
+	\avmvskip{.1ex}
+	\avmfont{\sc} \avmvalfont{\rm}
+	\hspace{-5mm}
+	\begin{tabular}{c}
+	#1 \\[-2.5ex]
+	\begin{avm}
+	\avml
+	}
+	%%%
+	{
+	\avmr
+        \end{avm}\\[-0,5ex] 
+	\end{tabular}
+}
+\newcommand{\svar}[1]
+   {\setbox2=\hbox{$\scriptstyle #1$}\lower.2ex\vbox{\hrule
+     \hbox{\vrule\kern1.25pt 
+     \vbox{\kern1.25pt\box2\kern1.25pt}\kern1.25pt\vrule}\hrule}}
+\newcommand{\circled}[1]{\textcircled{\raisebox{-0.4pt}{\small #1}}}
+\newlength{\stmueTmp}
+\newcommand*{\hspaceThis}[1]{\settowidth{\stmueTmp}{#1}\hspace*{\stmueTmp}}

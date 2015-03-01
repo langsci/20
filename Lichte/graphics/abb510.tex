@@ -1,0 +1,15 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{y0}{VP}} \\[2ex]
+\node{y1}{AP} & \node{y2}{VP*} \\[2ex]
+\node{y11}{A} \\[2ex]
+\node{y111}{\emph{easily}}
+\end{tabular}
+\nodeconnect{y0}{y1} \nodeconnect{y0}{y2}
+\nodeconnect{y1}{y11} \nodeconnect{y11}{y111}
+
+
+\end{document}

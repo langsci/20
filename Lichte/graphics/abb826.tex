@@ -1,0 +1,35 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{\sout{sah}}}}{
+\pstree{\Tr{\texttt{NP\_nom}}\tlput{{\sc a.$\epsilon$}}}{
+ \Tr{\texttt{der\_Tourist}}\tlput{{\sc s.1}}
+}
+\pstree{\Tr{\texttt{NP\_acc}}\trput{{\sc a.2}}}{
+ \Tr{\texttt{drei\_Waschbären}}\trput{{\sc s.1}}
+}
+}
+%%%%%%%
+\hspace{2em}
+%%%%%%%
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{zu\_reinigen}}}{
+\pstree{\Tr{\texttt{NP\_acc}}\trput{{\sc a.$\epsilon$}}}{
+\pstree{\Tr{\texttt{dafür}}\tlput{{\sc a.$\epsilon$}}}{
+  \pstree{\Tr{\texttt{\sout{versprach}}}\tlput{{\sc a.$\epsilon$}}}{
+    \pstree{\Tr{\texttt{NP\_nom}}\tlput{{\sc a.$\epsilon$}}}{
+      \Tr{\texttt{Susi}}\tlput{{\sc s.1}}
+    }
+  }
+}
+\Tr{\texttt{das\_Auto}}\trput{{\sc s.1}}
+}
+}
+
+
+
+
+\end{document}

@@ -1,0 +1,80 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{c@{\hspace{-0cm}}ccc}
+\\[4ex]
+\multicolumn{3}{c}{\node{s0}{CP}} \\[2ex]
+\multicolumn{3}{c}{\node{s1}{C$'$}} \\[2ex]
+\node{s11}{C} & \multicolumn{3}{c}{\node{s12}{IP}} \\[2ex]
+\node{s111}{{\it hat}} & \node{s121}{DP} & \multicolumn{2}{c}{\node{s122}{I$'$}} \\[2ex]
+ & \node{s1211}{{\it niemand}} & \node{s1221}{VP} & \node{s1222}{I} \\[2ex]
+ & & \node{s12211}{\node{f0}{IP*} $~~$ V} & \node{s12221}{{\it versucht}}
+\end{tabular}
+\nodeconnect{s0}{s1} \nodeconnect{s1}{s11} \nodeconnect{s1}{s12}
+\nodeconnect{s11}{s111} 
+\nodeconnect{s12}{s121} \nodeconnect{s12}{s122}
+\nodeconnect{s121}{s1211} 
+\nodeconnect{s122}{s1221} \nodeconnect{s122}{s1222}
+\nodetriangle{s1221}{s12211}
+\nodeconnect{s1222}{s12221}
+%%%
+\hspace{-6em}
+\begin{tabular}{c@{\hspace{-0.5cm}}cc@{\hspace{-0cm}}cc}
+\multicolumn{3}{c}{\node{t0}{CP}} \\[2ex]
+\node{t1}{DP$_i$} & \multicolumn{3}{c}{\node{t2}{C$'$}} \\[2ex]
+\node{t11}{{\it Dieses Buch}} & \multicolumn{3}{c}{\node{t21}{IP}} \\[2ex]
+ & \node{t211}{DP$_j$} & \multicolumn{2}{c}{\node{t212}{IP}} \\[2ex]
+ & \node{t2111}{{\it den Kindern}} & \node{t2121}{DP} & \multicolumn{2}{c}{\node{t2122}{I$'$}} \\[2ex]
+ & & \node{t21211}{PRO} & \node{t21221}{VP} & \node{t21222}{I} \\[2ex]
+ & & & \node{t212211}{$t_j ~~ t_i ~~$ V} & \node{t212221}{\it zu geben}
+\end{tabular}
+\nodeconnect{t0}{t1} \nodeconnect{t0}{t2}
+\nodeconnect{t2}{t21} \nodeconnect{t1}{t11}
+\nodeconnect{t21}{t211} \nodeconnect{t21}{t212}
+\nodeconnect{t211}{t2111}
+\nodeconnect{t212}{t2121} \nodeconnect{t212}{t2122}
+\nodeconnect{t2121}{t21211}
+\nodeconnect{t2122}{t21221} \nodeconnect{t2122}{t21222}
+\nodetriangle{t21221}{t212211} 
+\nodeconnect{t21222}{t212221}
+{\makedash{2pt}
+\nodeconnect[r]{s0}[l]{t0}
+\nodeconnect[r]{s1}[l]{t2}
+\anodeconnect[r]{s12}[l]{t212}
+\nodecurve[b]{f0}[l]{t212}{40pt}
+}
+%%%
+
+\rotatebox{-90}{$\Longrightarrow$}
+\vspace{2ex}
+
+\begin{tabular}{cccccc}
+\multicolumn{3}{c}{\node{t0}{CP}} \\[2ex]
+\node{t1}{DP$_i$} & \multicolumn{3}{c}{\node{t2}{C$'$}} \\[2ex]
+\node{t11}{{\it Dieses Buch}} & \node{t21}{C} & \multicolumn{3}{c}{\node{t22}{IP}} \\[2ex]
+ & \node{t211}{{\it hat}} & \node{t221}{DP$_j$} & \multicolumn{2}{c}{\node{t222}{IP}} \\[2ex]
+ & & \node{t2211}{{\it den Kindern}} & \node{t2221}{DP} & \multicolumn{2}{c}{\node{t2222}{I$'$}} \\[2ex]
+ & & & \node{t22211}{{\it niemand}} & \node{t22221}{VP} & \node{t22222}{I} \\[2ex]
+ & & & & \node{t222211}{\node{f0}{IP} $~~$ V} & \node{t222221}{\it versucht} \\[2ex]
+ & & & \node{f1}{DP} & \multicolumn{2}{c}{\node{f2}{I$'$}} \\[2ex]
+ & & & \node{f11}{PRO} & \node{f21}{VP} & \node{f22}{I} \\[2ex]
+ & & & & \node{f211}{$t_j ~~ t_i ~~$ V} & \node{f221}{{\it zu geben}}
+\end{tabular}
+\nodeconnect{t0}{t1} \nodeconnect{t0}{t2}
+\nodeconnect{t2}{t21} \nodeconnect{t2}{t22} \nodeconnect{t1}{t11}
+\nodeconnect{t21}{t211}
+\nodeconnect{t22}{t221} \nodeconnect{t22}{t222}
+\nodeconnect{t221}{t2211}
+\nodeconnect{t222}{t2221} \nodeconnect{t222}{t2222}
+\nodeconnect{t2221}{t22211}
+\nodeconnect{t2222}{t22221} \nodeconnect{t2222}{t22222}
+\nodetriangle{t22221}{t222211} 
+\nodeconnect{t22222}{t222221}
+\nodeconnect{f0}{f1} \nodeconnect{f0}{f2}
+\nodeconnect{f1}{f11} \nodeconnect{f2}{f21} \nodeconnect{f2}{f22}
+\nodetriangle{f21}{f211} \nodeconnect{f22}{f221}
+
+
+\end{document}

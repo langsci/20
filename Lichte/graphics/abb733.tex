@@ -1,0 +1,25 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{VP} & \node{2}{V(P)} \\[2ex]
+\node{11}{{\it zu reparieren}} & \node{21}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{1}{11} \nodeconnect{2}{21} 
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
+\node{1}{V} & \node{2}{VP} \\[2ex]
+\node{11}{{\it versucht}} & \node{21}{V*}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{1}{11} \nodeconnect{2}{21} 
+
+
+\end{document}

@@ -1,0 +1,61 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{-7ex}
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{$\alpha_1$}\tlput{{\sc s}}}{
+  \Tfan  
+}
+\pstree{\Tr{$\delta_v$}\trput{{\sc s}}}{
+  \Tfan
+}
+}
+\begin{tabular}{c}
+\\[10ex]
+$\Longrightarrow$
+\end{tabular}
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{$\alpha_1$}\tlput{{\sc s}}}{
+  \Tfan  
+}
+\pstree{\Tr{$\alpha_1$}\trput{{\sc s}}}{
+  \Tfan
+}
+}
+
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{$\alpha_1$}\tlput{{\sc s}}}{
+  \Tr{$\alpha_3$}\tlput{{\sc s}.n}
+  \Tfan
+}
+\pstree{\Tr{$\alpha_2$}\trput{{\sc s}}}{
+  \Tr{$\delta_n$}\tlput{{\sc s}.n}
+  \Tfan
+}
+}
+\begin{tabular}{c}
+\\[10ex]
+$\Longrightarrow$
+\end{tabular}
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{et}}}{
+\pstree{\Tr{$\alpha_1$}\tlput{{\sc s}}}{
+  \Tr[name=a3]{$\alpha_3$}\tlput{{\sc s}.n}
+  \Tfan
+}
+\pstree{\Tr[name=a2]{$\alpha_2$}\trput{{\sc s}}}{
+  \Tn
+  \Tfan
+}
+}
+\ncline[nodesep=3pt]{a2}{a3} 
+
+
+
+
+\end{document}

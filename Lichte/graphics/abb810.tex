@@ -1,0 +1,17 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{cccc}
+\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\node{1}{NP} & \multicolumn{3}{c}{\node{2}{VP}} \\[2ex]
+ & \node{21}{V} & \node{22}{NP} & \node{23}{NP} \\[3ex]
+ & \node{211}{{\it gives}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{2}{22} \nodeconnect{2}{23}
+\nodeconnect{21}{211}
+
+
+\end{document}

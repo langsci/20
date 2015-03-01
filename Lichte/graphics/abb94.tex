@@ -1,0 +1,94 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+$\left <
+\mbox{
+\begin{tabular}{ccccc}
+& \node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{\hspaceThis{$^{\circled{2}}$}NP$^{\circled{2}}$} & \node{2}{V} & \multicolumn{2}{c}{\node{3}{\hspaceThis{$^{\circled{3}}$}NP$^{\circled{3}}$}} \\[2ex]
+\node{11}{N} & \node{21}{{\it repariert}} & \node{31}{Det} & \node{32}{N} \\[2ex]
+\node{111}{{\it Peter}} & & \node{311}{den} & \node{321}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+\nodeconnect{1}{11} \nodeconnect{11}{111}
+\nodeconnect{2}{21}
+\nodeconnect{3}{31} \nodeconnect{3}{32} \nodeconnect{31}{311} \nodeconnect{32}{321} 
+}
+\right .$
+\hspace{-3em},\\[2ex]
+$\left .
+\left \{
+\mbox{ 
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                       fin & + \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ case & nom \]
+  \end{avm}} \tlput{{\sc a}}
+  \Tr{\begin{avm} \[ case & acc \]
+  \end{avm}} \tlput{{\sc p}}
+  \Tr{\begin{avm} \[ case & dat \]
+  \end{avm}} \tlput{{\sc b}}
+}
+\end{tabular}
+\hspace{-1cm}
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{\circled{1}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+  \Tr{\begin{avm} \[ lemma & Kühlschrank \\ case & acc  \] \end{avm}\circled{3}}} \\[25ex]
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{\circled{1}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+  \Tr{\begin{avm} \[ lemma & Peter  \] \end{avm}\circled{2}}} 
+\end{tabular}
+} 
+\right \}
+\right >$
+
+\vspace{5ex}
+
+\scalebox{2}{\rotatebox{-90}{$\leadsto$}}
+
+\vspace{4ex}
+
+$\left <
+\mbox{
+\begin{tabular}{ccccc}
+& \node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{\hspaceThis{$^{\circled{2}}$}NP$^{\circled{2}}$} & \node{2}{V} & \multicolumn{2}{c}{\node{3}{\hspaceThis{$^{\circled{3}}$}NP$^{\circled{3}}$}} \\[2ex]
+\node{11}{N} & \node{21}{{\it repariert}} & \node{31}{Det} & \node{32}{N} \\[2ex]
+\node{111}{{\it Peter}} & & \node{311}{den} & \node{321}{{\it Kühlschrank}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
+\nodeconnect{1}{11} \nodeconnect{11}{111}
+\nodeconnect{2}{21}
+\nodeconnect{3}{31} \nodeconnect{3}{32} \nodeconnect{31}{311} \nodeconnect{32}{321}
+}
+\right .$
+, \\[2ex]
+$\left .
+ \left \{
+\mbox{ 
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                       fin & + \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ lemma & Peter \\
+                     case & nom \]
+      \end{avm}\circled{2}} \tlput{{\sc a}}
+  \Tr{\begin{avm} \[ lemma & Kühlschrank \\
+                     case & acc \]
+      \end{avm}\circled{3}} \tlput{{\sc p}}
+  \Tr{\begin{avm} \[ case & dat \]
+      \end{avm}} \tlput{{\sc b}}
+}
+\end{tabular}
+} 
+\right \}
+\right >$
+
+
+
+\end{document}

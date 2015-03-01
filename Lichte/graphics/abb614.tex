@@ -1,0 +1,94 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\hspace{14em}
+\begin{tabular}{cccc}
+\multicolumn{3}{c}{\node{t0}{CP}} \\[2ex]
+\multicolumn{3}{c}{\node{t1}{C$'$}} \\[2ex]
+\multicolumn{3}{c}{\node{t11}{IP}} \\[2ex]
+\node{t111}{DP$_j$} & \multicolumn{2}{c}{\node{t112}{IP}} \\[2ex]
+\node{t1111}{{\it das Fahrrad}} & \node{t1121}{DP} & \multicolumn{2}{c}{\node{t1122}{I$'$}} \\[2ex]
+ & \node{t11211}{PRO} & \node{t11221}{VP} & \node{t11222}{I} \\[2ex]
+ & & \node{t112211}{$t_j$ $~~$ V} & \node{t112221}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{t0}{t1}  
+\nodeconnect{t11}{t111}  \nodeconnect{t111}{t1111} 
+\nodeconnect{t112}{t1121} \nodeconnect{t112}{t1122}
+\nodeconnect{t1121}{t11211}
+\nodeconnect{t1122}{t11221} \nodeconnect{t1122}{t11222}
+\nodetriangle{t11221}{t112211}
+\nodeconnect{t11222}{t112221}
+{\makedash{3pt}
+\nodeconnect{t11}{t112}
+\nodeconnect{t1}{t11}
+}
+
+\vspace{-20ex}
+
+\hspace{-5em}
+\begin{tabular}{ccccc}
+\multicolumn{2}{c}{\node{s0}{CP}} \\[2ex]
+\multicolumn{2}{c}{\node{s1}{C$'$}} \\[2ex]
+\node{s10}{C} & \multicolumn{2}{c}{\node{s11}{IP}} \\[2ex]
+\node{s101}{{\it da\ss }} & \node{s111}{DP} & \multicolumn{2}{c}{\node{s112}{IP}} \\[2ex]
+ & \node{s1111}{{\it ich}} & \node{s1121}{DP$_k$} & \multicolumn{2}{c}{\node{s1122}{I$'$}} \\[2ex]
+ & & \node{s11211}{den Kindern} & \node{s11221}{VP} & \node{s11222}{I} \\[2ex]
+ & & & \node{s112211}{$t_k$ $~~$ \node{f0}{IP*} $~~$ V} & \node{s112221}{{\it versprochen habe}}
+\end{tabular}
+\nodeconnect{s0}{s1}  
+\nodeconnect{s1}{s10} \nodeconnect{s10}{s101}  
+\nodeconnect{s11}{s111} \nodeconnect{s111}{s1111} 
+\nodeconnect{s112}{s1121} \nodeconnect{s112}{s1122}
+\nodeconnect{s1121}{s11211}
+\nodeconnect{s1122}{s11221} \nodeconnect{s1122}{s11222}
+\nodetriangle{s11221}{s112211}
+\nodeconnect{s11222}{s112221}
+{\makedash{3pt}
+\nodeconnect{s1}{s11}
+\nodeconnect{s11}{s112}
+}
+
+
+%%%
+{\makedash{2pt}
+\nodeconnect[r]{s0}[l]{t0}
+\nodeconnect[r]{s1}[l]{t1}
+\anodecurve[r]{s112}[l]{t112}{30pt}
+\nodecurve[r]{f0}[l]{t112}{50pt}
+}
+%%%
+
+\vspace{3ex}
+
+\rotatebox{-90}{$\Longrightarrow$}
+
+
+\begin{tabular}{cccc@{\hspace{-1cm}}c@{\hspace{-1cm}}c}
+\multicolumn{2}{c}{\node{0}{CP}} \\[2ex]
+\multicolumn{2}{c}{\node{1}{C$'$}} \\[2ex]
+\node{11}{C} & \multicolumn{2}{c}{\node{12}{IP}} \\[2ex]
+\node{111}{{\it da\ss }} & \node{121}{DP} & \multicolumn{2}{c}{\node{122}{IP}} \\[2ex]
+ & \node{1211}{{\it ich}} & \node{1221}{DP$_j$} & \multicolumn{2}{c}{\node{1222}{IP}} \\[2ex]
+ & & \node{12211}{{\it das Fahrrad}} & \node{12221}{DP$_k$} & \multicolumn{2}{c}{\node{12222}{I$'$}} \\[2ex]
+ & & & \node{122211}{{\it den Kindern}} & \node{122221}{VP} & \node{122222}{I} \\[2ex]
+ & & & & \node{1222211}{$t_k$ $~~$ \node{f0}{IP} $~~$ V} & \node{1222221}{{\it versprochen habe}} \\[4ex]
+ & & & & \node{f1}{PRO $~~$ t$_j$ $~~$ V $~~$ {\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1} 
+\nodeconnect{1}{11} \nodeconnect{1}{12}
+\nodeconnect{11}{111} 
+\nodeconnect{12}{121} \nodeconnect{12}{122}
+\nodeconnect{121}{1211} 
+\nodeconnect{122}{1221} \nodeconnect{122}{1222}
+\nodeconnect{1221}{12211}
+\nodeconnect{1222}{12221} \nodeconnect{1222}{12222}
+\nodeconnect{12221}{122211} 
+\nodeconnect{12222}{122221} \nodeconnect{12222}{122222}
+\nodetriangle{122221}{1222211} \nodeconnect{122222}{1222221} 
+\nodetriangle{f0}{f1}
+
+
+
+\end{document}

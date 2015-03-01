@@ -1,0 +1,30 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{tabular}{c}
+\node{0}{N} \\[2ex]
+\node{1}{V} \\[2ex]
+\node{11}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+%%%
+$\left \{
+\mbox{
+\begin{tabular}{ccc}
+\multicolumn{2}{c}{\node{0}{N}} \\[2ex]
+\node{1}{\textit{NP}} & \node{2}{N*}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} 
+,
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{V}} \\[2ex]
+\node{1}{\textit{V}} & \node{2}{V*}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+
+}
+\right \}$
+
+\end{document}

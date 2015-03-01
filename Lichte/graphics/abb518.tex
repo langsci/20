@@ -1,0 +1,40 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\begin{tabular}{c}
+\node{0}{\node{ts}{S}} \\[2ex]
+\node{1}{\node{tnp}{NP}} \\[2ex]
+\node{11}{{\it a man}}
+\end{tabular}
+\nodeconnect{0}{1} \nodetriangle{1}{11}
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\\[2ex]
+\multicolumn{2}{c}{\node{0}{NP}} \\[2ex]
+\node{1}{\node{fnp}{NP*}} & \node{2}{VP} \\[2ex]
+ & \node{21}{V} \\[2ex]
+ & \node{211}{{\it arrived}} 
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21} \nodeconnect{21}{211}
+%%% 
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{S}} \\[2ex]
+\node{1}{\node{fs}{S*}} & \node{2}{S} \\[2ex]
+ & \node{21}{{\it who \ldots}} 
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodetriangle{2}{21}
+%%%
+{\makedash{2pt}
+\anodecurve[tl]{fs}[tr]{ts}{40pt}
+\anodecurve[b]{fnp}[tr]{tnp}{20pt}
+
+}
+
+\end{document}

@@ -1,0 +1,41 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{2ex}
+% \begin{tabular}{ccc}
+% \multicolumn{3}{c}{\node{h0}{VP}} \\[2ex]
+% \node{1}{V} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+% \node{11}{{\it hat}} & \node{21}{VP*} & \node{22}{V} \\[2ex]
+%  & & \node{221}{$\epsilon$}
+% \end{tabular}
+% \nodeconnect{h0}{1} \nodeconnect{h0}{2}
+% \nodeconnect{1}{11} \nodeconnect{2}{21} \nodeconnect{2}{22}
+% \nodeconnect{22}{221}
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{h0}{VP}} \\[2ex]
+\node{1}{V} & \multicolumn{2}{c}{\node{h2}{VP*}} \\[2ex]
+\node{11}{{\it hat}} 
+\end{tabular}
+\nodeconnect{h0}{1} \nodeconnect{h0}{h2}
+\nodeconnect{1}{11} 
+%%%
+\hfil
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{0}{V(P)}} \\[3ex]
+\node{1}{V*} & \node{2}{V(P)} \\[2ex]
+& \node{21}{{\it versucht}} \\
+\node{11}{V(P)} \\[2ex]
+\node{111}{{\it zu reparieren}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+{\makedash{2pt} \anodeconnect{1}{11}}
+{\makedash{1pt} \anodecurve[r]{h2}[tl]{0}{20pt}} 
+\nodeconnect{11}{111}
+\nodeconnect{2}{21}
+
+
+
+\end{document}

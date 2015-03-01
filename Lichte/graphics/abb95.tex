@@ -1,0 +1,95 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{V} \\[2ex]
+\node{11}{{\it repariert}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+,
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2.3cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                       fin & $-$ \\
+                                                       stat & 3 \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ ~~~ \]
+  \end{avm}} \tlput{{\sc a}}
+  \Tr{\begin{avm} \[ ~~~ \]
+  \end{avm}} \tlput{{\sc p}}
+  \Tr{\begin{avm} \[ ~~~ \]
+  \end{avm}} \tlput{{\sc b}}
+}
+\end{tabular} 
+}
+\right >$
+
+\vspace{5ex}
+
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{V} \\[2ex]
+\node{11}{{\it wird}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+\hspace{-0.5em},\hspace{0.5em}
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{\circled{1}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+                                    \Tr{\begin{avm} \[ case & nom  \] \end{avm}}\tlput{{\sc p}}}, &
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{\circled{1}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+                                    \Tr{\begin{avm} \[ case & von  \] \end{avm}}\trput{{\sc a}}}
+\end{tabular}
+}
+\right \}$ 
+}
+\right >$
+
+\vspace{5ex}
+
+$\left <
+\mbox{
+\begin{tabular}{c}
+\node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[2ex]
+\node{1}{V} \\[2ex]
+\node{11}{{\it hat}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{1}{11}
+,
+$
+\mbox{
+\begin{tabular}{cc}
+\pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\hspaceThis{\circled{1}}\begin{avm} \[ ~~~  \]
+                                      \end{avm}\circled{1}}}{
+                                    \Tr{\begin{avm} \[ case & acc  \] \end{avm}}\tlput{{\sc p}}\Tr{\begin{avm} \[ case & nom  \] \end{avm}}\trput{{\sc a}}} 
+\end{tabular}
+}
+$ 
+% $\left \{
+% \mbox{
+% \begin{tabular}{cc}
+% \pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\begin{avm} \[ ~~~  \]
+%                                       \end{avm}\circled{1}}}{
+%                                     \Tr{\begin{avm} \[ case & acc  \] \end{avm}}\tlput{{\sc p}}}, &
+% \pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\begin{avm} \[ ~~~  \]
+%                                       \end{avm}\circled{1}}}{
+%                                     \Tr{\begin{avm} \[ case & nom  \] \end{avm}}\trput{{\sc a}}}
+% \end{tabular}
+% }
+% \right \}$ 
+}
+\right >$
+
+
+
+\end{document}

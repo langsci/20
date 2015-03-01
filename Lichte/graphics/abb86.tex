@@ -1,0 +1,16 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\pstree[nodesep=3pt,levelsep=1cm]{\Tr{{\tt and}}}{%
+%\psset{tpos=.6}
+\pstree{\Tr[name=eats]{{\tt eats}}\tlput{1}}{\Tr{{\tt cookies}}\tlput{22}} 
+\pstree{\Tn}{\Tr[edge=none,name=subject]{{\tt Chapman}}}
+\pstree{\Tr[name=drinks]{{\tt drinks}}\trput{3}}{\Tr{{\tt beer}}\trput{22}} 
+}
+\ncline[nodesep=3pt]{eats}{subject} \trput{1}
+\ncline[nodesep=3pt]{drinks}{subject} \tlput{1}
+
+
+\end{document}

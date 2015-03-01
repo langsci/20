@@ -1,0 +1,91 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\begin{math}\left <
+\mbox{
+\hspace{-1em}
+\begin{tabular}{c}
+\node{0}{\begin{avmnode}{V(P)}
+\[ ~~~ \] \\
+\[ status & 2\]
+\end{avmnode}} \\[7ex]
+\node{1}{{\it zu reparieren }}
+\end{tabular}
+\nodeconnect{0}{1}
+\hspace{-1em}
+, %%%
+$\left \{
+\mbox{
+\hspace{-2em}
+\begin{tabular}{c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{VP}
+                               \[ assign-case & \@1 \\ agr & \@2 \]
+                               \end{avmnode}}} \\[6ex]
+\node{vps1}{\begin{avmnode}{NP}
+\[ cas & \@1 \\
+   agr & \@2
+\]
+\end{avmnode}} & \node{vp2}{\begin{avmnode}{VP*}
+\[ as.-case & \@1 \\
+   agr & \@2 \]
+\end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+\hspace{-2em}
+}
+, %%%
+\hspace{-1em}
+\mbox{
+\begin{tabular}{c@{\hspace{-0cm}}c}
+\multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{VP}
+                               \[ assign-case & \@1 \\ agr & \@2 \]
+                               \end{avmnode}}} \\[6ex]
+\node{vps1}{\begin{avmnode}{NP}
+\[ cas & acc \]
+\end{avmnode}} & \node{vp2}{\begin{avmnode}{VP*}
+\[ as.-case & \@1 \\
+   agr & \@2 \]
+\end{avmnode}} \\[2ex]
+\end{tabular} %\\[4ex]
+\nodeconnect{vps0}{vps1}
+\nodeconnect{vps0}{vp2}
+\hspace{-2em}
+}
+\right \}$
+}
+\right >\end{math}
+
+\bigskip
+
+\begin{math}\left <
+\mbox{
+\begin{tabular}{ccc}
+ & \multicolumn{2}{c}{\node{0}{VP}} \\[3ex]
+\node{1}{\begin{avmnode}{VP*}
+                               \[ assign-case & nom \\ agr & \[ num & sg \\ pers & 3\] \]
+                               \end{avmnode}} & \node{2}{V} & \node{3}{VP} \\[2ex]
+ & \node{21}{{\it scheint}} & \node{31}{V} \\[2ex]
+ & & \node{311}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1}
+\nodeconnect{0}{2}
+\nodeconnect{0}{3}
+\nodeconnect{2}{21}
+\nodeconnect{3}{31}
+\nodeconnect{31}{311}
+\hspace{-2em} , %%%
+$\left \{
+\mbox{
+\begin{tabular}{c}
+~ \\ ~
+\end{tabular}
+}
+\right \}$
+}
+\right >\end{math}
+
+
+\end{document}

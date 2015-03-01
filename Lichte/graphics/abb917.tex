@@ -1,0 +1,50 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2cm]{\Tr{\begin{avm} \[ ~~~ \]
+                                        \end{avm}\circled{1}}\node{1}{}}{% 
+  \Tr{\begin{avm} \[ lemma & Peter \\
+                     case & nom|acc|dat \]
+  \end{avm}}\node{4}{} %\tlput{{\sc a}}
+  \Tr{\begin{avm} \[ lemma & Kühlschrank \\
+                     case & acc \]
+  \end{avm}}\node{5}{} %\tlput{{\sc p}}
+}
+\end{tabular}
+
+\vspace{8ex}
+
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2.5cm]{\Tr{\begin{avm} \[ lemma & versprechen \\
+                                                       fin & +  \]
+\end{avm}\circled{2}}\node{2}{}}{% 
+  \Tr{\begin{avm} \[ lemma & Susi \\ 
+                     case & nom \]
+      \end{avm}}\node{6}{} \tlput{{\sc a}}
+  \pstree[nodesep=3pt,levelsep=2.5cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                         fin & $-$ \\
+                                                         stat & 2 \]
+                                          \end{avm}\circled{2}}\node{3}{}\tlput{{\sc p}}}{% 
+      \Tr{\begin{avm} \[ ~~~ \]
+      \end{avm}} \tlput{{\sc a}}
+      \Tr{\begin{avm} \[ lemma & Auto \\ 
+                         case & acc \]
+          \end{avm}} \node{7}{} \tlput{{\sc p}}
+      \Tr{\begin{avm} \[ case & dat \]
+      \end{avm}} \tlput{{\sc b}}}
+    \Tr{\begin{avm} \[ case & dat \]
+    \end{avm}}  \tlput{{\sc b}}
+}
+
+\end{tabular}
+{\makedash{2pt} \nodecurve[l]{1}[r]{2}{0pt} \nodecurve[r]{1}[r]{3}{58pt} \nodecurve[l]{4}[l]{6}{50pt} \nodecurve[r]{5}[r]{7}{50pt} } 
+
+
+
+
+
+\end{document}

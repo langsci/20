@@ -1,0 +1,57 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\vspace*{1ex}
+$\left <
+\mbox{
+\begin{tabular}{ccccccc}
+ & & & \node{0}{\hspaceThis{$^{\circled{1}}$}VP$^{\circled{1}}$} \\[3ex]
+\multicolumn{2}{c}{\node{1}{NP}} & \node{2}{V} & \multicolumn{2}{c}{\node{3}{NP}} & \node{4}{V} & \node{5}{V} \\[2ex]
+\node{11}{Det} & \node{12}{N} & \node{21}{{\it wird}} &  \node{31}{P} & \node{32}{N} & \node{41}{{\it zu reparieren}} & \node{51}{{\it versprochen}} \\[2ex]
+\node{111}{{\it Der}} & \node{121}{{\it Kühlschrank}} & & \node{311}{{\it von}} & \node{321}{{\it Peter}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3} \nodeconnect{0}{4} \nodeconnect{0}{5}
+\nodeconnect{1}{11} \nodeconnect{11}{111} \nodeconnect{1}{12} \nodeconnect{12}{121}
+\nodeconnect{2}{21} 
+\nodeconnect{3}{31} \nodeconnect{3}{32} \nodeconnect{31}{311} \nodeconnect{32}{321}
+\nodeconnect{4}{41} \nodeconnect{5}{51}
+\hspace{-4.5em},
+}
+\right . $
+
+\vspace{5ex}
+
+$\left .
+\mbox{
+\begin{tabular}{c}
+\pstree[nodesep=3pt,levelsep=2.5cm]{\Tr{\begin{avm} \[ lemma & versprechen \\
+                                                       fin & $-$ \\
+                                                       stat & 3  \]
+                                        \end{avm}\circled{1}}}{% 
+  \Tr{\begin{avm} \[ lemma & Peter \\
+                     case & von \]
+      \end{avm}} \tlput{{\sc a}}
+  \pstree[nodesep=3pt,levelsep=2.5cm]{\Tr{\begin{avm} \[ lemma & reparieren \\
+                                                         fin & $-$ \\
+                                                         stat & 2 \]
+                                          \end{avm}\circled{1}} \tlput{{\sc p}}}{% 
+      \Tr{\begin{avm} \[ ~~~ \]
+      \end{avm}} \tlput{{\sc a}}
+      \Tr{\begin{avm} \[ lemma & Kühlschrank \\
+                         case & nom \]
+      \end{avm}} \tlput{{\sc p}}
+      \Tr{\begin{avm} \[ case & dat \]
+      \end{avm}} \tlput{{\sc b}}}
+    \Tr{\begin{avm} \[ case & dat \]
+    \end{avm}} \tlput{{\sc b}}
+}
+
+\end{tabular}
+}
+\right > $
+
+
+
+\end{document}

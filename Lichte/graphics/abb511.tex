@@ -1,0 +1,49 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\vspace*{1ex}
+
+\hspace*{0.5em}
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{t0}{VP}} \\[2ex]
+\node{t1}{V} & \node{t2}{VP*} \\[2ex]
+\node{t11}{{\it tonight}}
+\end{tabular}
+\nodeconnect{t0}{t1} \nodeconnect{t0}{t2}
+\nodeconnect{t1}{t11}
+
+\vspace{-7ex}
+
+\hspace{+5em}
+\begin{tabular}{ccccc}
+ & ~~~~~~ & \multicolumn{3}{c}{\node{0}{VP}} \\[4ex]
+ & & \node{1}{NP} & ~~~ & \node{2}{VP} \\[4ex]
+\node{p0}{NP} & & & & \node{21}{V} \\[2ex]
+\node{p1}{{\it Peter}} & & & & \node{211}{{\it to sleep}}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodeconnect{2}{21}
+\nodeconnect{21}{211} 
+\nodeconnect{p0}{p1} 
+
+\vspace{-3ex}
+
+\hspace{+8em}
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{s0}{VP}} \\[2ex]
+\node{s1}{V} & \node{s2}{VP*} \\[2ex]
+\node{s11}{{\it seems}}
+\end{tabular}
+\nodeconnect{s0}{s1} \nodeconnect{s0}{s2}
+\nodeconnect{s1}{s11}
+
+{\makedash{2pt}
+\anodecurve[tr]{s0}[bl]{2}{10pt}
+\anodecurve[tr]{s2}[bl]{2}{10pt}
+\anodecurve[tr]{t0}[l]{0}{10pt}
+\anodecurve[tr]{t2}[l]{0}{10pt}
+\anodecurve[tr]{p0}[b]{1}{25pt}
+}
+
+\end{document}

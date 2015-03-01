@@ -1,0 +1,33 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{sah}}}{
+\pstree{\Tr{\texttt{NP\_acc}}\trput{{\sc a.$\epsilon$}}}{
+  \Tr{\texttt{einen\_Hasen}}\tlput{{\sc s.1}}
+  \pstree{\Tr{\texttt{NP\_nom}}\trput{{\sc a.$\epsilon$}}}{
+    \Tr{\texttt{der\_Jäger}}\tlput{{\sc s.1}} 
+  }
+}
+}
+%%%%%%%
+\hspace{2em}
+%%%%%%%
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{\sout{sah}}}}{
+\pstree{\Tr{\texttt{später}}\trput{{\sc a.$\epsilon$}}}{
+  \pstree{\Tr{\texttt{NP\_acc}}\trput{{\sc a.$\epsilon$}}}{
+    \Tr{\texttt{drei\_Waschbären}}\tlput{{\sc s.1}}
+    \pstree{\Tr{\texttt{\sout{NP\_nom}}}\trput{{\sc a.$\epsilon$}}}{
+      \Tr{\texttt{\sout{der\_Jäger}}}\tlput{{\sc s.1}} 
+    }
+  }
+}
+}
+
+
+
+
+\end{document}

@@ -1,0 +1,22 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\scalebox{0.88}{
+\begin{tabular}{ccccc}   % {cc:cc}
+&\multicolumn{3}{c}{\node{0}{{\bf Unvollständige Valenzrahmenrealisierung}}} \\[5ex]
+ & \multicolumn{1}{c}{\node{vsr}{{\bf \begin{tabular}{c} vollständige \\ syntaktische \\ Repräsentation \end{tabular}}}} & 
+ & \multicolumn{2}{c}{\node{usr}{{\bf \begin{tabular}{c} unvollständige \\ syntaktische \\ Repräsentation \end{tabular}}}} \\[9ex] 
+\node{red}{{\bf Reduktion}}  & \node{fue}{{\bf Füllung}} & \node{ver}{{\bf Verschmelzung}} & \node{ober}{{\bf oberflächlich}} & \node{gen}{{\bf ~~~~genuin~~~~}} \\[2ex]
+"`Tilgung"' & "`null anaphora"'  & "`Bewegung"'   & "`base generation"'  \\
+"`deletion"' & &  "`sharing"' & "`direct interpretation"' \\[4ex]
+%\multicolumn{2}{c}{$\underbrace{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}$} & \multicolumn{2}{c}{$\underbrace{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}$} \\ 
+%\multicolumn{2}{c}{syntaktische EAR} & \multicolumn{2}{c}{nicht-syntaktische EAR} \\
+\end{tabular}
+{\makedash{2pt} \nodeconnect{0}{vsr} \nodeconnect{0}{usr}}
+\nodeconnect{vsr}{red} \nodeconnect{vsr}{ver} \nodeconnect{vsr}{fue}
+\nodeconnect{usr}{ober} \nodeconnect{usr}{gen}
+\nodebox{vsr} \nodebox{usr}
+}
+\end{document}

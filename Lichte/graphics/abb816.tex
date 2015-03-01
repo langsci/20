@@ -1,0 +1,72 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+%\begin{minipage}{20em}
+\hspace{-15em}
+\begin{tabular}{c}
+\\[5ex]
+\node{n1.0}{NP} \\[2ex]
+\node{n1.1}{N} \\[2ex]
+\node{n1.11}{{\it Mary}}
+\end{tabular}
+\nodeconnect{n1.0}{n1.1}
+\nodeconnect{n1.1}{n1.11}
+%%%
+\begin{tabular}{cccc}
+\multicolumn{2}{c}{\node{v.0}{S}} \\[2ex]
+\node{v.1}{NP} & \multicolumn{2}{c}{\node{v.2}{VP}} \\[2ex]
+ & \node{v.21}{V} & \multicolumn{2}{c}{\node{v.22}{AP}} \\[2ex]
+ & \node{v.211}{$\epsilon$} & \node{v.221}{A} & \node{v.222}{PP} \\[2ex]
+ & & \node{v.2211}{{\it fond}} & 
+\end{tabular}
+\nodeconnect{v.0}{v.1} \nodeconnect{v.0}{v.2}
+\nodeconnect{v.2}{v.21} \nodeconnect{v.2}{v.22}
+\nodeconnect{v.21}{v.211}
+\nodeconnect{v.22}{v.221} \nodeconnect{v.22}{v.222}
+\nodeconnect{v.221}{v.2211}
+
+\hspace{3em}
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{v2.0}{VP}} \\[2ex]
+\node{v2.1}{V} & \node{v2.2}{VP*} \\[2ex]
+\node{v2.11}{{\it is}} \\[10ex]
+\end{tabular}
+\nodeconnect{v2.0}{v2.1} \nodeconnect{v2.0}{v2.2}
+\nodeconnect{v2.1}{v2.11}
+\hspace{6em}
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{p.0}{PP}} \\[2ex]
+\node{p.1}{P} & \node{p.2}{NP} \\[2ex]
+\node{p.11}{{\it of}} \\
+ & \node{n2.0}{NP} \\[2ex]
+ & \node{n2.1}{N} \\[2ex]
+ & \node{n2.11}{{\it Sue}}
+\end{tabular}
+\nodeconnect{p.0}{p.1} \nodeconnect{p.0}{p.2}
+\nodeconnect{p.1}{p.11}
+\nodeconnect{n2.0}{n2.1}
+\nodeconnect{n2.1}{n2.11}
+{\makedash{2pt}
+\anodeconnect[t]{n2.0}[b]{p.2}
+\anodecurve[t]{p.0}[b]{v.222}{5mm}
+\anodecurve[tr]{v2.2}[l]{v.2}{10mm}
+\anodecurve[r]{n1.0}[b]{v.1}{8mm}
+}
+%\end{minipage}
+\hspace{-1em}
+\begin{tabular}{cc}
+~ & ~\\[-15ex]
+\pstree[nodesep=2pt,levelsep=9ex]{
+\Tr{\texttt{\sout{fond}}}}{
+\Tr{\texttt{$~~$Mary$~~$}}\tlput{{\sc s.1}}
+\Tr{\texttt{\sout{is}}}\tlput{{\sc a.2}}
+\pstree{\Tr{\texttt{of}}\trput{{\sc s.222}}}{
+  \Tr{\texttt{Sue}}\trput{{\sc s.2}}  
+}
+}
+\end{tabular}
+
+
+\end{document}

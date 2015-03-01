@@ -1,0 +1,30 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\centering
+\hspace{4em}
+\begin{tabular}{cccc@{\hspace{-1em}}c@{\hspace{2em}}l}
+\node{vfp}{Vorfeldphrase} & \multicolumn{2}{c}{\node{0}{VP}} & & & \node{vf}{Vorfeldknoten} \\[2ex]
+& \node{1}{XP} & \multicolumn{2}{c}{\node{2}{VP}} \\[2ex]
+& \node{11}{$~~~~~~~~$} & \node{21}{V} & \multicolumn{2}{c}{\node{22}{VP}} & \node{mf}{Mittelfeldknoten} \\[2ex]
+& & \node{211}{{\it isst}} & \node{221}{$~~~~~~~~~~~~~~~$} & \\[-2ex]
+\begin{tabular}{l} Linke \\ \node{lk}{Satzklammer}\end{tabular} & & & & \node{222}{VP} \\[2ex]
+ & & & & \node{2221}{V} & \node{rk}{Rechte Satzklammer}\\[2ex]
+ & & & & \node{22211}{$\epsilon$}
+\end{tabular}
+\nodeconnect{0}{1} \nodeconnect{0}{2}
+\nodetriangle{1}{11} \nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodeconnect{21}{211} \nodeconnect{2}{21} \nodeconnect{2}{22}
+\nodetriangle{22}{221} 
+\nodeconnect{222}{2221} \nodeconnect{2221}{22211}
+{\makedash{2pt} 
+\nodeconnect[l]{vf}[r]{0} \nodeconnect[l]{vf}[r]{2}
+\nodeconnect[l]{mf}[r]{22} \nodeconnect[l]{mf}[tr]{222}
+\nodeconnect[l]{rk}[r]{2221}
+\nodeconnect[r]{lk}[l]{21}
+\nodeconnect[r]{vfp}[tl]{1} 
+}
+
+
+\end{document}

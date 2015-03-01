@@ -1,0 +1,66 @@
+\input{abb-header.tex}
+
+\begin{document}
+
+\vspace*{2ex}
+
+%%%
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\node{3.0}{VP}} \\[2ex]
+\node{3.1}{$\mathit{NP}_3$} & \node{3.2}{VP*} & \node{3.3}{$V_3$}
+\end{tabular}
+\nodeconnect{3.0}{3.1} \nodeconnect{3.0}{3.2} \nodeconnect{3.0}{3.3}
+%%%
+\begin{tabular}{c}
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{21.0}{VP}} \\[2ex]
+\node{21.1}{$\mathit{NP}_2$} & \node{21.2}{VP*}
+\end{tabular}
+\nodeconnect{21.0}{21.1} \nodeconnect{21.0}{21.2}
+,
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{22.0}{VP}} \\[2ex]
+\node{22.1}{VP*} & \node{22.2}{$V_2$}
+\end{tabular}
+\nodeconnect{22.0}{22.1} \nodeconnect{22.0}{22.2}
+}
+\right \}$
+\\[4ex]%%%
+$\left \{
+\mbox{
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{11.0}{VP}} \\[2ex]
+\node{11.1}{$\mathit{NP}_1$} & \node{11.2}{VP*}
+\end{tabular}
+\nodeconnect{11.0}{11.1} \nodeconnect{11.0}{11.2}
+,
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{12.0}{VP}} \\[2ex]
+\node{12.1}{VP*} & \node{12.2}{$V_1$}
+\end{tabular}
+\nodeconnect{12.0}{12.1} \nodeconnect{12.0}{12.2}
+}
+\right \}$
+\end{tabular}
+%%%
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\node{4.0}{VP}} \\[2ex]
+\node{4.1}{$\mathit{NP}_4$} & \node{4.2}{VP} \\[2ex]
+ & \node{4.21}{VP} \\[2ex]
+ & \node{4.211}{VP} \\[2ex]
+ & \node{4.2111}{$V_4$} 
+\end{tabular}  
+\nodeconnect{4.0}{4.1} \nodeconnect{4.0}{4.2}
+\nodeconnect{4.2}{4.21} \nodeconnect{4.21}{4.211} \nodeconnect{4.211}{4.2111}
+%%%
+{\makedash{2pt}
+\anodecurve[tr]{3.0}[tl]{11.0}{20pt}
+\anodecurve[tr]{21.0}[tl]{4.0}{20pt}
+\anodecurve[tr]{22.0}[tl]{4.21}{20pt}
+\anodecurve[tr]{11.0}[tl]{4.2}{20pt}
+\anodecurve[tr]{12.0}[tl]{4.211}{20pt}
+}
+
+\end{document}
