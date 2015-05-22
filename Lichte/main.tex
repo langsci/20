@@ -31,7 +31,9 @@
 \usepackage{epigraph}	% fuer Motto-Zitate
 \usepackage{rotating}
 \usepackage{ifdraft}
-\usepackage{url} 
+\usepackage{url}
+
+\usepackage{multirow}
 
 %\usepackage[printonlyused]{acronym}
 \usepackage{acronym}
@@ -44,6 +46,20 @@
 % \newcommand\grqq{"'}
 %\newcommand\qlq{`}
 %\newcommand\qlq{'}
+
+\renewcommand{\lsSubjectIndexTitle}{Sachregister}
+
+% \iflsDraft
+% \proofmodetrue
+% \fi
+
+% \usepackage[noadjust]{marginnote}
+% \renewcommand{\marginpar}{\marginnote}
+% \let\isold\is 
+% \renewcommand{\isi}[1]{\sethlcolor{green}\hl{#1}\isold{#1}}
+% \renewcommand{\is}[1]{\todo[color=green]{\tiny#1}\isold{#1}}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%
 %   TIKZ SETTINGS    % 
@@ -181,13 +197,33 @@
 \include{09-syntax-ohne-valenz}
 \include{10-schluss}
 
-\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}   
-\include{acronyme}  
-  
+\backmatter
 
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}   
+\include{acronyme}
 
 %\addcontentsline{toc}{chapter}{Literaturverzeichnis} 
 \bibliography{literatur}
+
+%\addcontentsline{toc}{chapter}{Index} 
+
+% \phantomsection%this allows hyperlink in ToC to work
+% \addcontentsline{toc}{chapter}{Autorenregister}
+% \ohead{Autorenregister} 
+% \printindex 
+  
+% % \phantomsection%this allows hyperlink in ToC to work
+% % \addcontentsline{toc}{section}{Language index}
+% % \ohead{Language index} 
+% % \printindex[lan]
+
+\newpage
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{chapter}{Sachregister}
+\ohead{Sachregister}
+\input{index_see}  
+\printindex[sbj]  
 
                               
 \end{document}
