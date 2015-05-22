@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{LSP/langsci}[2014/11/15 Language Science Press]
+\ProvidesClass{LSP/langsci}[2014/12/20 Language Science Press]
 
 % Default values:
 \usepackage{xspace}
@@ -21,6 +21,8 @@
 \newif\iflsCollectionChapter \lsCollectionChapterfalse
 \newif\iflsCollectionTOCLong \lsCollectionTOCLongfalse
 \newif\iflsNewtxmath \lsNewtxmathfalse
+\newif\iflsBlackandwhite \lsBlackandwhitefalse
+
 
 
 % Option handling:
@@ -53,7 +55,7 @@
 	\define@key{langsci}{biblatexbackend}{%
 		\renewcommand{\lsBiblatexBackend}{#1}}
 \DeclareVoidOption{blackandwhite}{
-	\newcommand{\blackandwhite}{}}
+	\lsBlackandwhitetrue}
 \DeclareVoidOption{long}{
 	\renewcommand{\lsOutput}{long}}
 \DeclareVoidOption{smallfont}{  			
@@ -140,16 +142,12 @@
 	BoldItalicFont = Arimo-BoldItalic_B.ttf 		
 	]{Arimo_B.ttf}
 		
-% \setmonofont[
-% 	Ligatures={TeX},Scale=MatchLowercase,Path=\fontpath,
-% 	BoldFont = FreeMonoBold_B.otf ,
-% 	SlantedFont = FreeMonoOblique_B.otf ,				
-% 	BoldSlantedFont = FreeMonoBoldOblique_B.otf 		
-% 	]{FreeMono_B.otf}
-\setmonofont[%Scale=MatchLowercase
-	,Scale=0.83
-	]{DejaVu Sans Mono}
-
+\setmonofont[
+	Ligatures={TeX},Scale=MatchLowercase,Path=\fontpath,
+	BoldFont = FreeMonoBold_B.otf ,
+	SlantedFont = FreeMonoOblique_B.otf ,				
+	BoldSlantedFont = FreeMonoBoldOblique_B.otf 		
+	]{FreeMono_B.otf}
 
 
 \setmainfont[
@@ -284,6 +282,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newcommand{\calseries}{calseries}
 \newcommand{\eotms}{eotms}
 \newcommand{\eotmsig}{eotmsig}
 \newcommand{\sidl}{sidl}
@@ -350,10 +349,15 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \ifx\lsSeries\cfls
 	\newcommand{\lsSeriesTitle}{Conceptual Foundations of \newlineCover Language Science~\lsSeriesNumber}
 	\newcommand{\lsSeriesColor}{lsNightGreen}
+	\renewcommand{\lsISSN}{2363-877X}
 \fi	
 \ifx\lsSeries\lv
 	\newcommand{\lsSeriesTitle}{Language Variation~\lsSeriesNumber}
 	\newcommand{\lsSeriesColor}{lsDarkWine}
+\fi	
+\ifx\lsSeries\calseries %\cal is already taken as a command
+	\newcommand{\lsSeriesTitle}{Contemporary African Linguistics~\lsSeriesNumber}
+	\newcommand{\lsSeriesColor}{lsMidWine}
 \fi	
 \ifx\lsSeries\dummyseries
 	\newcommand{\lsSeriesTitle}{~}
@@ -364,11 +368,13 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	\newcommand{\lsSeriesColor}{lsGuidelinesGray}
 	\renewcommand{\lsCoverFontColor}{black}
 \fi
+
+\iflsBlackandwhite
+	\renewcommand{\lsSeriesColor}{black}
+\fi
 }	
 
-% \@ifundefined{blackandwhite}
-% 	{}
-% 	{\renewcommand{\lsSeriesColor}{black}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -417,10 +423,14 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 		doi=false,
 		eprint=false,
 		backend=\lsBiblatexBackend,
-		indexing=cite
+		indexing=cite,
+		\iflsCollection\else
+			toc=bib 		% make bibliography appear in toc
+		\fi
 		]{biblatex}
 	\renewcommand{\postnotedelim}{: }%
-	\renewcommand{\multicitedelim}{\addsemicolon\space}%  
+	\renewcommand{\multicitedelim}{\addsemicolon\space}%
+	\renewcommand{\compcitedelim}{\multicitedelim}  
 	\DeclareFieldFormat{postnote}{#1}%
 	%\renewcommand{\nameyeardelim}{ }%		
 \else	%BibTeX
@@ -437,7 +447,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	%% }
 
 	% check what the unified people have to say on this.
-	\bibpunct[: ]{(}{)}{;}{a}{}{,}
+	\bibpunct[: ]{(}{)}{;}{a}{}{;}
 	% They do not say anything about citations in the running text.
 	% As was sown in \citew{Meier2002} -> As was shown in Meier (2002), ...
 	% This is what De Gruyter does:
@@ -446,7 +456,9 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	%\let\citew=\citealt
 \fi
 
-% to prevent widows and orphans from appearing inside bibliographies
+\let\cite=\citet 	% in order to prevent inconsistencies between \cite and \citet
+
+% penalties against widows and orphans in bibliography
 % http://tex.stackexchange.com/questions/51257/how-can-i-force-bibliography-items-not-to-be-split-across-pages
 \usepackage{etoolbox}
 \AtBeginEnvironment{thebibliography}{%
@@ -461,7 +473,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{floatrow}					% For adjusting the position of the caption (default is below).
+\usepackage{floatrow}			% For adjusting the position of the caption (default is below).
 \floatsetup[table]{capposition=top} 	% As for tables, the caption appears above.
 
 % This sets the default for the positioning of floats
@@ -511,13 +523,19 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 		\fi
 	}
 
+\newcommand{\lsLanguageIndexTitle}{Language index}	% This can be changed according to the language.
+\newcommand{\lsSubjectIndexTitle}{Subject index}
+\newcommand{\lsNameIndexTitle}{Name index}
+
+\AtBeginDocument{
 \makeindex
-\newindex{lan}{ldx}{lnd}{Language index}
+\newindex{lan}{ldx}{lnd}{\lsLanguageIndexTitle}
 % \newindex{aut}{adx}{and}{Name index}
-\newindex{sbj}{sdx}{snd}{Subject index}
-\renewindex{default}{adx}{and}{Name index} %biblatex can only deal with the default index
+\newindex{sbj}{sdx}{snd}{\lsSubjectIndexTitle}
+\renewindex{default}{adx}{and}{\lsNameIndexTitle} %biblatex can only deal with the default index
 \newindex{wrd}{wdx}{wnd}{Expression index}
 \newindex{rwrd}{rdx}{rnd}{Reverse expression index}
+}
 
 \indexproofstyle{\setlength{\overfullrule}{0pt}\raggedright\footnotesize}
 
@@ -586,9 +604,9 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 }
 
 
-\iflsDraft
-  \usepackage{showidx}
-\fi
+% \iflsDraft
+%   \usepackage{showidx} 	% Doesn't work with multiple indexes?
+% \fi
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -944,9 +962,13 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 % for those who like the example in numbered example sentences to be typeset in italics
 % this is possible for a complete series only.
 \ifx\lsSeries\sidl
-	%\ifx\lsSeries\lnls
 	\AtBeginDocument{
-	\def\exfont{\normalsize\itshape}
+	%\def\exfont{\normalsize\itshape}
+	\renewcommand{\eachwordone}{\itshape}	% only \gll
+	
+	\let\oldtable\table 	% footnotes in tables without horizontal line
+	\let\endoldtable\endtable
+	\renewenvironment{table}{\setfootnoterule{0pt}\oldtable}{\endoldtable} 
 	}
 \fi
 
@@ -986,8 +1008,9 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	\renewcommand{\newlineSpine}{}
 	{\@author}\if\lsEditorSuffix\empty\else\ \lsEditorSuffix\fi. %
 	{\the\year}. %
-	\textit{\@title} \if\@subtitle\empty\else. \textit{\@subtitle} \fi%
-	(\lsSeriesTitle). Berlin: Language Science Press.
+	\textit{\@title}\if\@subtitle\empty\else: \textit{\@subtitle}\fi\ %
+	(\lsSeriesTitle). %
+	Berlin: Language Science Press.
 }
 
 \newcommand{\lsImpressum}{
@@ -1309,5 +1332,30 @@ guarantee the accuracy of such information thereafter.
 \setlength{\afterepigraphskip}{0\baselineskip}
 
 \usepackage{./LSP/lsp-styles/lsp-makros}
+
+
+% floats
+% http://mintaka.sdsu.edu/GF/bibliog/latex/floats.html
+% Alter some LaTeX defaults for better treatment of figures:
+
+    % See p.105 of "TeX Unbound" for suggested values.
+    % See pp. 199-200 of Lamport's "LaTeX" book for details.
+    %   General parameters, for ALL pages:
+    \renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+    \renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+    %   Parameters for TEXT pages (not float pages):
+    \setcounter{topnumber}{2}
+    \setcounter{bottomnumber}{2}
+    \setcounter{totalnumber}{4}     % 2 may work better
+    \setcounter{dbltopnumber}{2}    % for 2-column pages
+    \renewcommand{\dbltopfraction}{0.9}	% fit big float above 2-col. text
+    \renewcommand{\textfraction}{0.07}	% allow minimal text w. figs
+    %   Parameters for FLOAT pages (not text pages):
+    \renewcommand{\floatpagefraction}{0.7}	% require fuller float pages
+	% N.B.: floatpagefraction MUST be less than topfraction !!
+    \renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
+
+	% remember to use [htp] or [htpb] for placement
+
 
 \endinput
