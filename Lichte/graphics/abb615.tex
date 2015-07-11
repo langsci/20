@@ -23,7 +23,7 @@ $\left \{
 \mbox{
 \begin{tabular}{cc}
 \multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
-\node{1}{NP$_{\svar{1}}$} & \node{2}{VP*} \\[3ex]
+\node{1}{\phantom{$_{\svar{1}}$}NP$_{\svar{1}}$} & \node{2}{VP*} \\[3ex]
 \node{11}{{\it das Fahrrad}} \\
 {\it ich}
 \end{tabular}
@@ -31,18 +31,18 @@ $\left \{
 \nodetriangle{1}{11}
 ,
 \begin{tabular}{c}
-\node{0}{NP$_{\svar{1}}$} \\[2ex]
-\node{1}{$t_{\svar{1}}$}
+\rnode{0}{\phantom{$_{\svar{1}}$}NP$_{\svar{1}}$} \\[2ex]
+\rnode{1}{\phantom{$_{\svar{1}}$}$t_{\,\svar{1}}$}
 \end{tabular}
-\nodeconnect{0}{1}
+\ncline[nodesepA=-0.5ex,nodesepB=.5ex,linewidth=0.4pt]{0}{1}
 }
 \right \}$
 %%%
 \begin{tabular}{c}
-\node{0}{NP$_{dat}$} \\[2ex]
-\node{1}{{\it den Kindern}}
+\rnode{0}{\phantom{$_{dat}$}NP$_{dat}$} \\[2ex]
+\rnode{1}{{\it den Kindern}}
 \end{tabular}
-\nodeconnect{0}{1}
+\ncline[nodesepA=0.1ex,nodesepB=.4ex,linewidth=0.4pt]{0}{1}
 
 \vspace{3ex}
 

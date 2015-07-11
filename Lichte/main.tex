@@ -38,14 +38,12 @@
 %\usepackage[printonlyused]{acronym}
 \usepackage{acronym}
 
-\usepackage{german}
 \usepackage{polyglossia}
 \setdefaultlanguage[babelshorthands=true,spelling=new]{german}
-%\usepackage{LSP/lsp-styles/lsp-german}
-% \newcommand\glqq{"`}
-% \newcommand\grqq{"'}
-%\newcommand\qlq{`}
-%\newcommand\qlq{'}
+\DeclareTextSymbol{\glq}{\encodingdefault}{"201A}
+\DeclareTextSymbol{\grq}{\encodingdefault}{"2018}
+\DeclareTextSymbol{\glqq}{\encodingdefault}{"201E}
+\DeclareTextSymbol{\grqq}{\encodingdefault}{"201C}
 
 \renewcommand{\lsSubjectIndexTitle}{Sachregister}
 
@@ -165,8 +163,16 @@
  
 \title{Syntax \newlineCover und Valenz}
 \subtitle{Zur Modellierung kohärenter und elliptischer Strukturen mit Baumadjunktionsgrammatiken}  
-
-\author{Timm Lichte} 
+\author{Timm Lichte}
+\renewcommand{\lsISBNdigital}{978-3-944675-51-0}
+\renewcommand{\lsISBNhardcover}{978-3-944675-62-6}
+\renewcommand{\lsISBNsoftcover}{978-3-944675-63-3}
+%\dedication{Change dedication in localmetadata.tex}
+\typesetter{Timm Lichte}
+\proofreader{Change proofreaders in localmetadata.tex}
+\BackTitle{Change your backtitle in localmetadata.tex} % Change if BackTitle != Title
+\BackBody{Change your blurb in localmetadata.tex}
+ 
          
 \begin{document}               
                                                                                                             
@@ -174,9 +180,13 @@
 
 \frontmatter
 
-\chapter*{Vorwort und Danksagung}
-%\include{danksagung}
+\currentpdfbookmark{Inhaltsverzeichnis}{name} % adds a PDF bookmark
 \tableofcontents
+
+
+\include{vorwort}
+
+\include{acronyme}
 
 \mainmatter      
         
@@ -199,9 +209,7 @@
 
 \backmatter
 
-\phantomsection%this allows hyperlink in ToC to work
-\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}   
-\include{acronyme}
+
 
 %\addcontentsline{toc}{chapter}{Literaturverzeichnis} 
 \bibliography{literatur}
