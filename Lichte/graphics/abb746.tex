@@ -5,9 +5,9 @@
 \centering
 \begin{tabular}{c@{\hspace{-0cm}}c@{\hspace{-0cm}}cccc}
  & \node{1.0}{VP} & \node{0}{VP} & \node{3.0}{VP} & \node{4.0}{VP} & \node{5.0}{VP} \\[3ex]
- & \node{1.1}{\phantom{$_{dat}$}VP$_{\mathit{part}}$*} & \node{2}{V} & \node{3}{\phantom{$_{dat}$}NP$_{dat}$} & \node{4}{\phantom{$_{dat}$}NP$_{acc}$} & \node{5}{\phantom{$_{dat}$}NP$_{nom}$} \\[3ex]
-\node{11.0}{VP} & \node{1}{VP} & \node{21}{{\it hat}} & \node{ndat.0}{\phantom{$_{dat}$}NP$_{dat}$} & \node{nacc.0}{\phantom{$_{dat}$}NP$_{acc}$} & \node{nnom.0}{\phantom{$_{dat}$}NP$_{nom}$} \\[2ex]
-\node{11.1}{\phantom{$_{dat}$}VP$_{inf}$*} & \node{12}{V} & & \node{ndat.1}{{\it ihm}} &  \node{nacc.1}{{\it das}} & \node{nnom.1}{{\it Peter}} \\[3ex]
+ & \node{1.1}{\phantom{\subelse{part}*}VP\subelse{part}*} & \node{2}{V} & \node{3}{\phantom{\subdat}NP\subdat} & \node{4}{\phantom{\subacc}NP\subacc} & \node{5}{\phantom{\subnom}NP\subnom} \\[3ex]
+\node{11.0}{VP} & \node{1}{VP} & \node{21}{{\it hat}} & \node{ndat.0}{\phantom{\subdat}NP\subdat} & \node{nacc.0}{\phantom{\subacc}NP\subacc} & \node{nnom.0}{\phantom{\subnom}NP\subnom} \\[2ex]
+\node{11.1}{\phantom{\subelse{inf}*}VP\subelse{inf}*} & \node{12}{V} & & \node{ndat.1}{{\it ihm}} &  \node{nacc.1}{{\it das}} & \node{nnom.1}{{\it Peter}} \\[3ex]
 \node{11}{VP} & \node{121}{{\it versprochen}}\\[2ex]
 \node{111}{V} \\[2ex]
 \node{1111}{{\it zu reparieren}}

@@ -22,9 +22,6 @@
 \usepackage{ulem}  	% ulem für Durchstreichungen, Unterstreichungen etc.
 \normalem			% Macht eine Änderung von ulem an \emph rückgängig.
 
-
-\usepackage{german}
-
 \usepackage{../LSP/lsp-styles/avm}
 \avmfont{\sc} 
 \avmvalfont{\it}
@@ -54,3 +51,9 @@
 \newcommand{\circled}[1]{\textcircled{\raisebox{-0.4pt}{\small #1}}}
 \newlength{\stmueTmp}
 \newcommand*{\hspaceThis}[1]{\settowidth{\stmueTmp}{#1}\hspace*{\stmueTmp}}
+
+\newcommand{\subnom}{$_{\mathit{nom}}$}
+\newcommand{\subacc}{$_{\mathit{acc}}$}
+\newcommand{\subdat}{$_{\mathit{dat}}$}
+\newcommand{\subelse}[1]{$_{\mathit{#1}}$}
+

@@ -20,7 +20,7 @@ $\left \{
 \mbox{
 \begin{tabular}{cc}
 \multicolumn{2}{c}{\node{vps0}{VP}} \\[2ex]
-\node{vps1}{NP$_{nom}$} & \node{vp2}{VP*} \\[2ex]
+\node{vps1}{NP\subnom} & \node{vp2}{VP*} \\[2ex]
 \end{tabular} %\\[4ex]
 \nodeconnect{vps0}{vps1}
 \nodeconnect{vps0}{vp2}
@@ -56,7 +56,7 @@ $\left \{
 %%%
 \begin{tabular}{cc}
 \multicolumn{2}{c}{\node{vpo0}{VP}} \\[2ex]
-\node{vpo1}{NP$_{acc}$} & \node{vp2}{VP*} \\[2ex]
+\node{vpo1}{NP\subacc} & \node{vp2}{VP*} \\[2ex]
 \end{tabular} %\\[4ex]
 \nodeconnect{vpo0}{vpo1}
 \nodeconnect{vpo0}{vp2}
@@ -72,9 +72,9 @@ $\left \{
 \bigskip
 
 \pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\node{head}{{\tt zu\_reparieren}}}}{% 
-  \pstree{\Tr{{\tt versucht}}\tlput{{\sc a}.$\epsilon$}}{
-    \pstree{\Tr{\node{arg}{{\tt NP$_{acc}$}}}\tlput{{\sc a}.$\epsilon$}}{\Tr{{\tt den\_kühlschrank}}\tlput{{\sc s.1}}}
-    \pstree{\Tr{{\tt NP$_{nom}$}}\trput{{\sc a.1}}}{\Tr{{\tt peter}}\tlput{{\sc s.1}}}
+  \pstree{\Tr{{\tt versucht}}\tlput{{\sc a}.$\varepsilon$}}{
+    \pstree{\Tr{\node{arg}{{\tt NP\subacc}}}\tlput{{\sc a}.$\varepsilon$}}{\Tr{{\tt den\_kühlschrank}}\tlput{{\sc s.1}}}
+    \pstree{\Tr{{\tt NP\subnom}}\trput{{\sc a.1}}}{\Tr{{\tt peter}}\tlput{{\sc s.1}}}
   }
 }
 {\makedash{2pt}

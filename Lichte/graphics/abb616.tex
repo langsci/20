@@ -5,7 +5,7 @@
 \centering
 \begin{tabular}{cc}
 \multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
-\node{1}{NP$_{acc}$} & \node{2}{VP} \\[2ex]
+\node{1}{NP\subacc} & \node{2}{VP} \\[2ex]
  & \node{21}{{\it zu reparieren}}
 \end{tabular}
 \nodeconnect{0}{1} \nodeconnect{0}{2}
@@ -25,13 +25,13 @@ $\left \{
 \mbox{
 \begin{tabular}{ccc}
 \multicolumn{3}{c}{\node{0}{VP}} \\[3ex]
-\node{1}{NP$_{dat}$} & \node{2}{VP*} & \node{3}{{\it versprochen habe}}
+\node{1}{NP\subdat} & \node{2}{VP*} & \node{3}{{\it versprochen habe}}
 \end{tabular}
 \nodeconnect{0}{1} \nodeconnect{0}{2} \nodeconnect{0}{3}
 ,
 \begin{tabular}{cc}
 \multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
-\node{1}{NP$_{nom}$} & \node{2}{VP*}
+\node{1}{NP\subnom} & \node{2}{VP*}
 \end{tabular}
 \nodeconnect{0}{1} \nodeconnect{0}{2}
 
@@ -49,7 +49,7 @@ $\left \{
   \Tr{{\tt das\_Fahrrad}}\tlput{1}
   \pstree{\Tr{\node{verspr}{{\tt versprochen\_habe}}}\trput{2}}{
      \Tr{{\tt den\_Kindern}}\trput{1}}
-  \pstree{\Tr{\node{Fahr}{{\tt NP$_{nom}$}}}\trput{$\epsilon$}}{
+  \pstree{\Tr{\node{Fahr}{{\tt NP\subnom}}}\trput{$\varepsilon$}}{
        \Tr{\node{ich}{{\tt ich}}}\trput{1}}  
 }
 

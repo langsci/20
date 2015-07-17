@@ -7,14 +7,14 @@
 \scalebox{0.9}{
 \begin{tabular}{cc@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c}
 \multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
-\node{1}{NP$_{acc}$} & \multicolumn{2}{c}{\node{2}{VP}} \\[3ex]
+\node{1}{NP\subacc} & \multicolumn{2}{c}{\node{2}{VP}} \\[3ex]
  & \multicolumn{2}{c}{\node{21}{VP}} \\[2ex]
  & \node{211}{V} & \multicolumn{2}{c}{\node{212}{VP}} \\[2ex]
  & \node{2111}{{\it hat}} \\[1ex]
  & & \multicolumn{2}{c}{\node{2121}{VP}} \\[2ex]
- & & \node{21211}{NP$_{dat}$} & \multicolumn{2}{c}{\node{21212}{VP}} \\[3ex]
+ & & \node{21211}{NP\subdat} & \multicolumn{2}{c}{\node{21212}{VP}} \\[3ex]
  & & & \multicolumn{2}{c}{\node{212121}{VP}} \\[2ex]
- & & & \node{2121211}{NP$_{nom}$} & \multicolumn{2}{c}{\node{2121212}{VP}} \\[3ex]
+ & & & \node{2121211}{NP\subnom} & \multicolumn{2}{c}{\node{2121212}{VP}} \\[3ex]
  & & & & \multicolumn{2}{c}{\node{21212121}{VP}} \\[2ex]
  & & & & \node{212121211}{VP} & \node{212121212}{V} \\[2ex]
  & & & & \node{2121212111}{V} & \node{2121212121}{{\it versucht}} \\[2ex]
@@ -40,10 +40,10 @@
 %%%
 \begin{tabular}{ccc@{\hspace{-0cm}}c@{\hspace{-0cm}}c@{\hspace{-0cm}}c}
 \multicolumn{2}{c}{\node{0}{VP}} \\[2ex]
-\node{1}{NP$_{acc}$} & \multicolumn{2}{c}{\node{2}{\node{21}{VP}}} \\[3ex]
+\node{1}{NP\subacc} & \multicolumn{2}{c}{\node{2}{\node{21}{VP}}} \\[3ex]
  & \node{211}{V} & \multicolumn{2}{c}{\node{212}{\node{2121}{VP}}} \\[2ex]
- & \node{2111}{{\it hat}} & \node{21211}{NP$_{dat}$} & \multicolumn{2}{c}{\node{21212}{\node{212121}{VP}}} \\[2ex]
- & & & \node{2121211}{NP$_{nom}$} & \multicolumn{2}{c}{\node{2121212}{\node{21212121}{VP}}} \\[3ex]
+ & \node{2111}{{\it hat}} & \node{21211}{NP\subdat} & \multicolumn{2}{c}{\node{21212}{\node{212121}{VP}}} \\[2ex]
+ & & & \node{2121211}{NP\subnom} & \multicolumn{2}{c}{\node{2121212}{\node{21212121}{VP}}} \\[3ex]
  & & & & \node{212121211}{VP} & \node{212121212}{V} \\[2ex]
  & & & & \node{2121212111}{V} & \node{2121212121}{{\it versucht}} \\[2ex]
  & & & & \node{21212121111}{{\it zu geben}}

@@ -11,7 +11,7 @@ Ein hervorstechender Unterschied zu SN-MCTAG und V-TAG ist sicher auch die Art d
 
 \subsection{Funktionsweise und Ausdrucksstärke} \label{sec-ttmctag-funktionausdruck}
 
-Ein linguistisches Exemplar eines Baumtupels ist in Abbildung \ref{fig-ttmctag-tupel} zu sehen. Entsprechend des valenztheoretischen Verständnisses eines Baumtupels lexikalisiert das valenztragende Verb {\it isst} den \isi{Kopfbaum}, während seine Valenzrollen in den Argumentbäumen\is{Argumentbaum}, d.\,h.\ mittels der dortigen Substitutionsknoten, repräsentiert werden. Die restlichen Formeigenschaften des Kopfbaumes, d.\,h.\ die Struktur der Innenknoten und die Annahme eines leeren Terminals $\epsilon$,  entspricht einem Phrasenstrukturschema, das das System der topologischen Felder\is{topologische Felder} adaptiert. Dazu mehr in Abschnitt~\ref{sec-feldermodell}. Basierend auf dem Baumtupel in Abbildung~\ref{fig-ttmctag-tupel} lassen sich also bei Zuhilfenahme geeigneter Merkmalsstrukturen in den VP-Knoten (siehe ebenfalls Abschnitt~\ref{sec-ttmctag-beispiele}) u.\,a.\ die folgenden V2-Sätze generieren:  
+Ein linguistisches Exemplar eines Baumtupels ist in Abbildung \ref{fig-ttmctag-tupel} zu sehen. Entsprechend des valenztheoretischen Verständnisses eines Baumtupels lexikalisiert das valenztragende Verb {\it isst} den \isi{Kopfbaum}, während seine Valenzrollen in den Argumentbäumen\is{Argumentbaum}, d.\,h.\ mittels der dortigen Substitutionsknoten, repräsentiert werden. Die restlichen Formeigenschaften des Kopfbaumes, d.\,h.\ die Struktur der Innenknoten und die Annahme eines leeren Terminals $\varepsilon$,  entspricht einem Phrasenstrukturschema, das das System der topologischen Felder\is{topologische Felder} adaptiert. Dazu mehr in Abschnitt~\ref{sec-feldermodell}. Basierend auf dem Baumtupel in Abbildung~\ref{fig-ttmctag-tupel} lassen sich also bei Zuhilfenahme geeigneter Merkmalsstrukturen in den VP-Knoten (siehe ebenfalls Abschnitt~\ref{sec-ttmctag-beispiele}) u.\,a.\ die folgenden V2-Sätze generieren:  
 
 \ex. \label{ex-scrambling}
 \a. Peter isst eine Pizza. \label{ex-scrambling-a}
@@ -152,8 +152,8 @@ Für jedes $v \in V$, wobei $v \in arg(\Gamma)$ mit einer Baummengeninstanz $\Ga
   \item es gibt Instanzen von Hilfsbäumen $u_1, \ldots, u_n \in V$ mit $n>1$ , so dass
   \begin{itemize}
     \item $\langle h(\Gamma),u_1,p \rangle \in E$ für beliebiges $p$, und
-    \item $\langle u_i,u_{i+1},\epsilon \rangle \in E$ für $1 \leq i < n$, und
-    \item $\langle u_n,v,\epsilon \rangle \in E$.
+    \item $\langle u_i,u_{i+1},\varepsilon \rangle \in E$ für $1 \leq i < n$, und
+    \item $\langle u_n,v,\varepsilon \rangle \in E$.
   \end{itemize}
 \end{itemize}  
 \end{definition}
@@ -188,14 +188,14 @@ Das topologische Feldermodell verbindet grundlegende Abfolgeregeln des deut\-sch
 \centering
 \begin{tabular}{cccccc}
 \lsptoprule
-\multicolumn{3}{c}{Restfeld} & Schlussfeld \\
-\cmidrule(r){1-3}\cmidrule(lr){4-4}
-{\bf Vorfeld} & {\bf LK} & {\bf Mittelfeld} & {\bf RK} & {\bf Nachfeld} \\
-\cmidrule[\heavyrulewidth]{1-5}
-{\it Marlene} & {\it isst} & {\it heute Plätzchen} & & {\it obwohl \ldots} & (V2) \\
-{\it Heute} & {\it hat} & {\it Marlene} & {\it durchgeschlafen} & {\it obwohl \ldots} & (V2) \\
-& {\it hat} & {\it Marlene} {\it heute} & {\it durchgeschlafen} & & (V1) \\
- & {\it dass} & {\it Marlene} {\it heute} & {\it durchgeschlafen} {\it hat} & & (VE)\\
+& \multicolumn{3}{c}{Restfeld} & Schlussfeld \\
+\cmidrule(r){2-4}\cmidrule(lr){5-5}
+& {\bf Vorfeld} & {\bf LK} & {\bf Mittelfeld} & {\bf RK} & {\bf Nachfeld} \\
+\cmidrule[\heavyrulewidth]{2-6}
+\textbf{V2} &{\it Marlene} & {\it isst} & {\it heute Plätzchen} & & {\it obwohl \ldots}  \\
+\textbf{V2} & {\it Heute} & {\it hat} & {\it Marlene} & {\it durchgeschlafen} & {\it obwohl \ldots}  \\
+\textbf{V1} & & {\it hat} & {\it Marlene} {\it heute} & {\it durchgeschlafen} &  \\
+\textbf{VE} & & {\it dass} & {\it Marlene} {\it heute} & {\it durchgeschlafen} {\it hat} & \\
 \lspbottomrule
 \end{tabular}
 \caption{\label{ex-feldermodell}Topologisches Feldermodell und Satztypen}
@@ -925,14 +925,14 @@ Für jedes $v \in V$, wobei $v \in arg(\Gamma)$ mit einer Baummengeninstanz $\Ga
   \item es gibt Instanzen von Hilfsbäumen $u_1, \ldots, u_n \in V$ mit $n>1$ , so dass
   \begin{itemize}
     \item $\langle h(\Gamma),u_1,p \rangle \in E$ für beliebiges $p$, und
-    \item $\langle u_i,u_{i+1},\epsilon \rangle \in E$ für $1 \leq i < n$, und
-    \item $\langle u_n,v,\epsilon \rangle \in E$.
+    \item $\langle u_i,u_{i+1},\varepsilon \rangle \in E$ für $1 \leq i < n$, und
+    \item $\langle u_n,v,\varepsilon \rangle \in E$.
   \end{itemize}
 \end{itemize}  
 \end{definition}
 Erinnert sei daran, dass $arg(\Gamma)$ die Menge der Argumentbäume einer Baummenge $\Gamma$ ist.
 
-Für die Definition der Spine-Sharing-Lokalität\is{Spine Sharing} muss zunächst geklärt werden, was unter einem Spine zu verstehen ist. Intuitiv handelt es sich beim Spine eines Hilfsbaums um den Pfad zwischen Wurzelknoten und Fu\ss knoten. Betrachtet man nur die Gorn-Adressen der Knoten auf dem Spine-Pfad, kann man sagen: Der Spine eines Hilfsbaums (bzw.\ einer Hilfsbauminstanz) $\gamma$ mit einem Fu\ss knoten mit der Gorn-Adresse $p_n$ ist die größte Menge $spine(\gamma) = \{ \epsilon , p_1 , \ldots, p_n \}$, so dass $p_i$ mit $1 \leq i \leq n$ ein Präfix von $p_n$ ist. Die Definition von TT"=MCTAG"=Ableitungsbäumen, die eine Spine-Sharing-Lokalität erlauben, lautet dann folgenderma\ss en:
+Für die Definition der Spine-Sharing-Lokalität\is{Spine Sharing} muss zunächst geklärt werden, was unter einem Spine zu verstehen ist. Intuitiv handelt es sich beim Spine eines Hilfsbaums um den Pfad zwischen Wurzelknoten und Fu\ss knoten. Betrachtet man nur die Gorn-Adressen der Knoten auf dem Spine-Pfad, kann man sagen: Der Spine eines Hilfsbaums (bzw.\ einer Hilfsbauminstanz) $\gamma$ mit einem Fu\ss knoten mit der Gorn-Adresse $p_n$ ist die größte Menge $spine(\gamma) = \{ \varepsilon , p_1 , \ldots, p_n \}$, so dass $p_i$ mit $1 \leq i \leq n$ ein Präfix von $p_n$ ist. Die Definition von TT"=MCTAG"=Ableitungsbäumen, die eine Spine-Sharing-Lokalität erlauben, lautet dann folgenderma\ss en:
 \begin{definition}[TT-MCTAG-Ableitungsbaum mit Spine Sharing]\is{TT-MCTAG!Definition}
 Sei $G = \langle N,T,$""$S,I,A,$""$\mathcal{A},h \rangle$ eine TT-MCTAG und sei $D = \langle V,E \rangle$ ein MCTAG"=Ableitungsbaum. $D$ ist ein TT-MCTAG-Ablei\-tungs\-baum gdw.:
 Für jedes $v \in V$, wobei $v \in arg(\Gamma)$ mit einer Baummengeninstanz $\Gamma$, gilt:

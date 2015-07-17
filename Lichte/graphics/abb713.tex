@@ -26,7 +26,7 @@ $\left \{
 \multicolumn{2}{c}{\node{vps0}{\begin{avmnode}{V}
 \[phrase & +\]
 \end{avmnode}}} \\[4ex]
-\node{vps1}{NP$_{nom}$} & \node{vp2}{\begin{avmnode}{V*}
+\node{vps1}{NP\subnom} & \node{vp2}{\begin{avmnode}{V*}
 \[phrase & +\]
 \end{avmnode}} 
 \end{tabular} %\\[4ex]
@@ -71,7 +71,7 @@ $\left \{
 \multicolumn{2}{c}{\node{vpo0}{\begin{avmnode}{V}
 \[phrase & +\]
 \end{avmnode}}} \\[4ex]
-\node{vpo1}{NP$_{acc}$} & \node{vp2}{\begin{avmnode}{V*}
+\node{vpo1}{NP\subacc} & \node{vp2}{\begin{avmnode}{V*}
 \[phrase & +\]
 \end{avmnode}}
 \end{tabular} %\\[4ex]
@@ -90,10 +90,10 @@ $\left \{
 \bigskip
 
 \pstree[nodesep=3pt,levelsep=1.5cm]{\Tr{\node{head}{{\tt zu\_reparieren}}}}{% 
-  \pstree{\Tr{{\tt versucht}}\tlput{{\sc a}.$\epsilon$}}{
-    \pstree{\Tr{{\tt NP$_{nom}$}}\tlput{{\sc a}.$\epsilon$}}{
-      \pstree{\Tr{\node{arg}{{\tt NP$_{acc}$}}}\tlput{{\sc a}.$\epsilon$}}{
-        \Tr{{\tt dass}}\tlput{{\sc a}.$\epsilon$}
+  \pstree{\Tr{{\tt versucht}}\tlput{{\sc a}.$\varepsilon$}}{
+    \pstree{\Tr{{\tt NP\subnom}}\tlput{{\sc a}.$\varepsilon$}}{
+      \pstree{\Tr{\node{arg}{{\tt NP\subacc}}}\tlput{{\sc a}.$\varepsilon$}}{
+        \Tr{{\tt dass}}\tlput{{\sc a}.$\varepsilon$}
         \Tr{{\tt den\_kühlschrank}}\trput{{\sc s.1}}}
       \Tr{{\tt peter}}\trput{{\sc s.1}}
     }
