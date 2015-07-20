@@ -46,16 +46,7 @@
 \DeclareTextSymbol{\grqq}{\encodingdefault}{"201C}
 
 \renewcommand{\lsSubjectIndexTitle}{Sachregister}
-
-% \iflsDraft
-% \proofmodetrue
-% \fi
-
-% \usepackage[noadjust]{marginnote}
-% \renewcommand{\marginpar}{\marginnote}
-% \let\isold\is 
-% \renewcommand{\isi}[1]{\sethlcolor{green}\hl{#1}\isold{#1}}
-% \renewcommand{\is}[1]{\todo[color=green]{\tiny#1}\isold{#1}}
+\renewcommand{\lsNameIndexTitle}{Autorenregister}
 
 
 
@@ -157,6 +148,14 @@
   \setlength{\Exlabelsep}{0.8em}% for linguex examples
   \setlength{\SubExleftmargin}{1.4em}% for linguex examples
   \parbox{\linewidth-1.5em}{#1}}
+
+\newcommand{\subnom}{$_{\mathit{nom}}$}
+\newcommand{\subacc}{$_{\mathit{acc}}$}
+\newcommand{\subdat}{$_{\mathit{dat}}$}
+\newcommand{\subelse}[1]{$_{\mathit{#1}}$}
+
+\newcommand{\scrind}{\ensuremath{\mathsf{SCR}^{\mathit{ind}}}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
                                                       
