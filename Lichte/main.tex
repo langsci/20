@@ -1,10 +1,10 @@
 \documentclass[ number=1
-			   ,series=eotms
+% 			   ,series=eotms
 			   ,output=short    % long|short|inprep              
 			   %,blackandwhite
 			   %,smallfont
 			   ,newtxmath
-			   ,draftmode 
+% 			   ,draftmode 
 			  ]{LSP/langsci}                                   
 
 \usepackage{LSP/lsp-styles/avm}
@@ -168,11 +168,22 @@
 \renewcommand{\lsISBNsoftcover}{978-3-944675-63-3}
 %\dedication{Change dedication in localmetadata.tex}
 \typesetter{Timm Lichte}
-\proofreader{Change proofreaders in localmetadata.tex}
+\proofreader{%
+Armin Buch, %
+Constantin Freitag, %
+Martin Haspelmath, %
+Sebastian Nordhoff, %, 
+Daniela Schröder, %
+Aviva Shimelman, %
+Charlotte van Tongeren}
+ 
 \BackTitle{Change your backtitle in localmetadata.tex} % Change if BackTitle != Title
 \BackBody{Change your blurb in localmetadata.tex}
  
-         
+% \let\it\itshape 
+\let\sc\scshape
+\let\bf\bfseries 
+% \let\rm\upshape
 \begin{document}               
                                                                                                             
 \maketitle
