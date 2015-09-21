@@ -4,7 +4,8 @@
 			   %,blackandwhite
 			   %,smallfont
 			   ,newtxmath
-			   ,draftmode 
+			   ,draftmode
+         ,bibtex 
 			  ]{LSP/langsci}                                   
 
 \usepackage{LSP/lsp-styles/avm}
@@ -157,6 +158,11 @@
 \newcommand{\scrind}{\ensuremath{\mathsf{SCR}^{\mathit{ind}}}}
 
 
+% \newcommand{\largerpage}[1][1]{
+% \enlargethispage{#1\baselineskip}
+% }
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
                                                       
  
@@ -168,9 +174,23 @@
 \renewcommand{\lsISBNsoftcover}{978-3-944675-63-3}
 %\dedication{Change dedication in localmetadata.tex}
 \typesetter{Timm Lichte}
-\proofreader{Change proofreaders in localmetadata.tex}
-\BackTitle{Change your backtitle in localmetadata.tex} % Change if BackTitle != Title
-\BackBody{Change your blurb in localmetadata.tex}
+\proofreader{Armin Buch, Constantin Freitag, Martin Haspelmath, Sebastian Nordhoff, Daniela Schröder, Aviva Shimelman, Charlotte van Tongeren}
+\BackTitle{Syntax und Valenz} % Change if BackTitle != Title
+\BackBody{%
+Üblicherweise sind Syntaxmodelle eng mit lexikalischen Valenzeigenschaften verzahnt: Die valenztheoretisch fundierten Kategorien Valenzträger, Ergänzung und Angabe werden in den meisten, wenn nicht allen, prominenten Syntaxmodellen unterschiedlich repräsentiert. Das vorliegende Buch hat den Zweck, diesen gemeinhin ausgeblendeten Konsens aufzugreifen, hinsichtlich seiner Grundlagen und Auswirkungen zu untersuchen und schließlich auch in Frage zu stellen. Der empirische Schwerpunkt wird dabei auf kohärenten Konstruktionen und Ellipsen im Deutschen liegen, während auf der Theorieseite die Familie der Baumadjunktionsgrammatiken (TAG) im Vordergrund steht. TAG ist bisher vor allem für seine besonderen computerlinguistischen Eigenschaften bekannt; dieses Buch zeigt anhand zahlreicher Analysen, dass TAG auch valenztheoretisch heraussticht und den Weg zu empirisch neutraleren Syntaxmodellen weist.
+
+
+%Was sind die konzeptionellen Grundlagen für die Verzahnung von Syntax und Valenz? Welche Idealisierungen hinsichtlich der Realisierung von Valenzeigenschaften werden dadurch gemacht? Welche Auswirkungen haben diese Idealisierungen bei der Modellierung widersprechender Datenklassen, nämlich kohärente Konstruktionen und Ellipsen? Und können diese Idealisierungen vermieden werden?
+%
+%Dieses Buch legt den Schwerpunkt auf die Familie der Baumadjunktionsgrammatiken (TAG) und zeigt Anhand eines umfangreichen Grammatikfragments für das Deutsche, dass sich die Diskontinuität bei kohärenten Konstruktionen direkt und linguistisch adäquat repräsentieren lässt.
+%; und dass TAG trotzdem und trotz der im Vergleich zu GB, LFG und HPSG wesentlich eingeschränkten Ausdrucksstärke zu einer linguistisch sinnvollen Analyse kohärenter Konstruktionen herangezogen werden kann.
+    % \item dass der TAG-Ableitungsbaum für die indirekte Gapping-Modellierung eine ausreichend informative Bezugsgröße darstellt.
+%Für die direkte Repräsentation elliptischer Strukturen wird ein neuartiges Syntaxmodell vorgeschlagen, bei dem Syntax und Valenz getrennt abgeleitet werden. Dieses Buch bietet nicht nur eine breite empirische und grammatiktheoretische \ldots, sondern kann auch als ein Beitrag für eine empirisch neutralere Modellierung gesehen werden
+%
+
+}
+
+%\addbibresource{literatur.bib} % biblatex
  
          
 \begin{document}               
@@ -211,7 +231,8 @@
 
 
 %\addcontentsline{toc}{chapter}{Literaturverzeichnis} 
-\bibliography{literatur}
+\bibliography{literatur} % bibtex
+%\printbibliography % biblatex
 
 %\addcontentsline{toc}{chapter}{Index} 
 
@@ -230,8 +251,10 @@
 \phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{chapter}{Sachregister}
 \ohead{Sachregister}
-\input{index_see}  
-\printindex[sbj]  
+\input{index_see}
+\begin{sloppypar}  
+\printindex[sbj]
+\end{sloppypar}  
 
                               
 \end{document}

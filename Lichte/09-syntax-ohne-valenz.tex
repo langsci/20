@@ -41,6 +41,7 @@ Die Derivation von \ref{ex-stug-1} ist in Abbildung~\ref{fig-stug-1} dargestellt
 \end{figure}
 Die horizontalen gestrichelten Linien deuten Fusionen an, die vertikalen gestrichelten Linien stehen für Substitutionen. Wie bei der Definition der Spinal-TT-MCTAG-Ableitungsbäume\is{TT-MCTAG!spinalisierte} (siehe Definition~\ref{def-spinal-ablbaum}, S.\,\pageref{def-spinal-ablbaum}) nehme ich im Folgenden die Einschränkung vor, dass nur \isi{Wurzelknoten} fusionieren können. Die \isi{Substitution} verwende ich in ihrer üblichen Form. Auf die Wurzeladjunktion, die noch bei Spinal-TT-MCTAG zum Einsatz kam, können wir hier verzichten, da die Lokalitätsbestimmung nicht von der Wahl der Verknüpfungsoperation abhängt. Das Konzept der Node-Sharing-Lokalität\is{Node Sharing} wird also ebenfalls nicht benötigt.
 
+\largerpage%
 Die \isi{Fusion} ist auf zweierlei Weise beschränkt: (i) Die fusionierende Knoten müssen ein identisches Label tragen und (ii) die Kette der Tochterknotenlabel muss in der Sprache desjenigen endlichen Automaten\is{endlicher Automat} sein, auf den das Label des Mutterknotens abgebildet wird. Der Fusionsbegriff wird also unverändert von Spinal-TT-MCTAG\is{TT-MCTAG!spinalisierte} übernommen (siehe Definition~\ref{def-fusion}, S.\,\pageref{def-fusion}).
 
 \subsubsection*{Valenzstrukturen}\is{STUG!Valenzstruktur|(}
@@ -75,12 +76,10 @@ Wie man in Abbildung~\ref{fig-stug-4} au\ss erdem sehen kann, werden die Links b
 
 Der Unifikationsschritt führt schlie\ss lich die Elemente der Valenzstrukturmenge zu einer zusammenhängenden Valenzstruktur zusammen. Unifizieren zwei Valenzstrukturen, so werden (unter Beibehaltung der jeweiligen Dominanzverhältnisse) beliebig viele ihrer Knoten und Kanten identifiziert und deren Label unifiziert. Die Unifikation von Valenzstrukturen operiert also auf ganzen Bäumen, wodurch sie sich wesentlich von der Wurzelknotenfusion in der syntaktischen Struktur, geschweige denn von der Verknüpfungsoperation bei STAG\is{Synchronous TAG (STAG)}, unterscheidet. Zwei STUG-spezifische Einschränkungen kommen bei der Valenzstrukturunifikation hinzu: (i) Valenzstrukturen können nur unifizieren, wenn dabei mindestens zwei Knoten unifiziert werden, die mit einem identischen Syntaxknoten verlinkt sind; (ii) Knoten mit Link können nur unifizieren, wenn sie mit einem identischen Syntaxknoten verlinkt sind. Damit wird die Unifizierbarkeit an die Zugehörigkeit zu einer syntaktischen Lokalitätsdomäne geknüpft. In Abbildung~\ref{fig-stug-4} ist ein mögliches Ergebnis des Unifikationsschrittes im zweiten Tupel zu sehen. Die Unifikation der {\it Peter}-Valenzstruktur mit der Agensrolle ist dabei keineswegs alternativlos -- sie könnte auch mit der Benefikans-Rolle unifizieren. Wie die Realisierung der Agensrolle erzwungen werden kann, werden wir weiter unten in Abschnitt \ref{sec-stug-ellipse} und \ref{sec-stug-vollst} sehen.
 
-
-\clearpage 
-
 Wenn ich von Realisierung einer Valenzrolle spreche, dann meine ich die Spezifizierung des {\sc lemma}-Merkmals in einem Valenzrollenknoten. Man beachte, dass die {\sc lemma}-Spezifizie\-rung keine Bedingung für die Wohlgeformtheit einer Valenzstruktur darstellt. Valenzrollen und Valenzträger können beliebig unterspezifiert sein.
 \is{STUG!Valenzstruktur|)}
 
+\clearpage 
 
 \subsubsection*{Kurzbeispiele: Passiv, Perfekt und Voranstellung}
 
@@ -114,6 +113,7 @@ Die Einschränkung auf Status-3-Verben kann mittels eines morphosyntaktischen Me
 \a. *Peter gelesen hat den Roman. \hfill \citep[Abbildung~6]{Gerdes:04}\label{ex-stug-4-a}
 \b. Ein Au\ss enseiter gewonnen hat hier noch nie. \hfill \citep[10-d]{Haider:90}\label{ex-stug-4-b}
 
+\largerpage%
 Andererseits ist gerade diese Permissivität für die Modellierung des vergleichbaren aber wesentlich akzeptableren Voranstellungsdatums in \ref{ex-stug-4-b} notwendig. Au\ss erdem wurde bei der Datendiskussion in Abschnitt~\ref{sec-kohaerenz-voran} vorsichtig vermutet, dass für die Unakzeptabilität von \ref{ex-stug-4-a} diskurs- und informationsstrukturelle Faktoren verantwortlich zu machen sind. Ich halte die Derivation von \ref{ex-stug-4-a} also für das kleinere Übel.
 
 \subsubsection*{Desiderata}
@@ -302,8 +302,10 @@ Dieses unlexikalisierte STUG-Tupel unterscheidet zwei in einem Dominanzverhältn
 \includegraphics{graphics/abb912.pdf}
 \caption{\label{fig-stug-10} Abgeleitetes STUG-Tupel für die partielle Voranstellung in \ref{ex-stug-6-b}}
 \end{figure}
+\largerpage%
 Durch die Verlinkung des VP-Wurzelknotens mit dem {\it reparieren}-Knoten in der Valenzstruktur kann {\it den Kühlschrank}, eine Konstituente des Mittelfelds, auf diesen zugreifen. {\it den Kühlschrank} könnte jedoch auch mit einer Valenzrolle des Regens unifizieren. Im Unterschied dazu ist die Vorfeld-VP nur mit dem {\it reparieren}-Knoten verlinkt und nicht mit seinem Regens, d.\,h.\ mit dem Wurzelknoten der Valenzstruktur. Dadurch können Elemente, die mit der Vorfeld-VP fusionieren nicht auf den Valenzstrukturknoten des Regens zugreifen und die gewünschte Asymmetrie entsteht. Da sich das einbettende STUG-Tupel in Abbildung~\ref{fig-stug-9} auch bei der Modellierung der 3.~Konstruktion einsetzen lässt, ergeben sich dort ebenfalls die gewünschten Asymmetrieeffekte. 
 \is{kohärente Konstruktion!3.~Konstruktion|)}
+\largerpage%
 
 \subsubsection*{Mehrfach partielle Voranstellung}
 
@@ -337,7 +339,9 @@ Die Platzierung des statusregierten Verbs spielt auch bei obligatorisch kohären
 \a. *dass er den Wagen muss ohne Werkzeug reparieren \hfill (\ref{ex-3konstr-modal-a}, S.\,\pageref{ex-3konstr-modal-a})
 \b. *dass er ohne Werkzeug scheint, den Wagen zu reparieren \hfill (\ref{ex-3konstr-scheinen}, S.\,\pageref{ex-3konstr-scheinen})
 
-Diese Form der Asymmetrie lässt sich auf zweierlei Weise modellieren: Zum einen kann schon bei der Fusion die Nachstellung (d.\,h.\ die Platzierung im Nachfeld) von Status-1-VPs blockiert werden; zum anderen kann eine entsprechende Einschränkung in der Valenzstruktur spezifiziert werden, falls felderspezifische \clearpage Positionsmerkmale dort verfügbar sind. Letzteres würde insbesondere bei einem obligatorisch kohärenten Verb wie {\it scheinen}, das den 2.~Status regiert, in Frage kommen.
+Diese Form der Asymmetrie lässt sich auf zweierlei Weise modellieren: Zum einen kann schon bei der Fusion die Nachstellung (d.\,h.\ die Platzierung im Nachfeld) von Status-1-VPs blockiert werden; zum anderen kann eine entsprechende Einschränkung in der Valenzstruktur spezifiziert werden, falls felderspezifische Positionsmerkmale dort verfügbar sind. Letzteres würde insbesondere bei einem obligatorisch kohärenten Verb wie {\it scheinen}, das den 2.~Status regiert, in Frage kommen.
+
+\clearpage
 
 % Wie verhindern? Status-1-VPs können nicht im Nachfeld stehen!
 
@@ -451,7 +455,8 @@ Das vorgestellte STUG-Modell implementiert nicht neuartige grammatiktheoretische
 
 Für die klassische Valenztheorie ist die Unterscheidung von valenzgebundenen Ergänzungen\is{Ergänzung} und valenzungebundenen Angaben\is{Angabe} ein zentrales Anliegen, aber auch ein wesentlicher Faktor der in Kapitel \ref{ch-mit-valenz} skizzierten "`Valenzmisere"': Die Kriterien der Valenzbindung sind diffus und die Ergebnisse der \isi{Valenzermittlung} oftmals widersprüchlich. Angesichts dieser Probleme plädiert \cite{Storrer:92} für eine Abkehr von der Ergänzung-Angabe-Dichotomie.\footnote{Die Zweifel von \cite{Vater:78} an der Ergänzung-Angabe-Dichotomie wurden oben bereits erwähnt (Fußnote~\ref{fn-valenz-vater}, S.\,\pageref{fn-valenz-vater}). Einen Zusammenhang zwischen \isi{Valenz} und Perspektiviertheit\is{Perspektivierung} stellt schon \cite{Heringer:84} her. Im Rahmen der HPSG\is{Head-driven Phrase Structure Grammar (HPSG)} gibt es eine Reihe von Arbeiten, die eine gewisse Abmilderung der Ergänzung-Angabe-Dichotomie vorschlagen. Angaben können dort dynamisch in den Valenzrahmen integriert werden ("`adjuncts-as-complements"'), was u.\,a.\ eine flache Phrasenstruktur\is{Phrasenstruktur!flache} ermöglicht, aber an der Valenzmisere nichts ändert. Siehe z.\,B.\ \citet[Kapitel~9]{Przepiorkowski:99}, \cite{Bouma:etal:01}, \cite{Bouma:03} und die dort zitierte Literatur.} Nicht nur Ergänzungen, sondern auch Angaben\is{Angabe} sollen in der Valenzbeschreibung eines Valenzträgers\is{Valenzträger} enthalten sein. Da der Valenzbegriff unverändert bleibt, Valenz also weiterhin (im Sinne von Definition~\ref{def-valenz}, S.\,\pageref{def-valenz}) als eine Menge von Tripeln aus semantischer Rolle, morphologischen Merkmalen und einer Notwendigkeitsmarkierung entspricht, muss nun auch den Angaben eine semantische Rolle in der Prädikation des Valenzträgers zugesprochen werden. Genau das ist in der durch Montague geprägten, typenlogischen Semantik, auf die sich das ARG-Kriterium\is{Valenzbeziehung!ARG} bezieht, eigentlich nicht vorgesehen, vor allem um eine Proliferation der Prädikatstypen zu verhindern.\footnote{Die drohende Proliferation der Prädikatstypen war auch das Motiv für die semantische Unterscheidung von Ergänzungen und Angaben bei der Entwicklung der Ereignissemantik in \cite{Davidson:67}.} 
 
-Dies mag zumindest ein Grund dafür sein, dass Storrer ein anderes Semantik-Modell wählt: Die Bedeutung eines Valenzträgers ist nicht ein Prädikat bestimmter Stelligkeit, sondern ein {\textsc{Situationstyp}. Situationstypen sind Abstraktionen über Mengen konkreter Situationen, wobei Situation als "`scene"' im Sinne der Scenes-and-Frames-Semantik aus \cite{Fillmore:77,Fillmore:77b} zu verstehen ist, nämlich als "`Konstellation von Entitäten mit bestimmten Eigenschaften, die an einem bestimmten Ort und zu einer bestimmten Zeit miteinander in Beziehung stehen"' \citep[232]{Storrer:96}. Ein Situationstyp definiert also eine Anzahl bestimmter Beziehungen zwischen den Entitäten der subsumierten Situationen (auch raum-zeitliche oder modale Entitäten), die Storrer als situationsspezifische Rollen oder Situationsrollen bezeichnet und deren Gesamtheit die \textsc{Situationsvalenz}\is{Situationsvalenz} eines Situationstyps bildet. Als Beispiel liefert Storrer den Situationstyp der Lüge in Form eines "`Situationsframes"': 
+Dies mag zumindest ein Grund dafür sein, dass Storrer ein anderes Semantik-Modell wählt: Die Bedeutung eines Valenzträgers ist nicht ein Prädikat bestimmter Stelligkeit, sondern ein {\textsc{Situationstyp}. Situationstypen sind Abstraktionen über Mengen konkreter Situationen, wobei Situation als "`scene"' im Sinne der Scenes-and-Frames-Semantik aus \cite{Fillmore:77,Fillmore:77b} zu verstehen ist, nämlich als "`Konstellation von Entitäten mit bestimmten Eigenschaften, die an einem bestimmten Ort und zu einer bestimmten Zeit miteinander in Beziehung stehen"' \citep[232]{Storrer:96}. Ein Situationstyp definiert also eine Anzahl bestimmter Beziehungen zwischen den Entitäten der subsumierten Situationen (auch raum-zeitliche oder modale Entitäten), die Storrer als situationsspezifische Rollen oder Situationsrollen bezeichnet und deren Gesamtheit die \textsc{Situationsvalenz}\is{Situationsvalenz} eines Situationstyps bildet. Als Beispiel liefert Storrer den Situationstyp der Lüge in Form eines "`Situationsframes"':
+\largerpage% 
 
 \ex. \label{ex-storrer-lüge} {\tt Situationsframe\_1: (Lügen\_Situation) \\[1.5ex] 
 Slot1: Lügner \\
