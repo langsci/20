@@ -4,6 +4,7 @@
 			   %,blackandwhite
 			   %,smallfont
 			   ,newtxmath
+% 			   ,biblatex
 % 			   ,draftmode 
 			  ]{LSP/langsci}                                   
 
@@ -139,6 +140,7 @@
 \newcommand*{\hspaceThisNegative}[1]{\settowidth{\stmueTmp}{#1}\hspace*{-\stmueTmp}}
 %\renewcommand{\refdash}{}   % fuer linguex: kein Minuszeichen in den Beispiellabel
 
+
 \newtheorem{definition}{Definition}
 \newtheorem{corollary}{Korollar}
 \newtheorem{axiom}{Axiom}
@@ -180,10 +182,11 @@ Charlotte van Tongeren}
 \BackTitle{Change your backtitle in localmetadata.tex} % Change if BackTitle != Title
 \BackBody{Change your blurb in localmetadata.tex}
  
-% \let\it\itshape 
+\let\it\itshape 
 \let\sc\scshape
 \let\bf\bfseries 
-% \let\rm\upshape
+\let\tt\ttfamily
+\let\rm\upshape
 \begin{document}               
                                                                                                             
 \maketitle

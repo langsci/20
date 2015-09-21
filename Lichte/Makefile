@@ -10,7 +10,12 @@ main.pdf: $(SOURCE)
 	xelatex -no-pdf main 
 	bibtex -min-crossrefs=200 main
 	xelatex  -no-pdf main
-	sed -i s/.*\\emph.*// main.adx #remove titles which biblatex puts into the name index
+	makeindex -o main.ind main.idx
+	\rm main.adx
+	authorindex -i -p main.aux > main.adx
+	sed -e 's/}{/|hyperpage}{/g' main.adx > main.adx.hyp
+	makeindex -o main.and main.adx.hyp
+
 	makeindex -o main.and main.adx
 	makeindex -o main.lnd main.ldx
 	makeindex -o main.snd main.sdx
