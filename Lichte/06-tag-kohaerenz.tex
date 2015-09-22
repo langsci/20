@@ -50,6 +50,7 @@ Die direkte Repräsentation der diskontinuierlichen Valenzrealisierung im indizi
 \caption{\label{fig-ttmctag-kohaerenz-2}Beispiel einer direkten Repräsentation einer diskontinuierlichen Valenzrealisierung}
 \end{figure}
 
+\largerpage
 Einer kanonischen CFG am nächsten kommen wohl CFG-Derivate, die zusätzliche, weniger strikte Linearisierungsoperatoren für die rechte Regelseite einführen. Zu nennen sind hier etwa DPSG \citep{Bunt:etal:87}, LSL \citep{Suhre:99}, oder poms-CFG \citep{Nederhof:etal:03}. Die zwei LSL-Regeln (Linear Spezification Language) in \ref{ex-koharenz-strategien-1} beispielsweise erfassen die diskontinuierliche Struktur in Abbildung \ref{fig-ttmctag-kohaerenz-2}, wobei nicht-unmittelbare Präzedens durch den Operator < anzeigt wird:\footnote{\cite{Suhre:99} verwendet zunächst eine ID/LP-artige Notation. Da die LP-Spezifikationen jedoch immer regelbezogen sind, lassen sie sich mit den ID"=Spezifikationen zusammenfassen.}  
 
 \ex. \label{ex-koharenz-strategien-1}
@@ -66,6 +67,7 @@ VP({\it NP$_2$},{\it V$_2$}) $\to$ $\varepsilon$
  
 X und Y sind sogenannte Range-Variablen, die einen zusammenhängende Bereich in der Terminalkette denotieren.\footnote{Genaugenommen sind Range-Variablen Variablen über Paaren natürlicher Zahlen, die den Start- und Endpunkt eines Stringbereichs festlegen.} Das S-Prädikat in der ersten Regel ist einstellig, erlaubt es aber, das Argument, d.\,h.\ eine Terminalkette, mittels Range-Variablen und Terminale zu unterteilen und die Range-Variablen in den Prädikaten auf der rechten Regelseite wiederzuverwenden. Die Diskontinuität kommt dann im VP-Prädikat zum Vorschein, wo die Argumente nicht-adjazente Bereiche der Terminalkette sind.
 
+\largerpage
 Schlie\ss lich besteht die Möglichkeit, den ID/LP-Ansatz aus \cite{Gazdar:Pullum:81} und \cite{Shieber:84} weiterzuentwickeln. ID/LP stellt im Grunde eine Methode dar, mittels unterschiedlicher Regeltypen, d.\,h.\ Regeln der unmittelbaren Dominanz (ID) und Regeln der linearen Präzedens (LP), die Menge der Regeln einer CFG zu faktorisieren. Da ID/LP und CFG schwach äquivalent sind, ist auch ID/LP grundsätzlich nicht in der Lage, diskontinuierliche Strukturen zu erzeugen. Ursache dafür ist letztlich die implizite Zusatzannahme, dass von einem Knoten dominierte Knoten kontinuierlich linearisiert sind. Gibt man diese Zusatzannahme auf, kann Diskontinuität sehr wohl direkt repräsentiert werden.\footnote{Ein alternatives Vorgehen zeigt \cite{Pullum:82}: Mittels einer Metaregel ("`liberation"') wird ausgehend von einer Dominanzregel S $\to$ VP {\it NP$_1$} {\it V$_1$} eine Dominanzregeln S $\to$ {\it NP$_2$} {\it V$_2$} {\it NP$_1$} {\it V$_1$} hinzugenommen, falls es eine Dominanzregel VP $\to$ {\it NP$_2$} {\it V$_2$} gibt. {\it NP$_2$} und {\it V$_2$} werden also quasi aus VP "`befreit"'. Siehe dazu auch \citet[81f]{Kathol:95} und \citet[32f]{Kathol:00}.} Die ID/LP-Spezifikationen in \ref{ex-koharenz-strategien-3} lizenzieren dann unter anderem die Struktur in Abbildung \ref{fig-ttmctag-kohaerenz-2}: 
 
 \ex. \label{ex-koharenz-strategien-3} 
@@ -85,6 +87,7 @@ Ein Beispiel soll dies verdeutlichen. In Abbildung \ref{fig-kohaerenz-strategien
 \caption{\label{fig-kohaerenz-strategien-2}Direkte HPSG-Repräsentation einer diskontinuierlichen Valenzrealisierung mit den Linearisierungsdomänen aus \cite{Reape:92,Reape:94,Reape:96}}
 \end{figure}
  
+\largerpage
 Bei dieser doppelten repräsentationellen Trennung von Dominanz und Linearisierung beruft sich die HPSG-\is{Head-driven Phrase Structure Grammar (HPSG)} und CG-Literatur\is{Kategorialgrammatik}\footnote{Im CG-Bereich ist vor allem die Abstract Categorial Grammar (ACG) hervorzuheben, die \cite{deGroote:01} und \cite{Muskens:01} einführen.} auf die Unterscheidung zwischen \textsc{Tektogrammatik}\is{Tektogrammatik} und \textsc{Phänogrammatik}\is{Phänogrammatik} in \citet[65f]{Curry:63}:\footnote{Vgl.\ auch \citet[12ff]{Dowty:96} und \citet[35ff]{Kathol:00}.} Die Tektogrammatik beschreibt die Dominanzstruktur (bzw.\ bei Curry die Funktor"=Argument"=Struktur) eines Satzes, die Phänogrammatik dagegen dessen Linearisierung. Beide Grammatikdimensionen gelten als parallel in dem Sinne, dass keine generative Ordnung zwischen ihnen besteht -- anders als etwa bei der Transformationsgrammatik, wo die \isi{Oberflächenstruktur} aus der \isi{Tiefenstruktur} abgeleitet wird. 
 
 
@@ -107,14 +110,14 @@ Ein Valenzvereinigungsansatz\is{Valenzvereinigung} ist dagegen nicht durchführb
 
 
 
-
+\newpage
 \section{TAG-Varianten für das Deutsche} \label{sec-tag-varianten}
-
+\largerpage
 Die ungenügende derivationelle Mächtigkeit des TAG-Formalismus bei der Modellierung von Scrambling-Phänomenen wurde in Abschnitt~\ref{sec-tag-grenzen} deutlich.\footnote{Eine große implementierte Grammatik des Deutschen, die trotz allem auf TAG basiert, ist DTAG \citep{Gerdes:02,Gerdes:02b}. Gerdes rechtfertigt seine Wahl und die damit einhergehenden Abdeckungslücken damit, dass die Grammatik vornehmlich zur Textgenerierung entwickelt wurde und außerdem zu jener Zeit die Software für mächtigere MCTAG-Varianten nicht zur Verfügung stand. Letzteres hat sich aber mittlerweile geändert \citep{Parmentier:etal:07,Kallmeyer:etal:08}. Die große Menge an TAG-Baumschablonen, die den vielen Stellungsmöglichkeiten der Verben und ihrer Argumente geschuldet ist, generiert Gerdes mit einer sogenannten Metagrammatik. Man beachte, dass die Grammatik bei MCTAG-Varianten erheblich kleiner ausfallen kann.} Um dem abzuhelfen, kam es in den letzten zwei Jahrzehnten zur Ausarbeitung mehrerer TAG- und MCTAG-Erweiterungen. Ganz am Anfang standen ID/LP"=Ansätze, die durch die Unterspezifizierung der linearen Präzedens der Blätter eines Elementarbaums die Generierung kreuzender Kanten zulassen. Dazu zählen LD/LP-TAG (\citealt{Joshi:87b, Joshi:etal:90}) und FO-TAG (\citealt{Becker:Joshi:Rambow:91, Becker:94}).\footnote{Siehe \citet[43ff]{Rambow:94} für eine kritische Auseinandersetzung mit FO-TAG.} Für den Zweck der linguistischen Modellierung haben sich schlie\ss lich Ansätze durchgesetzt, die im Wesentlichen eine Unterspezifizierung der Dominanzverhältnisse gemeinsam haben. Zwei Richtungen lassen sich hier unterscheiden: Zum einen gibt es Erweiterungen wie V-TAG\is{Vector-MCTAG (V-TAG)} \citep{Rambow:94} und TUG\is{Tree Unification Grammar (TUG)} \citep{Gerdes:04}, die von einer NL-MCTAG ausgehen und diese modifizieren; zum anderen gibt es Versuche, reguläre TAG oder TL-MCTAG möglichst minimal zu erweitern, so dass die benötigte generative und derivationelle Mächtigkeit erzielt wird. Hierunter fallen DTG\is{D-Tree Grammar (DTG)} \citep{Rambow:etal:95}, SegTAG\is{Segmented TAG (SegTAG)} \citep{Kulick:00} und SN-MCTAG\is{TL-MCTAG with Shared Nodes (SN-MCTAG)} \citep{Kallmeyer:05}. Mein eigener Vorschlag, \isi{TT-MCTAG}, kann wohl eher der letzteren  Richtung zugeordnet werden, zeigt aber auch Ähnlichkeiten zu V-TAG. Eine ausführliche Darstellung von TT-MCTAG folgt in Kapitel \ref{sec-ttmctag}. 
 
 \subsection{V-TAG}\label{sec-tag-varianten-vtag}\is{Vector-MCTAG (V-TAG)|(}
-
-\largerpage%
+ 
+\largerpage[-1]
 Wie bereits in Abschnitt~\ref{sec-tag-grenzen-scram} angesprochen, schlägt \cite{Rambow:94} für die Modellierung von Scrambling in kohärenten Konstruktionen eine Variante der nicht-lokalen MCTAG (NL-MCTAG)\is{Multi-Component TAG (MCTAG)!nichtlokale (NL-MCTAG)} vor, die er als Vector-MCTAG, oder kurz V-TAG bezeichnet. Der wesentliche Unterschied zwischen NL-MCTAG und V-TAG ist der, dass V-TAG, anders als NL-MCTAG, eine nicht-simultane Verknüpfung der Elemente einer Baummenge erlaubt. Diese Modifikation wirkt sich positiv auf die computationelle Komplexität des Formalismus aus:\footnote{Man möchte sagen, überraschenderweise, da V-TAG weniger beschränkt ist als NL-MCTAG\is{Multi-Component TAG (MCTAG)!nichtlokale (NL-MCTAG)}. Die Beschränkung durch die \isi{Simultanitätsbedingung}, d.\,h.\ deren Überprüfung, scheint jedoch sehr aufwändig zu sein und nicht effektiv den Suchraum zu verkleinern.} Rambow kann zeigen, dass das Parsen mit jeder (fixierten) V-TAG polynomielle Zeitkomplexität hat \citep[120ff]{Rambow:94}, während das für NL-MCTAG\is{Multi-Component TAG (MCTAG)!nichtlokale (NL-MCTAG)} mit \isi{Simultanitätsbedingung} nicht gilt \citep{Rambow:Satta:92,Champollion:11a}.
 \largerpage% 
 
@@ -124,7 +127,7 @@ Durch das Fehlen der Simultanitätsbedingung ist au\ss erdem die derivationelle 
 $\mathit{NP}_2$ $V1_1$ $\mathit{NP}_2$ $\mathit{NP}_1$ $V_2$ $V_1$ \\
 \citep[42]{Rambow:94} \label{ex-vtag-1}
 
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
 \includegraphics{graphics/abb66.pdf}
 \caption{V-TAG-Baummengen für die Derivation des Satzes in \ref{ex-vtag-1}\label{fig-vtag-1}}
@@ -132,7 +135,7 @@ $\mathit{NP}_2$ $V1_1$ $\mathit{NP}_2$ $\mathit{NP}_1$ $V_2$ $V_1$ \\
 Dabei muss nämlich der Hilfsbaum mit NP\subnom-Blatt direkt an den Baum von {\it hat versucht} adjungieren, was klar der \isi{Simultanitätsbedingung} widerspricht.
 
 Ebenfalls positiv wirkt sich dieser Zugewinn an derivationeller Mächtigkeit\is{derivationelle Mächtigkeit} beim Entwurf der Baummengen für die indizierten Sprache $\scrind$ aus. Hierfür genügen nämlich die beiden Baummengen in Abbildung~\ref{fig-vtag-2}, da Elemente aus einer Baummenge untereinander verknüpft werden können.  
-\begin{figure}[t]
+\begin{figure} 
 \centering
 \includegraphics{graphics/abb67.pdf}
 \caption{V-TAG-Baummengen für die indizierte Sprache $\scrind$\label{fig-vtag-2}}
@@ -141,7 +144,7 @@ Die gestrichelten Pfeile stehen hier für Dominanzlinks\is{Dominanzlink}, die im
 
 Aus valenztheoretischer Perspektive -- die Baummengen in Abbildung~\ref{fig-vtag-1} und Abbildung~\ref{fig-vtag-2} haben es exemplarisch gezeigt -- gewinnt man den Eindruck, dass es ohne \isi{Simultanitätsbedingung} leichter fällt, Valenzrahmen in Baummengen aufzutrennen. Dagegen eignen sich simultane MCTAG wie die Weir'sche Varianten, aber auch SN-MCTAG\is{TL-MCTAG with Shared Nodes (SN-MCTAG)} (siehe Abschnitt~\ref{sec-snmctag}), besser für Bewegungsanalysen\is{Bewegung}, bei denen der Valenzrahmen im Normalfall durch einzelne Elementarbäume repräsentiert wird. Wenn aber die Elementarbaummenge und nicht mehr der Elementarbaum den Bereich definiert, in dem Valenzbeziehungen zum Ausdruck kommen, dann müssen die Wohlgeformtheitsprinzipien\is{Wohlgeformtheitsprinzip} mit Valenzbezug dem angepasst werden. Rambow bezieht sich hier allerdings auf die Wohlgeformtheitsprinzipien in \cite{Frank:92}, worin noch kein $\theta$-Kriterium \`a la \ref{ex-cetm} zu finden ist,\footnote{Stattdessen gibt es ein "`Projection Principle"' \citep[56]{Frank:92}.} definiert ein $\theta$-Kriterium für V-TAG\is{Wohlgeformtheitsprinzip!theta-Kriterium für V-TAG@$\theta$-Kriterium für V-TAG}\footnote{"`The $\theta$-Criterion (V-TAG version): frontier nonterminal nodes in a lexical set are assigned $\theta$-roles by its lexcial head. Furthermore, all $\theta$-roles of the head are discharged in this manner."' \citep[148]{Rambow:94}} und vermengt es mit Franks CETM. Das Ergebnis sieht folgenderma\ss en aus:\is{Wohlgeformtheitsprinzip!CETM für V-TAG}
     
-\ex. The {\bf Condition on Elementary Tree Minimality} (V-TAG version, final): every lexical set contains exactly one lexical head. There is a bijection between $\theta$-roles the head assigns and the frontier nonterminal nodes of the set. \citep[149]{Rambow:94} \label{ex-vtag-cetm}
+\ex. The {\bf Condition on Elementary Tree Minimality} (V-TAG version, final): every lexical set contains exactly one lexical head. There is a bijection between $\theta$-roles the head assigns and the frontier nonterminal nodes of the set. \citep[149]{Rambow:94} \label{ex-vtag-cetm6}
 
 Es fällt zunächst auf, dass der explizite Bezug zur erweiterten Projektion\is{erweiterte Projektion}, der im ursprünglichen CETM in \cite{Frank:92,Frank:02} zentral ist, in dieser Version des CETM fehlt. Er verbirgt sich allerdings hinter der ersten Klausel "`every lexical set contains exactly one lexical head"'. Der lexikalische Kopf bestimmt nämlich durch Merkmalsprojektion (geregelt durch das "`Head Feature Principle"' \citealt[141f]{Rambow:94}) die Knoten-Label der Projektion. Hinzu kommt noch ein weiteres Prinzip, das die Struktur der Elementarbaummenge einschränkt ("`lexical set structure principle"', \citealt[149]{Rambow:94}). Demnach soll z.\,B.\ jedes $\theta$-markierte, nicht-terminale Blatt einen eigenen Elementarbaum bilden, indem dieses mit einer Projektionskante kombiniert wird (wie in Abbildung~\ref{fig-vtag-1}). Auf die Details dieser strukturellen Regelungen möchte ich aber hier nicht weiter eingehen. Wichtig für uns ist die zweite Klausel aus Rambows CETM, die im Grunde eine angepasste Form des $\theta$-Kriteriums aus \ref{ex-theta-criterion} darstellt. Klärungsbedürftig ist allerdings die Bedeutung des Ausdrucks "`frontier nonterminal nodes of the set"', denn die Baummengen in Abbildung~\ref{fig-vtag-1} und \ref{fig-vtag-2} besitzen mehr nicht-terminale Blätter als $\theta$-Markierungen\is{theta-Markierung@$\theta$-Markierung}, was zwingend aus der Auf"|teilung des $\theta$-Rasters auf unterschiedliche Elementarbäume innerhalb einer Baummenge folgt. Tatsächlich sind nur diejenigen nicht-terminalen Blätter $\theta$-markiert, die nicht Ausgangspunkt eines Dominanzlinks\is{Dominanzlink} sind.\footnote{"`the frontier nodes are the nonterminals [\ldots] in which no dominance links originate"' \citep[148, Fußnote~14]{Rambow:94}.} Das hei\ss t im Umkehrschluss, dass alle nicht-terminalen Knoten, die nicht $\theta$-markiert sind, einen ausgehenden Dominanzlink haben müssen.  
 
@@ -150,20 +153,22 @@ Mit V-TAG steht ein mächtiges Werkzeug für die Modellierung von kohärenten Ko
 
 
 \subsection{DTG} \label{sec-dtg}\is{D-Tree Grammar (DTG)|(}
-
+\largerpage
 D-Tree Grammar (DTG, \citealt{Rambow:etal:95}) steht für den Versuch, zwei Unzulänglichkeiten des TAG-Kernformalismus zu überwinden: (i) die eingeschränkte \isi{derivationelle Mächtigkeit} bei Diskontinuitätsphänomenen und (ii) die Diskrepanz zwischen \isi{Ableitungsbaum} und \isi{Dependenzgraph} (siehe S.~\pageref{sec-ableitungsbaum}). In diesem Abschnitt werde ich nur auf den ersten Punkt eingehen.\footnote{Eine ausführlichere Formalisierung der DTG als Baumbeschreibungensgrammatik (in Anlehnung an \citealt{Vijay-Shanker:92}) liefern \cite{Rambow:etal:01} nach, wobei sie im Vergleich zu \cite{Rambow:etal:95} umfassende terminologische Änderungen vornehmen. Die DTG hei\ss t dort D-Tree Substitution Grammar (DSG), die Verknüpfungsoperation bei Komplementation wird "`generalized substitution"' genannt, die durch "`path constraints"' kontrolliert wird. Ich bleibe hier der Terminologie aus \cite{Rambow:etal:95} treu. Ein schwerwiegender Unterschied zwischen DTG und DSG könnte darin bestehen, dass DTG nur baumförmige D-Trees zulässt, DSG dagegen auch nicht-baumförmige D-Trees. Eine Alternative zur DTG bzw.\ DSG schlägt \cite{Kallmeyer:01} mit der Local Tree Descritption Grammar (TDG) vor, vornehmlich unter dem Gesichtspunkt der Diskontinuitätsmodellierung. Da die konzeptuellen Unterschiede zwischen DTG und TDG marginal sind (siehe \citealt[118]{Rambow:etal:01}), möchte ich auf die TDG an dieser Stelle nicht weiter eingehen.}
 
 Eine DTG besteht nicht aus Elementarbäumen im herkömmlichen Sinn, sondern aus sogenannten \textsc{D-Trees}. D-Trees besitzen nicht nur Kanten für unmittelbare Dominanz, sogenannte i-Kanten ("`i-edges"'), sondern auch d-Kanten ("`d-edges"'), d.\,h.\ Kanten, die ein unterspezifiziertes Dominanzverhältnis ausdrücken. Mittels dieser d-Kanten können die Elementarbäume aufgebrochen werden und Fragmente anderer D-Trees intervenieren. Für die Modellierung des Beispielsatzes in \ref{ex-vtag-1}, hier nochmal wiederholt als \ref{ex-dtg-1}, können beispielsweise die D-Trees in Abbildung \ref{fig-dtg-1} herangezogen werden: 
 
 \ex. {Dieses Buch} hat {den Kindern} niemand {zu geben} versucht. \label{ex-dtg-1}
 
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb68.pdf}
 \caption{\label{fig-dtg-1}D-Trees für die Derivation von \ref{ex-dtg-1}}
 \end{figure}
+
+\largerpage
 Die d-Kanten, die hier gestrichelt dargestellt werden, verbinden sogenannte D-Tree-Kompo\-nenten, d.\,h.\ Teilbäume mit i-Kanten. Um D-Trees zu verknüpfen, entwerfen \cite{Rambow:etal:95} eine spezielle Verknüpfungsoperation: die \textsc{Subsertion}.\footnote{In \cite{Rambow:etal:01} wird die Subsertion in "`generalized substitution"' umbenannt.} Dabei handelt es sich um eine zweiteilige Operation aus klassischer Substitution und "`insertion"', d.\,h.\ dem Einfügen von D-Tree-Komponenten in d-Kanten. Der Unterschied ist schematisch in Abbildung \ref{fig-dtg-3} veranschaulicht. Während die $\alpha_2$-Komponente ein Blatt der $\beta_2$-Komponente substituiert, wird die dominierende $\alpha_1$-Komponente in die d-Kante des $\beta$-Baums eingesetzt. 
-\begin{figure}
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb69.pdf}
 \caption{\label{fig-dtg-3}Schema der Subsertion}
@@ -177,13 +182,13 @@ Neben der Subsertion kann bei der D-Tree-Verknüpfung in Fällen der Modifikatio
 
 Die Subsertion von D-Trees ist so ausdrucksstark, dass damit sogar die \isi{MIX-Sprache} generiert werden kann \citep[Abb.~13]{Rambow:etal:01}, was auch die Möglichkeit zur Generierung von $\scrind$\is{indizierte Scramblingsprache ($\scrind$)} einschlie\ss t. Um diesen potenten Mechanismus zu kontrollieren, stellen \cite{Rambow:etal:95} zwei Beschränkungswege zur Verfügung: Zum einen soll nur genau ein Wurzelknoten einer D-Tree-Komponente substituierbar ("`substitutable"') sein, um baumförmige Ableitungsgraphen zu erhalten und das Zustandekommen mehrerer Valenzbeziehungen zwischen zwei Elementen zu verhindern; zum anderen kann man "`subsertion-insertion constraints"' (SIC) auf den d-Kanten definieren. Eine SIC für eine d-Kante $\langle v_1,v_2 \rangle$ eines D-Trees $\gamma$ spezifiziert, welche Knoten anderer D-Trees nicht auf dem Dominanzpfad zwischen $v_1$ und $v_2$ liegen dürfen.\footnote{\cite{Rambow:etal:01} nennen die SICs deswegen auch viel treffender "`path constraints"'.} Nur dadurch ist die Lokalität der D-Tree-Komponenten im abgeleiteten Baum expressis verbis eingrenzbar.
 
+\largerpage
 DTG erinnert stark an V-TAG. Die Ähnlichkeit zwischen den D-Trees in Abbildung \ref{fig-dtg-1} und den V-TAG-Baummengen in Abbildung \ref{fig-vtag-1} für die Modellierung der kohärenten Konstruktion in \ref{ex-dtg-1} ist frappierend. Beide Formalismen verwenden in unterschiedlicher aber entsprechender Weise unterspezifizierte Dominanzrelation, deren Einschränkung spezifisch für jede einzelne Elementarstruktur durch einen zusätzlichen Mechanismus (SIC hier, Integrity Constraints\is{Integrity Constraint} dort) zu erfolgen hat. In dieser Hinsicht greift bei DTG also derselbe Kritikpunkt, der oben bei der Darstellung von V-TAG genannt wurde: Die Lokalität syntaktischer Beziehungen folgt nicht mehr aus der Form der Elementarstrukturen und den Verknüpfungsoperationen, sondern muss explizit stipuliert werden.  
 \is{D-Tree Grammar (DTG)|)}
 
 
 \subsection{SegTAG}\is{Segmented TAG (SegTAG)|(}
-
-\largerpage%
+ 
 Segmented Tree Adjoining Grammar (SegTAG) ist eine TAG-Erweiterung, die \cite{Kulick:00} in erster Linie zur Analyse des Clitic Climbings in romanischen Sprachen und zur Analyse des Scramblings in kohärenten Konstruktionen des Deutschen einsetzt. Motiviert wird SegTAG jedoch auch mit bestimmten Phänomenen bei Subjekt-Anhebung im Englischen, die sowohl für TAG als auch für TL-MCTAG (in einem CP-IP-Strukturparadigma) problematisch sind. Wir beschränken uns hier auf den Kohärenz-Teil dieser Arbeit.
 
 Im Unterschied zu TAG können die Hilfsbäume in SegTAG aus zwei Teilbäumen: (i) einem rekursiven Teilbaum zwischen Fuß\-knoten und kategoriegleichem Innenknoten ("`source recursive subtree"'), der die Form eines gewöhnlichen TAG-Hilfs\-baums hat, und (ii) einem top-Teilbaum ("`source top"'), dessen Wurzelknoten den Wurzelknoten des rekursiven Teilbaums dominiert. In Abbildung~\ref{fig-segmented-adj} is $\beta_2$ der rekursive Teilbaum und $\beta_1$ der dominierende Teilbaum.\footnote{Die Knotenlabel der Wurzelknoten des top-Teilbaums und des rekursiven Teilbaums müssen tatsächlich verschieden sein, damit der top-Teilbaum nicht mit einem sogenannten Segment des rekursiven Teilbaums verwechselt wird. Dazu gleich mehr.}\largerpage%  
@@ -203,6 +208,7 @@ Entsprechend der Zweiteilung der Hilfsbäume ist nun auch deren Verknüpfung zwe
 \end{figure} 
  
 Die Frage, warum Kulick die Hilfsbäume teilt und die Identifikationsoperation so und nicht anders definiert, muss man wohl mit Blick auf die angestrebte Konstituentenstruktur beantworten. Kulick orientiert sich hierbei nämlich am CP-IP-Strukturparadigma der erweiterten Projektion\is{erweiterte Projektion}, das auch in Franks CETM implementiert wurde (siehe Abschnitt \ref{sec-tag-ling}). Demzufolge besitzen die von Kulick betrachteten Phänomene (Clitic Climbing, Kohärenz und Subjekt-Anhebung) zwar mehrere IPs (d.\,h.\ Verben), aber nur eine CP (d.\,h.\ nur ein Komplementierer oder nur ein finites Verb). Identifiziert werden also die CP-Teilbäume, während die IP-Teilbäume adjungieren. Dies beschränkt die Identifikation in der Praxis erheblich, da eine CP meist nur aus der Projektion von C besteht und damit die Menge der identifizierten Knoten nur C$'$ und CP umfasst. In der Praxis ist also Anzahl der diskontinuierlichen Teilstrings je Verknüpfung auf maximal 6 beschränkt, was jedoch ausreicht um Satz \ref{ex-schema2-2} adäquat zu analysieren, wie Abbildung~\ref{fig-seg-ling1} verdeutlicht:
+\largerpage
 
 \ex. {Dieses Buch} hat {den Kindern} niemand {zu geben} versucht.\label{ex-schema2-2} \\ 
 (Wiederholung von \ref{ex-schema2}, S.~\pageref{ex-schema2}) 
@@ -217,9 +223,10 @@ Die Frage, warum Kulick die Hilfsbäume teilt und die Identifikationsoperation s
 
 \ex. da\ss \ des Verbrechens der Detektiv den Verdächtigen dem Klienten zu über-\linebreak führen versprochen hat\label{ex-seg-problem} \hfill (Wiederholung von \ref{ex-schema21}, S.~\pageref{ex-schema21})
 
+
 Um dem abzuhelfen, verfügt SegTAG über eine weitere Fähigkeit, die bisher noch nicht erwähnt wurde. Sowohl der Zielbaum als auch der Hilfsbaum können {\it Segmente} inkorporieren, die elementarbaumübergreifend beliebig permutiert (d.\,h.\ verschachtelt) werden können. Elementarbaumbezogen müssen jedoch bestimmte Dominanzverhältnisse gewahrt bleiben. Im Hilfsbaum bilden Segmente diejenigen kleinsten rekursiven Teilstrukturen, die zwar die gleiche Kategorie haben wie der Fu\ss knoten und ihn dominieren, diesen jedoch nicht enthalten.\footnote{Kulick nimmt auch für Initialbäume Segmente an, obwohl dies aus meiner Sicht nicht unbedingt nötig ist. Ihre Funktion ist in den Fällen, in denen der Hilfsbaum keine Segmente besitzt, alleine schon durch unterschiedliche Adjunktionsmöglichkeiten erfasst. Die restlichen Fälle sind mit den Segmenten der Hilfsbäume schon hinreichend erklärt.} In den linguistischen Beispielen sind die Segmente meist IP-Knoten, die wiederum einen IP-Knoten dominieren, und ihre nicht-IP-Kinder. In Abbildung~\ref{fig-seg-ling2} werden sie mittels gestrichelter Kanten angedeutet. Mit dieser Technik ist es auch bei Verbletzt-Sätzen möglich, in einer Verknüpfungsoperation beliebig viele Teilstrings zu erzeugen. Der zuvor problematische Satz \ref{ex-seg-problem} erhält somit die valenzadäquate Analyse in Abbildung~\ref{fig-seg-ling2}.      
 
-\begin{figure}[p] 
+\begin{figure} 
 \centering
 \includegraphics{graphics/abb614.pdf}
 \caption{SegTAG-Analyse für den Satz \ref{ex-seg-problem} mit Segmenten (vgl.\ \citealt[(159), (160)]{Kulick:00})\label{fig-seg-ling2}}
@@ -242,10 +249,8 @@ Als Fazit kann festgehalten werden, dass es Kulick zwar gelingt, eine TAG-Varian
 \subsection{SN-MCTAG}\label{sec-snmctag}\is{TL-MCTAG with Shared Nodes (SN-MCTAG)|(}
 
 Wir haben in Abschnitt~\ref{sec-tag-grenzen-scram} gesehen, dass TL-MCTAG (und auch SL-MCTAG) zwar eine im Vergleich zu TAG erhöhte derivationelle Mächtigkeit besitzt, dass diese jedoch nicht ausreicht, um die indizierte Scrambling-Sprache  $\scrind$ korrekt zu erfassen. Eine Möglichkeit, dem abzuhelfen, besteht darin, eine nichtlokale MCTAG einzusetzen, wie dies etwa \cite{Rambow:94} mit V-TAG und \cite{Gerdes:04} mit TUG tun, wobei jedoch der Einsatz von zusätzlichen Mitteln notwendig wird, um die Lokalitätsdomäne zu reimplementieren. Einen anderen Weg geht deshalb \cite{Kallmeyer:05} mit SN-MCTAG (TL-MCTAG with shared nodes), indem sie die Lokalitätsdomäne von TL-MCTAG\is{Multi-Component TAG (MCTAG)!baumlokale (TL-MCTAG)} so erweitert, dass $\scrind$\is{indizierte Scramblingsprache ($\scrind$)} erfasst werden kann. 
-
-\largerpage%
-Das zentrale Konzept dieser TL-MCTAG-Erweiterung ist das \textsc{Node Sharing}\is{Node Sharing}, dem die folgende Idee zugrunde liegt: Bei \isi{Adjunktion} und \isi{Substitution} wird der Zielknoten nicht vollständig durch einen Hilfsbaum bzw.\ Initialbaum ersetzt, d.\,h.\ er verschwindet nicht einfach, sondern er ist auch nach der Verknüpfung noch im Wurzelknoten und Fu\ss knoten des eingesetzten Hilfsbaums bzw.\ im Wurzelknoten des Initalbaums vorhanden. Der Wurzelknoten und Fu\ss knoten des eingesetzten Hilfsbaums wird also nach der Verknüpfung mit dem Zielbaum geteilt. Diese Idee findet man schon in der Merkmalsunifikation bei (FS)TAG\is{Feature-Structure-based TAG (FTAG)} (siehe Abschnitt~\ref{sec-tag-formalismus}): Bei Adjunktion wird der {\sc top}-Bereich des Zielknotens mit dem {\sc top}-Bereich des Hilfsbaumwurzelknotens und der {\sc bot}-Bereich des Zielknotens mit dem {\sc bot}-Bereich des Hilfsbaumfu\ss knotens unifiziert; bei Substitution unifizieren die {\sc top}-Bereiche des Zielknotens und des Wurzelknoten des eingesetzten Initialbaums. Wenn in SN-MCTAG also eine Baummenge $\Gamma$ mit einem Elementarbaum $\zeta$ verknüpft wird, dann können die Elementarbäume aus $\Gamma$ nicht nur direkt an einem Knoten von $\zeta$ adjungieren, sondern auch an geteilte Knoten von $\zeta$.
-\largerpage%
+ 
+Das zentrale Konzept dieser TL-MCTAG-Erweiterung ist das \textsc{Node Sharing}\is{Node Sharing}, dem die folgende Idee zugrunde liegt: Bei \isi{Adjunktion} und \isi{Substitution} wird der Zielknoten nicht vollständig durch einen Hilfsbaum bzw.\ Initialbaum ersetzt, d.\,h.\ er verschwindet nicht einfach, sondern er ist auch nach der Verknüpfung noch im Wurzelknoten und Fu\ss knoten des eingesetzten Hilfsbaums bzw.\ im Wurzelknoten des Initalbaums vorhanden. Der Wurzelknoten und Fu\ss knoten des eingesetzten Hilfsbaums wird also nach der Verknüpfung mit dem Zielbaum geteilt. Diese Idee findet man schon in der Merkmalsunifikation bei (FS)TAG\is{Feature-Structure-based TAG (FTAG)} (siehe Abschnitt~\ref{sec-tag-formalismus}): Bei Adjunktion wird der {\sc top}-Bereich des Zielknotens mit dem {\sc top}-Bereich des Hilfsbaumwurzelknotens und der {\sc bot}-Bereich des Zielknotens mit dem {\sc bot}-Bereich des Hilfsbaumfu\ss knotens unifiziert; bei Substitution unifizieren die {\sc top}-Bereiche des Zielknotens und des Wurzelknoten des eingesetzten Initialbaums. Wenn in SN-MCTAG also eine Baummenge $\Gamma$ mit einem Elementarbaum $\zeta$ verknüpft wird, dann können die Elementarbäume aus $\Gamma$ nicht nur direkt an einem Knoten von $\zeta$ adjungieren, sondern auch an geteilte Knoten von~$\zeta$. 
 
 Sehen wir uns ein Beispiel an. Mit Node Sharing\is{Node Sharing} ist es möglich, den Satz \ref{ex-seg-problem2}, der mit einer TAG nicht adäquat modellierbar ist, mit den Elementarstrukturen in Abbildung~\ref{fig-snmctag-1} abzuleiten: 
 
@@ -290,7 +295,7 @@ Zusammenfassend lässt sich also sagen, dass die Lokalitätserweiterung mittels 
 
 
 \subsection{TUG}
-
+\largerpage
 Etwas aus dem Rahmen fällt die \isi{Tree Unification Grammar (TUG)}, vorgestellt in \cite{Gerdes:04}. Es handelt sich hierbei um eine Art nicht-lokaler MCTAG\is{Multi-Component TAG (MCTAG)!nichtlokale (NL-MCTAG)}, der als Verknüpfungsoperation eine Form der Baumunifikation ("`unify"') nutzt. TUG dient allerdings primär zur Generierung wohlgeformter topologischer Strukturen. Die Beschränkung der Nicht-Lokalität scheint dagegen in den Aufgabenbereich anderer Grammatikmodule, des Dependenzmoduls und des Semantikmoduls, zu fallen. Leider sind Gerdes Angaben zu diesem Aspekt von TUG lückenhaft. Wie in V-TAG entsprechen die Baummengen Valenzrahmen, das hei\ss t, für die valenztheoretische Vollständigkeit wird bereits auf der topologischen Ebene gesorgt. Gerdes zeigt in seiner Arbeit die Mächtigkeit von TUG anhand von Daten mit partieller VP-Voranstellung, die auch in dieser Arbeit als zentrale Hürde bei der Modellierung kohärenter Konstruktionen wahrgenommen wird. Auf die Details seines Modellierungsansatzes möchte ich aber an dieser Stelle nicht weiter eingehen, gerade weil viele Details unklar sind. TUG wird uns jedoch im Zuge der Vorstellung des STUG-Modells in Kapitel~\ref{ch-ohne-valenz} wiederbegegnen, denn auch \isi{STUG} macht von der \isi{Baumunifikation} Gebrauch (allerdings nicht in der syntaktischen Domäne). 
 
 

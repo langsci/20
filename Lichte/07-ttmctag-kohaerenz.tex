@@ -73,7 +73,7 @@ Baumtupel entsprechen genau einem Valenzrahmen, wobei gilt:
 \a. Der lexikalische Anker im Kopfbaum ist der Valenzträger.
 \b. Es besteht ein bijektives Abbildungsverhältnis zwischen Valenzrollen einerseits und Substitutionsknoten in der Elementarbaummenge bzw.\ Substitutionsknoten und Fu\ss knoten im Kopfbaum andererseits.
 
-Die \isi{Fu\ss knoten} der Argumentbäume\is{Argumentbaum} dienen allein der Verknüpfung und haben keinen Valenzbezug. Es liegt in der Natur der Sache, dass eine gewisse Ähnlichkeit zu Rambows CETM für V-TAG\is{Wohlgeformtheitsprinzip!CETM für V-TAG} (vgl.\ \ref{ex-vtag-cetm}, S.\,\pageref{ex-vtag-cetm}) hinsichtlich der Differenzierung der Fu\ss knoten besteht. Nur greift dort  eine Unterscheidung anhand von relativ willkürlich gesetzten Dominanzlinks, während bei TT-MCTAG die Rolle eines Fu\ss knotens aus der Zugehörigkeit zu einem Argumentbaum oder Kopfbaum folgt.   
+Die \isi{Fu\ss knoten} der Argumentbäume\is{Argumentbaum} dienen allein der Verknüpfung und haben keinen Valenzbezug. Es liegt in der Natur der Sache, dass eine gewisse Ähnlichkeit zu Rambows CETM für V-TAG\is{Wohlgeformtheitsprinzip!CETM für V-TAG} (vgl.\ \ref{ex-vtag-cetm6}, S.\,\pageref{ex-vtag-cetm6}) hinsichtlich der Differenzierung der Fu\ss knoten besteht. Nur greift dort  eine Unterscheidung anhand von relativ willkürlich gesetzten Dominanzlinks, während bei TT-MCTAG die Rolle eines Fu\ss knotens aus der Zugehörigkeit zu einem Argumentbaum oder Kopfbaum folgt.   
 
 Zwei weitere wesentliche Unterschiede zu V-TAG\is{Vector-MCTAG (V-TAG)} bestehen darin, dass bei TT-MCTAG Substitutionsknoten immer Lokalitätsinseln\is{Bewegungsinsel} darstellen, was dazu führt, dass maximal eine \isi{Ergänzung} disjunkt sein kann, nämlich die des Fu\ss knotens im \isi{Kopfbaum}. Dagegen ist bei V-TAG eine beliebige Annotation von Lokalitätsinseln mittels Integrity Constraints\is{Integrity Constraint} möglich und daher auch eine beliebige Anzahl disjunkter Ergänzungen per Valenzrahmen.
 
@@ -91,6 +91,7 @@ Die obligatorischen Argumente befinden sich hier in der ersten Argumentmenge und
 
 Die folgenden Definitionen orientieren sich an denen in \cite{Kallmeyer:05} und \cite{Kallmeyer:09}, wobei die dortigen Definitionen bedingt durch unterschiedliche Zielsetzungen nicht vollständig kongruent sind. Der Zwischenweg, den ich hier gehe, versucht von beiden Ansätzen zu einer möglichst passgenauen, dem Verständnis förderlichen Definitionsvariante zu gelangen. 
 
+\newpage
 Die Definition der Elementarstrukturen von TAG\is{Tree Adjoining Grammar (TAG)} (ohne Verknüpfungsoperationen) kennt keine gro\ss e Variationsbreite und kann direkt aus \cite{Kallmeyer:09} übernommen werden:   
 \begin{definition}[Tree Adjoining Grammar]
 Eine {\it Tree Adjoining Grammar} (TAG) ist ein Tupel $G = \langle N,T,S,I,A,f_{\mathit{OA}},f_{\mathit{SA}} \rangle$, wobei gilt:
@@ -203,6 +204,7 @@ Das topologische Feldermodell verbindet grundlegende Abfolgeregeln des deut\-sch
 
 Dreh- und Angelpunkt des Feldermodells ist die Unterscheidung zwischen den Verben, deren Verbalfelder\is{Verbalfeld} ein \isi{Kohärenzfeld} bilden, und allen anderen unmittelbaren Konstituenten des Satzes, d.\,h.\ Nominalphrasen, Adjektive, Gliedsätze, etc. Die linke \isi{Satzklammer} (LK) und die rechte Satzklammer (RK) werden von den Verben besetzt, während die restlichen Satzglieder über \isi{Vorfeld}, \isi{Mittelfeld} und \isi{Nachfeld} verteilt sind. Wie in Tabelle~\ref{ex-feldermodell} angezeigt, entspricht das Vorfeld, die linke Satzklammer und das Mittelfeld in der Bechschen Terminologie dem \isi{Restfeld} und die rechte Satzklammer dem \isi{Schlussfeld}.\footnote{Zur Bechschen Terminologie siehe Abschnitt \ref{sec-kohaerenz-einf}.} Darüber hinaus gelten \textsc{feldspezifische Besetzungsregeln}: (i) Das Vorfeld wird von maximal einem \isi{Satzglied} besetzt; (ii) die linke Satzklammer enthält nur das finite Verb (exklusive abtrennbaren Verbzusatz) oder einen \isi{Komplementierer}; (iii) die rechte Satzklammer kann finite und infinite Verben enthalten; (iv) das Nachfeld enthält meist Präpositionalphrasen, Nebensätze und Infinitivphrasen, aber auch Adverbial- und Nominalphrasen \citep[Kapitel~13]{Mueller:99}.
 
+\largerpage
 Abhängig von der Position des finiten Verbs werden die Satztypen\is{Satz} V1, V2 und VE unterschieden. Steht das finite Verb satzinitial, ist also das Vorfeld leer, dann liegt V1\is{Satz!V1-} (oder Verberst-Stellung) vor. Ist das Vorfeld besetzt und steht das finite Verb weiterhin in der linken Satzklammer, dann liegt V2\is{Satz!V2-} (oder Verbzweit-Stellung) vor. Während V1 und V2 nur in der Besetzung des Vorfelds voneinander abweichen und das Stellungspezifikum sogennanter Haupsätze darstellen, ist der Satztyp VE\is{Satz!VE-} (mit Verbend- oder Verbletzt-Stellung) bei sogenannten Nebensätzen anzutreffen. Das finite Verb steht hier im Schlussfeld, potentiell flankiert von infiniten Verben, während das Vorfeld leer bleibt und in der linken Satzklammer nur Komplementierer stehen können.\footnote{\cite{Hoehle:86} sieht jeweils eigene Positionen für Komplementierer und vorangestellte finite Verben vor ("`C"' und "`FINIT"'), doch eine Reihe empirischer Belege spricht für eine Besetzung desselben Feldes (siehe \citealt[Abschnitt~2]{Kathol:01}).} 
 
 Das lineare Felderschema kann auf unterschiedlichste Weise in einer hierarchischen \isi{Phrasenstruktur} ausgedrückt werden. Bei den folgenden Analysen werde ich mich weitgehend an das rechtsverzweigende Phrasenstrukturschema\is{Phrasenstruktur!rechtsverzweigende} in Abbildung~\ref{fig-ttmctag-ps-1} halten.\footnote{Bei Analysen der partiellen Voranstellung\is{Voranstellung!partielle} verwende ich aus Ökonomiegründen eine ternäre Struktur unterhalb des Vorfeldknotens. Siehe z.\,B.\ Abbildung~\ref{fig-ttmctag-front}, S.\,\pageref{fig-ttmctag-front}.}
@@ -246,7 +248,7 @@ Im Unterschied zum Vorfeldknoten ist der Mittelfeldknoten so spezifiziert, dass 
 
 Für die Modellierung der Verbletztstellung\is{Satz!VE-}, bei der das finite Verb in der rechten Satzklammer steht und kein Vorfeld existiert, wird das Tupel in Abbildung \ref{fig-ttmctag-v3} verwendet. Es unterscheidet sich folgerichtig nur bezüglich der Form des Kopfbaumes von dem Tupel in Abbildung \ref{fig-ttmctag-v12}.   
 
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb78.pdf}
 \caption{\label{fig-ttmctag-v3}Baumtupel für VE-Sätze}
@@ -254,7 +256,7 @@ Für die Modellierung der Verbletztstellung\is{Satz!VE-}, bei der das finite Ver
 
 Zuletzt möchte ich noch ein Schlaglicht auf die Modellierung der \isi{Komplementierer} von Verbletztsätzen\is{Satz!VE-} werfen, um zu verdeutlichen, warum sie in diesem TT-MCTAG-Ansatz topologisch weder der linken Satzklammer noch dem Vorfeld zuzuordnen sind. Der Komplementierer {\it dass} erhält grob den Elementarbaum in Abbildung~\ref{fig-ttmctag-comp}. Darin sorgt wiederum das binäre Merkmal {\sc vf} dafür, dass kein anderes Satzglied dem Komplementierer vorangestellt wird, während das  Merkmal {\sc stype} die Kombination mit VE-Sätzen sicherstellt.
 
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb79.pdf}
 \caption{\label{fig-ttmctag-comp}Kopfbaum für \emph{dass}-Komplementierer}
@@ -268,7 +270,7 @@ Ich beschränke mich hier auf Verbalkomplexe\is{Verbalkomplex} mit drei Elemente
 %\subsubsection*{Grundstellung}
 
 Die Grundstellung\is{Verbalkomplex!Grundstellung} entspricht dem Rangschema $V_3 V_2 V_1$, wobei $V_1$ für das ranghöchste, potenziell finite Verb und $V_3$ für das rangniedrigste Verb steht. Zur Derivation dieser Grundstellung werden die Elementarbäume in Abbildung \ref{fig-ttmctag-grund} eingesetzt. Die statusregierenden Verben werden als Hilfsbäume repräsentiert, in deren Fu\ss knoten der Status des regierten Verbs mittels des Merkmals {\sc stat(us)} spezifiziert ist. Die Spezifizierung des jeweils eigenen Status findet dagegen im Wurzelknoten platz. %Man beachte, dass hier angepasste {\sc stat}-Werte zu sehen sind, die sich von denen in der konkreten Grammatikimplementierung unterscheiden.
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb710.pdf}
 \caption{\label{fig-ttmctag-grund}Kopfbäume für die Grundstellung im Verbalkomplex}
@@ -278,7 +280,8 @@ Die Grundstellung\is{Verbalkomplex!Grundstellung} entspricht dem Rangschema $V_3
 %\subsubsection*{Oberfeldumstellung}
 \is{Verbalkomplex!Oberfeldumstellung|(}
 
-Für die Derivation der Oberfeldumstellung $V_1 V_3 V_2$  müssen zwei Änderungen an den Elementarbäumen in Abbildung~\ref{fig-ttmctag-grund} vorgenommen werden: (i) der Fuß\-knoten des $V_1$-Baums muss rechtsperipher liegen, da sich das statusregierte Verb rechts von $V_1$ befindet; (ii) ein binäres Merkmal {\sc of} ist notwendig, um die Mindestgrö\ss e des Unterfelds\is{Verbalkomplex!Unterfeld} von zwei Verben wahren zu helfen. Beide Änderungen ergeben für die Derivation der Oberfeldumstellung die Elementarbäume in Abbildung~\ref{fig-ttmctag-ober}. Würde hier der $V_1$-Baum direkt am $V_3$-Baum adjungieren, dann würde das zu einem Konflikt der jeweiligen \textsc{of}-Merkmale führen (abgesehen vom Konflikt der \textsc{stat}-Merkmale). Erst der intervenierende $V_2$-Baum trägt ein kompatibles \textsc{of}-Merkmal.\footnote{Das {\sc of}-Merkmal entspricht dem \textsc{puf}-Merkmal in der HPSG-Analyse\is{Head-driven Phrase Structure Grammar (HPSG)} von \citet[201]{Meurers:99}. Zum \textsc{flip}-Merkmal bei \cite{Hinrichs:Nakazawa:94} besteht zwar auch eine gewisse funktionale Ähnlichkeit, aber anders als das \textsc{flip}-Merkmal löst das \textsc{of}-Merkmal die Oberfeldumstellung nicht direkt aus. Siehe \citet[201]{Meurers:99} für eine Gegenüberstellung von \textsc{flip} und \textsc{puf}.}   
+Für die Derivation der Oberfeldumstellung $V_1 V_3 V_2$  müssen zwei Änderungen an den Elementarbäumen in Abbildung~\ref{fig-ttmctag-grund} vorgenommen werden: (i) der Fuß\-knoten des $V_1$-Baums muss rechtsperipher liegen, da sich das statusregierte Verb rechts von $V_1$ befindet; (ii) ein binäres Merkmal {\sc of} ist notwendig, um die Mindestgrö\ss e des Unterfelds\is{Verbalkomplex!Unterfeld} von zwei Verben wahren zu helfen. Beide Änderungen ergeben für die Derivation der Oberfeldumstellung die Elementarbäume in Abbildung~\ref{fig-ttmctag-ober}. Würde hier der $V_1$-Baum direkt am $V_3$-Baum adjungieren, dann würde das zu einem Konflikt der jeweiligen \textsc{of}-Merkmale führen (abgesehen vom Konflikt der \textsc{stat}-Merkmale). Erst der intervenierende $V_2$-Baum trägt ein kompatibles \textsc{of}-Merkmal.\footnote{%
+Das {\sc of}-Merkmal entspricht dem \textsc{puf}-Merkmal in der HPSG-Analyse\is{Head-driven Phrase Structure Grammar (HPSG)} von \citet[201]{Meurers:99}. Zum \textsc{flip}-Merkmal bei \cite{Hinrichs:Nakazawa:94} besteht zwar auch eine gewisse funktionale Ähnlichkeit, aber anders als das \textsc{flip}-Merkmal löst das \textsc{of}-Merkmal die Oberfeldumstellung nicht direkt aus. Siehe \citet[201]{Meurers:99} für eine Gegenüberstellung von \textsc{flip} und \textsc{puf}.}   
 
 \begin{figure}[t]
 \centering
@@ -294,7 +297,7 @@ Eine Verbalstellung wie $V_2 V_4 V_3 V_1$, in der die Oberfeldumstellung $V_2 V_
 
 %\subsubsection*{Zwischenstellung}
 \is{Verbalkomplex!Zwischenstellung}
-
+\largerpage[-1]
 Das wesentliche Merkmal der Zwischenstellung $V_3 V_1 V_2$ ist die lineare Einbettung eines ranghöheren Verbs zwischen rangniedrigeren Verben. Wenn entsprechend der Hilfsbaum von $V_2$ an $V_3$ und der Hilfsbaum von $V_1$ wiederum an $V_2$ adungieren soll, ist im Hilfsbaum von $V_2$ der Abbildungen~\ref{fig-ttmctag-grund} und~\ref{fig-ttmctag-ober} ein Präterminal ohne NA-Beschränkung\is{Adjunktionsbeschränkung} notwendig. Diese Anpassung ist in Abbildung~\ref{fig-ttmctag-zwisch} vorgenommen. $V_1$ kann nun alternativ an dem Knoten mit Gorn-Adresse 2 adjungiern und so die Zwischenstellung erzeugen. In diesem Knoten enthält das {\sc bottom}-Merkmal {\sc stat} den Status von $V_2$. Die Spezifizierung der Merkmalsidentität mittels \svar{3} dient hier dazu, die Adjunktion eines weiteren $V_1$-Verbs am Wurzelknoten von $V_2$ auszuschlie\ss en: Adjungiert $V_1$ am unteren Knoten, so kann keine weitere Instanz von $V_1$ am Wurzelknoten adjungieren (und vice versa), da es andernfalls zu einem Merkmalskonflikt bei {\sc stat} kommt.          
 
 \begin{figure}[t]
@@ -438,10 +441,11 @@ Der Kopfbaum des {\it versucht}-Tupels in Abbildung~\ref{fig-ttmctag-koh1} läss
 % \b. dass den Kühlschrank Peter zu reparieren versucht hat.
 
 
-\subsubsection*{3.~Konstruktion}\is{kohärente Konstruktion!3.~Konstruktion|(}
-
+\subsubsection*{3.~Konstruktion}\is{kohärente Konstruktion!3.~Konstruktion|(} 
 Die Herausforderung der 3.~Konstruktion besteht in dem Nebeneinander von kohärenten und inkohärenten topologischen Bereichen bei zwei Verbfeldern $V^i$, $V^{i+1}$: der inkohärente Bereich ist zwar für die Bestandteile von $V^{i+1}$ zugänglich, aber die Bestandteile des regierenden Verbalfeldes $V^i$ sind hiervon ausgeschlossen; zum anderen gibt es kohärente Bereiche, zu denen die Bestandteile beider Verbalfelder prinzipiell gleicherma\ss en Zugang haben. Deutlich wird dies an den Beispielen in \ref{ex-ttmctag-extra}. Die Ergänzung {\it den Kühlschrank} des extraponierten regierten Verbs {\it zu reparieren} kann zwar sowohl im Mittelfeld der extraponierten VP als auch im Mittelfeld des Matrixsatzes platziert werden, wie \ref{ex-ttmctag-extra-a} und \ref{ex-ttmctag-extra-b} zeigen, die \isi{Extraposition} der Ergänzung des ranghöheren Finitums {\it Peter} zusammen \textit{zu reparieren} ist dagegen unzulässig (vgl.\ \ref{ex-ttmctag-extra-c}): 
 
+
+\largerpage
 \ex. \label{ex-ttmctag-extra}
 \a. dass Peter den Kühlschrank versucht, zu reparieren. \label{ex-ttmctag-extra-a}
 \b. dass Peter versucht, den Kühlschrank zu reparieren. \label{ex-ttmctag-extra-b}
@@ -585,6 +589,7 @@ Die Eigenart des TT-MCTAG-Ansatzes, für jede Abweichung von einem vermeintliche
 \includegraphics{graphics/abb721.pdf}
 \caption{\label{fig-ttmctag-ersatzzu-2}Kopfbaum für {\it haben} im Oberfeld}
 \end{figure}
+\largerpage
 Statt einer konkreten Statusspezifizierung wie in Abbildung~\ref{fig-ttmctag-ersatzzu} ist hier nur eine Identität zwischen dem regierten Status und dem Status des Verbalkomplexes\is{Verbalkomplex} spezifiziert. Au\ss erdem ist dieser {\it haben}-Elementarbaum weiterhin nur auf Verbalkomplexe mit Ersatzinfinitiv-Beteiligung anwendbar. Dadurch wird tatsächlich nicht nur die Durchlässigkeit für den Ersatzinfinitiv-Status in \ref{ex-ttmctag-zuersatz-3} erfasst, sondern auch die  Nichtverfügbarkeit der Oberfeldumstellung bei einem Fehlen des Ersatzinfinitivs, vgl.\ \ref{ex-ttmctag-zuersatz-2}:
 
 \ex. \label{ex-ttmctag-zuersatz-3}
@@ -784,6 +789,7 @@ Gemä\ss\ des Phrasenstrukturprinzips\is{Wohlgeformtheitsprinzip!Phrasenstruktur
 \caption{\label{fig-ttmctag-grenzen-4}{\it versucht}-Kopfbaum für die Ableitung der partiellen Voranstellung in \ref{ex-ttmctag-grenzen-2}, wobei eine Tree-Sharing-Lokalität benötigt wird}
 \end{figure} 
 
+\newpage
 Für die Erfassung des zweiten Grenzfalls sind die folgenden Anpassungsoptionen erfolgversprechend: (i) Erweiterung der Node-Sharing-Lokalität\is{Node Sharing}, (ii) Lockerung des Valenzprinzips\is{Wohlgeformtheitsprinzip!Valenzprinzip für TT-MCTAG} und (iii) Gebrauch einer linksverzweigenden Phrasenstruktur\is{Phrasenstruktur!linksverzweigende}. Anders als beim ersten Grenzfall erweist sich hier jedoch eine Spine-Sharing-Lokalität\is{Spine Sharing} als unzureichend, da der Mittelfeldknoten bei der Voranstellung nicht auf dem Pfad zwischen Wurzel- und Fu\ss knoten liegt. Um den Mittelfeldknoten erreichbar zu machen, bietet es sich an, die Spine-Sharing-Lokalität zu einer \textsc{Tree-Sharing-Lokalität}\is{Tree Sharing} auszuweiten, d.\,h.\ alle Knoten eines adjungierenden Hilfsbaums in das Sharing-Verhältnis einzubeziehen. Damit könnte der {\it versucht}-Kopfbaum in Abbildung~\ref{fig-ttmctag-grenzen-4} beibehalten werden. Allerdings reicht auch die Spine-Sharing-Lokalität aus, wenn stattdessen die Kopfbäume in Abbildung \ref{fig-ttmctag-grenzen-ii-3} verwendet werden. Hier geht die Voranstellung vom infiniten Verb aus, nicht vom Finitum, welches in der Standardform für V1/V2-Satztypen realisiert wird (vgl.\ Abbildung~\ref{fig-ttmctag-koh1}, S.\,\pageref{fig-ttmctag-koh1}).  
 
 \begin{figure}[t]
@@ -988,7 +994,7 @@ V-TAG wurde bereits informell in Abschnitt \ref{sec-tag-varianten-vtag} eingefü
 Hinzu kommt das Valenzprinzip für V-TAG, das Rambow (für uns etwas irreführend) CETM\is{Wohlgeformtheitsprinzip!CETM für V-TAG} nennt:    
 
 \ex. The {\bf Condition on Elementary Tree Minimality} (V-TAG version, final): every lexical set contains exactly one lexical head. There is a bijection between $\theta$-roles the head assigns and the frontier nonterminal nodes of the set. \hfill
-\citep[149]{Rambow:94} \label{ex-vtag-cetm}
+\citep[149]{Rambow:94} \label{ex-vtag-cetm7}
 
 Rambows CETM lässt sich unter Verwendung der vertrauten Terminologie als Valenzprinzip für V-TAG\is{Wohlgeformtheitsprinzip!Valenzprinzip für V-TAG} reformulieren:
 
@@ -1160,6 +1166,7 @@ Dieser ist mit seinen drei Zuständen natürlich grob vereinfacht und erfasst ge
 
 AP, NP, VP und V$_{\mathit{fin}}$ habe ich gerade als Kategoriebezeichnungen geführt. Es sind aber tatsächlich Knotenlabel. Die Eingabe für den endlichen Automaten\is{endlicher Automat}, der per Knotenlabel an den Knoten $v$ eines abgeleiteten Baums geknüpft ist, bildet die Konkatenation derjenigen Knotenlabel, die unmittelbar von $v$ dominiert werden. Wir definieren dafür die Funktion $\mathit{idom}$, die einen Knoten auf eine Knotenlabelkonkatenation abbildet. Für jeden Knoten $v$ eines wohlgeformten abgeleiteten Baums soll dann gelten: $\mathit{idom}(v) \in L(\mathit{fsa}(l_V(v)))$, wobei $l_V$ die Labelfunktion über Knoten ist, d.\,h.\ $l_V (v)$ ist das Label von $v$.   
  
+\largerpage
 Die Verwendung endlicher Automaten\is{endlicher Automat} bei der Modellierung der Syntax natürlicher Sprache ist unüblich.\footnote{Gemeint ist hier nicht der Parser für solche Syntaxmodelle. Manche TAG-Parser\is{Parsing} verwenden sehr wohl endliche Automaten\is{endlicher Automat} für bestimmte Teilaspekte, z.\,B.\ zur internen Repräsentation von Baumschablonen und Elementarbäumen \citep{Nasr:Rambow:04} oder zur lexikalischen Disambiguierung vor dem eigentlichen Parsen \citep{Gardent:etal:14}. Dank an Owen Rambow für den Hinweis!} Ein Grund dafür liegt sicherlich in deren unzulänglicher Ausdrucksstärke, die nur die Generierung von regulären Sprachen zulässt. Doch auch die in \cite{Woods:70} vorgeschlagenen Varianten, die Recursive Transition Networks\is{Recursive Transition Network (RTN)} für die Generierung kontextfreier Sprachen und die Augmented Transition Networks\is{Augmented Transition Network (ATN)} mit einer der \isi{Transformationsgrammatik} entsprechenden Ausdrucksstärke, genie\ss en heutzutage bestenfalls den Status historischer Fu\ss noten. In der vorliegenden Arbeit dienen endliche Automaten\is{endlicher Automat} zur Modellierung eines bestimmten Teilbereichs der Syntax, nämlich der \isi{Linearisierung} von nicht-terminalen Schwesterknoten. Erstaunlicherweise trifft man selbst auf solche im syntaktischen Modell eingebettete endliche Automaten nur überaus selten.\footnote{Eine Arbeit dieser Art ist z.\,B.\ \cite{Maxwell:Manning:96}, wo im Rahmen einer LFG\is{Lexical-Functional Grammar (LFG)} endliche Automaten für die Repräsentation der rechten Seite einer c-Struktur-Regel genutzt werden, um bei der Modellierung der Konstituentenkoordination von der konkreten morphosyntaktischen Form der Konjunkte abstrahieren zu können.} Angesichts der oben erwähnten Vorteile, nämlich Kompaktheit und Transparenz, erscheint mir diese Ignoranz als ungerechtfertigt.
 
 Zum Schluss möchte ich noch auf einen anderen, sehr interessanten Aspekt von Spinal-TT-MCTAG hinweisen: Es scheint hier ein inkrementeller Grammatikformalismus\is{Inkrementalität} vorzuliegen, dessen Derivationen der "`full connectivity"' \citep{Sturt:Lombardo:05} bzw.\ "`strong connectivity"' \citep{Stabler:94} genügen. Das bedeutet, dass für jedes Präfix einer Eingabe eine (unfertige) zusammenhängende syntaktische Repräsentation generiert werden kann. Damit würde Spinal-TT-MCTAG zu den inkrementellen TAG-Versionen wie DVTAG \citep{Mazzei:etal:07} und PLTAG \citep{Demberg:Keller:08, Demberg:10} zählen. 

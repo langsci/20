@@ -70,15 +70,15 @@ Statt atomarer Knotenlabels benutzt man insbesondere bei Grammatiken mit großer
 \caption{Schema der Merkmalsunifikation bei Substitution\label{fig-tag-merkmal-1}}
 \end{figure}    
 Das Verfahren bei \isi{Adjunktion} ist etwas komplizierter. Hier werden die {\sc top}-Merkmale des Wurzelknotens des Hilfsbaums mit den {\sc top}-Merkmalen des Zielknotens unifiziert, und die {\sc bot}-Merkmale des Fu\ss knotens mit den {\sc bot}-Merkmalen des Zielknotens. Schematisch ist dies in Abbildung~\ref{fig-tag-merkmal-2} dargestellt.
-\begin{figure}[t]
+\begin{figure}[p] %anderenfalls Fußnotenumbruchprobleme
 \centering
 \includegraphics{graphics/abb54.pdf}
 \caption{Schema der Merkmalsunifikation bei Adjunktion\label{fig-tag-merkmal-2}}
 \end{figure}    
 Nachdem die Verknüpfung der Elementarbäume abgeschlossen ist, werden zuletzt die {\sc top}-Merkmale und {\sc bot}"=Merkmale aller Knoten im abgeleiteten Baum unifiziert. 
-
+ 
 Eine abweichende Form der Elementarstrukturen findet man in den TAG"=Varianten, die als \textsc{MCTAG}\is{Multi-Component TAG (MCTAG)} (Multi-Component TAG) bezeichnet und bereits bei \cite{Joshi:etal:75} als "`simultaneous TAG"' eingeführt werden. Die Elementarstrukturen können hier aus mehreren Elementarbäumen bestehen und beispielsweise Elementarbaummengen bilden. Eine Anwendung finden solche Elementarbaummengen  etwa bei der Simulation von Bewegungsanalysen\is{Bewegung} wie in Abbildung~\ref{fig-mctag-bsp}. Dort sind die \textit{wh}-bewegte NP und deren Spur in einer Elementarbaummenge gebündelt und können an unterschiedlichen Stellen im Zielbaum eingesetzt werden.  
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb55.pdf}
 \caption{\label{fig-mctag-bsp}Beispiel einer Elementarbaummenge für \textit{wh}-Bewegung, die mit dem {\it repaired}-Elementarbaum verknüpft wird}
@@ -97,6 +97,7 @@ Aus \ref{ex-shieber85-1} lässt sich übrigens leicht ein VE-Satz\is{Satz!VE-} d
 
 \ex. dass wir das Haus$^2$ dem Hans$^1$ anstreichen$^2$ helfen$^1$
 
+\newpage
 Da die vollständige Klasse der kontextsensitiven Sprachen weit über das erforderliche Ma\ss \ an Ausdrucksstärke hinausgeht und zudem eine zu hohe Verabeitungskomplexität aufweist, d.\,h.\ nicht polynomiell parsbar\is{polynomielle Parsebarkeit} ist, steht der Begriff der schwachen Kontextsensitivität für den Versuch, den für natürliche Sprachen nötigen Teilbereich innerhalb der polynomiell parsbaren Sprachen exakt zu definieren.  Einstweilen erfüllt eine schwach kontextsensitive Grammatik die folgenden Kriterien:\footnote{Als Kandidat für ein weiteres MCS-Kriterium wurde in letzter Zeit die Erzeugung von ausschlie\ss lich wohl-eingebetteten Abhängigkeiten diskutiert (siehe z.\,B.\ \citealt{Kuhlmann:Moehl:07, Kanazawa:09, Moennich:10}). Im Unterschied zur Erzeugung kreuzender Abhängigkeiten ist dies allerdings als Obergrenze der Ausdrucksstärke zu verstehen, d.\,h.\ nicht-wohleingebettete Strukturen sollen nicht erzeugt werden.}
 
 \ex. \label{ex-kriterien-mcs} {\bf Kriterien der schwachen Kontextsensitivtät (MCS):}
@@ -175,7 +176,7 @@ The syntactic heads in an elementary tree and their projections must form the ex
 
 Das hei\ss t zunächst einmal, dass ein Elementarbaum mindestens den lexikalischen Kopf bzw.\ den lexikalischen Anker und seine \isi{Projektion} enthält. Die Projektion eines lexikalischen Kopfs\is{Kopf} ist hier im Sinne des X-bar-Schemas\is{X-bar-Schema} \citep{Chomsky:70} zu verstehen, nämlich im Elementarbaum als Dominanzpfad über dem lexikalischen Kopf, für den gelten soll: Die morphosyntaktische Kategorie des lexikalischen Kopfs und der Knoten des Dominanzpfads sind im Wesentlichen identisch, abgesehen von der Annotation der Komplexitätsebene mit Strichen und dem Postfix P (für "`phrase"').\footnote{Zum X-bar-Schema siehe auch Abschnitt \ref{sec-strukturfrage}.} Sei also $X$ eine morphosyntaktische Kategorie eines lexikalischen Kopfs {\it head$_{\text{X}}$}, dann ist z.\,B.\ der Dominanzpfad $X\!P ~~ X' ~~ X$ eine mögliche Projektion von {\it head$_{\text{X}}$} mit dem syntaktischen Kopf $X$. Dementsprechend würden also Elementarbäume des Verbs \textit{reads} dem Schema in Abbildung~\ref{fig-cetm-1} folgen.
  
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \scalebox{0.9}{
 \begin{forest}
@@ -188,7 +189,7 @@ sn edges
 \end{figure}
 
 Nun spricht Frank in der CETM-Formulierung in \ref{ex-cetm} jedoch von einer erweiterten Projektion ("`extended projection"'). Die \isi{erweiterte Projektion} \citep{Grimshaw:91,Grimshaw:00}  bezeichnet eine Erweiterung der X-bar-Projektion um funktionale, nicht-lexikalische Projektionen. Dazu zählen beispielsweise die Projektionen der syntaktischen Köpfe ("`syntactic heads"') C(omplemen\-tizer), I(nflection), T(ense) oder Neg(ative marker). Diese funktionalen syntaktischen Köpfe können funktionale Elemente wie Komplementierer (in C) oder Hilfsverben (in T) enthalten. Ein Verb wie {\it reads} lexikalisiert dann einen Elementarbaum entsprechend des Schemas in Abbildung~\ref{fig-cetm-2}.
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \scalebox{0.9}{
 \begin{forest}
@@ -214,7 +215,7 @@ sn edges
 \caption{\label{fig-cetm-2}Schema einer erweiterte Projektion nach \citet[25]{Frank:02}}
 \end{figure}
 \citet[45ff]{Frank:02} argumentiert in Anlehnung an \cite{Grimshaw:91} und anderen für die Nützlichkeit der Annahme von erweiterten Projektionen im Rahmen der generativen Schule. Dessen ungeachtet werde ich im Weiteren X-bar-ähnliche Projektionen wie in Abbildung~\ref{fig-cetm-1} verwenden, die sich u.\,a.\ auch in den Elementarbäumen der XTAG-Grammatik wiederfinden. Die hier im Vordergrund stehende Idee des CETM ist also, dass ein Elementarbaum mindestens die Projektion des lexikalischen Kopfs im Sinne der X-bar-Theorie enthält, aber keine anderen syntaktischen Köpfe und deren Projektionen. Ich halte dies in der folgenden vereinfachten Formulierung des CETM fest:\is{Wohlgeformtheitsprinzip!CETM für TAG} 
-
+ 
 \ex. \label{ex-cetm-vereinfacht} {\bf CETM} (vereinfacht) \\
 Ein Elementarbaum enthält genau eine X-bar-Projektion, nämlich die des lexikalischen Kopfes.
 
@@ -224,7 +225,7 @@ Since the root VP node is not projected from a V head present in the elementary 
 \end{quote} 
 Hier wird  der Unterschied zur CETM-Formulierung in \citet[54]{Frank:92} deutlich, wo noch eine Übereinstimmung von \isi{erweiterte Projektion} und \isi{Elementarbaum} gefordert wurde. Die Lizenzierung von modifizierenden Hilfsbäumen wie in Abbildung~\ref{fig-cetm-3}, wo der VP-Spine nicht zur erweiterten Projektion von \textit{easily} gehört, fällt dadurch schwerer (siehe \citealt[60f]{Frank:92}).} Ein deutlicher Unterschied zwischen den CETM-Versionen zeigt sich jedoch bei Komplementierern\is{Komplementierer} und Hilfsverben: Während Franks CETM\is{Wohlgeformtheitsprinzip!CETM für TAG} erlaubt, sie als \isi{Koanker} eines verbalen Kopfes zu behandeln, muss man für sie bei der vereinfachten CETM eigenständige Elementarbäume stipulieren. Letzteres entspricht auch dem Vorgehen in der \isi{XTAG}-Grammatik.  
 
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb510.pdf}
 \caption{\label{fig-cetm-3}Hilfsbaum für den Modifizierer {\it easily}}
@@ -393,6 +394,7 @@ Dieses String-Schema kann mittels der Grammatik in Abbildung~\ref{fig-schema-132
 \caption{\label{fig-schema-132}Derivation des String-Schemas $\mathit{NP}_1 ~ \mathit{NP}_3 ~ \mathit{NP}_2 ~ V_3 ~ V_2 ~ V_1$, die dem WCC genügt, jedoch nicht dem  SCC}
 \end{figure}
 
+\newpage
 Missverständlich ist auch das in der Einleitung von \cite{Joshi:Becker:Rambow:00} vorgegriffene Fazit, dass LTAG nicht in der Lage sei, \isi{Long Distance Scrambling (LDS)} aus Einbettungen der Tiefe $>2$, d.\,h.\ kohärente Verbalkomplexe\is{Verbalkomplex} mit drei Verben, adäquat zu beschreiben.\footnote{"`We show that in the case of scrambling we are able to find a class of LTAG which have the property that as a class they are adequat [\ldots] to describe scrambling from up to two levels of embedding, and beyond two levels they fail."' \citep[167]{Joshi:Becker:Rambow:00}} Die maximale Einbettungstiefe ist tatsächlich abhängig von der Anzahl der Ergänzungen pro Verb. Wie wir in \ref{ex-schema1} sehen können, reicht bei zwei Ergänzungen pro Verb bereits eine Einbettungstiefe von $1$ aus, um mit TAG nicht immer adäquat beschreibbar zu sein. Andererseits sind auch kohärente Konstruktionen\is{kohärente Konstruktion} mit einer Einbettungstiefe $>2$ denkbar, die kein Problem für TAG darstellen:\footnote{Das Schema in \ref{ex-schema3} wird von \citet[190]{Kallmeyer:05} irrtümlicherweise als in diesem Sinne problematisch für LTAG bezeichnet. Der Grund ist wohl das angesprochene, missverständliche Fazit aus \citet[167]{Joshi:Becker:Rambow:00}.} 
 
 \exg. dass {den Kühlschrank} niemand {zu reparieren} {zu versuchen} {zu versprechen} {bereit ist} \\
@@ -466,7 +468,8 @@ Die Beziehung zwischen Nomen und extraponiertem Relativsatz wird gemeinhin als s
 \includegraphics{graphics/abb517.pdf}
 \caption{\label{fig-kj87-1}Elementarbaummenge für extraponierte Relativsätze gemä\ss\ \cite{Kroch:Joshi:87}}
 \end{figure}
-\largerpage%
+
+
 Wenn man einen Elementarbaum für {\it arrived} annimmt, der dem Valenzprinzip gehorcht,\footnote{\citet[(71)]{Kroch:Joshi:87} zeigen nur einen bereits abgeleiteten Baum für {\it a man arrived}.} muss die Spur an dessen NP-Substitutionsknoten adjungieren und der Relativsatz an dessen S-Knoten. Die Baumlokalität garantiert dann die Einhaltung wichtiger Inselbeschränkungen.  
 
 Sieht man von der Simulation einer Bewegungsanalyse ab, ist auch eine Modellierung ohne Baummengen, d.\,h.\ mit klassischer TAG, denkbar. In TAG werden Relativsätze wie Modifizierer durch Hilfsbäume repräsentiert, die an den Elementarbaum des modifizierten Nomens adjungieren. Das sollte auch für extraponierte Relativsätze gelten. Versucht man also für die Extraposition in \ref{ex-kj87-70} eine entsprechende TAG-Analyse zu finden, z.\,B.\ die stark vereinfachte in Abbildung~\ref{fig-extraposition-1}, dann stö\ss t man schnell auf Schwierigkeiten:\largerpage%  
@@ -477,6 +480,7 @@ Sieht man von der Simulation einer Bewegungsanalyse ab, ist auch eine Modellieru
 \end{figure}
 Zwar erfüllen die Elementarbäume das Valenzprinzip, aber der abgeleitete Baum genügt nicht dem Phrasenstrukturprinzip, weil nämlich darin ein S-Knoten nur einen NP-Knoten dominiert. Dies könnte noch ausgebessert werden, indem {\it arrived} an einem S-Knoten von {\it a man} adjungiert -- um den Preis freilich, dass {\it arrived} fälschlicherweise eine Satzkategorie subkategorisiert. 
 
+\newpage
 Nun ist das hervorstechende Merkmal der Relativsatzextraposition deren potentielle Nichtlokalität, denn das Antezendens-Nomen kann beliebig tief in einem nominalen Satzglied eingebettet sein, wie in \ref{ex-extraposition} zu sehen ist:
 
 \ex. \label{ex-extraposition}

@@ -156,6 +156,7 @@ Sei $D = \langle E,V \rangle$ ein Baum. Eine Valenzstruktur ist ein ungeordneter
   \item Es gibt keine paarweise verschiedenen Knoten $v, v_i, v_j \in V$, so dass $((v,v_i),r)$ $\in l_E$ und $((v,v_j),r) \in l_E$ für beliebiges $r \in R$.
 \end{itemize}  
 \end{definition}
+
 Syntaktische Strukturen sind linear geordnet, haben atomare Knotenlabel und keine Kantenlabel. Valenzstrukturen\is{STUG!Valenzstruktur} sind dagegen linear ungeordnet, verfügen über komplexe Knotenlabel in Form funktionaler Merkmalsstrukturen und über atomare Kantenlabel. Letztere sind in einer Valenzstruktur jedoch nicht beliebig verteilt, denn die von einem Knoten ausgehenden Kanten tragen paarweise verschiedene Kantenlabel.	
 
 Basierend auf diesen Strukturtypen lässt sich die Form eines STUG-Tupels folgenderma\ss en definieren, wobei $P(A)$ eine Partition der Menge $A$ bedeutet soll:
@@ -314,11 +315,13 @@ Von der einfachen partiellen Voranstellung in \ref{ex-stug-6-b} ist es im STUG-M
 \ex. \label{ex-stug-7b} Zu reparieren versprochen hat ihm das Peter.
 
 Die für die Derivation von \ref{ex-stug-7b} nötigen verbalen STUG-Tupel fanden bereits in anderen Beispielen Verwendung. In Abbildung~\ref{fig-stug-13} werden sie nochmals dargestellt, neben dem Resultat der STUG-Derivation.   
-\begin{figure}[t]
+
+\begin{figure}
 \centering
 \resizebox{!}{0.9\textheight}{\includegraphics{graphics/abb913.pdf}}
 \caption{\label{fig-stug-13} STUG-Ableitung der mehrfach partiellen Voranstellung in \ref{ex-stug-7b}}
 \end{figure}
+
 Das zweite STUG-Tupel dient der Voranstellung von VPs mit partizipialem Kopf, wobei die Verlinkung beider VP-Knoten im Zusammenspiel mit dem Verlinkungsmuster bei kohärenten Verben das Mittelfeld für Ergänzungen des eingebettet vorangestellten Verbs {\it zu reparieren} zugänglich macht. {\it Zu reparieren} selber ist in Abbildung~\ref{fig-stug-13} Teil des dritten STUG-Tupels, das bereits aus elementaren STUG-Tupeln abgeleitet wurde. Der angesichts solcher Datentypen bei der TT-MCTAG-Modellierung festgestellte Bedarf zur Erweiterung der Node-Sharing-Lokalität (zur Tree-Sharing-Lokalität) stellt sich bei STUG aufgrund der flachen Phrasenstruktur\is{Phrasenstruktur!flache} nicht ein. Ein Lokalitätsdomäne kann hier an einzelne Knoten festgemacht werden, während bei TT-MCTAG eine Lokalitätsdomäne eine variable Menge von Knoten umfassen muss. Dieses meiner Ansicht nach wünschenswerte Merkmal hat STUG mit Spinal-TT-MCTAG gemein und ist sicherlich mit der Verfügbarkeit der Fusions"=Operation zu erklären.\is{Voranstellung!partielle|)}%\\ 
 
 Es sollte deutlich geworden sein, dass und wie Diskontinuitäten im Rahmen kohärenter Konstruktionen mit einer STUG modelliert werden können. Im Folgenden werde ich abschlie\ss end zwei Desiderata aufgreifen, auf deren Klärung hin das skizzierte STUG-Modell weiterentwickelt werden muss.
@@ -341,7 +344,6 @@ Die Platzierung des statusregierten Verbs spielt auch bei obligatorisch kohären
 
 Diese Form der Asymmetrie lässt sich auf zweierlei Weise modellieren: Zum einen kann schon bei der Fusion die Nachstellung (d.\,h.\ die Platzierung im Nachfeld) von Status-1-VPs blockiert werden; zum anderen kann eine entsprechende Einschränkung in der Valenzstruktur spezifiziert werden, falls felderspezifische Positionsmerkmale dort verfügbar sind. Letzteres würde insbesondere bei einem obligatorisch kohärenten Verb wie {\it scheinen}, das den 2.~Status regiert, in Frage kommen.
 
-\clearpage
 
 % Wie verhindern? Status-1-VPs können nicht im Nachfeld stehen!
 
@@ -393,6 +395,7 @@ Während noch offen ist, wie diese Markierung im STUG-Formalismus implementiert 
 %\subsubsection*{Gappingregel G2$^+$}%
 \label{sec-stug-g2}\is{Gappingregel!G2$^+$|(}
 
+\newpage
 Gemä\ss\ der Gappingregel G2$^+$ haben die Überbleibsel einer Ellipse immer den Umfang vollständiger Satzglieder\is{Satzglied}, wobei Teilsätze davon ausgenommen werden. G2$^+$ erfasst zunächst einmal korrekt die Unakzeptabilität von \ref{ex-stug-12}: 
 
 \ex. \label{ex-stug-12} *[$\kappa_1$ Sven lebt in Mainz] und [$\kappa_2$ Stefan \sout{lebt in} Karlsruhe]. 
@@ -410,7 +413,7 @@ Dass der Rekonstruktionsmechanismus, ohne auf ihn an dieser Stelle im Detail ein
 \ex. \label{ex-stug-13} [$\kappa_1$ Susi verspricht das Auto zu reparieren] und [$\kappa_2$ Peter \sout{verspricht} den Kühlschrank \sout{zu reparieren}].
 
 Wenn wir für die Konjunkte in \ref{ex-stug-13} die Valenzstrukturen in Abbildung~\ref{fig-stug-17} als Grundlage hernehmen, dann müssen im Rahmen der \isi{Rekonstruktion} (wie in der Abbildung angedeutet) die folgenden Korrelationen etabliert werden: Der leere Valenzträgerknoten der Ellipse korreliert mit zwei Valenzträgerknoten im Antezedens und die Valenzrollenknoten der Ellipse korrelieren mit Valenzrollenknoten unterschiedlicher Valenzträger.
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics{graphics/abb917.pdf}
 \caption{\label{fig-stug-17}Valenzstrukturen für die Konjunkte in \ref{ex-stug-13} mit den zu rekonstruierenden Ellipse-Antezedens-Relationen}
@@ -426,7 +429,7 @@ Die Gappingregel G3 fordert die Realisierung des finiten Verbs in Teilsätzen mi
 \ex. \label{ex-stug-14} *Peter verspricht, dass den Kühlschrank.
 
 Da hier nur die Kookkurrenz zweier morphologisch charakterisierter Konstituenten gefordert wird, kann sich die STUG-Implementierung von G3 auf die Derivation der syntaktischen Struktur beschränken, indem z.\,B.\ die Fusionsmöglichkeiten von VP-Knoten mit einem endlichen Automaten\is{endlicher Automat} wie in Abbildung~\ref{fig-stug-18} geregelt werden. Damit unterscheidet sich die Implementierung von G3 wesentlich von den Implementierungen der anderen Gappingregeln, die auf der Valenzstruktur operieren.
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,
                     semithick]
