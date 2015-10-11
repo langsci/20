@@ -44,7 +44,8 @@ Die horizontalen gestrichelten Linien deuten Fusionen an, die vertikalen gestric
 \largerpage%
 Die \isi{Fusion} ist auf zweierlei Weise beschränkt: (i) Die fusionierende Knoten müssen ein identisches Label tragen und (ii) die Kette der Tochterknotenlabel muss in der Sprache desjenigen endlichen Automaten\is{endlicher Automat} sein, auf den das Label des Mutterknotens abgebildet wird. Der Fusionsbegriff wird also unverändert von Spinal-TT-MCTAG\is{TT-MCTAG!spinalisierte} übernommen (siehe Definition~\ref{def-fusion}, S.\,\pageref{def-fusion}).
 
-\subsubsection*{Valenzstrukturen}\is{STUG!Valenzstruktur|(}
+%\subsubsection*{Valenzstrukturen}
+\is{STUG!Valenzstruktur|(}
 
 Einer syntaktischen Struktur wie in Abbildung~\ref{fig-stug-1} und den dort enthaltenen Elementarbäumen wird in einer STUG eine Valenzstruktur (bzw.\ eine Menge von Valenzstrukturfragmenten) zur Seite gestellt. Der Elementarbaum des finiten Verbs {\it repariert} ist dementsprechend das erste Element des 2-Tupels in Abbildung~\ref{fig-stug-2}, dessen zweites Element die Valenzstruktur darstellen soll.  
 \begin{figure}[t]
@@ -63,7 +64,7 @@ Die für die Ableitung in Abbildung~\ref{fig-stug-1} au\ss erdem notwendigen STU
 \end{figure}
 Da ich die NP-interne Syntax an dieser Stelle ausklammern möchte, ist {\it den Kühlschrank} als bereits abgeleitetes Tupel enthalten. Des weiteren simplifiziere ich die Valenzstruktur der Nomina, da uns in dieser Arbeit allein die Verbvalenz interessiert. Bei den STUG-Tupeln in Abbildung~\ref{fig-stug-3} sticht das letzte Tupel heraus, das für die Anknüpfung der NP-Konstituenten an den VP-Knoten benötigt wird. Seine Valenzstruktur besteht aus einer nicht weiter spezifizierte Valenzbeziehung, deren Valenzträger mit dem VP-Knoten und deren Valenzrolle mit dem NP-Knoten verlinkt sind.
 
-\subsubsection*{Kombination von Valenzstrukturen}    
+%\subsubsection*{Kombination von Valenzstrukturen}    
 
 Wie werden nun die Valenzstrukturen der STUG-Tupel in Abbildung~\ref{fig-stug-2} und~\ref{fig-stug-3} bei der Derivation der syntaktischen Struktur in Abbildung~\ref{fig-stug-1} kombiniert? Man kann einen Vereini\-gungs- und einen Unifikationsschritt unterscheiden. Abbildung~\ref{fig-stug-4} gibt dafür ein Beispiel: Werden zwei Syntaxbäume $\sigma_1$ und $\sigma_2$ per \isi{Fusion} oder Substitution zu $\sigma'$ verknüpft, dann werden die Tupel $\langle \sigma_1, V_1 \rangle$, $\langle \sigma_2, V_2 \rangle$ durch das Tupel $\langle \sigma', V_1 \cup V_2 \rangle$ ersetzt. Die Valenzstrukturen $V_1$ und $V_2$ werden also zunächst vereinigt, was darauf hindeutet, dass es sich beim zweiten Element eines STUG-Tupels eigentlich um eine Menge von Valenzstrukturen (bzw.\ Valenzstrukturfragmenten) handelt. Zur Vereinfachung der Darstellung der STUG-Tupel verzichte ich bei einelementigen Valenzstrukturmengen meist auf die Mengenklammer. Das Ergebnis dieses Vereinigungsschritts ist in Abbildung~\ref{fig-stug-4} im ersten Tupel wiedergegeben, wobei dort der Übersichtlichkeit halber die Valenzstrukturen der nominalen Ergänzungen bereits unifiziert wurden.
 \begin{figure}[t]
@@ -81,7 +82,7 @@ Wenn ich von Realisierung einer Valenzrolle spreche, dann meine ich die Spezifiz
 
 \clearpage 
 
-\subsubsection*{Kurzbeispiele: Passiv, Perfekt und Voranstellung}
+\subsection{Kurzbeispiele: Passiv, Perfekt und Voranstellung}
 
 Soweit die Darstellung der elementaren Wesenszüge des STUG"=Formalismus. Im Folgenden möchte ich, um einen besseren Eindruck der Modellierungswege zu vermitteln, die sich mit STUG eröffnen, kurz auf die passivische und die perfektivische Variante unseres Eingangsbeispiels in \ref{ex-stug-1} eingehen:
 
@@ -116,7 +117,7 @@ Die Einschränkung auf Status-3-Verben kann mittels eines morphosyntaktischen Me
 \largerpage%
 Andererseits ist gerade diese Permissivität für die Modellierung des vergleichbaren aber wesentlich akzeptableren Voranstellungsdatums in \ref{ex-stug-4-b} notwendig. Au\ss erdem wurde bei der Datendiskussion in Abschnitt~\ref{sec-kohaerenz-voran} vorsichtig vermutet, dass für die Unakzeptabilität von \ref{ex-stug-4-a} diskurs- und informationsstrukturelle Faktoren verantwortlich zu machen sind. Ich halte die Derivation von \ref{ex-stug-4-a} also für das kleinere Übel.
 
-\subsubsection*{Desiderata}
+\subsection{Desiderata}
 
 Bevor eine erste Definition von STUG vorgenommen und danach auf die Modellierung kohärenter und elliptischer Konstruktionen eingegangen wird, möchte ich kurz auf zwei Desiderata hinweisen, nämlich die Modellierung von Angaben und die Modellierung der Stellungsvarianten im Verbalkomplex. Deren Klärung ist für ein umfassendes STUG-Modell des Deutschen sicherlich wichtig, aber keine Voraussetzung für den Fortlauf des Kapitels, da hier andere Phänomene im Fokus stehen.
 
@@ -240,7 +241,7 @@ Eine vollständige STUG-Ableitung und Valenzstrukturunifikation resultiert in ei
 Ausgehend von den STUG-Analysen im vorangegangenen Abschnitt möchte ich nun einen Modellierungsweg für kohärente Konstruktionen\is{kohärente Konstruktion} skizzieren. Wieder geht es darum, Potenzial und Eigenheit eines STUG-Modells zu veranschaulichen, ohne jedoch einen Detailgrad und einen empirischen Abdeckungsgrad wie z.\,B.\ bei der Darstellung des TT-MCTAG-Modells\is{TT-MCTAG} in Kapitel~\ref{sec-ttmctag} anzustreben. Stattdessen werde ich mich auf Konstruktionstypen beschränken, die sich im TT-MCTAG-Modell als besonders schwierig herausgestellt haben, nämlich das Fernpassiv und die mehrfach partielle Voranstellung.
 
 
-\subsubsection*{Leichte Formen der Kohärenz}
+\subsection{Leichte Formen der Kohärenz}
 
 Betrachten wir zunächst einen möglichst simplen Vertreter einer kohärenten Konstruktion: 
 
@@ -262,7 +263,7 @@ Das Ergebnis der STUG-Derivation kann daher so aussehen wie in Abbildung~\ref{fi
 
 Natürlich ist das STUG-Tupel von {\it zu reparieren} in Abbildung~\ref{fig-stug-8} an sich viel zu permissiv, denn es verhindert beispielsweise nicht, alle drei Valenzrollen mit Dativ zu realisieren. Hier sind also entsprechende Kasusspezifikationen\is{Kasusmarkierung} (z.\,B.\ mittels Disjunktion im {\sc case}-Wert oder der Annahme mehrerer STUG-Tupel für {\it zu reparieren}) geboten, die ich aus Darstellungsgründen überspringe. Das gilt auch für Ma\ss nahmen, um zu verhindern, dass in beiden Valenzstrukturen (der von \textit{zu reparieren} und der von \textit{verspricht}) je ein Nominativ realisiert wird. Dafür könnte man ebenfalls spezielle Merkmale im Valenzträgerknoten von \textit{zu reparieren} annehmen, die helfen, die gewünschte Valenzstruktur aus dem Lexikon abzurufen. Auf zusätzliche Merkmale und entsprechende lexikalische Ambiguität kann aber möglicherweise verzichtet werden, wenn nämlich die Valenzstruktur von \textit{verspricht} direkt in die Valenzstruktur des regierten Infinitums eingreift und dort die Realisierung eines Nominativs unterbindet.   
 
-\subsubsection*{Fernpassiv}\is{Passiv!Fern-|(}
+\subsection{Fernpassiv}\is{Passiv!Fern-|(}
 
 Die im vorangegangenen Abschnitt bereits erläuterte Modellierung des Passivs kann unverändert auf kohärente Konstruktionen angewandt werden, wobei en passant auch die Fernpassiv-Konstruktion in \ref{ex-stug-7} korrekt erfasst wird:
 
@@ -283,7 +284,7 @@ Die Valenzstruktur von {\it versprochen} entspricht im Wesentlichen der Form and
 Dort erscheint das Fernpassiv in Gestalt der Nominativspezifizierung der Patiensrolle des eingebetteten Status-2-Verbs, die auf das Passivhilfsverb zurückgeht und durch die bei kohärenten Kontruktionen vorhandene Verlinkung ermöglicht wird.
 \is{Passiv!Fern-|)} 
 
-\subsubsection*{3.~Konstruktion und partielle Voranstellung}\is{kohärente Konstruktion!3.~Konstruktion|(}\is{Voranstellung!partielle|(}
+\subsection{3.~Konstruktion und partielle Voranstellung}\is{kohärente Konstruktion!3.~Konstruktion|(}\is{Voranstellung!partielle|(}
 
 Meint man, die Frage beantwortet zu haben, wie die Ergänzungen unterschiedlicher Verben in einer gemeinsamen syntaktischen Domäne permutieren können, so stellt sich gleich die nächste: Wie lässt sich dann das Nebeneinander kohärenter und inkohärenter Bereiche in der 3.~Konstruktion und der partiellen Voranstellung korrekt erfassen? Gemeint sind damit Daten wie in \ref{ex-stug-6}:
 
@@ -308,7 +309,7 @@ Durch die Verlinkung des VP-Wurzelknotens mit dem {\it reparieren}-Knoten in der
 \is{kohärente Konstruktion!3.~Konstruktion|)}
 \largerpage%
 
-\subsubsection*{Mehrfach partielle Voranstellung}
+\subsection{Mehrfach partielle Voranstellung}
 
 Von der einfachen partiellen Voranstellung in \ref{ex-stug-6-b} ist es im STUG-Modell nicht mehr weit bis zur mehrfach partiellen Voranstellung in \ref{ex-stug-7b}, die sich in Kapitel~\ref{sec-ttmctag} als besondere Herausforderung für die TT-MCTAG-Modellierung herausgestellt hat:  
 
@@ -326,7 +327,7 @@ Das zweite STUG-Tupel dient der Voranstellung von VPs mit partizipialem Kopf, wo
 
 Es sollte deutlich geworden sein, dass und wie Diskontinuitäten im Rahmen kohärenter Konstruktionen mit einer STUG modelliert werden können. Im Folgenden werde ich abschlie\ss end zwei Desiderata aufgreifen, auf deren Klärung hin das skizzierte STUG-Modell weiterentwickelt werden muss.
 
-\subsubsection*{Desiderata}
+\subsection{Desiderata}
 
 Das bis hierhin dargelegte STUG-Modell kann die als unakzeptabel eingestufte Verteilung der Rektionskettenglieder in \ref{ex-stug-8} nicht verhindern:
 
