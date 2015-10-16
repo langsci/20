@@ -12,6 +12,8 @@
 \avmfont{\sc} 
 \avmvalfont{\it}
 
+\usepackage{ragged2e}
+
 \usepackage{linguex}
 \renewcommand{\firstrefdash}{}   % fuer linguex: kein Minuszeichen in den Beispiellabel
 %\usepackage{vaucanson-g} 
@@ -250,8 +252,12 @@
 \phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{chapter}{Sachregister}
 \ohead{Sachregister}
-\input{index_see}  
-\printindex[sbj]  
+\input{index_see}
+\begin{sloppypar} 
+\begin{RaggedRight}
+\printindex[sbj] 
+\end{RaggedRight}
+\end{sloppypar} 
 
                               
 \end{document}
