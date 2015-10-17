@@ -3,7 +3,7 @@ all: book pod cover
 
 # specify thh main file and all the files that you are including
 SOURCE= $(wildcard *.tex) $(wildcard chapters/*.tex)\
-localbibliography.bib\
+literatur.bib\
 LSP/langsci.cls
 	 
 main.pdf: $(SOURCE)
