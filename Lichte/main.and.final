@@ -1,384 +1,512 @@
 \begin{theindex}
 
-  \item Abeill{\'e}, Anne, 142
-  \item Aelbrecht, Lobke, 84, 103, 259
-  \item \'Agel, Vilmos, 7, 8, 15, 18--20, 26--29, 34, 168
-  \item Akmajian, Adrian, 261
-  \item Askedal, John~Ole, 79, 199
-  \item Asudeh, Ash, 314
+  \item Abeill{\'e}, Anne, \hyperpage{142}
+  \item Aelbrecht, Lobke, \hyperpage{84}, \hyperpage{103}, 
+		\hyperpage{259}
+  \item \'Agel, Vilmos, \hyperpage{7, 8}, \hyperpage{15}, 
+		\hyperpage{18--20}, \hyperpage{26--29}, \hyperpage{34}, 
+		\hyperpage{168}
+  \item Akmajian, Adrian, \hyperpage{261}
+  \item Askedal, John~Ole, \hyperpage{79}, \hyperpage{199}
+  \item Asudeh, Ash, \hyperpage{314}
 
   \indexspace
 
-  \item Babko-Malaya, Olga, 294
-  \item Bach, Emmon, 192
-  \item Bangalore, Srinivas, 131
-  \item Barry, Guy, 100, 263
-  \item Barton, Ellen~L., 121, 266, 267
-  \item Bech, Gunnar, 47--53, 56--63, 65, 68, 78, 80, 217
-  \item Becker, Tilman, 143, 148--154, 170, 186, 237
-  \item Behaghel, Otto, 40
-  \item Blevins, James, 166
-  \item Bodirsky, Manuel, 41, 159
-  \item Boullier, Pierre, 165
-  \item Bouma, Gosse, 341
-  \item Breindl, Eva, 15
-  \item Bresnan, Joan, 1, 314
-  \item Brettschneider, Gunter, 40
-  \item Br\"oker, Norbert, 41
-  \item Bunt, Harry, 164
-  \item B\"uring, Daniel, 97, 156
+  \item Babko-Malaya, Olga, \hyperpage{294}
+  \item Bach, Emmon, \hyperpage{192}
+  \item Bangalore, Srinivas, \hyperpage{131}
+  \item Barry, Guy, \hyperpage{100}, \hyperpage{263}
+  \item Barton, Ellen~L., \hyperpage{121}, \hyperpage{266, 267}
+  \item Bech, Gunnar, \hyperpage{47--53}, \hyperpage{56--63}, 
+		\hyperpage{65}, \hyperpage{68}, \hyperpage{77, 78}, 
+		\hyperpage{80}, \hyperpage{217}
+  \item Becker, Tilman, \hyperpage{143}, \hyperpage{148--154}, 
+		\hyperpage{170}, \hyperpage{186}, \hyperpage{237}
+  \item Behaghel, Otto, \hyperpage{40}
+  \item Blevins, James, \hyperpage{166}
+  \item Bodirsky, Manuel, \hyperpage{41}, \hyperpage{159}
+  \item Boullier, Pierre, \hyperpage{165}
+  \item Bouma, Gosse, \hyperpage{341}
+  \item Breindl, Eva, \hyperpage{15}
+  \item Bresnan, Joan, \hyperpage{1}, \hyperpage{314}
+  \item Brettschneider, Gunter, \hyperpage{40}
+  \item Br\"oker, Norbert, \hyperpage{41}
+  \item Bunt, Harry, \hyperpage{164}
+  \item B\"uring, Daniel, \hyperpage{97}, \hyperpage{156}
 
   \indexspace
 
-  \item Candito, Marie-H\'el\`ene, 147, 237
-  \item Cann, Ronnie, 113
-  \item Carroll, John, 41
-  \item Champollion, Lucas, 137, 171, 248, 308
-  \item Chao, Wynn, 106, 265--267, 306
-  \item Chen, John, 131
-  \item Chen-Main, Joan, 153, 154, 159, 268
-  \item Chiang, David, 131, 251
-  \item Chomsky, Noam, 1, 32, 36--38, 41, 42, 44, 88, 99, 112, 139, 142, 
-		336, 355
-  \item Chung, Sandra, 261, 262
-  \item Colomo, Katarina, 54
-  \item Cook, Philippa, 53, 77
-  \item Cooper, Robin, 266
-  \item Crabb\'e, Benoit, 237, 351
-  \item Crysmann, Berthold, 232, 237
-  \item Culicover, Peter~W., 38, 44, 104, 108, 109, 266
-  \item Curry, Haskell~B., 167
+  \item Candito, Marie-H\'el\`ene, \hyperpage{147}, \hyperpage{237}
+  \item Cann, Ronnie, \hyperpage{113}
+  \item Carroll, John, \hyperpage{41}
+  \item Champollion, Lucas, \hyperpage{137}, \hyperpage{171}, 
+		\hyperpage{247}, \hyperpage{308}
+  \item Chao, Wynn, \hyperpage{106}, \hyperpage{265--267}, 
+		\hyperpage{306}
+  \item Chen, John, \hyperpage{131}
+  \item Chen-Main, Joan, \hyperpage{153, 154}, \hyperpage{159}, 
+		\hyperpage{268}
+  \item Chiang, David, \hyperpage{131}, \hyperpage{251}
+  \item Chomsky, Noam, \hyperpage{1}, \hyperpage{32}, 
+		\hyperpage{36--38}, \hyperpage{41, 42}, \hyperpage{44}, 
+		\hyperpage{88}, \hyperpage{99}, \hyperpage{112}, 
+		\hyperpage{139}, \hyperpage{142}, \hyperpage{336}, 
+		\hyperpage{355}
+  \item Chung, Sandra, \hyperpage{262}
+  \item Colomo, Katarina, \hyperpage{54}
+  \item Cook, Philippa, \hyperpage{53}, \hyperpage{76}
+  \item Cooper, Robin, \hyperpage{266}
+  \item Crabb\'e, Benoit, \hyperpage{237}, \hyperpage{351}
+  \item Crysmann, Berthold, \hyperpage{232}, \hyperpage{237}
+  \item Culicover, Peter~W., \hyperpage{38}, \hyperpage{44}, 
+		\hyperpage{104}, \hyperpage{108, 109}, \hyperpage{266}
+  \item Curry, Haskell~B., \hyperpage{167}
 
   \indexspace
 
-  \item Dalrymple, Mary, 102, 262, 294, 314
-  \item Daniels, Michael~W., 166
-  \item Danlos, Laurence, 273--277, 309
-  \item Davidson, Donald, 342
-  \item de Groote, Philippe, 167
-  \item De~Kuthy, Kordula, 42, 158
-  \item Debusmann, Ralph, 168
-  \item Dellert, Johannes, 170
-  \item Demberg, Vera, 131, 255
-  \item den Besten, Hans, 58, 69
-  \item Dikovsky, Alexander, 40, 41
-  \item Dowty, David~R., 167, 347
-  \item Duchier, Denys, 168, 237, 351
-  \item D\"urscheid, Christa, 343, 350
+  \item Dalrymple, Mary, \hyperpage{102}, \hyperpage{262}, 
+		\hyperpage{294}, \hyperpage{314}
+  \item Daniels, Michael~W., \hyperpage{166}
+  \item Danlos, Laurence, \hyperpage{273--277}, \hyperpage{309}
+  \item Davidson, Donald, \hyperpage{342}
+  \item de Groote, Philippe, \hyperpage{167}
+  \item De~Kuthy, Kordula, \hyperpage{42}, \hyperpage{158}
+  \item Debusmann, Ralph, \hyperpage{168}
+  \item Dellert, Johannes, \hyperpage{170}
+  \item Demberg, Vera, \hyperpage{131}, \hyperpage{254}
+  \item den Besten, Hans, \hyperpage{58}, \hyperpage{68}
+  \item Dikovsky, Alexander, \hyperpage{40, 41}
+  \item Dowty, David~R., \hyperpage{167}, \hyperpage{347}
+  \item Duchier, Denys, \hyperpage{168}, \hyperpage{237}, 
+		\hyperpage{351}
+  \item D\"urscheid, Christa, \hyperpage{343}, \hyperpage{350}
 
   \indexspace
 
-  \item Eisenberg, Peter, 15
-  \item Engel, Ulrich, 36
-  \item Erd\'elyi-Szab\'o, Mikl\'os, 347
-  \item Eroms, Hans-Werner, 36, 41
-  \item Evers, Arnold, 162, 163
-  \item Evert, Stefan, 33
+  \item Eisenberg, Peter, \hyperpage{15}
+  \item Engel, Ulrich, \hyperpage{36}
+  \item Erd\'elyi-Szab\'o, Mikl\'os, \hyperpage{347}
+  \item Eroms, Hans-Werner, \hyperpage{36}, \hyperpage{41}
+  \item Evers, Arnold, \hyperpage{162, 163}
+  \item Evert, Stefan, \hyperpage{33}
 
   \indexspace
 
-  \item Featherston, Sam, 42
-  \item Fiengo, Robert, 262
-  \item Fillmore, Charles~J., 342, 343
-  \item Fortmann, Christian, 105
-  \item Frank, Robert, 136--143, 145, 160, 172, 173, 336
-  \item Frazier, Lyn, 32
-  \item Frey, Werner, 45
-  \item Fries, Norbert, 105, 117, 118
-  \item Fujii, Mamoru, 165
+  \item Featherston, Sam, \hyperpage{42}
+  \item Fiengo, Robert, \hyperpage{262}
+  \item Fillmore, Charles~J., \hyperpage{342, 343}
+  \item Fortmann, Christian, \hyperpage{105}
+  \item Frank, Robert, \hyperpage{136--143}, \hyperpage{145}, 
+		\hyperpage{160}, \hyperpage{172, 173}, \hyperpage{336}
+  \item Frazier, Lyn, \hyperpage{32}
+  \item Frey, Werner, \hyperpage{45}
+  \item Fries, Norbert, \hyperpage{105}, \hyperpage{117, 118}
+  \item Fujii, Mamoru, \hyperpage{165}
 
   \indexspace
 
-  \item Gaiffe, Bertrand, 276, 289
-  \item Gaifman, Haim, 41
-  \item Gardent, Claire, 237, 254, 351
-  \item Gazdar, Gerald, 87, 165
-  \item Geach, Peter~Thomas, 164
-  \item Gerdes, Kim, 76, 77, 148, 168, 170, 182, 187, 204, 249, 250, 
-		314, 321
-  \item Gibson, Edward, 32
-  \item Ginzburg, Jonathan, 266
-  \item G\'omez-Rodr\'iguez, Carlos, 41
-  \item Gorn, Saul, 130
-  \item Grewendorf, Günther, 163
-  \item Grimshaw, Jane, 139, 140
-  \item Groenink, Annius, 165
-  \item Grosse, Julia, 53, 54, 65, 72, 162
+  \item Gaiffe, Bertrand, \hyperpage{276}, \hyperpage{289}
+  \item Gaifman, Haim, \hyperpage{41}
+  \item Gardent, Claire, \hyperpage{237}, \hyperpage{254}, 
+		\hyperpage{351}
+  \item Gazdar, Gerald, \hyperpage{87}, \hyperpage{165}
+  \item Geach, Peter~Thomas, \hyperpage{164}
+  \item Gerdes, Kim, \hyperpage{75}, \hyperpage{77}, \hyperpage{148}, 
+		\hyperpage{168}, \hyperpage{170}, \hyperpage{182}, 
+		\hyperpage{187}, \hyperpage{204}, \hyperpage{248, 249}, 
+		\hyperpage{314}, \hyperpage{321}
+  \item Gibson, Edward, \hyperpage{32}
+  \item Ginzburg, Jonathan, \hyperpage{266}
+  \item G\'omez-Rodr\'iguez, Carlos, \hyperpage{41}
+  \item Gorn, Saul, \hyperpage{130}
+  \item Grewendorf, Günther, \hyperpage{163}
+  \item Grimshaw, Jane, \hyperpage{139, 140}
+  \item Groenink, Annius, \hyperpage{165}
+  \item Grosse, Julia, \hyperpage{53, 54}, \hyperpage{65}, 
+		\hyperpage{71, 72}, \hyperpage{162}
 
   \indexspace
 
-  \item Ha, Seungwan, 113
-  \item Haegeman, Liliane, 59, 78, 162
-  \item Hahn, Michael, 316
-  \item Haider, Hubert, 63, 64, 75--77, 163, 164, 321, 344, 345
-  \item Hankamer, Jorge, 85, 106
-  \item Harbusch, Karin, 277
-  \item Hardt, Daniel, 102, 262, 294
-  \item Hartmann, Katharina, 89, 90, 92, 93, 97, 102, 104, 106, 108, 
-		112, 156, 260
-  \item Haugereid, Petter, 232
-  \item Hausser, Roland, 232
-  \item Havelka, Ji\v{r}\'i, 41
-  \item Heim, Irene, 344, 345
-  \item Heinz, Wolfgang, 213
-  \item Helbig, Gerhard, 11
-  \item Heringer, Hans~J\"urgen, 1, 26, 33, 34, 36, 41, 341
-  \item Hesse, Harald, 96, 107, 111, 114
-  \item Higginbotham, James, 143
-  \item Hinrichs, Erhard, 164, 167, 206, 208
-  \item Hoffmann, Ludger, 61
-  \item H\"ohle, Tilman~N., 12, 63, 65, 69, 87, 89, 93--95, 97, 
-		100--102, 105, 199, 200
-  \item Holan, Tom{\'a}{\v s}, 41
-  \item Huang, C.-T.~James, 117
-  \item Hudson, Richard~A., 40, 87, 99, 100, 102, 108, 115, 263
-  \item Huybrechts, Riny A.~C., 134
+  \item Ha, Seungwan, \hyperpage{113}
+  \item Haegeman, Liliane, \hyperpage{58}, \hyperpage{77}, 
+		\hyperpage{162}
+  \item Hahn, Michael, \hyperpage{316}
+  \item Haider, Hubert, \hyperpage{63, 64}, \hyperpage{75, 76}, 
+		\hyperpage{163, 164}, \hyperpage{321}, 
+		\hyperpage{344, 345}
+  \item Hankamer, Jorge, \hyperpage{85}, \hyperpage{106}
+  \item Harbusch, Karin, \hyperpage{277}
+  \item Hardt, Daniel, \hyperpage{102}, \hyperpage{262}, 
+		\hyperpage{294}
+  \item Hartmann, Katharina, \hyperpage{89, 90}, \hyperpage{92, 93}, 
+		\hyperpage{97}, \hyperpage{102}, \hyperpage{104}, 
+		\hyperpage{106}, \hyperpage{108}, \hyperpage{112}, 
+		\hyperpage{156}, \hyperpage{260}
+  \item Haugereid, Petter, \hyperpage{232}
+  \item Hausser, Roland, \hyperpage{232}
+  \item Havelka, Ji\v{r}\'i, \hyperpage{41}
+  \item Heim, Irene, \hyperpage{344, 345}
+  \item Heinz, Wolfgang, \hyperpage{213}
+  \item Helbig, Gerhard, \hyperpage{11}
+  \item Heringer, Hans~J\"urgen, \hyperpage{1}, \hyperpage{26}, 
+		\hyperpage{33, 34}, \hyperpage{36}, \hyperpage{41}, 
+		\hyperpage{341}
+  \item Hesse, Harald, \hyperpage{96}, \hyperpage{107}, \hyperpage{111}, 
+		\hyperpage{114}
+  \item Higginbotham, James, \hyperpage{143}
+  \item Hinrichs, Erhard, \hyperpage{164}, \hyperpage{167}, 
+		\hyperpage{206}, \hyperpage{208}
+  \item Hoffmann, Ludger, \hyperpage{61}
+  \item H\"ohle, Tilman~N., \hyperpage{12}, \hyperpage{63}, 
+		\hyperpage{65}, \hyperpage{68}, \hyperpage{87}, 
+		\hyperpage{89}, \hyperpage{93--95}, \hyperpage{97}, 
+		\hyperpage{100--102}, \hyperpage{105}, 
+		\hyperpage{199, 200}
+  \item Huang, C.-T.~James, \hyperpage{117}
+  \item Hudson, Richard~A., \hyperpage{40}, \hyperpage{87}, 
+		\hyperpage{99, 100}, \hyperpage{102}, \hyperpage{108}, 
+		\hyperpage{115}, \hyperpage{263}
+  \item Huybrechts, Riny A.~C., \hyperpage{134}
 
   \indexspace
 
-  \item Jackendoff, Ray~S., 38, 44, 96, 104, 108, 109, 266, 282
-  \item Jacobs, Joachim, 8--22, 24, 26, 27, 29, 34, 38, 42, 44, 45, 145, 
-		163
-  \item Johnson, Kyle, 99, 102, 260, 263, 282
-  \item Johnson, Mark, 164
-  \item Joshi, Aravind~K., 1, 129--132, 134, 135, 137, 143, 149--154, 
-		156--159, 165, 170, 248, 251, 268--272, 277, 308, 309, 
-		383
-  \item Jurafsky, Daniel, 34
+  \item Jackendoff, Ray~S., \hyperpage{38}, \hyperpage{44}, 
+		\hyperpage{96}, \hyperpage{104}, \hyperpage{108, 109}, 
+		\hyperpage{266}, \hyperpage{282}
+  \item Jacobs, Joachim, \hyperpage{8--22}, \hyperpage{24}, 
+		\hyperpage{26, 27}, \hyperpage{29}, \hyperpage{34}, 
+		\hyperpage{38}, \hyperpage{42}, \hyperpage{44, 45}, 
+		\hyperpage{145}, \hyperpage{163}
+  \item Johnson, Kyle, \hyperpage{99}, \hyperpage{102}, \hyperpage{260}, 
+		\hyperpage{263}, \hyperpage{282}
+  \item Johnson, Mark, \hyperpage{164}
+  \item Joshi, Aravind~K., \hyperpage{1}, \hyperpage{129--132}, 
+		\hyperpage{134, 135}, \hyperpage{137}, \hyperpage{143}, 
+		\hyperpage{149--154}, \hyperpage{156--159}, 
+		\hyperpage{165}, \hyperpage{170}, \hyperpage{247}, 
+		\hyperpage{251}, \hyperpage{268--272}, \hyperpage{277}, 
+		\hyperpage{308, 309}, \hyperpage{383}
+  \item Jurafsky, Daniel, \hyperpage{34}
 
   \indexspace
 
-  \item Kaeshammer, Miriam, 131
-  \item Kahane, Sylvain, 147, 168
-  \item Kallmeyer, Laura, 129, 130, 134, 137, 144, 148, 150, 152, 165, 
-		170, 173, 174, 183, 185--187, 189, 190, 192--198, 240, 
-		251, 277--283, 285--287, 291, 292, 295, 301, 309
-  \item K\'alm\'an, L\'aszl\'o, 347
-  \item Kanazawa, Makoto, 135
-  \item Kaplan, Ron~M., 1, 314
-  \item Kasami, Tadao, 165
-  \item Kathol, Andreas, 89, 97, 100, 101, 165--167, 200, 224
-  \item Kefer, Michel, 58, 78
-  \item Keller, Frank, 156, 255
-  \item Kemmerling, Andreas, 25
-  \item Kempson, Ruth, 113
-  \item Kindt, Walther, 13, 84, 85, 115
-  \item Kiss, Tibor, 64, 65, 156
-  \item Klein, Wolfgang, 84--86, 92, 94, 102, 107, 115, 116, 120, 122, 
-		259, 260, 266, 304
-  \item Klima, Edward, 113
-  \item Kobele, Gregory~M., vi, 277, 283, 285
-  \item Kracht, Marcus, 44, 345, 347
-  \item Kratzer, Angelika, 344, 345
-  \item Krenn, Brigitte, 33
-  \item Kroch, Anthony~S., 137, 156--158, 336
-  \item Kruijff, Geert-Jan~M., 168
-  \item Kubo{\v n}, Vladislav, 41
-  \item Kuhlmann, Marco, 40, 41, 135, 159
-  \item Kulick, Seth~Norman, 71, 170, 173, 177--182
-  \item Kunze, J\"urgen, 1, 29, 107
-  \item Kurucz, Agi, 347
-  \item K\"ustner, Andreas, 96, 107, 111, 114
-  \item Kvam, Sigmund, 69, 336
+  \item Kaeshammer, Miriam, \hyperpage{131}
+  \item Kahane, Sylvain, \hyperpage{147}, \hyperpage{168}
+  \item Kallmeyer, Laura, \hyperpage{129, 130}, \hyperpage{134}, 
+		\hyperpage{137}, \hyperpage{144}, \hyperpage{148}, 
+		\hyperpage{150}, \hyperpage{152}, \hyperpage{165}, 
+		\hyperpage{170}, \hyperpage{173, 174}, \hyperpage{183}, 
+		\hyperpage{185--187}, \hyperpage{189, 190}, 
+		\hyperpage{192--198}, \hyperpage{240}, \hyperpage{251}, 
+		\hyperpage{277--283}, \hyperpage{285--287}, 
+		\hyperpage{291, 292}, \hyperpage{295}, \hyperpage{301}, 
+		\hyperpage{309}
+  \item K\'alm\'an, L\'aszl\'o, \hyperpage{347}
+  \item Kanazawa, Makoto, \hyperpage{135}
+  \item Kaplan, Ron~M., \hyperpage{1}, \hyperpage{314}
+  \item Kasami, Tadao, \hyperpage{165}
+  \item Kathol, Andreas, \hyperpage{89}, \hyperpage{97}, 
+		\hyperpage{100, 101}, \hyperpage{165--167}, 
+		\hyperpage{200}, \hyperpage{224}
+  \item Kefer, Michel, \hyperpage{58}, \hyperpage{77}
+  \item Keller, Frank, \hyperpage{156}, \hyperpage{254}
+  \item Kemmerling, Andreas, \hyperpage{25}
+  \item Kempson, Ruth, \hyperpage{113}
+  \item Kindt, Walther, \hyperpage{13}, \hyperpage{84, 85}, 
+		\hyperpage{115}
+  \item Kiss, Tibor, \hyperpage{64, 65}, \hyperpage{156}
+  \item Klein, Wolfgang, \hyperpage{84--86}, \hyperpage{92}, 
+		\hyperpage{94}, \hyperpage{102}, \hyperpage{107}, 
+		\hyperpage{115, 116}, \hyperpage{120}, \hyperpage{122}, 
+		\hyperpage{259, 260}, \hyperpage{266}, \hyperpage{304}
+  \item Klima, Edward, \hyperpage{113}
+  \item Kobele, Gregory~M., \hyperpage{vi}, \hyperpage{277}, 
+		\hyperpage{283}, \hyperpage{285}
+  \item Kracht, Marcus, \hyperpage{44}, \hyperpage{345}, 
+		\hyperpage{347}
+  \item Kratzer, Angelika, \hyperpage{344, 345}
+  \item Krenn, Brigitte, \hyperpage{33}
+  \item Kroch, Anthony~S., \hyperpage{137}, \hyperpage{156--158}, 
+		\hyperpage{336}
+  \item Kruijff, Geert-Jan~M., \hyperpage{168}
+  \item Kubo{\v n}, Vladislav, \hyperpage{41}
+  \item Kuhlmann, Marco, \hyperpage{40, 41}, \hyperpage{135}, 
+		\hyperpage{159}
+  \item Kulick, Seth~Norman, \hyperpage{70}, \hyperpage{170}, 
+		\hyperpage{173}, \hyperpage{177--182}
+  \item Kunze, J\"urgen, \hyperpage{1}, \hyperpage{29}, \hyperpage{107}
+  \item Kurucz, Agi, \hyperpage{347}
+  \item K\"ustner, Andreas, \hyperpage{96}, \hyperpage{107}, 
+		\hyperpage{111}, \hyperpage{114}
+  \item Kvam, Sigmund, \hyperpage{68}, \hyperpage{336}
 
   \indexspace
 
-  \item Ladusaw, William, 261, 262
-  \item {Le Roux}, Joseph, 351
-  \item Lejeune, Joseph, 58, 78
-  \item Lemnitzer, Lothar, 33
-  \item Levy, Leon~S., 129, 132
-  \item Lichte, Timm, 41, 170, 189, 192, 193, 246, 248, 277--283, 
-		285--287, 291, 292, 295, 301, 309
-  \item Little, Nathaniel, 108
-  \item Lobeck, Anne~C., 103
-  \item Lobin, Henning, 114
-  \item Lombardo, Vincenzo, 255
-  \item Lorimor, Heidi, 95
-  \item L\"uhr, Rosemarie, 336
-  \item Lutz, Ulrich, 336
-  \item Lyons, John, 84
+  \item Ladusaw, William, \hyperpage{262}
+  \item {Le Roux}, Joseph, \hyperpage{351}
+  \item Lejeune, Joseph, \hyperpage{58}, \hyperpage{77}
+  \item Lemnitzer, Lothar, \hyperpage{33}
+  \item Levy, Leon~S., \hyperpage{129}, \hyperpage{132}
+  \item Lichte, Timm, \hyperpage{41}, \hyperpage{170}, \hyperpage{189}, 
+		\hyperpage{192, 193}, \hyperpage{246, 247}, 
+		\hyperpage{277--283}, \hyperpage{285--287}, 
+		\hyperpage{291, 292}, \hyperpage{295}, \hyperpage{301}, 
+		\hyperpage{309}
+  \item Little, Nathaniel, \hyperpage{108}
+  \item Lobeck, Anne~C., \hyperpage{103}
+  \item Lobin, Henning, \hyperpage{114}
+  \item Lombardo, Vincenzo, \hyperpage{254}
+  \item Lorimor, Heidi, \hyperpage{95}
+  \item L\"uhr, Rosemarie, \hyperpage{336}
+  \item Lutz, Ulrich, \hyperpage{336}
+  \item Lyons, John, \hyperpage{84}
 
   \indexspace
 
-  \item Maienborn, Claudia, 45, 349
-  \item Maier, Wolfgang, 41, 170, 192, 193
-  \item Malouf, Rob, 341
-  \item Manning, Christopher~D., 88, 254
-  \item Marten, Lutz, 113
-  \item Martin, James~H., 34
-  \item Matiasek, Johannes, 213
-  \item Matsumura, Takashi, 165
-  \item Matthews, Peter, 86, 347
-  \item Maxwell, John~T., 88, 254
-  \item May, Robert, 262
-  \item Mazzei, Alessandro, 255
-  \item McCarthy, Diana, 34
-  \item McCawley, James~D., 164, 263
-  \item McCloskey, James, 261, 262
-  \item Mel'{\v{c}}uk, Igor, 17, 37
-  \item Merchant, Jason, 103, 109, 120, 121, 260, 267
-  \item Meurers, W.~Detmar, 53, 54, 56--60, 62--64, 66, 68, 72--76, 
-		78--80, 164, 206, 208, 213, 219, 221, 223, 225, 316
-  \item Michaelis, Jens, 128
-  \item Modina, Larissa, 40, 41
-  \item M\"ohl, Mathias, 41, 135, 159
-  \item M\"onnich, Uwe, 135
-  \item Morgan, Jerry~L., 121
-  \item M\"uller, Beat~Louis, 86
-  \item M{\"u}ller, Gereon, 336
-  \item M\"uller, Stefan, 9, 29, 30, 42, 44, 50, 54, 59, 65, 72, 75, 77, 
-		95, 154--156, 158, 164, 166, 200--202, 208, 213, 
-		224, 225, 232, 247, 349, 355
-  \item Munn, Alan, 95
-  \item Muskens, Reinhard, 167
+  \item Maienborn, Claudia, \hyperpage{45}, \hyperpage{349}
+  \item Maier, Wolfgang, \hyperpage{41}, \hyperpage{170}, 
+		\hyperpage{192, 193}
+  \item Malouf, Rob, \hyperpage{341}
+  \item Manning, Christopher~D., \hyperpage{88}, \hyperpage{254}
+  \item Marten, Lutz, \hyperpage{113}
+  \item Martin, James~H., \hyperpage{34}
+  \item Matiasek, Johannes, \hyperpage{213}
+  \item Matsumura, Takashi, \hyperpage{165}
+  \item Matthews, Peter, \hyperpage{86}, \hyperpage{347}
+  \item Maxwell, John~T., \hyperpage{88}, \hyperpage{254}
+  \item May, Robert, \hyperpage{262}
+  \item Mazzei, Alessandro, \hyperpage{254}
+  \item McCarthy, Diana, \hyperpage{34}
+  \item McCawley, James~D., \hyperpage{164}, \hyperpage{263}
+  \item McCloskey, James, \hyperpage{262}
+  \item Mel'{\v{c}}uk, Igor, \hyperpage{17}, \hyperpage{37}
+  \item Merchant, Jason, \hyperpage{103}, \hyperpage{109}, 
+		\hyperpage{120, 121}, \hyperpage{260}, \hyperpage{267}
+  \item Meurers, W.~Detmar, \hyperpage{53, 54}, \hyperpage{56--60}, 
+		\hyperpage{62--64}, \hyperpage{66, 67}, 
+		\hyperpage{71--75}, \hyperpage{77--79}, 
+		\hyperpage{164}, \hyperpage{206}, \hyperpage{208}, 
+		\hyperpage{213}, \hyperpage{219}, \hyperpage{221}, 
+		\hyperpage{223, 224}, \hyperpage{316}
+  \item Michaelis, Jens, \hyperpage{128}
+  \item Modina, Larissa, \hyperpage{40, 41}
+  \item M\"ohl, Mathias, \hyperpage{41}, \hyperpage{135}, 
+		\hyperpage{159}
+  \item M\"onnich, Uwe, \hyperpage{135}
+  \item Morgan, Jerry~L., \hyperpage{121}
+  \item M\"uller, Beat~Louis, \hyperpage{86}
+  \item M{\"u}ller, Gereon, \hyperpage{336}
+  \item M\"uller, Stefan, \hyperpage{9}, \hyperpage{29, 30}, 
+		\hyperpage{42}, \hyperpage{44}, \hyperpage{50}, 
+		\hyperpage{54}, \hyperpage{58}, \hyperpage{65}, 
+		\hyperpage{71}, \hyperpage{74}, \hyperpage{77}, 
+		\hyperpage{95}, \hyperpage{154--156}, \hyperpage{158}, 
+		\hyperpage{164}, \hyperpage{166}, \hyperpage{200--202}, 
+		\hyperpage{208}, \hyperpage{213}, \hyperpage{224}, 
+		\hyperpage{232}, \hyperpage{247}, \hyperpage{333}, 
+		\hyperpage{349}, \hyperpage{355}
+  \item Munn, Alan, \hyperpage{95}
+  \item Muskens, Reinhard, \hyperpage{167}
 
   \indexspace
 
-  \item Nakazawa, Tsuneko, 164, 167, 206, 208
-  \item Nasr, Alexis, 254
-  \item Nederhof, Mark-Jan, 164
-  \item Neijt-Kappen, Anna~H., 106, 109
-  \item Nerbonne, John, 164
-  \item Nesson, Rebecca, 314
-  \item Neuhaus, Peter, 41
-  \item Niv, Michael, 148, 149, 154, 186
-  \item Nivre, Joakim, 41
+  \item Nakazawa, Tsuneko, \hyperpage{164}, \hyperpage{167}, 
+		\hyperpage{206}, \hyperpage{208}
+  \item Nasr, Alexis, \hyperpage{254}
+  \item Nederhof, Mark-Jan, \hyperpage{164}
+  \item Neijt-Kappen, Anna~H., \hyperpage{106}, \hyperpage{109}
+  \item Nerbonne, John, \hyperpage{164}
+  \item Nesson, Rebecca, \hyperpage{314}
+  \item Neuhaus, Peter, \hyperpage{41}
+  \item Niv, Michael, \hyperpage{148, 149}, \hyperpage{154}, 
+		\hyperpage{186}
+  \item Nivre, Joakim, \hyperpage{41}
 
   \indexspace
 
-  \item Oliva, Karel, 41
-  \item Oppenrieder, Wilhelm, 95
-  \item Ortner, Hanspeter, 25, 32, 86
-  \item Osborne, Thomas, vi, 263, 282--284, 286
-  \item Otsuka, Masayuki, 113
+  \item Oliva, Karel, \hyperpage{41}
+  \item Oppenrieder, Wilhelm, \hyperpage{95}
+  \item Ortner, Hanspeter, \hyperpage{25}, \hyperpage{32}, 
+		\hyperpage{86}
+  \item Osborne, Thomas, \hyperpage{vi}, \hyperpage{263}, 
+		\hyperpage{282--284}, \hyperpage{286}
+  \item Otsuka, Masayuki, \hyperpage{113}
 
   \indexspace
 
-  \item Palmer, Martha, 351
-  \item Parmentier, Yannick, 170, 192, 237, 254, 351
-  \item Parsons, Terence, 347
-  \item Pereira, Fernando C.~N., 102, 262, 289, 294
-  \item Perrier, Guy, 254
-  \item Pickering, Martin, 100, 263
-  \item Pl{\'a}tek, Martin, 41
-  \item Pollard, Carl~J., 1, 29, 73, 156, 164, 247
-  \item Popowich, Fred, 249, 314
-  \item Postal, Paul~M., 96, 112
-  \item Prolo, Carlos~A., 237
-  \item Przepi{\'o}rkowski, Adam, 341
-  \item Pullum, Geoffrey~K., 35, 129, 165
+  \item Palmer, Martha, \hyperpage{351}
+  \item Parmentier, Yannick, \hyperpage{170}, \hyperpage{192}, 
+		\hyperpage{237}, \hyperpage{254}, \hyperpage{351}
+  \item Parsons, Terence, \hyperpage{347}
+  \item Pereira, Fernando C.~N., \hyperpage{102}, \hyperpage{262}, 
+		\hyperpage{289}, \hyperpage{294}
+  \item Perrier, Guy, \hyperpage{254}
+  \item Pickering, Martin, \hyperpage{100}, \hyperpage{263}
+  \item Pl{\'a}tek, Martin, \hyperpage{41}
+  \item Pollard, Carl~J., \hyperpage{1}, \hyperpage{29}, \hyperpage{73}, 
+		\hyperpage{156}, \hyperpage{164}, \hyperpage{247}
+  \item Popowich, Fred, \hyperpage{248}, \hyperpage{314}
+  \item Postal, Paul~M., \hyperpage{96}, \hyperpage{112}
+  \item Prolo, Carlos~A., \hyperpage{237}
+  \item Przepi{\'o}rkowski, Adam, \hyperpage{341}
+  \item Pullum, Geoffrey~K., \hyperpage{35}, \hyperpage{129}, 
+		\hyperpage{165}
 
   \indexspace
 
-  \item Rambow, Owen, 70, 134, 136, 143, 144, 146--156, 169--174, 176, 
-		182, 186, 241, 242, 254
-  \item Reape, Mike, 166, 167
-  \item Reich, Ingo, 92, 94, 95, 97, 98, 105, 117
-  \item Reis, Marga, 54, 55, 65, 66, 74, 199
-  \item Richter, Frank, 166
-  \item Romero, Maribel, 130, 137, 144, 251, 262
-  \item Ross, John~R., 102--104, 111, 112, 117, 261, 263, 279, 280
-  \item Rutten, Jean, 58, 69
-  \item Ryant, Neville, 137
+  \item Rambow, Owen, \hyperpage{70}, \hyperpage{134}, \hyperpage{136}, 
+		\hyperpage{143, 144}, \hyperpage{146--156}, 
+		\hyperpage{169--174}, \hyperpage{176}, \hyperpage{182}, 
+		\hyperpage{186}, \hyperpage{240, 241}, \hyperpage{254}
+  \item Reape, Mike, \hyperpage{166, 167}
+  \item Reich, Ingo, \hyperpage{92}, \hyperpage{94, 95}, 
+		\hyperpage{97, 98}, \hyperpage{105}, \hyperpage{117}
+  \item Reis, Marga, \hyperpage{54, 55}, \hyperpage{65}, \hyperpage{73}, 
+		\hyperpage{199}
+  \item Richter, Frank, \hyperpage{166}
+  \item Romero, Maribel, \hyperpage{130}, \hyperpage{137}, 
+		\hyperpage{144}, \hyperpage{251}, \hyperpage{262}
+  \item Ross, John~R., \hyperpage{102--104}, \hyperpage{111, 112}, 
+		\hyperpage{117}, \hyperpage{261}, \hyperpage{263}, 
+		\hyperpage{279, 280}
+  \item Rutten, Jean, \hyperpage{58}, \hyperpage{68}
+  \item Ryant, Neville, \hyperpage{137}
 
   \indexspace
 
-  \item Sabel, Joachim, 64, 65, 70, 163
-  \item Sag, Ivan~A., 1, 29, 85, 87, 156, 266, 282, 341
-  \item Sagot, Beno\^{i}t, vi, 273--277, 288--291, 309
-  \item Sailer, Manfred, 166
-  \item Sampson, Geoffrey~R., 32
-  \item Sarkar, Anoop, 268--272, 277, 304, 309, 310, 383
-  \item Satta, Giorgio, 155, 164, 171, 193, 240
-  \item Schabes, Yves, 1, 129, 131, 135, 142, 147, 174, 248, 268, 289, 
-		304, 314
-  \item Scheffler, Tatjana, 137, 251
-  \item Schirn, Matthias, 25
-  \item Schlangen, David, 116, 117, 262, 266
-  \item Schmitz, Sylvain, 254
-  \item Scholz, Barbara~C., 35, 129
-  \item {Schulte im Walde}, Sabine, 33, 34
-  \item Schutze, Carson~T., 32
-  \item Schwabe, Kerstin, 84, 85, 97, 120, 259, 261, 292, 294
-  \item Seddah, Djam\'e, vi, 273--277, 288--291, 309
-  \item Seki, Hiroyuki, 165
-  \item Shanker, K.~Vijay, 170
-  \item Shen, Libin, 248, 308
-  \item Shieber, Stuart~M., 102, 134, 147, 148, 164, 165, 174, 262, 289, 
-		294, 304, 314
-  \item S\o{}gaard, Anders, 192, 193
-  \item Stabler, Edward~P., 1, 128, 255
-  \item Stainton, Robert~J., 266
-  \item Steedman, Mark, 1, 128, 164, 264
-  \item Steiner, Ilona, 95
-  \item Steinitz, Renate, 20, 45
-  \item Sternefeld, Wolfgang, 17, 37, 38, 55, 65, 74, 97, 162, 164, 199, 
-		201, 336
-  \item Stokhof, Martin, 35, 357
-  \item Storrer, Angelika, 9, 11--13, 17, 20, 24, 26, 27, 29--36, 38, 
-		341--344
-  \item Strecker, Bruno, 61
-  \item Sturt, Patrick, 255
-  \item Suhre, Oliver, 164
+  \item Sabel, Joachim, \hyperpage{64}, \hyperpage{70}, \hyperpage{163}
+  \item Sag, Ivan~A., \hyperpage{1}, \hyperpage{29}, \hyperpage{85}, 
+		\hyperpage{87}, \hyperpage{156}, \hyperpage{266}, 
+		\hyperpage{282}, \hyperpage{341}
+  \item Sagot, Beno\^{i}t, \hyperpage{vi}, \hyperpage{273--277}, 
+		\hyperpage{288--291}, \hyperpage{309}
+  \item Sailer, Manfred, \hyperpage{166}
+  \item Sampson, Geoffrey~R., \hyperpage{32}
+  \item Sarkar, Anoop, \hyperpage{268--272}, \hyperpage{277}, 
+		\hyperpage{304}, \hyperpage{309, 310}, \hyperpage{383}
+  \item Satta, Giorgio, \hyperpage{155}, \hyperpage{164}, 
+		\hyperpage{171}, \hyperpage{193}, \hyperpage{240}
+  \item Schabes, Yves, \hyperpage{1}, \hyperpage{129}, \hyperpage{131}, 
+		\hyperpage{135}, \hyperpage{142}, \hyperpage{147}, 
+		\hyperpage{174}, \hyperpage{247}, \hyperpage{268}, 
+		\hyperpage{289}, \hyperpage{305}, \hyperpage{314}
+  \item Scheffler, Tatjana, \hyperpage{137}, \hyperpage{251}
+  \item Schirn, Matthias, \hyperpage{25}
+  \item Schlangen, David, \hyperpage{116, 117}, \hyperpage{262}, 
+		\hyperpage{266}
+  \item Schmitz, Sylvain, \hyperpage{254}
+  \item Scholz, Barbara~C., \hyperpage{35}, \hyperpage{129}
+  \item {Schulte im Walde}, Sabine, \hyperpage{33, 34}
+  \item Sch\"utze, Carson~T., \hyperpage{32}
+  \item Schwabe, Kerstin, \hyperpage{84, 85}, \hyperpage{97}, 
+		\hyperpage{120}, \hyperpage{259}, \hyperpage{261}, 
+		\hyperpage{292}, \hyperpage{294}
+  \item Seddah, Djam\'e, \hyperpage{vi}, \hyperpage{273--277}, 
+		\hyperpage{288--291}, \hyperpage{309}
+  \item Seki, Hiroyuki, \hyperpage{165}
+  \item Shanker, K.~Vijay, \hyperpage{170}
+  \item Shen, Libin, \hyperpage{247}, \hyperpage{308}
+  \item Shieber, Stuart~M., \hyperpage{102}, \hyperpage{134}, 
+		\hyperpage{147, 148}, \hyperpage{164, 165}, 
+		\hyperpage{174}, \hyperpage{262}, \hyperpage{289}, 
+		\hyperpage{294}, \hyperpage{305}, \hyperpage{314}
+  \item S\o{}gaard, Anders, \hyperpage{192, 193}
+  \item Stabler, Edward~P., \hyperpage{1}, \hyperpage{128}, 
+		\hyperpage{254}
+  \item Stainton, Robert~J., \hyperpage{266}
+  \item Steedman, Mark, \hyperpage{1}, \hyperpage{128}, \hyperpage{164}, 
+		\hyperpage{264}
+  \item Steiner, Ilona, \hyperpage{95}
+  \item Steinitz, Renate, \hyperpage{20}, \hyperpage{45}
+  \item Sternefeld, Wolfgang, \hyperpage{17}, \hyperpage{37, 38}, 
+		\hyperpage{55}, \hyperpage{65}, \hyperpage{73}, 
+		\hyperpage{97}, \hyperpage{162}, \hyperpage{164}, 
+		\hyperpage{199}, \hyperpage{201}, \hyperpage{336}
+  \item Stokhof, Martin, \hyperpage{35}, \hyperpage{357}
+  \item Storrer, Angelika, \hyperpage{9}, \hyperpage{11--13}, 
+		\hyperpage{17}, \hyperpage{20}, \hyperpage{24}, 
+		\hyperpage{26, 27}, \hyperpage{29--36}, \hyperpage{38}, 
+		\hyperpage{341--344}
+  \item Strecker, Bruno, \hyperpage{61}
+  \item Sturt, Patrick, \hyperpage{254}
+  \item Suhre, Oliver, \hyperpage{164}
 
   \indexspace
 
-  \item Takahashi, Masako, 129, 132
-  \item Tesni\`ere, Lucien, 1, 7, 168
-  \item Thesingh, Jan, 164
-  \item Thomas, James, 32
-  \item Toivonen, Ida, 314
+  \item Takahashi, Masako, \hyperpage{129}, \hyperpage{132}
+  \item Tesni\`ere, Lucien, \hyperpage{1}, \hyperpage{7}, 
+		\hyperpage{168}
+  \item Thesingh, Jan, \hyperpage{164}
+  \item Thomas, James, \hyperpage{32}
+  \item Toivonen, Ida, \hyperpage{314}
 
   \indexspace
 
-  \item Uszkoreit, Hans, 247
+  \item Uszkoreit, Hans, \hyperpage{247}
 
   \indexspace
 
-  \item van~der Sloot, Ko, 164
-  \item van Lambalgen, Michiel, 35, 357
-  \item van Oirsouw, Robert~R., 90, 93, 101, 110, 111, 117, 301
-  \item van Riemsdijk, Henk, 59, 78, 162, 261, 267
-  \item Van~Valin, Robert~D., Jr., 1
-  \item Vater, Heinz, 12, 13, 18--20, 26, 30, 341
-  \item Vijay-Shanker, K., 131, 146, 147, 165, 170, 173, 174, 176, 351
-  \item Vogel, Ralf, 39, 49, 62, 67, 68, 217
-  \item von Heusinger, Klaus, 97
-  \item von Kutschera, Franz, 25
-  \item von Stechow, Arnim, 17, 37, 38, 162, 163, 201
+  \item van~der Sloot, Ko, \hyperpage{164}
+  \item van Lambalgen, Michiel, \hyperpage{35}, \hyperpage{357}
+  \item van Oirsouw, Robert~R., \hyperpage{90}, \hyperpage{93}, 
+		\hyperpage{101}, \hyperpage{110, 111}, \hyperpage{117}, 
+		\hyperpage{301}
+  \item van Riemsdijk, Henk, \hyperpage{58}, \hyperpage{77}, 
+		\hyperpage{162}, \hyperpage{261}, \hyperpage{267}
+  \item Van~Valin, Robert~D., Jr., \hyperpage{1}
+  \item Vater, Heinz, \hyperpage{12, 13}, \hyperpage{18--20}, 
+		\hyperpage{26}, \hyperpage{30}, \hyperpage{341}
+  \item Vijay-Shanker, K., \hyperpage{131}, \hyperpage{146, 147}, 
+		\hyperpage{165}, \hyperpage{170}, \hyperpage{173, 174}, 
+		\hyperpage{176}, \hyperpage{351}
+  \item Vogel, Ralf, \hyperpage{39}, \hyperpage{49}, \hyperpage{62}, 
+		\hyperpage{67}, \hyperpage{217}
+  \item von Heusinger, Klaus, \hyperpage{97}
+  \item von Kutschera, Franz, \hyperpage{25}
+  \item von Stechow, Arnim, \hyperpage{17}, \hyperpage{37, 38}, 
+		\hyperpage{162, 163}, \hyperpage{201}
 
   \indexspace
 
-  \item Wasow, Thomas, 87, 260, 261
-  \item Waters, Richard~C., 248
-  \item Wegener, Heide, 316
-  \item Weir, David~J., 41, 132, 146, 147, 153, 155, 165, 170, 173, 174, 
-		176, 197
-  \item Weisler, Steven, 87
-  \item Wesche, Birgit, 97
-  \item Wilder, Chris, 90, 104, 106, 263
-  \item Wilkins, Wendy, 44
-  \item Williams, Edwin~S., 262
-  \item Winkler, Susanne, 84, 102, 103, 259, 261, 292, 294
-  \item Wittgenstein, Ludwig, 1
-  \item W\"ollstein-Leisten, Angelika, 55, 63, 70, 72
-  \item Woods, William~A., 253, 254
-  \item Wunderlich, Dieter, 97, 127
-  \item Wurmbrand, Susanne, 55, 65, 162, 164
+  \item Wasow, Thomas, \hyperpage{87}, \hyperpage{260, 261}
+  \item Waters, Richard~C., \hyperpage{247}
+  \item Wegener, Heide, \hyperpage{316}
+  \item Weir, David~J., \hyperpage{41}, \hyperpage{132}, 
+		\hyperpage{146, 147}, \hyperpage{153}, \hyperpage{155}, 
+		\hyperpage{165}, \hyperpage{170}, \hyperpage{173, 174}, 
+		\hyperpage{176}, \hyperpage{197}
+  \item Weisler, Steven, \hyperpage{87}
+  \item Wesche, Birgit, \hyperpage{97}
+  \item Wilder, Chris, \hyperpage{90}, \hyperpage{104}, \hyperpage{106}, 
+		\hyperpage{263}
+  \item Wilkins, Wendy, \hyperpage{44}
+  \item Williams, Edwin~S., \hyperpage{262}
+  \item Winkler, Susanne, \hyperpage{84}, \hyperpage{102, 103}, 
+		\hyperpage{259}, \hyperpage{261}, \hyperpage{292}, 
+		\hyperpage{294}
+  \item Wittgenstein, Ludwig, \hyperpage{1}
+  \item W\"ollstein=Leisten, Angelika, \hyperpage{55}, \hyperpage{63}, 
+		\hyperpage{69}, \hyperpage{72}
+  \item Woods, William~A., \hyperpage{253, 254}
+  \item Wunderlich, Dieter, \hyperpage{97}, \hyperpage{127}
+  \item Wurmbrand, Susanne, \hyperpage{55}, \hyperpage{64, 65}, 
+		\hyperpage{162}, \hyperpage{164}
 
   \indexspace
 
-  \item Xia, Fei, 131, 351 
+  \item Xia, Fei, \hyperpage{131}, \hyperpage{351}
+  \item {XTAG Research Group}, \hyperpage{131}, \hyperpage{137}, 
+		\hyperpage{213}, \hyperpage{273}, \hyperpage{278}
 
   \indexspace
 
-  \item Yanofsky, Nancy~M., 121, 266
-  \item Yatabe, Shuichi, 96
+  \item Yanofsky, Nancy~M., \hyperpage{121}, \hyperpage{266}
+  \item Yatabe, Shuichi, \hyperpage{96}
 
   \indexspace
 
-  \item Zifonun, Gisela, 11, 15, 16, 30, 61
-  \item Zwicky, Arnold, 166
+  \item Zifonun, Gisela, \hyperpage{11}, \hyperpage{15, 16}, 
+		\hyperpage{30}, \hyperpage{61}
+  \item Zwicky, Arnold, \hyperpage{166}
 
 \end{theindex}

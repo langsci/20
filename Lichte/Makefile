@@ -16,7 +16,7 @@ main.pdf: $(SOURCE)
 	sed -e 's/}{/|hyperpage}{/g' main.adx > main.adx.hyp
 	makeindex -o main.and main.adx.hyp
 
-	makeindex -o main.and main.adx
+	#makeindex -o main.and main.adx
 	makeindex -o main.lnd main.ldx
 	makeindex -o main.snd main.sdx
 	xelatex -no-pdf main 
