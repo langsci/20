@@ -1,0 +1,2612 @@
+\begin{thebibliography}{412}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\largerpage[2]
+
+\bibitem[{Abeill\'e(1988{\natexlab{a}})}]{Abeille:88}
+Abeill\'e, Anne. 1988{\natexlab{a}}.
+\newblock A lexicalized {T}ree {A}djoining {G}rammar for {F}rench: {T}he
+  general framework.
+\newblock Tech. Rep. MS-CIS-88-64 Department of Computer and Information
+  Science, University of Pennsylvania.
+\newblock \urlprefix\url{http://repository.upenn.edu/cis_reports/683/}.
+
+\bibitem[{Abeill\'e(1988{\natexlab{b}})}]{Abeille:88b}
+Abeill\'e, Anne. 1988{\natexlab{b}}.
+\newblock Parsing {F}rench with {T}ree {A}djoining {G}rammar: {S}ome linguistic
+  accounts.
+\newblock In \emph{Procedings of the 12th international conference on
+  computational linguistics ({COLING})}, 7--12. Budapest.
+\newblock \urlprefix\url{http://aclweb.org/anthology-new/C/C88/C88-1002.pdf}.
+
+\bibitem[{Abeill{\'e}(1995)}]{Abeille:95}
+Abeill{\'e}, Anne. 1995.
+\newblock The flexibility of {F}rench idioms: {A} representation with
+  lexicalized {T}ree {A}djoining {G}rammar.
+\newblock In Martin Everaert, Erik-Jan van~der Linden, Andr\'e Schenk \& Rob
+  Schreuder (eds.), \emph{Idioms: Structural and psychological perspectives},
+  15--42. Hillsdale, NJ: Lawrence Erlbaum.
+
+\bibitem[{Abeill\'e(2002)}]{Abeille:02}
+Abeill\'e, Anne. 2002.
+\newblock \emph{Une grammaire \'electronique du fran\c{c}ais}  (Science du
+  Langage).
+\newblock Paris: CNRS \'Editions.
+
+\bibitem[{Abeill\'e \& Rambow(2000)}]{Abeille:Rambow:00}
+Abeill\'e, Anne \& Owen Rambow. 2000.
+\newblock {T}ree {A}djoining {G}rammar: {A}n overview.
+\newblock In Anne Abeill\'e \& Owen Rambow (eds.), \emph{{Tree Adjoining
+  Grammars}: {Formalisms}, linguistic analyses and processing} (CSLI Lecture
+  Notes 107), 1--68. Stanford: CSLI Publications.
+
+\bibitem[{Abeill{\'e} \& Schabes(1989)}]{Abeille:Schabes:89}
+Abeill{\'e}, Anne \& Yves Schabes. 1989.
+\newblock Parsing idioms in lexicalized {TAG}s.
+\newblock In \emph{Proceedings of the fourth conference on {European} chapter
+  of the {Association for Computational Linguistics} ({EACL} '89)}, 1--9.
+
+\bibitem[{Abeill{\'e} \& Schabes(1996)}]{Abeille:Schabes:96}
+Abeill{\'e}, Anne \& Yves Schabes. 1996.
+\newblock Non-compositional discontinuous constituents in {T}ree {A}djoining
+  {G}rammar.
+\newblock In Harry Bunt \& Arthur van Horck (eds.), \emph{Discontinuous
+  constituency}, 279--306. Berlin: Mouton de Gruyter.
+
+\bibitem[{Aelbrecht(2010)}]{Aelbrecht:10}
+Aelbrecht, Lobke. 2010.
+\newblock \emph{The syntactic licensing of ellipsis}.
+\newblock Amsterdam: John Benjamins.
+
+\bibitem[{\'Agel(2000)}]{Agel:00}
+\'Agel, Vilmos. 2000.
+\newblock \emph{Valenztheorie}.
+\newblock T\"ubingen: Gunter Narr Verlag.
+
+\bibitem[{Akmajian(1968)}]{Akmajian:68}
+Akmajian, Adrian. 1968.
+\newblock An interpretive principle for certain anaphoric expressions.
+\newblock Unpublished MIT paper.
+
+\bibitem[{Askedal(1983)}]{Askedal:83}
+Askedal, John~Ole. 1983.
+\newblock Koh\"arenz und {I}nkoh\"arenz in deutschen {I}nfinitivf\"ugungen.
+  {V}orschlag zur begrifflichen {K}l\"arung.
+\newblock \emph{Lingua} 59. 177--196.
+
+\bibitem[{Askedal(1986)}]{Askedal:86}
+Askedal, John~Ole. 1986.
+\newblock \"{U}ber `{S}tellungsfelder' und `{S}atztypen' im {D}eutschen.
+\newblock \emph{Deutsche Syntax} 14(3). 193--223.
+
+\bibitem[{Asudeh \& Toivonen(2009)}]{Asudeh:Toivonen:09}
+Asudeh, Ash \& Ida Toivonen. 2009.
+\newblock {L}exical-{F}unctional {G}rammar.
+\newblock In Bernd Heine \& Heiko Narrog (eds.), \emph{The oxford handbook of
+  linguistic analysis}, 425--458. Oxford: Oxford University Press.
+
+\bibitem[{Babko-Malaya(2006)}]{Babko-Malaya:06}
+Babko-Malaya, Olga. 2006.
+\newblock Semantic interpretation of unrealized syntactic material in {LTAG}.
+\newblock In \emph{Proceedings of the eighth international workshop on {T}ree
+  {A}djoining {G}rammar and related formalisms ({TAG}+ 8)}, 91--96. Sydney:
+  Association for Computational Linguistics.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/W/W06/W06-1511}.
+
+\bibitem[{Bach(1988)}]{Bach:88}
+Bach, Emmon. 1988.
+\newblock Categorial {G}rammars as theories of language.
+\newblock In Richard~T. Oehrle, Emmon Bach \& Deirdre Wheeler (eds.),
+  \emph{Categorial {G}rammars and natural language structures} (Studies in
+  Linguistics and Philosophy~32), 17--34. Dordrecht: D. Reidel Publishing
+  Company.
+
+\bibitem[{Barton(1990)}]{Barton:90}
+Barton, Ellen~L. 1990.
+\newblock \emph{Nonsentential constituents. {A} theory of grammatical structure
+  and pragmatic interpretation}.
+\newblock Amsterdam: John Benjamins.
+
+\bibitem[{Bech(1955)}]{Bech:55}
+Bech, Gunnar. 1955.
+\newblock \emph{Studien \"uber das deutsche {V}erbum infinitum} (Linguistische
+  Arbeiten 139).
+\newblock T\"ubingen: Max Niemeyer Verlag.
+\newblock 2nd unrevised edition published 1983.
+
+\bibitem[{Bech(1963)}]{Bech:63}
+Bech, Gunnar. 1963.
+\newblock Grammatische {G}esetze im {W}iderspruch.
+\newblock \emph{Lingua} 12. 291--299.
+
+\bibitem[{Becker(1994)}]{Becker:94}
+Becker, Tilman. 1994.
+\newblock \emph{{HyTAG}: A new type of {T}ree {A}djoining {G}rammars for hybrid
+  syntactic representations of free word order languages}.
+\newblock Saarbr\"ucken: Universit\"at des Saarlandes dissertation.
+\newblock \urlprefix\url{http://www.dfki.de/~becker/becker.diss.ps.gz}.
+
+\bibitem[{Becker(2000)}]{Becker:00}
+Becker, Tilman. 2000.
+\newblock Patterns in metarules for {TAG}.
+\newblock In Anne Abeill\'e \& Owen Rambow (eds.), \emph{{Tree Adjoining
+  Grammars}: {Formalisms}, linguistic analyses and processing} (CSLI Lecture
+  Notes 107), 331--342. Stanford: CSLI Publications.
+
+\bibitem[{Becker et~al.(1991)Becker, Joshi \& Rambow}]{Becker:Joshi:Rambow:91}
+Becker, Tilman, Aravind~K. Joshi \& Owen Rambow. 1991.
+\newblock Long-distance scrambling and {T}ree {A}djoining {G}rammars.
+\newblock In \emph{Proceedings of the 5th conference of the {European} chapter
+  of the {Association for Computational Linguistics} ({EACL}'91)}, 21--26.
+
+\bibitem[{Becker et~al.(1992)Becker, Rambow \& Niv}]{Becker:Rambow:Niv:92}
+Becker, Tilman, Owen Rambow \& Michael Niv. 1992.
+\newblock The derivationel generative power of formal systems or scrambling is
+  beyond {L}{C}{F}{R}{S}.
+\newblock Tech. Rep. IRCS-92-38 Institute for Research in Cognitive Science,
+  University of Pennsylvania.
+
+\bibitem[{Behaghel(1932)}]{Behaghel:32}
+Behaghel, Otto. 1932.
+\newblock \emph{Deutsche {S}yntax: {E}ine geschichtliche {D}arstellung}, vol.
+  4, {W}ortstellung, {P}eriodenbau.
+\newblock Heidelberg: Winter.
+
+\bibitem[{den Besten \& Rutten(1989)}]{denBesten:Rutten:89}
+den Besten, Hans \& Jean Rutten. 1989.
+\newblock On verb raising, extraposition and free word order in {D}utch.
+\newblock In Dany Jaspers, Wim Klooster, Yvan Putseys \& Pieter Seuren (eds.),
+  \emph{Sentential complementation and the lexicon}, Dordrecht: Foris.
+
+\bibitem[{Blevins(1990)}]{Blevins:90}
+Blevins, James. 1990.
+\newblock \emph{Syntactic complexity: {E}vidence for discontinuity and
+  multidomination}.
+\newblock Amherst: University of Massachusetts dissertation.
+
+\bibitem[{Bodirsky et~al.(2005)Bodirsky, Kuhlmann \& M\"ohl}]{Bodirsky:etal:05}
+Bodirsky, Manuel, Marco Kuhlmann \& Mathias M\"ohl. 2005.
+\newblock Well-nested drawings as models of syntactic structure.
+\newblock In \emph{In 10th conference on formal grammar and 9th meeting on
+  mathematics of language ({FGMOL}'05)}, 195--203. Edinburgh.
+
+\bibitem[{Boullier(2000)}]{Boullier:00}
+Boullier, Pierre. 2000.
+\newblock Range {C}oncatenation {G}rammars.
+\newblock In \emph{Proceedings of the sixth international workshop on parsing
+  technologies ({IWPT} 2000)}, 53--64.
+
+\bibitem[{Bouma(2003)}]{Bouma:03}
+Bouma, Gosse. 2003.
+\newblock Verb clusters and the scope of adjuncts in {Dutch}.
+\newblock In Pieter A.~M. Seuren \& Gerard Kempen (eds.), \emph{Verb
+  constructions in {G}erman and {D}utch}, Amsterdam: John Benjamins.
+
+\bibitem[{Bouma et~al.(2001)Bouma, Malouf \& Sag}]{Bouma:etal:01}
+Bouma, Gosse, Rob Malouf \& Ivan~A. Sag. 2001.
+\newblock Satisfying constraints on adjunction and extraction.
+\newblock \emph{Natural Language and Linguistic Theory} 19. 1--65.
+
+\bibitem[{Breindl(1989)}]{Breindl:89}
+Breindl, Eva. 1989.
+\newblock \emph{Pr\"apositionalobjekte und {P}r\"apositionalobjekts\"atze im
+  {D}eutschen} (Linguistische Arbeiten 220).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{Brettschneider(1978)}]{Brettschneider:78}
+Brettschneider, Gunter. 1978.
+\newblock \emph{Koordination und syntaktische {K}omplexit\"at. {Z}ur
+  {E}xplikation eines linguistischen {B}egriffs}.
+\newblock M\"unchen: Wilhelm Fink Verlag.
+
+\bibitem[{Bunt et~al.(1987)Bunt, Thesingh \& van~der Sloot}]{Bunt:etal:87}
+Bunt, Harry, Jan Thesingh \& Ko~van~der Sloot. 1987.
+\newblock Discontinuous constituents in trees, rules and parsing.
+\newblock In \emph{Proceedings of the third conference of the {European}
+  chapter of the {Association for Computational Linguistics} ({EACL}'87)},
+  203--210.
+
+\bibitem[{B\"uring \& Hartmann(1997)}]{Buering:Hartmann:97}
+B\"uring, Daniel \& Katharina Hartmann. 1997.
+\newblock Doing the right thing.
+\newblock \emph{The Linguistic Review} 14. 1--42.
+
+\bibitem[{B\"uring \& Hartmann(1998)}]{Buering:Hartmann:98}
+B\"uring, Daniel \& Katharina Hartmann. 1998.
+\newblock Asymmetrische {K}oordination.
+\newblock \emph{Linguistische Berichte} 174. 172--201.
+
+\bibitem[{Candito(1996)}]{Candito:96}
+Candito, Marie-H\'el\`ene. 1996.
+\newblock A principle-based hierarchical representation of {LTAGs}.
+\newblock In \emph{Proceedings of the 16th international conference on
+  computational linguistics ({COLING} 96)}, Copenhagen.
+\newblock \urlprefix\url{http://aclweb.org/anthology-new/C/C96/C96-1034.pdf}.
+
+\bibitem[{Candito \& Kahane(1998)}]{Candito:Kahane:98}
+Candito, Marie-H\'el\`ene \& Sylvain Kahane. 1998.
+\newblock Can the {TAG} derivation tree represent a semantic graph? {A}n answer
+  in the light of {Meaning-Text Theory}.
+\newblock In \emph{Proceedings of the fourth workshop on {T}ree-{A}djoining
+  {G}rammars and related frameworks ({TAG}+ 4)}, Philadelphia.
+
+\bibitem[{Cann et~al.(2005)Cann, Kempson, Marten \& Otsuka}]{Cann:etal:05b}
+Cann, Ronnie, Ruth Kempson, Lutz Marten \& Masayuki Otsuka. 2005.
+\newblock Right node raising, coordination and the dynamics of language
+  processing.
+\newblock \emph{Lingua} 115(4). 503--525.
+
+\bibitem[{Champollion(2008)}]{Champollion:08}
+Champollion, Lucas. 2008.
+\newblock Binding theory in {LTAG}.
+\newblock In \emph{Proceedings of the the ninth international workshop on
+  {T}ree {A}djoining {G}rammars and related formalisms ({TAG}+ 9)}, 1--8.
+  T\"ubingen.
+
+\bibitem[{Champollion(2011)}]{Champollion:11a}
+Champollion, Lucas. 2011.
+\newblock Lexicalized non-local {MCTAG} with dominance links is {NP}-complete.
+\newblock \emph{Journal of Logic, Language, and Information} 20(3). 343--359.
+
+\bibitem[{Chao(1987)}]{Chao:87}
+Chao, Wynn. 1987.
+\newblock \emph{On ellipsis}.
+\newblock Amherst: University of Massachusetts dissertation.
+
+\bibitem[{Chen et~al.(2006)Chen, Bangalore \& Vijay-Shanker}]{Chen:etal:06}
+Chen, John, Srinivas Bangalore \& K.~Vijay-Shanker. 2006.
+\newblock Automated extraction of {Tree-Adjoining Grammars} from treebanks.
+\newblock \emph{Natural Language Engineering} 12. 251--299.
+
+\bibitem[{Chen-Main(2006)}]{Chen-Main:06}
+Chen-Main, Joan. 2006.
+\newblock \emph{On the generation and linearization of multi-dominance
+  structures}.
+\newblock Baltimore: Johns Hopkins University dissertation.
+
+\bibitem[{Chen-Main \& Joshi(2008)}]{Chen-Main:Joshi:08}
+Chen-Main, Joan \& Aravind~K. Joshi. 2008.
+\newblock Flexible composition, multiple adjoining and word order variation.
+\newblock In \emph{Proceedings of the the ninth international workshop on
+  {T}ree {A}djoining {G}rammar and related formalisms ({TAG}+ 9)},
+  \urlprefix\url{http://www.seas.upenn.edu/~chenmain/chenmain_joshi_TAG9_rev_final.pdf}.
+\newblock Revised TAG+ 9 paper.
+
+\bibitem[{Chen-Main \& Joshi(2012)}]{Chen-Main:Joshi:12}
+Chen-Main, Joan \& Aravind~K. Joshi. 2012.
+\newblock A dependency perspective on the adequacy of {Tree Local
+  Multi-component Tree Adjoining Grammar}.
+\newblock \emph{Journal of Logic and Computation} .
+
+\bibitem[{Chiang(2000)}]{Chiang:00}
+Chiang, David. 2000.
+\newblock Statistical parsing with an automatically-extracted {T}ree
+  {A}djoining {G}rammar.
+\newblock In \emph{Proceedings of the 38th annual meeting of the {Association
+  for Computational Linguistics} ({ACL}'00)}, 456--463.
+
+\bibitem[{Chiang \& Scheffler(2008)}]{Chiang:Scheffler:08}
+Chiang, David \& Tatjana Scheffler. 2008.
+\newblock Flexible composition and delayed tree-locality.
+\newblock In \emph{Proceedings of the the ninth international workshop on
+  {T}ree {A}djoining {G}rammar and related formalisms ({TAG}+ 9)}, .
+
+\bibitem[{Chomsky(1957)}]{Chomsky:57}
+Chomsky, Noam. 1957.
+\newblock \emph{Syntactic structures}.
+\newblock The Hague: Mouton.
+
+\bibitem[{Chomsky(1964)}]{Chomsky:64}
+Chomsky, Noam. 1964.
+\newblock \emph{Current issues in linguistic theory}.
+\newblock The Hague: Mouton.
+
+\bibitem[{Chomsky(1965)}]{Chomsky:65}
+Chomsky, Noam. 1965.
+\newblock \emph{Aspects of the theory of syntax}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Chomsky(1970)}]{Chomsky:70}
+Chomsky, Noam. 1970.
+\newblock Remarks on nominalization.
+\newblock In Roderick Jacobs \& Peter Rosenbaum (eds.), \emph{Readings in
+  {E}nglish {T}ransformational {G}rammar}, 184--221. Waltham, MA: Ginn.
+
+\bibitem[{Chomsky(1973)}]{Chomsky:73}
+Chomsky, Noam. 1973.
+\newblock Conditions on transformations.
+\newblock In Stephen R.~Anderson und Paul~Kiparski (ed.), \emph{A {F}estschrift
+  for {M}orris {H}alle}, 232--286. New York: Holt, Rinehart \& Winston.
+
+\bibitem[{Chomsky(1981)}]{Chomsky:81}
+Chomsky, Noam. 1981.
+\newblock \emph{Lectures on government and binding}.
+\newblock Dordrecht: Foris.
+
+\bibitem[{Chomsky(1986)}]{Chomsky:86}
+Chomsky, Noam. 1986.
+\newblock \emph{Barriers} (Linguistic Inquiry Monographs~13).
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Chung et~al.(1995)Chung, Ladusaw \& McCloskey}]{Chung:etal:95}
+Chung, Sandra, William Ladusaw \& James McCloskey. 1995.
+\newblock Sluicing and logical form.
+\newblock \emph{Natural Language Semantics} 3. 239--282.
+
+%\largerpage[2]%
+
+\bibitem[{Colomo(2011)}]{Colomo:11}
+Colomo, Katarina. 2011.
+\newblock \emph{{M}odalität im {V}erbalkomplex. {H}albmodalverben und
+  {M}odalitätsverben im {S}ystem statusregierender {V}erbklassen} (Bochumer
+  Linguistische Arbeitsberichte~6).
+\newblock Bochum: Ruhr-Universität Bochum.
+
+\bibitem[{Cook(2001)}]{Cook:01}
+Cook, Philippa. 2001.
+\newblock \emph{Coherence in {G}erman: An information structure approach}.
+\newblock Manchester: University of Manchester Phd dissertation.
+
+\bibitem[{Crabb\'e et~al.(2013)Crabb\'e, Duchier, Gardent, Le~Roux \&
+  Parmentier}]{Crabbe:etal:13}
+Crabb\'e, Benoit, Denys Duchier, Claire Gardent, Joseph Le~Roux \& Yannick
+  Parmentier. 2013.
+\newblock {XMG: eXtensible MetaGrammar}.
+\newblock \emph{Computational Linguistics} 39(3). 1--66.
+
+\bibitem[{Crysmann(2003)}]{Crysmann:03}
+Crysmann, Berthold. 2003.
+\newblock On the efficient implementation of {G}erman verb placement in {HPSG}.
+\newblock In \emph{Proceedings of {RANLP} 2003}, 112--116. Borovets, Bulgaria.
+
+%\largerpage%
+
+\bibitem[{Culicover \& Jackendoff(2005)}]{Culicover:Jackendoff:05}
+Culicover, Peter~W. \& Ray~S. Jackendoff. 2005.
+\newblock \emph{Simpler syntax}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Culicover \& Jackendoff(2006)}]{Culicover:Jackendoff:06}
+Culicover, Peter~W. \& Ray~S. Jackendoff. 2006.
+\newblock Turn over control to the semantics!
+\newblock \emph{Syntax} 9(2). 131--152.
+
+\bibitem[{Culicover \& Wilkins(1986)}]{Culicover:Wilkins:86}
+Culicover, Peter~W. \& Wendy Wilkins. 1986.
+\newblock Control, {PRO}, and the projection principle.
+\newblock \emph{Language} 62(1). 120--153.
+
+\bibitem[{Curry(1963)}]{Curry:63}
+Curry, Haskell~B. 1963.
+\newblock Some logical aspects of grammatical structure.
+\newblock In \emph{Structure of language and its mathematical aspects:
+  {P}roceedings of the twelfth symposium in applied mathematics}, 56--68.
+
+\bibitem[{Dalrymple(2001)}]{Dalrymple:01}
+Dalrymple, Mary. 2001.
+\newblock \emph{Lexical {F}unctional {G}rammar}.
+\newblock San Diego: Academic Press.
+
+\bibitem[{Dalrymple et~al.(1991)Dalrymple, Shieber \&
+  Pereira}]{Dalrymple:etal:91}
+Dalrymple, Mary, Stuart~M. Shieber \& Fernando C.~N. Pereira. 1991.
+\newblock Ellipsis and higher-order unification.
+\newblock \emph{Linguistics and Philosophy} 14. 399--452.
+
+\bibitem[{Daniels(2005)}]{Daniels:05}
+Daniels, Michael~W. 2005.
+\newblock \emph{Generalized {ID/LP} grammar: A formalism for parsing
+  linearization-based {HPSG} grammars}.
+\newblock Columbus, OH: The Ohio State University dissertation.
+\newblock \urlprefix\url{http://ling.osu.edu/~daniels/thesis.html}.
+
+\bibitem[{Davidson(1967)}]{Davidson:67}
+Davidson, Donald. 1967.
+\newblock The logical form of action sentences.
+\newblock In Nicholas Rescher (ed.), \emph{The logic of decision and action},
+  Pittsburgh: University of Pittsburgh Press.
+
+\bibitem[{De~Kuthy(2002)}]{DeKuthy:02}
+De~Kuthy, Kordula. 2002.
+\newblock \emph{Discontinous {NPs} in {G}erman -- {A} case study of the
+  interaction of syntax, semantics and pragmatics}  (Studies in
+  Constraint-Based Lexicalism).
+\newblock Stanford: CSLI Publications.
+
+\bibitem[{Debusmann et~al.(2004)Debusmann, Duchier \&
+  Kruijff}]{Debusmann:etal:04}
+Debusmann, Ralph, Denys Duchier \& Geert-Jan~M. Kruijff. 2004.
+\newblock Extensible {D}ependency {G}rammar: A new methodology.
+\newblock In \emph{Proceedings of the {COLING} 2004 workshop on recent advances
+  in dependency grammar}, 70--76. Geneva.
+
+\bibitem[{Demberg(2010)}]{Demberg:10}
+Demberg, Vera. 2010.
+\newblock \emph{A broad-coverage model of prediction in human sentence
+  processing}.
+\newblock Edinburgh: University of Edinburgh dissertation.
+\newblock \urlprefix\url{http://www.coli.uni-saarland.de/~vera/PhDThesis.pdf}.
+
+\bibitem[{Demberg \& Keller(2008)}]{Demberg:Keller:08}
+Demberg, Vera \& Frank Keller. 2008.
+\newblock A psycholinguistically motivated version of {TAG}.
+\newblock In \emph{Proceedings of the 9th international workshop on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 9)}, 25--32.
+  T{\"u}bingen.
+
+\bibitem[{Dikovsky \& Modina(2000)}]{Dikovsky:Modina:00}
+Dikovsky, Alexander \& Larissa Modina. 2000.
+\newblock Dependencies on the other side of the curtain.
+\newblock \emph{Traitement Automatique des Langues} 41(1). 67--96.
+
+\bibitem[{Dowty(1989)}]{Dowty:89}
+Dowty, David~R. 1989.
+\newblock On the semantic content of the notion of `thematic role'.
+\newblock In Gennaro Chierchia, Barbara~H. Partee \& Raymond Turner (eds.),
+  \emph{Properties, types and meaning}, 69--129. Dordrecht: Kluwer Academic
+  Publishers.
+
+\bibitem[{Dowty(1996)}]{Dowty:96}
+Dowty, David~R. 1996.
+\newblock Toward a minimalist theory of syntactic structure.
+\newblock In Harry~C. Bunt \& Arthur~van Horck (eds.), \emph{Discontinuous
+  constituency}, Berlin: Mouton de Gruyter.
+
+\bibitem[{Duchier \& Debusmann(2001)}]{Duchier:Debusmann:01}
+Duchier, Denys \& Ralph Debusmann. 2001.
+\newblock Topological dependency trees: {A} constraint-based account of linear
+  precedence.
+\newblock In \emph{Proceedings of 39th annual meeting of the {Association for
+  Computational Linguistics} ({ACL}'01')}, 180--187. Toulouse.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P01-1024}.
+
+\bibitem[{Duchier et~al.(2005)Duchier, {Le Roux} \&
+  Parmentier}]{Duchier:etal:04}
+Duchier, Denys, Joseph {Le Roux} \& Yannick Parmentier. 2005.
+\newblock The metagrammar compiler: An {NLP} application with a multi-paradigm
+  architecture.
+\newblock In Peter Van~Roy (ed.), \emph{Multiparadigm programming in
+  {Mozart/Oz}} (Lecture Notes in Computer Science 3389), 175--187. Berlin:
+  Springer.
+
+\bibitem[{D\"urscheid(1999)}]{Duerscheid:99}
+D\"urscheid, Christa. 1999.
+\newblock Perspektivierung und {S}prachstruktur.
+\newblock \emph{Dogilmunhak. Koreanische Zeitschrift für Germanistik} 40(4).
+  7--29.
+
+\bibitem[{Eisenberg(2006)}]{Eisenberg:06}
+Eisenberg, Peter. 2006.
+\newblock \emph{Grundri{\ss} der deutschen {G}rammatik}, vol. 2.\ {Der Satz}.
+\newblock Stuttgart: J.\,B.\ Metzler 3rd edn.
+
+\bibitem[{Engel(1988)}]{Engel:88}
+Engel, Ulrich. 1988.
+\newblock \emph{Deutsche {G}rammatik}.
+\newblock Heidelberg: Groos.
+
+\bibitem[{Erd\'elyi-Szab\'o et~al.(2008)Erd\'elyi-Szab\'o, K\'alm\'an \&
+  Kurucz}]{Erdelyi-Szabo:etal:08}
+Erd\'elyi-Szab\'o, Mikl\'os, L\'aszl\'o K\'alm\'an \& Agi Kurucz. 2008.
+\newblock Towards a natural language semantics without functors and operands.
+\newblock \emph{Journal of Logic, Language and Information} 17. 1--17.
+
+\bibitem[{Eroms(2000)}]{Eroms:00}
+Eroms, Hans-Werner. 2000.
+\newblock \emph{Syntax der deutschen {S}prache}  (de Gruyter Studienbuch).
+\newblock Berlin: Walter de Gruyter.
+
+\bibitem[{Eroms \& Heringer(2003)}]{Eroms:Heringer:03}
+Eroms, Hans-Werner \& Hans~J\"urgen Heringer. 2003.
+\newblock Dependenz und lineare {O}rdnung.
+\newblock In Vilmos \'Agel, Ludwig~M. Eichinger, Hans-Werner Eroms,
+  Hans~J\"urgen Heringer \& Henning Lobin (eds.), \emph{{Dependenz und Valenz.
+  Ein internationales Handbuch der zeitgen\"ossischen Forschung}. {A}n
+  international handbook of contemporary research} (Handb\"ucher zur Sprach-
+  und Kommunikationswissenschaft 25.1), 247--263. Berlin: Walter de Gruyter.
+
+\bibitem[{Evers(1975)}]{Evers:75}
+Evers, Arnold. 1975.
+\newblock \emph{The transformational cycle in {D}utch and {G}erman}: University
+  of Utrecht dissertation.
+
+\bibitem[{Evert(2005)}]{Evert:05}
+Evert, Stefan. 2005.
+\newblock \emph{The statistics of word cooccurrences: {W}ord pairs and
+  collocations}.
+\newblock Stuttgart: Universit\"at Stuttgart dissertation.
+
+\bibitem[{Featherston(2003)}]{Featherston:05}
+Featherston, Sam. 2003.
+\newblock That-trace in {G}erman.
+\newblock \emph{Lingua} 115(9). 1277--1302.
+
+\bibitem[{Fiengo \& May(1994)}]{Fiengo:May:94}
+Fiengo, Robert \& Robert May. 1994.
+\newblock \emph{Indices and identity}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Fillmore(1977{\natexlab{a}})}]{Fillmore:77}
+Fillmore, Charles~J. 1977{\natexlab{a}}.
+\newblock The case for case reopened.
+\newblock In Peter Cole \& Jerrold~M. Sadock (eds.), \emph{Grammatical
+  relations} (Syntax and Semantics~8), 59--81. New York: Academic Press.
+
+\bibitem[{Fillmore(1977{\natexlab{b}})}]{Fillmore:77b}
+Fillmore, Charles~J. 1977{\natexlab{b}}.
+\newblock Scenes-and-frames semantics.
+\newblock In Antonio Zampolli (ed.), \emph{Linguistic structures processing},
+  vol.~5, 55--81. Amsterdam: North Holland.
+
+\bibitem[{Fortmann(2005)}]{Fortmann:05}
+Fortmann, Christian. 2005.
+\newblock {Die {L}\"ucken im {B}ild von der {S}ubjektl\"ucken-{K}oordination}.
+\newblock \emph{Linguistische Berichte} 204. 441--476.
+
+\bibitem[{Frank(1992)}]{Frank:92}
+Frank, Robert. 1992.
+\newblock \emph{Syntactic locality and {T}ree {A}djoining {G}rammar:
+  {G}rammatical, acquisition and processing perspectives}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Frank(2002)}]{Frank:02}
+Frank, Robert. 2002.
+\newblock \emph{Phrase structure composition and syntactic dependencies}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Frank(2006)}]{Frank:06}
+Frank, Robert. 2006.
+\newblock Phase theory and {T}ree {A}djoining {G}rammar.
+\newblock \emph{Lingua} 116. 145--202.
+
+\bibitem[{Frazier(1985)}]{Frazier:85}
+Frazier, Lyn. 1985.
+\newblock Syntactic complexity.
+\newblock In David Dowty, Lauri Karttunen \& Arnold Zwicky (eds.),
+  \emph{Natural language processing: {P}sychological, computational
+  andtheoretical perspectives}, 129--189. Cambridge, UK: Cambridge University
+  Press.
+
+\bibitem[{Frey(2003)}]{Frey:03}
+Frey, Werner. 2003.
+\newblock Syntactic conditions on adjunct classes.
+\newblock In Ewald Lang, Claudia Maienborn \& Cathrine Fabricius-Hansen (eds.),
+  \emph{Modifying adjuncts} (Interface Explorations~4), 163--209. Berlin:
+  Mouton de Gruyter.
+
+\bibitem[{Fries(1988)}]{Fries:88}
+Fries, Norbert. 1988.
+\newblock {\"Uber das Null-Topik im Deutschen}.
+\newblock In \emph{{S\&P} -- {V}er\"offentlichung des {L}under {P}rojektes
+  ``{S}prache und {P}ragmatik''}, vol.~3, 19--49. Lund, Sweden: Germanistisches
+  Institut der Universit\"at Lund.
+
+\bibitem[{Gaifman(1965)}]{Gaifman:65}
+Gaifman, Haim. 1965.
+\newblock Dependency systems and phrase-structure systems.
+\newblock \emph{Information and Control} 8(3). 304--337.
+\newblock Also published as report p-2315, RAND Corp. Santa Monica (CA) in
+  1961.
+
+\bibitem[{Gardent et~al.(2014)Gardent, Parmentier, Perrier \&
+  Schmitz}]{Gardent:etal:14}
+Gardent, Claire, Yannick Parmentier, Guy Perrier \& Sylvain Schmitz. 2014.
+\newblock Lexical disambiguation in {LTAG} using left context.
+\newblock In Zygmunt Vetulani \& Joseph Mariani (eds.), \emph{Human language
+  technology. {C}hallenges for computer science and linguistics. 5th language
+  and technology conference, {LTC} 2011, {P}oznan, {P}oland, {N}ovember 25-27,
+  2011, revised selected papers} (Lecture Notes in Computer Science
+  (LNCS)/Lecture Notes in Artificial Intelligence (LNAI) 8387), 67--79.
+  Springer.
+
+\bibitem[{Gazdar \& Pullum(1981)}]{Gazdar:Pullum:81}
+Gazdar, Gerald \& Geoffrey~K. Pullum. 1981.
+\newblock Subcategorization, constituent order, and the notion ``head''.
+\newblock In Michael~H. Moortgat, Harry van~der Hulst \& Teun Hoekstra (eds.),
+  \emph{The scope of lexical rules}, 107--123. Dordrecht: Foris.
+
+\bibitem[{Geach(1970)}]{Geach:70}
+Geach, Peter~Thomas. 1970.
+\newblock A program for syntax.
+\newblock \emph{Synthese} 22. 3--17.
+
+\bibitem[{Gerdes(2002{\natexlab{a}})}]{Gerdes:02}
+Gerdes, Kim. 2002{\natexlab{a}}.
+\newblock \textsc{DTAG}?
+\newblock In \emph{Proceedings of the {TAG}+ 6 workshop}, 242--251. Venice.
+
+\bibitem[{Gerdes(2002{\natexlab{b}})}]{Gerdes:02b}
+Gerdes, Kim. 2002{\natexlab{b}}.
+\newblock \emph{Topologie et grammaires formelles de l'allemand}.
+\newblock Paris: Universit\'e Paris 7 dissertation.
+\newblock \urlprefix\url{http://gerdes.fr/papiers/avant/theseKimGerdes.pdf}.
+
+\bibitem[{Gerdes(2004)}]{Gerdes:04}
+Gerdes, Kim. 2004.
+\newblock Tree {U}nification {G}rammar.
+\newblock \emph{Electronic Notes in Theoretical Computer Science} 53. 108--136.
+\newblock Proceedings of the joint meeting of the 6th Conference on Formal
+  Grammar and the 7th Conference on Mathematics of Language.
+
+\bibitem[{Gerdes \& Kahane(2001)}]{Gerdes:Kahane:01}
+Gerdes, Kim \& Sylvain Kahane. 2001.
+\newblock Word order in {G}erman: {A} formal {D}ependency {G}rammar using a
+  topological hierarchy.
+\newblock In \emph{Proceedings of 39th annual meeting of the {Association for
+  Computational Linguistics} ({ACL}'01)}, 220--227. Toulouse.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P01-1029}.
+
+\bibitem[{Gibson \& Thomas(1999)}]{Gibson:Thomas:99}
+Gibson, Edward \& James Thomas. 1999.
+\newblock Memory limitations and structural forgetting: {T}he perception of
+  complex ungrammatical sentences as grammatical.
+\newblock \emph{Language and Cognitive Processes} 14(3). 225--248.
+
+\bibitem[{Ginzburg \& Cooper(2004)}]{Ginzburg:Cooper:04}
+Ginzburg, Jonathan \& Robin Cooper. 2004.
+\newblock Clarification, ellipsis, and the nature of contextual updates.
+\newblock \emph{Linguistics and Philosophy} 27(3). 297--366.
+
+\bibitem[{Ginzburg \& Sag(2001)}]{Ginzburg:Sag:01}
+Ginzburg, Jonathan \& Ivan~A. Sag. 2001.
+\newblock \emph{Interrogative investigations: {T}he form, meaning, and use of
+  {E}nglish interrogatives}.
+\newblock Stanford: CSLI Publications.
+
+\bibitem[{G\'omez-Rodr\'iguez et~al.(2011)G\'omez-Rodr\'iguez, Carroll \&
+  Weir}]{Gomez:etal:11}
+G\'omez-Rodr\'iguez, Carlos, John Carroll \& David~J. Weir. 2011.
+\newblock Dependency parsing schemata and mildly non-projective dependency
+  parsing.
+\newblock \emph{Computational Linguistics} 37(3). 541--586.
+
+\bibitem[{Gorn(1967)}]{Gorn:67}
+Gorn, Saul. 1967.
+\newblock Explicit definitions and linguistic dominoes.
+\newblock In John~Francis Hart \& S.~Takasu (eds.), \emph{Systems and computer
+  science}, 77--115. Toronto: University of Toronto Press.
+
+\bibitem[{Grewendorf \& Sabel(1994)}]{Grewendorf:Sabel:94}
+Grewendorf, Günther \& Joachim Sabel. 1994.
+\newblock Long scrambling and incorporation.
+\newblock \emph{Linguistic Inquiry} 25(2). pp. 263--308.
+
+\bibitem[{Grimshaw(1991)}]{Grimshaw:91}
+Grimshaw, Jane. 1991.
+\newblock Extended projection.
+\newblock Manuscript, Brandeis University.
+
+\bibitem[{Grimshaw(2000)}]{Grimshaw:00}
+Grimshaw, Jane. 2000.
+\newblock Locality and extended projection.
+\newblock In Peter Coopmans, Martin Everaert \& Jane Grimshaw (eds.),
+  \emph{Lexical specification and insertion} (Current Issues in Linguistic
+  Theories 197), 115--133. Amsterdam: John Benjamins.
+
+\bibitem[{Groenink(1995)}]{Groenink:95}
+Groenink, Annius. 1995.
+\newblock Literal {M}ovement {G}rammars.
+\newblock In \emph{Proceedings of the 7th conference of the {European} chapter
+  of the {Association for Computational Linguistics} ({EACL}'95)}, 90--97.
+  Dublin.
+\newblock \urlprefix\url{http://aclweb.org/anthology/E/E95/E95-1013.pdf}.
+
+\bibitem[{de~Groote(2001)}]{deGroote:01}
+de~Groote, Philippe. 2001.
+\newblock Towards {A}bstract {C}ategorial {G}rammars.
+\newblock In \emph{Proceedings of 39th annual meeting of the {Association for
+  Computational Linguistics} ({ACL}'01)}, 252--259.
+\newblock \urlprefix\url{http://aclweb.org/anthology-new/P/P01/P01-1033.pdf}.
+
+\bibitem[{Grosse(2005)}]{Grosse:05}
+Grosse, Julia. 2005.
+\newblock \emph{{Zu Koh\"arenz und Kontrolle in infiniten Konstruktionen des
+  Deutschen}}.
+\newblock Marburg: Tectum Verlag.
+
+\bibitem[{Ha(2008)}]{Ha:08}
+Ha, Seungwan. 2008.
+\newblock \emph{{Ellipsis, Right Node Raising, and Across-the-Board
+  constructions}}.
+\newblock Boston: Boston University dissertation.
+
+\bibitem[{Haegeman \& van Riemsdijk(1986)}]{Haegeman:Riemsdijk:86}
+Haegeman, Liliane \& Henk van Riemsdijk. 1986.
+\newblock Verb projection raising, scope, and the typology of rules affecting
+  verbs.
+\newblock \emph{Linguistic Inquiry} 17. 417--466.
+
+\bibitem[{Hahn \& Meurers(2011)}]{Hahn:Meurers:11}
+Hahn, Michael \& W.~Detmar Meurers. 2011.
+\newblock On deriving semantic representations from dependencies: {A} practical
+  approach for evaluating meaning in learner corpora.
+\newblock In \emph{Proceedings of the int. conference on dependency linguistics
+  ({D}epling 2011)}, Barcelona.
+\newblock \urlprefix\url{http://purl.org/dm/papers/hahn-meurers-11.html}.
+
+\bibitem[{Haider(1990)}]{Haider:90}
+Haider, Hubert. 1990.
+\newblock Topicalization and other puzzles of {G}erman.
+\newblock In G\"unther Grewendorf \& Wolfgang Sternefeld (eds.),
+  \emph{Scrambling and barriers}, 93--112. Amsterdam: John Benjamins.
+
+\bibitem[{Haider(1993)}]{Haider:93}
+Haider, Hubert. 1993.
+\newblock \emph{Deutsche syntax -- generativ. {V}orstudien zu einer projektiven
+  {G}rammatik}.
+\newblock T\"ubingen: Gunter Narr Verlag.
+
+\bibitem[{Haider(2004)}]{Haider:04}
+Haider, Hubert. 2004.
+\newblock Wieviel {S}yntax braucht die {S}emantik?
+\newblock \emph{Tidsskrift for Sprogforskning} 114(6). 779--807.
+
+\bibitem[{Hankamer(1973)}]{Hankamer:73}
+Hankamer, Jorge. 1973.
+\newblock Unacceptable ambiguity.
+\newblock \emph{Linguistic Inquiry} 4(1). 17--68.
+
+\bibitem[{Hankamer \& Sag(1976)}]{Hankamer:Sag:76}
+Hankamer, Jorge \& Ivan~A. Sag. 1976.
+\newblock Deep and surface anaphora.
+\newblock \emph{Linguistic Inquiry} 7(3). 391--426.
+
+\bibitem[{Harbusch(2000)}]{Harbusch:00b}
+Harbusch, Karin. 2000.
+\newblock Natural-language processing with {Schema-TAGs}.
+\newblock In Anne Abeille \& Owen Rambow (eds.), \emph{Tree {A}djoining
+  {G}rammars: {F}ormal properties, linguistic theory and applications} (CSLI
+  Lecture Notes 107), 121--146. Stanford: CSLI Publications.
+
+\bibitem[{Hardt(1993)}]{Hardt:93}
+Hardt, Daniel. 1993.
+\newblock \emph{Verb phrase ellipsis: {F}orm, meaning, and processing}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Hardt(1999)}]{Hardt:99}
+Hardt, Daniel. 1999.
+\newblock Dynamic interpretation of verb phrase ellipsis.
+\newblock \emph{Linguistics and Philosophy} 22. 185--219.
+
+\bibitem[{Hardt \& Romero(2004)}]{Hardt:Romero:04}
+Hardt, Daniel \& Maribel Romero. 2004.
+\newblock Ellipsis and the structure of discourse.
+\newblock \emph{Journal of Semantics} 21. 375--414.
+
+\bibitem[{Hartmann(2000)}]{Hartmann:00}
+Hartmann, Katharina. 2000.
+\newblock \emph{Right node raising and gapping}.
+\newblock Amsterdam: John Benjamins.
+
+\bibitem[{Haugereid(2009)}]{Haugereid:09}
+Haugereid, Petter. 2009.
+\newblock \emph{Phrasal subconstructions : {A} constructionalist grammar
+  design, exemplified with {N}orwegian and {E}nglish}: Norwegian University of
+  Science and Technology dissertation.
+
+\bibitem[{Hausser(1989)}]{Hausser:89}
+Hausser, Roland. 1989.
+\newblock \emph{Computation of language}.
+\newblock Berlin: Springer.
+
+\bibitem[{Havelka(2007)}]{Havelka:07}
+Havelka, Ji\v{r}\'i. 2007.
+\newblock Beyond projectivity: {M}ultilingual evaluation of constraints and
+  measures on non-projective structures.
+\newblock In \emph{Proceedings of the 45th annual meeting of the {Association
+  of Computational Linguistics} ({ACL}'07)}, 608--615. Prague: Association for
+  Computational Linguistics.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P/P07/P07-1077}.
+
+\bibitem[{Heim \& Kratzer(1998)}]{Heim:Kratzer:98}
+Heim, Irene \& Angelika Kratzer. 1998.
+\newblock \emph{Semantics in {G}enerative {G}rammar}.
+\newblock Oxford: Blackwell.
+
+\bibitem[{Heinz \& Matiasek(1994)}]{Heinz:Matiasek:94}
+Heinz, Wolfgang \& Johannes Matiasek. 1994.
+\newblock Argument structure and case assignment in {G}erman.
+\newblock In John Nerbonne, Klaus Netter \& Carl Pollard (eds.), \emph{German
+  in {H}ead-{D}riven {P}hrase {S}tructure {G}rammar}, 199--236. Stanford: CSLI
+  Publications.
+
+\bibitem[{Helbig(1973)}]{Helbig:73}
+Helbig, Gerhard. 1973.
+\newblock \emph{Geschichte der neueren {S}prachwissenschaft}.
+\newblock M\"unchen: Max Hueber Verlag 2nd edn.
+
+\bibitem[{Heringer(1984)}]{Heringer:84}
+Heringer, Hans~J\"urgen. 1984.
+\newblock Neues von der {V}erbszene.
+\newblock In Gerhard Stickel (ed.), \emph{Pragmatik in der {G}rammatik.
+  {J}ahrbuch 1983 des {I}nstituts f\"ur {D}eutsche sprache} (Sprache der
+  Gegenwart~60), 34--64. D\"usseldorf: Schwann-Bagel.
+
+\bibitem[{Heringer(1985)}]{Heringer:85}
+Heringer, Hans~J\"urgen. 1985.
+\newblock The verb and its semantic power: {A}ssociation as a basis for valency
+  theory.
+\newblock \emph{Journal of Semantics} 4. 79--99.
+
+\bibitem[{Heringer(1993)}]{Heringer:93}
+Heringer, Hans~J\"urgen. 1993.
+\newblock Dependency syntax. {B}asic ideas and the classical model.
+\newblock In Joachim Jacobs, Arnim von Stechow, Wolfgang Sternefeld \& Theo
+  Vennemann (eds.), \emph{Syntax. {Ein internationales Handbuch
+  zeitgen\"ossischer Forschung.} an international handbook of contemporary
+  research} (Handb\"ucher zur Sprach- und Kommunikationswissenschaft 9.1),
+  298--316. Berlin: Walter de Gruyter.
+
+\bibitem[{Heringer(1996)}]{Heringer:96}
+Heringer, Hans~J\"urgen. 1996.
+\newblock \emph{Deutsche {S}yntax dependentiell}  (Stauffenburg Linguistik).
+\newblock T\"ubingen: Stauffenburg.
+
+\bibitem[{Hesse \& K\"ustner(1985)}]{Hesse:Kuestner:85}
+Hesse, Harald \& Andreas K\"ustner. 1985.
+\newblock \emph{Syntax der koordinativen {V}erkn\"upfung} (studia
+  grammatica~24).
+\newblock Berlin: Akademie-Verlag Berlin.
+
+\bibitem[{Higginbotham(1985)}]{Higginbotham:85}
+Higginbotham, James. 1985.
+\newblock On semantics.
+\newblock \emph{Linguistic Inquiry} 16(4). 547--593.
+\newblock \urlprefix\url{http://www.jstor.org/stable/4178457}.
+
+\bibitem[{Hinrichs \& Nakazawa(1989)}]{Hinrichs:Nakazawa:89}
+Hinrichs, Erhard \& Tsuneko Nakazawa. 1989.
+\newblock Flipped out: {A}ux in {G}erman.
+\newblock In \emph{Papers from the 25th regional meeting of the chicago
+  linguistics society}, 193--202. Chicago.
+
+\bibitem[{Hinrichs \& Nakazawa(1994)}]{Hinrichs:Nakazawa:94}
+Hinrichs, Erhard \& Tsuneko Nakazawa. 1994.
+\newblock Linearizing {AUX}s in {G}erman verbal complexes.
+\newblock In John Nerbonne, Klaus Netter \& Carl Pollard (eds.), \emph{German
+  in {Head-Driven Phrase Structure Grammar}}, 11--37. Stanford, CA: CSLI
+  Publications.
+
+\bibitem[{H\"ohle(1978)}]{Hoehle:78}
+H\"ohle, Tilman~N. 1978.
+\newblock \emph{Lexikalistische {S}yntax: {D}ie {A}ktiv-{P}assiv-{R}elation und
+  andere {I}nfinitkonstruktionen im deutschen}.
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{H\"ohle(1983{\natexlab{a}})}]{Hoehle:83b}
+H\"ohle, Tilman~N. 1983{\natexlab{a}}.
+\newblock Subjektl\"ucken in {K}oordinationen.
+\newblock
+  \urlprefix\url{http://www.linguistik.uni-tuebingen.de/hoehle/manuskripte/SLF-W5.1\_neu.pdf}.
+
+\bibitem[{H\"ohle(1983{\natexlab{b}})}]{Hoehle:83}
+H\"ohle, Tilman~N. 1983{\natexlab{b}}.
+\newblock Topologische {F}elder.
+\newblock Unver\"offentlichtes Manuskript, T\"ubingen.
+\newblock \urlprefix\url{http://www.linguistik.uni-tuebingen.de/hoehle/}.
+
+\bibitem[{H\"ohle(1986)}]{Hoehle:86}
+H\"ohle, Tilman~N. 1986.
+\newblock Der {B}egriff \glq {M}ittelfeld\grq . {A}nmerkungen \"uber die
+  {T}heorie der topologischen {F}elder.
+\newblock In W.E. Weiss, H.~Wiegand \& Marga Reis (eds.), \emph{{A}kten des
+  {VII}. {K}ongresses der internationalen {V}ereinigung für germanische
+  {S}prach- und {L}iteraturwissenschaft. {G}\"ottingen 1985}, vol.
+  {T}extlinguistik contra {S}tilistik? -- {W}ortschatz und {W}\"orterbuch --
+  {G}rammatische oder pragmatische {O}rganisation von {R}ede 5, 329--340.
+  T\"ubingen: Max Niemeyer Verlag.
+
+\bibitem[{H\"ohle(1990)}]{Hoehle:90}
+H\"ohle, Tilman~N. 1990.
+\newblock Assumptions about asymmetric coordination in {G}erman.
+\newblock In Joan Mascar\'o \& Marina Nespor (eds.), \emph{Grammar in progress.
+  {G}low essays for {H}enk van {R}iemsdijk}, 221--235. Dordrecht: Foris.
+
+\bibitem[{H\"ohle(1991)}]{Hoehle:91}
+H\"ohle, Tilman~N. 1991.
+\newblock On reconstruction and coordination.
+\newblock In Hubert Haider \& Klaus Netter (eds.), \emph{Representation and
+  derivation in the theory of grammar} (Studies in Natural Language and
+  Linguistic Theory~22), 139--197. Dordrecht: Kluwer.
+
+\bibitem[{Holan et~al.(1998)Holan, Kubo{\v n}, Oliva \&
+  Pl{\'a}tek}]{Holan:etal:98}
+Holan, Tom{\'a}{\v s}, Vladislav Kubo{\v n}, Karel Oliva \& Martin Pl{\'a}tek.
+  1998.
+\newblock Two useful measures of word order complexity.
+\newblock In \emph{Workshop on processing of dependency-based grammars},
+  21--29. Montr{\'e}al.
+
+\bibitem[{Huang(1984)}]{Huang:84}
+Huang, C.-T.~James. 1984.
+\newblock On the distribution and reference of empty pronouns.
+\newblock \emph{Linguistic Inquiry} 15(4). 531--574.
+
+\bibitem[{Hudson(1976)}]{Hudson:76}
+Hudson, Richard~A. 1976.
+\newblock Conjunction reduction, gapping, and right-node raising.
+\newblock \emph{Language} 52(3). 535--562.
+
+\bibitem[{Hudson(1980)}]{Hudson:80}
+Hudson, Richard~A. 1980.
+\newblock Constituency and dependency.
+\newblock \emph{Linguistics} 18. 179--198.
+
+\bibitem[{Hudson(1988)}]{Hudson:88}
+Hudson, Richard~A. 1988.
+\newblock Coordination and grammatical relations.
+\newblock \emph{Journal of Linguistics} 24. 303--342.
+
+\bibitem[{Hudson(1989)}]{Hudson:89}
+Hudson, Richard~A. 1989.
+\newblock Gapping and grammatical relations.
+\newblock \emph{Journal of Linguistics} 25. 57--94.
+
+\bibitem[{Huybrechts(1984)}]{Huybrechts:84}
+Huybrechts, Riny A.~C. 1984.
+\newblock The weak inadequacy of context-free phrase structure grammars.
+\newblock In Ger de~Haan, Mieke Trommelen \& Wim Zonneveld (eds.), \emph{Van
+  periferie naar kern}, 81--99. Dordrecht: Foris.
+
+\bibitem[{Jackendoff(1971)}]{Jackendoff:71}
+Jackendoff, Ray~S. 1971.
+\newblock Gapping and related rules.
+\newblock \emph{Linguistic Inquiry} 2(1). 21--35.
+
+\bibitem[{Jackendoff(1977)}]{Jackendoff:77}
+Jackendoff, Ray~S. 1977.
+\newblock \emph{X' syntax: {A} case study of phrase structure}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Jacobs(1992)}]{Jacobs:92}
+Jacobs, Joachim. 1992.
+\newblock Bewegung als {V}alenzvererbung -- {T}eil 1.
+\newblock \emph{Linguistische Berichte} 138. 85--121.
+
+\bibitem[{Jacobs(1994{\natexlab{a}})}]{Jacobs:94a}
+Jacobs, Joachim. 1994{\natexlab{a}}.
+\newblock Das lexikalische {F}undament der {U}nterscheidung von obligatorischen
+  und fakultativen {E}rg\"anzungen.
+\newblock \emph{Zeitschrift f\"ur Germanistische Linguistik} 22. 284--319.
+
+\bibitem[{Jacobs(1994{\natexlab{b}})}]{Jacobs:94}
+Jacobs, Joachim. 1994{\natexlab{b}}.
+\newblock \emph{Kontra {V}alenz}.
+\newblock Trier: WVT Wissenschaftlicher Verlag Trier.
+
+\bibitem[{Jacobs(2003)}]{Jacobs:03}
+Jacobs, Joachim. 2003.
+\newblock Die {P}roblematik der {V}alenzebenen.
+\newblock In Vilmos \'Agel, Ludwig~M. Eichinger, Hans-Werner Eroms,
+  Hans~J\"urgen Heringer \& Henning Lobin (eds.), \emph{{Dependenz und Valenz.
+  Ein internationales Handbuch der zeitgen\"ossischen Forschung}} (Handb\"ucher
+  zur Sprach- und Kommunikationswissenschaft 25.1), 378--399. Berlin: Walter de
+  Gruyter.
+
+\bibitem[{Jacobs(2009)}]{Jacobs:09}
+Jacobs, Joachim. 2009.
+\newblock Valenzbindung oder {K}onstruktionsbindung? {E}ine {G}rundfrage der
+  {G}rammatiktheorie.
+\newblock \emph{Zeitschrift f\"ur germanistische Linguistik} 37(3). 490--513.
+
+\bibitem[{Johnson(2001)}]{Johnson:01}
+Johnson, Kyle. 2001.
+\newblock What {VP} ellipsis can do, what it can't, but not why.
+\newblock In Mark Baltin \& Chris Collins (eds.), \emph{The handbook of
+  contemporary syntactic theory}, 439--479. Oxford: Blackwell.
+
+\bibitem[{Johnson(2004)}]{Johnson:04}
+Johnson, Kyle. 2004.
+\newblock In search of the {E}nglish middle field.
+\newblock Unpublished manuscript. {U}niversity of {M}assachusetts at {A}mherst.
+\newblock
+  \urlprefix\url{http://people.umass.edu/kbj/homepage/Content/middle_field.pdf}.
+
+\bibitem[{Johnson(2009)}]{Johnson:09}
+Johnson, Kyle. 2009.
+\newblock Gapping is not ({VP}) ellipsis.
+\newblock \emph{Linguistic Inquiry} 40(2). 289--328.
+
+\bibitem[{Johnson(1986)}]{Johnson:86}
+Johnson, Mark. 1986.
+\newblock A {GPSG} account of {VP} structure in {G}erman.
+\newblock \emph{Linguistics} 24. 871--882.
+
+\bibitem[{Joshi(1985)}]{Joshi:85}
+Joshi, Aravind~K. 1985.
+\newblock Tree-{A}djoining {G}rammars: {H}ow much context-sensitivity is
+  required to provide reasonable structural descriptions.
+\newblock In David Dowty, Lauri Karttunen \& Arnold Zwicky (eds.),
+  \emph{Natural language parsing}, 206--250. Cambridge, UK: Cambridge
+  University Press.
+
+\bibitem[{Joshi(1987)}]{Joshi:87b}
+Joshi, Aravind~K. 1987.
+\newblock Word-order variation in natural language generation.
+\newblock In \emph{Proceedings of the sixth national conference on artificial
+  intelligence ({AAAI}-87)}, 550--555. Seattle.
+
+\bibitem[{Joshi et~al.(2000)Joshi, Becker \& Rambow}]{Joshi:Becker:Rambow:00}
+Joshi, Aravind~K., Tilman Becker \& Owen Rambow. 2000.
+\newblock {C}omplexity of scrambling: {A} new twist to the
+  competence/performance distinction.
+\newblock In Anne Abeill\'e \& Owen Rambow (eds.), \emph{Tree-{A}djoining
+  {G}rammars: {Formalisms}, linguistic analyses and processing}, Stanford: CSLI
+  Publications.
+
+\bibitem[{Joshi et~al.(2003)Joshi, Kallmeyer \& Romero}]{Joshi:etal:03}
+Joshi, Aravind~K., Laura Kallmeyer \& Maribel Romero. 2003.
+\newblock Flexible composition in {LTAG}: {Q}uantifier scope and inverse
+  linking.
+\newblock In Harry Bunt, Ielka van~der Sluis \& Roser Morante (eds.),
+  \emph{Proceedings of the fifth international workshop on computational
+  semantics ({IWCS}-5)}, 179--194. Tilburg.
+
+\bibitem[{Joshi et~al.(1975)Joshi, Levy \& Takahashi}]{Joshi:etal:75}
+Joshi, Aravind~K., Leon~S. Levy \& Masako Takahashi. 1975.
+\newblock {T}ree {A}djunct {G}rammars.
+\newblock \emph{Journal of Computer and System Science} 10. 136--163.
+
+\bibitem[{Joshi \& Schabes(1991{\natexlab{a}})}]{Joshi:Schabes:91}
+Joshi, Aravind~K. \& Yves Schabes. 1991{\natexlab{a}}.
+\newblock Fixed and flexible phrase structure: Coordination in {T}ree
+  {A}djoining {G}rammars.
+\newblock In \emph{Fourth {DARPA} speech and natural language workshop},
+  \urlprefix\url{http://acl.ldc.upenn.edu/H/H91/H91-1035.pdf}.
+
+\bibitem[{Joshi \& Schabes(1991{\natexlab{b}})}]{Joshi:Schabes:91b}
+Joshi, Aravind~K. \& Yves Schabes. 1991{\natexlab{b}}.
+\newblock Tree-{A}djoining {G}rammars and lexicalized grammars.
+\newblock Tech. Rep. MS-CIS-91-22 Department of Computer and Information
+  Science, University of Pennsylvania.
+\newblock \urlprefix\url{http://repository.upenn.edu/cis_reports/445/}.
+
+\bibitem[{Joshi \& Schabes(1997)}]{Joshi:Schabes:97}
+Joshi, Aravind~K. \& Yves Schabes. 1997.
+\newblock Tree-{A}djoining {G}rammars.
+\newblock In G.~Rozenberg \& A.~Salomaa (eds.), \emph{Handbook of formal
+  languages}, vol.~3, 69--124. Berlin: Springer.
+
+\bibitem[{Joshi et~al.(1990)Joshi, Shanker \& Weir}]{Joshi:etal:90}
+Joshi, Aravind~K., K.~Vijay Shanker \& David~J. Weir. 1990.
+\newblock The convergence of mildly context-sensitive grammar formalisms.
+\newblock Tech. Rep. MS-CIS-90-01 Department of Computer and Information
+  Science, University of Pennsylvania.
+
+\bibitem[{Jurafsky \& Martin(2009)}]{Jurafsky:Martin:09}
+Jurafsky, Daniel \& James~H. Martin. 2009.
+\newblock \emph{Speech and language processing. {A}n introduction to natural
+  language processing, computational linguistics, and speech recognition}.
+\newblock Upper Saddle River, NJ: Prentice Hall 2nd edn.
+
+\bibitem[{Kaeshammer \& Demberg(2012)}]{Kaehammer:Demberg:12}
+Kaeshammer, Miriam \& Vera Demberg. 2012.
+\newblock German and {E}nglish treebanks and lexica for {Tree-Adjoining
+  Grammars}.
+\newblock In Nicoletta Calzolari, Khalid Choukri, Thierry Declerck,
+  Mehmet~U\u{g}ur Do\u{g}an, Bente Maegaard, Joseph Mariani, Asuncion Moreno,
+  Jan Odijk \& Stelios Piperidis (eds.), \emph{Proceedings of the eighth
+  international conference on language resources and evaluation ({LREC}'12)},
+  Istanbul: European Language Resources Association (ELRA).
+
+\bibitem[{Kallmeyer(2001)}]{Kallmeyer:01}
+Kallmeyer, Laura. 2001.
+\newblock Local {T}ree {D}escription {G}rammars.
+\newblock \emph{Grammars} 4. 85--137.
+
+\bibitem[{Kallmeyer(2005)}]{Kallmeyer:05}
+Kallmeyer, Laura. 2005.
+\newblock Tree-local {M}ulticomponent {T}ree {A}djoining {G}rammars with shared
+  nodes.
+\newblock \emph{Computational Linguistics} 31:2. 187--225.
+
+\bibitem[{Kallmeyer(2006)}]{Kallmeyer:06}
+Kallmeyer, Laura. 2006.
+\newblock Comparing lexicalized grammar formalisms in an empirically adequate
+  way: {T}he notion of generative attachment capacity.
+\newblock In \emph{Pre-proceedings of the international conference on
+  linguistic evidence}, 154--156. T\"ubingen.
+
+\bibitem[{Kallmeyer(2009)}]{Kallmeyer:09}
+Kallmeyer, Laura. 2009.
+\newblock A declarative characterization of different types of {M}ulticomponent
+  {T}ree {A}djoining {G}rammar.
+\newblock \emph{Research on Language and Computation} 7. 55--99.
+
+\bibitem[{Kallmeyer(2010{\natexlab{a}})}]{Kallmeyer:10b}
+Kallmeyer, Laura. 2010{\natexlab{a}}.
+\newblock On mildly context-sensitive non-linear rewriting.
+\newblock \emph{Research on Language and Computation} 8(4). 341--363.
+
+\bibitem[{Kallmeyer(2010{\natexlab{b}})}]{Kallmeyer:10}
+Kallmeyer, Laura. 2010{\natexlab{b}}.
+\newblock \emph{Parsing beyond {C}ontext-{F}ree {G}rammars}.
+\newblock Heidelberg: Springer.
+
+\bibitem[{Kallmeyer \& Joshi(2003)}]{Kallmeyer:Joshi:03}
+Kallmeyer, Laura \& Aravind~K. Joshi. 2003.
+\newblock Factoring predicate argument and scope semantics: {U}nderspecified
+  semantics with {LTAG}.
+\newblock \emph{Research on Language and Computation} 1(1--2). 3--58.
+
+\bibitem[{Kallmeyer et~al.(2008)Kallmeyer, Lichte, Maier, Parmentier \&
+  Dellert}]{Kallmeyer:etal:08}
+Kallmeyer, Laura, Timm Lichte, Wolfgang Maier, Yannick Parmentier \& Johannes
+  Dellert. 2008.
+\newblock Developing a {TT-MCTAG} for {G}erman with an {RCG}-based parser.
+\newblock In European Language Resources~Association (ELRA) (ed.),
+  \emph{Proceedings of the sixth international language resources and
+  evaluation ({LREC}'08)}, Marrakech, Morocco.
+
+\bibitem[{Kallmeyer \& Parmentier(2008)}]{Kallmeyer:Parmentier:08}
+Kallmeyer, Laura \& Yannick Parmentier. 2008.
+\newblock On the relation between {M}ulticomponent {T}ree {A}djoining
+  {G}rammars with {T}ree {T}uples ({T}{T}-{M}{C}{T}{A}{G}) and {R}ange
+  {C}oncatenation {G}rammars ({R}{C}{G}).
+\newblock In \emph{Proceedings of the 2nd international conference on language
+  and automata theory and applications ({LATA})}, 277--288. Tarragona, Spain.
+
+\bibitem[{Kallmeyer \& Romero(2007)}]{Kallmeyer:Romero:07}
+Kallmeyer, Laura \& Maribel Romero. 2007.
+\newblock Reflexives and reciprocals in {LTAG}.
+\newblock In Jeroen Geertzen, Elias Thijsse, Harry Bunt \& Amanda Schiffrin
+  (eds.), \emph{Proceedings of the seventh international workshop on
+  computational linguistics ({IWCS}-7)}, 271--282. Tilburg.
+
+\bibitem[{Kallmeyer \& Romero(2008)}]{Kallmeyer:Romero:08}
+Kallmeyer, Laura \& Maribel Romero. 2008.
+\newblock Scope and situation binding in {LTAG} using semantic unification.
+\newblock \emph{Research on Language and Computation} 6(1). 3--52.
+
+\bibitem[{Kallmeyer \& Satta(2009)}]{Kallmeyer:Satta:09}
+Kallmeyer, Laura \& Giorgio Satta. 2009.
+\newblock A polynomial-time parsing algorithm for {TT-MCTAG}.
+\newblock In \emph{Proceedings of the joint conference of the 47th annual
+  meeting of the {ACL} and the 4th international joint conference on natural
+  language processing of the {AFNLP}}, 994--1002. Suntec, Singapore.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P/P09/P09-1112}.
+
+\bibitem[{Kanazawa(2009)}]{Kanazawa:09}
+Kanazawa, Makoto. 2009.
+\newblock The convergence of well-nested mildly context-sensitive grammar
+  formalisms.
+\newblock Invited talk at the 14th Conference on Formal Grammar, Bordeaux,
+  France, July 25, 2009.
+\newblock
+  \urlprefix\url{http://research.nii.ac.jp/~kanazawa/talks/fg2009_talk.pdf}.
+
+\bibitem[{Kaplan \& Bresnan(1982)}]{Kaplan:Bresnan:82}
+Kaplan, Ron~M. \& Joan Bresnan. 1982.
+\newblock Lexical-{F}unctional {G}rammar: {A} formal system for grammatical
+  representation.
+\newblock In Joan Bresnan (ed.), \emph{The mental representation of grammatical
+  relations}, 173--281. Cambridge, MA: MIT Press.
+
+\largerpage%
+
+\bibitem[{Kathol(1995)}]{Kathol:95}
+Kathol, Andreas. 1995.
+\newblock \emph{Linearization-based {G}erman syntax}.
+\newblock Columbus, OH: Ohio State University dissertation.
+
+\bibitem[{Kathol(1998)}]{Kathol:98}
+Kathol, Andreas. 1998.
+\newblock Constituency and linearization of verbal complexes.
+\newblock In Erhard Hinrichs, Tsuneko Nakazawa \& Andreas Kathol (eds.),
+  \emph{Complex predicates in non-derivational syntax} (Syntax and
+  Semantics~30), 221--270. New York: Academic Press.
+
+\bibitem[{Kathol(1999)}]{Kathol:99}
+Kathol, Andreas. 1999.
+\newblock Linearization vs. phrase structure in {G}erman coordination
+  constructions.
+\newblock \emph{Cognitive Linguistics} 10(4). 303--342.
+
+\bibitem[{Kathol(2000)}]{Kathol:00}
+Kathol, Andreas. 2000.
+\newblock \emph{Linear syntax}.
+\newblock Oxford: Oxford University Press.
+
+\largerpage%
+
+\bibitem[{Kathol(2001)}]{Kathol:01}
+Kathol, Andreas. 2001.
+\newblock Positional effects in a monostratal grammar of {G}erman.
+\newblock \emph{Journal of Linguistics} 37(1). 35--66.
+
+\bibitem[{Kefer \& Lejeune(1974)}]{Kefer:Lejeune:74}
+Kefer, Michel \& Joseph Lejeune. 1974.
+\newblock Satzglieder innerhalb eines {V}erbalkomplexes.
+\newblock \emph{Deutsche Sprache} 2. 322--334.
+
+\bibitem[{Keller(1995)}]{Keller:95}
+Keller, Frank. 1995.
+\newblock Towards an account of extraposition in {HPSG}.
+\newblock In \emph{Proceedings of the seventh conference on {European} chapter
+  of the {Association for Computational Linguistics} ({EACL}'95)}, 301--306.
+  Dublin.
+
+\bibitem[{Kemmerling(1990)}]{Kemmerling:90}
+Kemmerling, Andreas. 1990.
+\newblock Gedanken und ihre {T}eile.
+\newblock \emph{Grazer Philosophische Studien} 37. 1--30.
+
+\bibitem[{Kemmerling(2010)}]{Kemmerling:10}
+Kemmerling, Andreas. 2010.
+\newblock Thoughts without parts -- {F}rege's doctrine.
+\newblock \emph{Grazer Philosophische Studien} 82. 165--188.
+
+\bibitem[{Kindt(1985)}]{Kindt:85}
+Kindt, Walther. 1985.
+\newblock Grammatische {P}rinzipien sogenannter {E}llipsen und ein neues
+  {S}yntaxmodell.
+\newblock In R.~Meyer-Hermann \& H.~Rieser (eds.), \emph{Ellipsen und
+  fragmentarische {A}usdr\"ucke}, vol.~1, 161--290. T\"ubingen: Niemeyer.
+
+\bibitem[{Kiss(1995)}]{Kiss:95}
+Kiss, Tibor. 1995.
+\newblock \emph{Infinite {K}omplementation -- {N}eue {S}tudien zum deutschen
+  {V}erbum {I}nfinitum}.
+\newblock T\"ubingen: Max Niemeyer Verlag.
+
+\bibitem[{Kiss(2005)}]{Kiss:05}
+Kiss, Tibor. 2005.
+\newblock Semantic constraints on relative clause extraposition.
+\newblock \emph{Natural Language and Linguistic Theory} 23. 281--334.
+
+\bibitem[{Klein(1981)}]{Klein:81}
+Klein, Wolfgang. 1981.
+\newblock Some rules of regular ellipsis in {G}erman.
+\newblock In Wolfgang Klein \& Willem J.~M. Levelt (eds.), \emph{Crossing the
+  boundaries in linguistics. {S}tudies presented to {M}anfred {B}ierwisch},
+  51--78. Dordrecht: Reidel.
+
+\bibitem[{Klein(1993)}]{Klein:93}
+Klein, Wolfgang. 1993.
+\newblock Ellipse.
+\newblock In Joachim Jacobs, Arnim von Stechow, Wolfgang Sternefeld \& Theo
+  Vennemann (eds.), \emph{Syntax. {E}in internationales {H}andbuch
+  zeitgen\"ossischer {F}orschung. {A}n international handbook of contemporary
+  research} (Handb\"ucher zur Sprach- und Kommunikationswissenschaft 9.1),
+  763--799. Berlin: Walter de Gruyter.
+
+\bibitem[{Klima(1964)}]{Klima:64}
+Klima, Edward. 1964.
+\newblock Negation in {E}nglish.
+\newblock In Jerry~A. Fodor \& Jerrold Katz (eds.), \emph{The structure of
+  language}, 246--323. Englewood Cliffs, NJ: Prentice Hall.
+
+\bibitem[{Kobele(2009)}]{Kobele:09}
+Kobele, Gregory~M. 2009.
+\newblock Syntactic identity in survive-minimalism. {E}llipsis and the
+  derivational identity hypothesis.
+\newblock In Michael~T. Putnam (ed.), \emph{Towards a derivational syntax:
+  {S}urvive-minimalism}  (195--229), Amsterdam: John Benjamins.
+
+\bibitem[{Kracht(2002)}]{Kracht:02}
+Kracht, Marcus. 2002.
+\newblock Referent systems and {R}elational {G}rammar.
+\newblock \emph{Journal of Logic, Language and Information} 11. 251--286.
+
+\bibitem[{Kracht(2007)}]{Kracht:07}
+Kracht, Marcus. 2007.
+\newblock The emergence of syntactic structure.
+\newblock \emph{Linguistics and Philosophy} 30. 47--95.
+
+\bibitem[{Kracht(2011)}]{Kracht:11}
+Kracht, Marcus. 2011.
+\newblock \emph{Interpreted languages and compositionality} (Studies in
+  Linguistics and Philosophy~89).
+\newblock Dordrecht: Springer.
+
+\bibitem[{Krenn(1999)}]{Krenn:99}
+Krenn, Brigitte. 1999.
+\newblock \emph{The usual suspects. {D}ata-oriented models for identification
+  and representation of lexical collocations} (Saarbr\"ucken Dissertations in
+  Computational Linguistics and Language Technology~7).
+\newblock Saarbr\"ucken: DFKI and Universit\"at des Saarlandes.
+
+\bibitem[{Kroch(1989)}]{Kroch:89}
+Kroch, Anthony~S. 1989.
+\newblock Asymmetries in long distance extraction in a {T}ree {A}djoining
+  {G}rammar.
+\newblock In Mark~R. Baltin \& Anthony~S. Kroch (eds.), \emph{Alternative
+  conceptions of phrase structure}, Chicago: University of Chicago Press.
+
+\bibitem[{Kroch \& Joshi(1987)}]{Kroch:Joshi:87}
+Kroch, Anthony~S. \& Aravind~K. Joshi. 1987.
+\newblock Analyzing extraposition in a {T}ree {A}djoining {G}rammar.
+\newblock In Geoffrey~J. Huck \& Almerindo~E. Ojeda (eds.), \emph{Discontinous
+  constituency} (Syntax and Semantics~20), 107--149. New York: Academic Press.
+
+\bibitem[{Kuhlmann(2010)}]{Kuhlmann:10}
+Kuhlmann, Marco. 2010.
+\newblock \emph{Dependency structures and lexicalized grammars} (Lecture Notes
+  in Computer Science 6270).
+\newblock Berlin: Springer.
+
+\bibitem[{Kuhlmann \& M\"ohl(2006)}]{Kuhlmann:Moehl:06}
+Kuhlmann, Marco \& Mathias M\"ohl. 2006.
+\newblock Extended cross-serial dependencies in {T}ree {A}djoining {G}rammars.
+\newblock In \emph{Proceedings of the 8th international workshop on {T}ree
+  {A}djoining {G}rammar and related formalisms ({TAG}+ 8)}, 121--126. Sydney.
+
+\bibitem[{Kuhlmann \& M\"ohl(2007)}]{Kuhlmann:Moehl:07}
+Kuhlmann, Marco \& Mathias M\"ohl. 2007.
+\newblock Mildly context-sensitive dependency languages.
+\newblock In \emph{Proceedings of the 45th annual meeting of the {Association
+  of Computational Linguistics} ({ACL}'07)}, 160--167. Prague.
+
+\bibitem[{Kuhlmann \& Nivre(2006)}]{Kuhlmann:Nivre:06}
+Kuhlmann, Marco \& Joakim Nivre. 2006.
+\newblock Mildly non-projective dependency structures.
+\newblock In \emph{Proceedings of the {COLING/ACL} 2006 main conference poster
+  sessions}, 507--514. Sydney.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P/P06/P06-2066}.
+
+\bibitem[{Kulick(2000)}]{Kulick:00}
+Kulick, Seth~Norman. 2000.
+\newblock \emph{Constraining non-local dependencies in {T}ree {A}djoining
+  {G}rammar: {C}omputational and linguistic perspectives}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Kunze(1972)}]{Kunze:72}
+Kunze, J\"urgen. 1972.
+\newblock \emph{Die {A}usla\ss barkeit von {S}atzteilen bei koordinativen
+  {V}erbindungen im {D}eutschen} (Schriften zur Phonetik, Sprachwissenschaft
+  und Kommunikationsforschung~14).
+\newblock Berlin: Akademie-Verlag.
+
+\bibitem[{Kunze(1975)}]{Kunze:75}
+Kunze, J\"urgen. 1975.
+\newblock \emph{Abh\"angigkeitsgrammatik} (studia grammatica~12).
+\newblock Berlin: Akademie-Verlag.
+
+\bibitem[{Kunze(1991)}]{Kunze:91}
+Kunze, J\"urgen. 1991.
+\newblock \emph{Kasusrelationen und semantische {E}mphase} (studia grammatica
+  XXXII).
+\newblock Berlin: Akademie Verlag.
+
+\bibitem[{von Kutschera(1975)}]{Kutschera:75}
+von Kutschera, Franz. 1975.
+\newblock \emph{Sprachphilosophie}.
+\newblock M\"unchen: Wilhelm Fink Verlag 2nd edn.
+
+\bibitem[{Kvam(1979)}]{Kvam:79}
+Kvam, Sigmund. 1979.
+\newblock {D}iskontinuierliche {A}nordnung von eingebetteten {I}nfinitivphrasen
+  im {D}eutschen.
+\newblock \emph{Deutsche Sprache} 7. 315--325.
+
+\bibitem[{Kvam(1983)}]{Kvam:83}
+Kvam, Sigmund. 1983.
+\newblock \emph{Linksverschachtelung im {D}eutschen und {N}orwegischen}
+  (Linguistische Arbeiten 130).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{Lemnitzer(1997)}]{Lemnitzer:97}
+Lemnitzer, Lothar. 1997.
+\newblock \emph{{Akquisition komplexer Lexeme aus {T}extkorpora}} (Reihe
+  Germanistische Linguistik 180).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{Lichte(2007)}]{Lichte:07}
+Lichte, Timm. 2007.
+\newblock An {MCTAG} with tuples for coherent constructions in {G}erman.
+\newblock In \emph{Proceedings of the 12th conference on formal grammar},
+  Dublin, Ireland, 4-5 August 2007.
+
+\bibitem[{Lichte(2010)}]{Lichte:10}
+Lichte, Timm. 2010.
+\newblock From partial {VP} fronting towards {S}pinal {TT-MCTAG}.
+\newblock In \emph{Proceedings of the 10th international workshop on
+  {T}ree-{A}djoining {G}rammar and related formalisms ({TAG}+ 10)}, 85--92. New
+  Haven.
+
+\bibitem[{Lichte \& Kallmeyer(2010)}]{Lichte:Kallmeyer:10}
+Lichte, Timm \& Laura Kallmeyer. 2010.
+\newblock Gapping through {TAG} derivation trees.
+\newblock In \emph{Proceedings of the 10th international workshop on
+  {T}ree-{A}djoining {G}rammar and related formalisms ({TAG}+ 10)}, 93--100.
+  New Haven.
+
+\bibitem[{Little(2010)}]{Little:10}
+Little, Nathaniel. 2010.
+\newblock Reevaluating gapping in {CCG}: Evidence from {E}nglish and {C}hinese.
+\newblock In \emph{Proceedings of the 10th international workshop on
+  {T}ree-{A}djoining {G}rammar and related formalisms ({TAG}+ 10)}, 25--33.
+
+\bibitem[{Lobeck(1995)}]{Lobeck:95}
+Lobeck, Anne~C. 1995.
+\newblock \emph{Ellipsis. {F}unctional heads, licensing, and identification}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Lobin(1993)}]{Lobin:93}
+Lobin, Henning. 1993.
+\newblock \emph{Koordinationssyntax als prozedurales {P}h\"anomen} (Studien zur
+  deutschen Grammatik~46).
+\newblock T\"ubingen: Narr.
+
+\bibitem[{Lorimor(2007)}]{Lorimor:07}
+Lorimor, Heidi. 2007.
+\newblock \emph{Conjunctions and grammatical agreement}.
+\newblock Champaign, IL: Universitiy of Illinois at Urbana-Champaign
+  dissertation.
+\newblock
+  \urlprefix\url{http://www.facstaff.bucknell.edu/hml003/Lorimor%20thesis.pdf}.
+
+\bibitem[{L\"uhr(1988)}]{Luehr:88}
+L\"uhr, Rosemarie. 1988.
+\newblock Zur {S}atzverschr\"ankung im heutigen {D}eutsch.
+\newblock \emph{Groninger Arbeiten zur Germanistischen Linguistik} 29. 74--87.
+
+\bibitem[{Lutz(2004)}]{Lutz:04}
+Lutz, Ulrich. 2004.
+\newblock \emph{Studien zu {E}xtraktion und {P}rojektion im {D}eutschen}.
+\newblock T\"ubingen: University of T\"ubingen dissertation.
+\newblock \urlprefix\url{http://hdl.handle.net/10900/46226}.
+
+\bibitem[{Lyons(1968)}]{Lyons:68}
+Lyons, John. 1968.
+\newblock \emph{Introduction to theoretical linguistics}.
+\newblock Cambridge, UK: Cambridge University Press.
+
+\bibitem[{Maienborn(1991)}]{Maienborn:91}
+Maienborn, Claudia. 1991.
+\newblock {B}ewegungs- und {P}ositionsverben: {Z}ur {F}akultativit\"at des
+  lokalen {A}rguments.
+\newblock In E.~Klein, F.~P. Dutei \& K.~Wagner (eds.),
+  \emph{{Betriebslinguistik und Linguistikbetrieb. Akten des 24. Linguistischen
+  Kolloquiums, Universit\"at Bremen}}, T\"ubingen: Niemeyer.
+
+\bibitem[{Maienborn(2001)}]{Maienborn:01}
+Maienborn, Claudia. 2001.
+\newblock On the position and interpretation of locative modifiers.
+\newblock \emph{Natural Language Semantics} 9(2). 191--240.
+
+\largerpage%
+
+\bibitem[{Maier \& Lichte(2011)}]{Maier:Lichte:11}
+Maier, Wolfgang \& Timm Lichte. 2011.
+\newblock Characterizing discontinuity in constituent treebanks.
+\newblock In \emph{Formal grammar. 14th international conference, {FG} 2009.
+  {B}ordeaux, {F}rance, {J}uly 25-26, 2009. {R}evised selected papers} (Lecture
+  Notes in Artificial Intelligence 5591), 167--182. Berlin: Springer.
+
+\bibitem[{Matthews(1993)}]{Matthews:93}
+Matthews, Peter. 1993.
+\newblock Central concepts of syntax.
+\newblock In Joachim Jacobs, Arnim von Stechow, Wolfgang Sternefeld \& Theo
+  Vennemann (eds.), \emph{Syntax. {Ein internationales Handbuch
+  zeitgen\"ossischer Forschung}}, 89--117. Berlin: Mouton de Gruyter.
+
+\bibitem[{Matthews(2007)}]{Matthews:07}
+Matthews, Peter. 2007.
+\newblock \emph{Syntactic relations. {A} critical survey} (Cambridge Studies in
+  Linguistics 114).
+\newblock Cambridge, UK: Cambridge University Press.
+
+\bibitem[{Maxwell \& Manning(1996)}]{Maxwell:Manning:96}
+Maxwell, John~T. \& Christopher~D. Manning. 1996.
+\newblock A theory of non-constituent coordination based on finite state rules.
+\newblock In \emph{Proceedings of the first {LFG} conference}, Grenoble: CSLI
+  Publications.
+\newblock
+  \urlprefix\url{http://cslipublications.stanford.edu/LFG/1/MaxwellManning.ps}.
+
+\bibitem[{Mazzei et~al.(2007)Mazzei, Lombardo \& Sturt}]{Mazzei:etal:07}
+Mazzei, Alessandro, Vincenzo Lombardo \& Patrick Sturt. 2007.
+\newblock Dynamic {TAG} and lexical dependencies.
+\newblock \emph{Research on Language and Computation} 5(3). 309--332.
+
+\bibitem[{McCarthy(2009)}]{McCarthy:09}
+McCarthy, Diana. 2009.
+\newblock Word sense disambiguation: {A}n overview.
+\newblock \emph{Language and Linguistics Compass} 3(2). 537--558.
+
+\bibitem[{McCawley(1982)}]{McCawley:82}
+McCawley, James~D. 1982.
+\newblock Parentheticals and discontinuous constituent structure.
+\newblock \emph{Linguistic Inquiry} 13(1). 91--106.
+
+\bibitem[{Mel'{\v{c}}uk(2009)}]{Melcuk:09}
+Mel'{\v{c}}uk, Igor. 2009.
+\newblock Dependency in natural language.
+\newblock In Alain Polgu\`ere \& Igor Mel'{\v{c}}uk (eds.), \emph{Dependency in
+  natural language} (Studies in Language Companion Series 111), 1--110.
+  Amsterdam: John Benjamins.
+
+\bibitem[{Merchant(2001)}]{Merchant:01}
+Merchant, Jason. 2001.
+\newblock \emph{The syntax of silence}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{Merchant(2004)}]{Merchant:04}
+Merchant, Jason. 2004.
+\newblock Fragments and ellipsis.
+\newblock \emph{Linguistics and Philosophy} 27. 661--738.
+
+\bibitem[{Meurers(1994)}]{Meurers:94}
+Meurers, W.~Detmar. 1994.
+\newblock A modified view of the {G}erman verbal complexes.
+\newblock Handout of a talk given on 7.\,October 1994 at the HPSG Workshop in
+  Heidelberg, Germany.
+\newblock
+  \urlprefix\url{http://www.sfs.uni-tuebingen.de/~dm/papers/handouts/heidelberg.ps}.
+
+\bibitem[{Meurers(1997)}]{Meurers:97}
+Meurers, W.~Detmar. 1997.
+\newblock {Statusrektion und Wortstellung in koh\"arenten
+  Infinitivkonstruktionen des Deutschen}.
+\newblock In Erhard Hinrichs, W.~Detmar Meurers, Frank Richter, Manfred Sailer
+  \& Heike Winhart (eds.), \emph{Ein {HPSG}-{F}ragment des {D}eutschen}
+  (Arbeitspapiere des SFB 340~95), 189--248. T\"ubingen: Universit\"at
+  T\"ubingen.
+
+\bibitem[{Meurers(1999{\natexlab{a}})}]{Meurers:99b}
+Meurers, W.~Detmar. 1999{\natexlab{a}}.
+\newblock German partial-{VP} topicalization revisited.
+\newblock In Gert Webelhuth, Jean-Pierre Koenig \& Andreas Kathol (eds.),
+  \emph{Lexical and constructional aspects of linguistic explanation}  (Studies
+  in Constraint-Based Lexicalism), Stanford: CSLI Publications.
+
+%\largerpage[2]%
+
+\bibitem[{Meurers(1999{\natexlab{b}})}]{Meurers:99}
+Meurers, W.~Detmar. 1999{\natexlab{b}}.
+\newblock \emph{Lexical generalizations in the syntax of {G}erman non-finite
+  constructions}.
+\newblock T\"ubingen: Universit\"at T\"ubingen dissertation.
+\newblock \urlprefix\url{http://purl.org/dm/papers/diss.html}.
+\newblock Published 2000 as Volume 145 in Arbeitspapiere des SFB 340, ISSN
+  0947-6954/00.
+
+\bibitem[{Michaelis(2001{\natexlab{a}})}]{Michaelis:01a}
+Michaelis, Jens. 2001{\natexlab{a}}.
+\newblock Derivational minimalism is mildly context-sensitive.
+\newblock In Michael Moortgat (ed.), \emph{Logical aspects of computational
+  linguistics} (LNCS/LNAI 2014), 179--198. Berlin: Springer.
+
+\largerpage%
+
+\bibitem[{Michaelis(2001{\natexlab{b}})}]{Michaelis:01b}
+Michaelis, Jens. 2001{\natexlab{b}}.
+\newblock Transforming linear context-free rewriting systems into {M}inimalist
+  {G}rammars.
+\newblock In Philippe de~Groote \& Glyn Morrill (eds.), \emph{Logical aspects
+  of computational linguistics} (LNCS/LNAI 2099), 228--244. Berlin: Springer.
+
+\bibitem[{M\"onnich(2010)}]{Moennich:10}
+M\"onnich, Uwe. 2010.
+\newblock Well-nested tree languages and attributed tree transducers.
+\newblock In \emph{Proceedings of the 10th international conference on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 10)}, 35--43. New
+  Haven.
+
+\bibitem[{Morgan(1973)}]{Morgan:73}
+Morgan, Jerry~L. 1973.
+\newblock Sentence fragments and the notion `sentence'.
+\newblock In Braj~B. Kachru, Robert~B. Lees \& Yakov Malkiel (eds.),
+  \emph{Issues in linguistics: Papers in honor of {H}enry and {R}en\'ee
+  kahane}, 719--751. Champaign, IL: University of Illinois Press.
+
+\bibitem[{M\"uller(1985)}]{Mueller:85}
+M\"uller, Beat~Louis. 1985.
+\newblock \emph{{Der Satz. Definition und sprachtheoretischer Status}} (Reihe
+  Germanistische Linguistik~57).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{M\"uller(1998)}]{GMueller:98}
+M\"uller, Gereon. 1998.
+\newblock \emph{Incomplete category fronting: {A} derivational approach to
+  remnant movement in {G}erman} (Studies in Natural Language and Linguistic
+  Theory~42).
+\newblock Dordrecht: Kluwer Academic Publishers.
+
+\bibitem[{M{\"u}ller \& Sternefeld(1993)}]{Mueller:Sternefeld:93}
+M{\"u}ller, Gereon \& Wolfgang Sternefeld. 1993.
+\newblock Improper movement and unambiguous binding.
+\newblock \emph{Linguistic Inquiry} 24(3). 461--507.
+
+\bibitem[{M\"uller(1996{\natexlab{a}})}]{Mueller:96}
+M\"uller, Stefan. 1996{\natexlab{a}}.
+\newblock The {Babel-System} -- an {HPSG} fragment for {German}, a parser, and
+  a dialogue component.
+\newblock In \emph{Proceedings of the fourth international conference on the
+  practical application of {P}rolog}, 263--277. London.
+
+\bibitem[{M\"uller(1996{\natexlab{b}})}]{Mueller:96b}
+M\"uller, Stefan. 1996{\natexlab{b}}.
+\newblock Yet another paper about partial verb phrase fronting in {German}.
+\newblock In \emph{Proceedings of {COLING} 96}, 800--805. Copenhagen.
+
+\bibitem[{M\"uller(1997)}]{Mueller:97}
+M\"uller, Stefan. 1997.
+\newblock Yet another paper about partial verb phrase fronting in {German}.
+\newblock {Research Report} {RR-97-07} DFKI Saarbr\"ucken.
+\newblock A shorter version appeared in {\it Proceedings of COLING 96\/}.
+  \url{http://hpsg.fu-berlin.de/~stefan/Pub/pvp.html}.
+
+\bibitem[{M\"uller(1999)}]{Mueller:99}
+M\"uller, Stefan. 1999.
+\newblock \emph{{Deutsche Syntax deklarativ. Head-Driven Phrase Structure
+  Grammar f\"ur das Deutsche}} (Linguistische Arbeiten 394).
+\newblock T\"ubingen: Max Niemeyer Verlag.
+
+\bibitem[{M\"uller(2001)}]{Mueller:01}
+M\"uller, Stefan. 2001.
+\newblock Case in {German} -- {T}owards an {HPSG} analysis.
+\newblock In W.~Detmar Meurers \& Tibor Kiss (eds.), \emph{Constraint"=based
+  approaches to {Germanic} syntax} (Studies in Constraint-Based Lexicalism~7),
+  217--255. Stanford: CSLI Publications.
+\newblock \url{http://hpsg.fu-berlin.de/~stefan/Pub/case.html}.
+
+\bibitem[{M\"uller(2002)}]{Mueller:02}
+M\"uller, Stefan. 2002.
+\newblock \emph{Complex predicates. {V}erbal complexes, resultative
+  constructions, and particle verbs in {G}erman}  (Studies in Constraint-Based
+  Lexicalism).
+\newblock Stanford: CSLI Publications.
+
+\bibitem[{M\"uller(2003)}]{Mueller:03}
+M\"uller, Stefan. 2003.
+\newblock Mehrfache {V}orfeldbesetzung.
+\newblock \emph{Deutsche Sprache} 31(1). 29--62.
+
+\bibitem[{M\"uller(2004)}]{Mueller:04}
+M\"uller, Stefan. 2004.
+\newblock Continuous or discontinuous constituents? {A} comparison between
+  syntactic analyses for constituent order and their processing systems.
+\newblock \emph{Research on Language and Computation, Special Issue on
+  Linguistic Theory and Grammar Implementation} 2(2). 209--257.
+
+\bibitem[{M\"uller(2005{\natexlab{a}})}]{Mueller:05}
+M\"uller, Stefan. 2005{\natexlab{a}}.
+\newblock {Zur Analyse der deutschen Satzstruktur}.
+\newblock \emph{Linguistische Berichte} 201. 3--39.
+
+\bibitem[{M\"uller(2005{\natexlab{b}})}]{Mueller:05b}
+M\"uller, Stefan. 2005{\natexlab{b}}.
+\newblock {Zur Analyse der scheinbar mehrfachen Vorfeldbesetzung}.
+\newblock \emph{Linguistische Berichte} 203. 297--330.
+
+\bibitem[{M\"uller(2007)}]{Mueller:07}
+M\"uller, Stefan. 2007.
+\newblock \emph{{Head-Driven Phrase Structure Grammar: Eine Einf\"uhrung}}
+  (Stauffenburg Einf\"uhrungen~17).
+\newblock T\"ubingen: Stauffenburg Verlag.
+
+\bibitem[{M\"uller(2009)}]{Mueller:09}
+M\"uller, Stefan. 2009.
+\newblock On predication.
+\newblock In \emph{Proceedings of the 16th international conference on
+  {H}ead-{D}riven {P}hrase {S}tructure {G}rammar, {U}niversity of
+  {G}{\"o}ttingen, {G}ermany}, 213--233. Stanford: CSLI Publications.
+\newblock
+  \urlprefix\url{http://hpsg.fu-berlin.de/~stefan/Pub/predication.html}.
+
+\bibitem[{M\"uller(2010)}]{Mueller:10}
+M\"uller, Stefan. 2010.
+\newblock \emph{{Grammatiktheorie}} (Stauffenburg Einf{\"u}hrungen~20).
+\newblock T{\"u}bingen: Stauffenburg Verlag.
+\newblock
+  \urlprefix\url{http://hpsg.fu-berlin.de/~stefan/Pub/grammatiktheorie.html}.
+
+\bibitem[{Munn(2000)}]{Munn:00}
+Munn, Alan. 2000.
+\newblock Three types of coordination asymmetries.
+\newblock In Kerstin Schwabe \& Ning Zhang (eds.), \emph{Ellipsis in
+  conjunction} (Linguistische Arbeiten 418), 1--22. T\"ubingen: Niemeyer.
+
+\bibitem[{Muskens(2001)}]{Muskens:01}
+Muskens, Reinhard. 2001.
+\newblock Lambda {G}rammars and the syntax-semantics interface.
+\newblock In Robert van Rooij \& Martin Stokhof (eds.), \emph{Proceedings of
+  the thirteenth {A}msterdam colloquium}, 150--155. Amsterdam.
+
+\bibitem[{Nasr \& Rambow(2004)}]{Nasr:Rambow:04}
+Nasr, Alexis \& Owen Rambow. 2004.
+\newblock Supertagging and full parsing.
+\newblock In \emph{Proceedings of the 7th international workshop on {Tree
+  Adjoining Grammar} and related formalisms ({TAG}+ 7)}, 56--63. Vancouver.
+
+\bibitem[{Nederhof et~al.(2003)Nederhof, Satta \& Shieber}]{Nederhof:etal:03}
+Nederhof, Mark-Jan, Giorgio Satta \& Stuart~M. Shieber. 2003.
+\newblock Partially ordered multiset context-free grammars and free-word-order
+  parsing.
+\newblock In \emph{8th international workshop on parsing technologies ({IWPT}
+  2003)}, 171--182. Nancy.
+
+\bibitem[{Neijt-Kappen(1979)}]{Neijt:79}
+Neijt-Kappen, Anna~H. 1979.
+\newblock \emph{Gapping: {A} contribution to sentence grammar}.
+\newblock Dordrecht: Foris.
+
+\bibitem[{Nerbonne(1994)}]{Nerbonne:94}
+Nerbonne, John. 1994.
+\newblock Partial verb phrases and spurious ambiguities.
+\newblock In John Nerbonne, Klaus Netter \& Carl Pollard (eds.), \emph{German
+  in {H}ead-{D}riven {P}hrase {S}tructure {G}rammar}, 109--150. Stanford: CSLI
+  Publications.
+
+\bibitem[{Nesson \& Shieber(2008)}]{Nesson:Shieber:08}
+Nesson, Rebecca \& Stuart~M. Shieber. 2008.
+\newblock Synchronous vector-{TAG} for natural language syntax and semantics.
+\newblock In \emph{Proceedings of the ninth international workshop on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 9)}, T\"{u}bingen.
+\newblock \urlprefix\url{http://tagplus9.cs.sfu.ca/papers/NessonShieber.pdf}.
+
+\bibitem[{Neuhaus \& Br\"oker(1997)}]{Neuhaus:Broeker:97}
+Neuhaus, Peter \& Norbert Br\"oker. 1997.
+\newblock The complexity of recognition of linguistically adequate {D}ependency
+  {G}rammars.
+\newblock In \emph{Proceedings of the 35th annual meeting of the {Association
+  for Computational Linguistics} ({ACL}'97)}, 337--343. Madrid: Association for
+  Computational Linguistics.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P97-1043}.
+
+\bibitem[{van Oirsouw(1987)}]{Oirsouw:87}
+van Oirsouw, Robert~R. 1987.
+\newblock \emph{The syntax of coordination}  (Croom Helm Linguistics Series).
+\newblock London: Croom Helm.
+
+\bibitem[{van Oirsouw(1993)}]{Oirsouw:93}
+van Oirsouw, Robert~R. 1993.
+\newblock Coordination.
+\newblock In Joachim Jacobs, Arnim von Stechow, Wolfgang Sternefeld \& Theo
+  Vennemann (eds.), \emph{Syntax. {E}in internationales {H}andbuch
+  zeitgen\"ossischer {F}orschung. {A}n international handbook of contemporary
+  research} (Handb\"ucher zur Sprach- und Kommunikationswissenschaft~9),
+  chap.~35, 748--763. Berlin: Walter de Gruyter.
+
+\bibitem[{Oppenrieder(1991)}]{Oppenrieder:91}
+Oppenrieder, Wilhelm. 1991.
+\newblock \emph{Von {S}ubjekten, {S}ätzen und {S}ubjektsätzen:
+  {U}ntersuchungen zur {S}yntax des {D}eutschen} (Linguistische Arbeiten 241).
+\newblock Tübingen: Niemeyer.
+
+\bibitem[{Ortner(1987)}]{Ortner:87}
+Ortner, Hanspeter. 1987.
+\newblock \emph{Die {E}llipse. {E}in {P}roblem der {S}prachtheorie und der
+  {G}rammatikschreibung} (Reihe {G}ermanistische {L}inguistik~80).
+\newblock T\"ubingen: Max Niemeyer Verlag.
+
+\bibitem[{Osborne(2008)}]{Osborne:08}
+Osborne, Thomas. 2008.
+\newblock Major constituents and two dependency grammar constraints on sharing
+  in coordination.
+\newblock \emph{Linguistics} 46. 1109--1165.
+
+\bibitem[{Parmentier et~al.(2007)Parmentier, Kallmeyer, Lichte \&
+  Maier}]{Parmentier:etal:07}
+Parmentier, Yannick, Laura Kallmeyer, Timm Lichte \& Wolfgang Maier. 2007.
+\newblock {XMG}: e{X}tending {M}eta{G}rammars to {MCTAG}.
+\newblock In \emph{Actes de l'atelier sur les formalismes syntaxiques de haut
+  niveau, conf{\'e}rence sur le traitement automatique des langues naturelles,
+  {TALN} 2007}, Toulouse.
+
+\bibitem[{Parsons(1990)}]{Parsons:90}
+Parsons, Terence. 1990.
+\newblock \emph{Events in the semantics of {E}nglish} (Current Studies in
+  Linguistics~19).
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Parsons(1995)}]{Parsons:95}
+Parsons, Terence. 1995.
+\newblock Thematic relations and arguments.
+\newblock \emph{Linguistic Inquiry} 26(4). 635--662.
+
+\bibitem[{Pickering \& Barry(1993)}]{Pickering:Barry:93}
+Pickering, Martin \& Guy Barry. 1993.
+\newblock Dependency {C}ategorial {G}rammar and coordination.
+\newblock \emph{Linguistics} 31. 855--902.
+
+\bibitem[{Pollard(1994)}]{Pollard:94}
+Pollard, Carl~J. 1994.
+\newblock Toward a unified account of passive in {G}erman.
+\newblock In John Nerbonne, Klaus Netter \& Carl Pollard (eds.), \emph{German
+  in {H}ead-{D}riven {P}hrase {S}tructure {G}rammar} (CSLI Lecture Notes~46),
+  273--296. Stanford: CSLI Publications.
+
+\bibitem[{Pollard(1996)}]{Pollard:96}
+Pollard, Carl~J. 1996.
+\newblock On head non-movement.
+\newblock In Harry Bunt \& Arthur van Horck (eds.), \emph{Discontinuous
+  constituency}, 279--306. Berlin: Mouton de Gruyter.
+
+\bibitem[{Pollard \& Sag(1987)}]{Pollard:Sag:87}
+Pollard, Carl~J. \& Ivan~A. Sag. 1987.
+\newblock \emph{Information-based syntax and semantics} (CSLI Lecture
+  Notes~13).
+\newblock Stanford: CSLI Publications.
+
+\bibitem[{Pollard \& Sag(1994)}]{Pollard:Sag:94}
+Pollard, Carl~J. \& Ivan~A. Sag. 1994.
+\newblock \emph{{Head-Driven Phrase Structure Grammar}}.
+\newblock Chicago: University of Chicago Press.
+
+\bibitem[{Popowich(1989)}]{Popowich:89}
+Popowich, Fred. 1989.
+\newblock Tree {U}nification {G}rammar.
+\newblock In \emph{Proceedings of the 27th annual meeting of the {Association
+  for Computational Linguistics} ({ACL}'89)}, 228--236. Vancouver.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P89-1028}.
+
+\bibitem[{Postal(1974)}]{Postal:74}
+Postal, Paul~M. 1974.
+\newblock \emph{On raising}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Postal(1998)}]{Postal:98}
+Postal, Paul~M. 1998.
+\newblock \emph{Three investigations of extraction} (Current Studies in
+  Linguistics~29).
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Prolo(2002)}]{Prolo:02}
+Prolo, Carlos~A. 2002.
+\newblock Generating the {XTAG} {E}nglish grammar using metarules.
+\newblock In \emph{Proceedings of the 19th international conference on
+  computational linguistics ({COLING} 2002)}, 814--820. Taipei. Taiwan.
+
+\bibitem[{Przepi{\'o}rkowski(1999)}]{Przepiorkowski:99}
+Przepi{\'o}rkowski, Adam. 1999.
+\newblock \emph{Case assignment and the complement-adjunct dichotomy: {A}
+  non-configurational constraint-based approach}.
+\newblock T{\"u}bingen: Universit{\"a}t T{\"u}bingen dissertation.
+\newblock
+  \urlprefix\url{http://tobias-lib.uni-tuebingen.de/volltexte/1999/72/}.
+
+\bibitem[{Pullum(1982)}]{Pullum:82}
+Pullum, Geoffrey~K. 1982.
+\newblock Free word order and phrase structure grammar.
+\newblock In \emph{Proceedings of the 12th annual meeting of the notheast
+  linguistic society}, 209--220. Amherst.
+
+\bibitem[{Pullum \& Scholz(2001)}]{Pullum:Scholz:01}
+Pullum, Geoffrey~K. \& Barbara~C. Scholz. 2001.
+\newblock On the distinction between model-theoretic and generative-enumerative
+  syntactic frameworks.
+\newblock In Philippe de~Groote, Glyn Morill \& Christian Retor\'e (eds.),
+  \emph{Logical aspects of computational linguistics: 4th international
+  conference}, 17--43. Berlin: Springer.
+
+\bibitem[{Pullum \& Scholz(2010)}]{Pullum:Scholz:10}
+Pullum, Geoffrey~K. \& Barbara~C. Scholz. 2010.
+\newblock Recursion and the infinitude claim.
+\newblock In Harry van~der Hulst (ed.), \emph{Recursion in human language}
+  (Studies in Generative Grammar 104), 113--138. Berlin: Mouton de Gruyter.
+
+\bibitem[{Rambow(1994)}]{Rambow:94}
+Rambow, Owen. 1994.
+\newblock \emph{Formal and computational aspects of natural language syntax}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+\newblock IRCS Report 94-08.
+
+\bibitem[{Rambow \& Satta(1992)}]{Rambow:Satta:92}
+Rambow, Owen \& Giorgio Satta. 1992.
+\newblock Formal properties of non-locality.
+\newblock In \emph{2nd international workshop on {Tree Adjoining Grammar}},
+  Philadelphia.
+
+\bibitem[{Rambow et~al.(1995)Rambow, Vijay-Shanker \& Weir}]{Rambow:etal:95}
+Rambow, Owen, K.~Vijay-Shanker \& David~J. Weir. 1995.
+\newblock D-{T}ree {G}rammars.
+\newblock In \emph{Proceedings of the 33rd annual conference of the
+  {Association for Computational Linguistics} ({ACL}'95)}, Cambridge, MA.
+
+\bibitem[{Rambow et~al.(2001)Rambow, Vijay-Shanker \& Weir}]{Rambow:etal:01}
+Rambow, Owen, K.~Vijay-Shanker \& David~J. Weir. 2001.
+\newblock D-{T}ree {S}ubstitution {G}rammars.
+\newblock \emph{Computational Linguistics} 27(1). 89--121.
+
+\bibitem[{Reape(1992)}]{Reape:92}
+Reape, Mike. 1992.
+\newblock \emph{A formal theory of word order: {A} case study in {W}est
+  {G}ermanic}.
+\newblock Edinburgh: University of Edinburgh dissertation.
+
+\bibitem[{Reape(1994)}]{Reape:94}
+Reape, Mike. 1994.
+\newblock Domain union and word order variation in {G}erman.
+\newblock In John Nerbonne, Klaus Netter \& Carl~J. Pollard (eds.),
+  \emph{German in {Head-Driven Phrase Structure Grammar}} (CSLI Lecture
+  Notes~46), 151--198. Stanford: CSLI Publications.
+
+\bibitem[{Reape(1996)}]{Reape:96}
+Reape, Mike. 1996.
+\newblock Getting things in order.
+\newblock In Harry Bunt \& Arthur~van Horck (eds.), \emph{Discontinuous
+  constituency} (Natural Language Processing~6), 209--253. Berlin: Mouton de
+  Gruyter.
+
+\bibitem[{Reich(2009)}]{Reich:09}
+Reich, Ingo. 2009.
+\newblock \emph{``{A}symmetrische {K}oordination'' im {D}eutschen} (Studien zur
+  deutschen Grammatik~75).
+\newblock T\"ubingen: Stauffenburg Verlag.
+
+\bibitem[{Reis(1979)}]{Reis:79}
+Reis, Marga. 1979.
+\newblock Ans\"atze zu einer realistischen {G}rammatik.
+\newblock In Klaus Grubm\"uller (ed.), \emph{{Befund und Deutung: Zum
+  Verh\"altnis von Empirie und Interpretation in Sprach- und
+  Literaturwissenschaft (Festschrift Hans Fromm)}}, 1--21. T\"ubingen: Max
+  Niemeyer Verlag.
+
+\bibitem[{Reis(1980)}]{Reis:80}
+Reis, Marga. 1980.
+\newblock On justifying topological frames: `{P}ositional field' and the order
+  of nonverbal constituents in {G}erman.
+\newblock \emph{Documentation et Recherche en Linguistique Allemande
+  Contemporaine} 22/23. 59--85.
+
+\bibitem[{Reis(2001)}]{Reis:01}
+Reis, Marga. 2001.
+\newblock Bilden {M}odalverben im {D}eutschen eine syntaktische {K}lasse?
+\newblock In Reimar M\"uller \& Marga Reis (eds.), \emph{Modalit\"at und
+  {M}odalverben im {D}eutschen} (Linguistische Berichte -- Sonderheft~9),
+  287--318. Hamburg: Helmut Buske Verlag.
+\newblock
+  \urlprefix\url{http://tobias-lib.uni-tuebingen.de/volltexte/2012/6303/}.
+
+\bibitem[{Reis(2005)}]{Reis:05}
+Reis, Marga. 2005.
+\newblock {Zur Grammatik der sog. `Halbmodale' drohen/versprechen + Infinitiv}.
+\newblock In Franz~Josef d'Avis (ed.), \emph{{Deutsche Syntax: Empirie und
+  Theorie}} (G\"oteborger Germanistische Forschungen~46), 125--145. G\"oteborg:
+  Acta Universitatis Gothoburgensis.
+\newblock
+  \urlprefix\url{http://tobias-lib.uni-tuebingen.de/volltexte/2012/6358}.
+
+\bibitem[{Reis \& Sternefeld(2004)}]{Reis:Sternefeld:04}
+Reis, Marga \& Wolfgang Sternefeld. 2004.
+\newblock Review article: {S}usanne {W}urmbrand: {I}nfinitives. restructuring
+  and clause structure.
+\newblock \emph{Linguistics} 42(2). 469--508.
+
+\bibitem[{Richter(1997)}]{Richter:97}
+Richter, Frank. 1997.
+\newblock {Die Satzstruktur des Deutschen und die Behandlung langer
+  Abh\"angigkeiten in einer Linearisierungsgrammatik. Formale Grundlagen und
+  Implementierung in einem HPSG-Fragment}.
+\newblock In Erhard Hinrichs, W.~Detmar Meurers, Frank Richter, Manfred Sailer
+  \& Heike Winhart (eds.), \emph{{Ein HPSG-Fragment des Deutschen. Teil 1:
+  Theorie}} (Arbeitspapiere des SFB 340~95), 13--188. T\"ubingen: Universit\"at
+  T\"ubingen.
+\newblock
+  \urlprefix\url{http://purl.org/net/dm/papers/sfb-report-nr-95/kapitel2-richter.html}.
+
+\bibitem[{Richter \& Sailer(1995)}]{Richter:Sailer:95}
+Richter, Frank \& Manfred Sailer. 1995.
+\newblock \emph{Remarks on linearization. {R}eflections on the treatment of
+  {LP}-rules in {HPSG} in a typed feature logic}.
+\newblock T\"ubingen Universit\"at T\"ubingen, Seminar f\"ur Sprachwissenschaft
+  Magisterarbeit.
+
+\bibitem[{van Riemsdijk(1978)}]{Riemsdijk:78}
+van Riemsdijk, Henk. 1978.
+\newblock \emph{A case study in syntactic markedness: {T}he binding nature of
+  prepositional phrases}.
+\newblock Lisse, The Netherlands: Peter de Ridder.
+
+\bibitem[{Ross(1967)}]{Ross:67}
+Ross, John~R. 1967.
+\newblock \emph{Constraints on variables in syntax}.
+\newblock Cambridge, MA: MIT dissertation.
+\newblock \urlprefix\url{http://hdl.handle.net/1721.1/15166}.
+\newblock Reproduced by the Indiana University Linguistics Club.
+
+\bibitem[{Ross(1969)}]{Ross:69}
+Ross, John~R. 1969.
+\newblock Guess who?
+\newblock In \emph{Papers from the fifth regional meeting of the {C}hicago
+  linguistic society}, 252--286.
+
+\bibitem[{Ross(1970)}]{Ross:70}
+Ross, John~R. 1970.
+\newblock Gapping and the order of constituents.
+\newblock In Manfred Bierwisch \& Karl~Erich Heidolph (eds.), \emph{Progress in
+  linguistics}, 249--259. The Hague: Mouton.
+
+\bibitem[{Ross(1982)}]{Ross:82}
+Ross, John~R. 1982.
+\newblock Pronoun deleting processes in {G}erman.
+\newblock Paper presented at the annual meeting of the Linguistic Society of
+  America, {S}an {D}iego, {C}alifornia.
+
+\bibitem[{Ryant \& Scheffler(2006)}]{Ryant:Scheffler:06}
+Ryant, Neville \& Tatjana Scheffler. 2006.
+\newblock Binding of anaphors in {LTAG}.
+\newblock In \emph{Proceedings of the eighth international workshop on {T}ree
+  {A}djoining {G}rammar and related formalisms}, 65--72. Sydney.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/W/W06/W06-1509}.
+
+\bibitem[{Sabel(1995)}]{Sabel:95}
+Sabel, Joachim. 1995.
+\newblock On parallels and differences between clitic climbing and long
+  scrambling and the economy of derivations.
+\newblock In \emph{Proceedings of the north east linguistic society ({NELS}
+  25)}, 405--423.
+
+\bibitem[{Sabel(1996)}]{Sabel:96}
+Sabel, Joachim. 1996.
+\newblock \emph{{Restrukturierung und Lokalit\"at. Universelle Beschr\"ankungen
+  f\"ur Wortstellungsvarianten}} (studia grammatica~42).
+\newblock Berlin: Akademie-Verlag.
+\newblock
+  \urlprefix\url{http://web.uni-frankfurt.de/fb10/sabel/RestrukLokal.pdf}.
+
+\bibitem[{Sabel(2001)}]{Sabel:01}
+Sabel, Joachim. 2001.
+\newblock Das deutsche {V}erbum infinitum.
+\newblock \emph{Deutsche Sprache} 29(2). 148--175.
+
+\bibitem[{Sag(1976)}]{Sag:76}
+Sag, Ivan~A. 1976.
+\newblock \emph{Deletion and logical form}.
+\newblock Cambridge, MA: MIT dissertation.
+
+\bibitem[{Sag et~al.(1985)Sag, Gazdar, Wasow \& Weisler}]{Sag:etal:85}
+Sag, Ivan~A., Gerald Gazdar, Thomas Wasow \& Steven Weisler. 1985.
+\newblock Coordination and how to distinguish categories.
+\newblock \emph{Natural Language and Linguistic Theory} 3(2). 117--171.
+
+\bibitem[{Sampson(2007)}]{Sampson:07}
+Sampson, Geoffrey~R. 2007.
+\newblock Grammar without grammaticality.
+\newblock \emph{Corpus Linguistics and Linguistic Theory} 3(1). 1--32.
+
+\bibitem[{Sarkar(1997)}]{Sarkar:97}
+Sarkar, Anoop. 1997.
+\newblock Seperating dependency from constituency in a tree rewriting system.
+\newblock In Tilman Becker \& Hans-Ulrich Krieger (eds.), \emph{Proceedings of
+  the fifth meeting on mathematics of language}, 153--160. Saarbr\"ucken.
+
+\bibitem[{Sarkar \& Joshi(1996)}]{Sarkar:Joshi:96}
+Sarkar, Anoop \& Aravind~K. Joshi. 1996.
+\newblock Coordination in {T}ree {A}djoining {G}rammars: {F}ormalization and
+  implementation.
+\newblock In \emph{Proceedings of the 16th international conference on
+  computational linguistics ({COLING} 1996)}, 610--615. Copenhagen.
+
+\bibitem[{Sarkar \& Joshi(1997)}]{Sarkar:Joshi:97}
+Sarkar, Anoop \& Aravind~K. Joshi. 1997.
+\newblock Handling coordination in a {T}ree {A}djoining {G}rammar.
+\newblock Longer version of \cite{Sarkar:Joshi:96}. {D}raft of {A}ugust 19,
+  1997.
+\newblock
+  \urlprefix\url{http://www.cs.sfu.ca/~anoop/papers/pdf/tag-coordination.pdf}.
+
+\bibitem[{Schabes(1990)}]{Schabes:90}
+Schabes, Yves. 1990.
+\newblock \emph{Mathematical and computational aspects of lexicalized
+  grammars}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Schabes et~al.(1988)Schabes, Abeill\'e \& Joshi}]{Schabes:etal:88}
+Schabes, Yves, Anne Abeill\'e \& Aravind~K. Joshi. 1988.
+\newblock Parsing strategies with `lexicalized' grammars: {A}pplication to
+  {T}ree {A}djoining {G}rammars.
+\newblock In \emph{Procedings of the 12th international conference on
+  computational linguistics ({COLING})}, 578--583. Budapest.
+\newblock \urlprefix\url{http://aclweb.org/anthology-new/C/C88/C88-2121.pdf}.
+
+\bibitem[{Schabes \& Joshi(1990)}]{Schabes:Joshi:90}
+Schabes, Yves \& Aravind~K. Joshi. 1990.
+\newblock Parsing with lexicalized {T}ree {A}djoining {G}rammar.
+\newblock Tech. Rep. MS-CIS-90-11 Department of Computer and Information
+  Science, University of Pennsylvania.
+\newblock \urlprefix\url{http://repository.upenn.edu/cis_reports/542/}.
+
+\bibitem[{Schabes \& Shieber(1994)}]{Schabes:Shieber:94}
+Schabes, Yves \& Stuart~M. Shieber. 1994.
+\newblock An alternative conception of tree-adjoining derivation.
+\newblock \emph{Computational Linguistics} 20(1). 91--124.
+
+\bibitem[{Schabes \& Waters(1995)}]{Schabes:Waters:95}
+Schabes, Yves \& Richard~C. Waters. 1995.
+\newblock Tree {I}nsertion {G}rammar: {A} cubic-time parsable formalism that
+  lexicalizes {C}ontext-{F}ree {G}rammar without changing the trees produced.
+\newblock \emph{Computational Linguistics} 21(4). 479--513.
+
+\bibitem[{Schirn(1992)}]{Schirn:92}
+Schirn, Matthias. 1992.
+\newblock Gottlob {F}rege (1848--1925).
+\newblock In Marcelo Dascal, Dietfried Gerhardus, Kuno Lorenz \& Georg Meggle
+  (eds.), \emph{{Sprachphilosophie. Ein internationales Handbuch
+  zeitgen\"ossischer Forschung}} (Handb\"ucher zur Sprach- und
+  Kommunikationswissenschaft 7.1), chap.~34, 467--494. Berlin: Walter de
+  Gruyter.
+
+\bibitem[{Schlangen(2003)}]{Schlangen:03}
+Schlangen, David. 2003.
+\newblock \emph{A coherence-based approach to the interpretation of
+  non-sentential utterances in dialogue}.
+\newblock Edinburgh: University of Edinburgh dissertation.
+
+\bibitem[{{Schulte im Walde}(2002)}]{SchulteImWalde:02}
+{Schulte im Walde}, Sabine. 2002.
+\newblock A subcategorisation lexicon for {G}erman verbs induced from a
+  lexicalised {PCFG}.
+\newblock In \emph{Proceedings of the 3rd conference on language resources and
+  evaluation ({LREC})}, vol.~IV, 1351--1357. Las Palmas de Gran Canaria, Spain.
+
+\bibitem[{{Schulte im Walde}(2008)}]{SchulteImWalde:08}
+{Schulte im Walde}, Sabine. 2008.
+\newblock Human associations and the choice of features for semantic verb
+  classification.
+\newblock \emph{Research on Language \& Computation} 6. 79--111.
+
+\bibitem[{{Schulte im Walde}(2009)}]{SchulteImWalde:09}
+{Schulte im Walde}, Sabine. 2009.
+\newblock The induction of verb frames and verb classes from corpora.
+\newblock In Anke L{\"u}deling \& Merja Kyt\"o (eds.), \emph{Corpus
+  linguistics. {A}n international handbook} (Handbooks of Linguistics and
+  Communication Science 29.2), chap.~44, 952--971. Berlin: Mouton de Gruyter.
+
+\bibitem[{Sch\"utze(1996)}]{Schuetze:96}
+Sch\"utze, Carson~T. 1996.
+\newblock \emph{The empirical base of linguistics}.
+\newblock Chicago: The University of Chicago Press.
+
+\bibitem[{Schwabe(1994)}]{Schwabe:94}
+Schwabe, Kerstin. 1994.
+\newblock \emph{{Syntax und Semantik situativer Ellipsen}} (Studien zur
+  deutschen Grammatik~48).
+\newblock T\"ubingen: Narr.
+
+\bibitem[{Schwabe \& von Heusinger(2001)}]{Schwabe:Heusinger:01}
+Schwabe, Kerstin \& Klaus von Heusinger. 2001.
+\newblock On shared indefinite {NP}s in coordinative structures.
+\newblock \emph{Journal of Semantics} 18(3). 243--269.
+
+\bibitem[{Seddah(2008)}]{Seddah:08}
+Seddah, Djam\'e. 2008.
+\newblock The use of {MCTAG} to process elliptic coordination.
+\newblock In \emph{Proceedings of the ninth international workshop on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 9)}, 81--88.
+  T\"ubingen.
+
+\bibitem[{Seddah \& Gaiffe(2005)}]{Seddah:Gaiffe:05}
+Seddah, Djam\'e \& Bertrand Gaiffe. 2005.
+\newblock How to build argumental graphs using {TAG} shared forest: {A} view
+  from control verbs problematic.
+\newblock In Philippe Blache, Edward Stabler, Joan Busquets \& Richard Moot
+  (eds.), \emph{5th international conference on the logical aspects of
+  computational linguistics, {LACL} 2005, {B}ordeaux, {F}rance} (Lecture Notes
+  in Computer Science 3492), 287--300. Berlin: Springer.
+
+\bibitem[{Seddah \& Sagot(2006)}]{Seddah:Sagot:06}
+Seddah, Djam\'e \& Beno\^{i}t Sagot. 2006.
+\newblock Modeling and analysis of elliptic coordination by dynamic
+  exploitation of derivation forests in {LTAG} parsing.
+\newblock In \emph{Proceedings of the eigth international workshop on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 8)}, 147--152. Syndey.
+
+\bibitem[{Seddah et~al.(2010)Seddah, Sagot \& Danlos}]{Seddah:etal:10}
+Seddah, Djam\'e, Beno\^{i}t Sagot \& Laurence Danlos. 2010.
+\newblock Control verb, argument cluster coordination and multi component
+  {TAG}.
+\newblock In \emph{Proceedings of the 10th international conference on {T}ree
+  {A}djoining {G}rammars and related formalisms ({TAG}+ 10)}, 101--109. New
+  Haven.
+
+\bibitem[{Seki et~al.(1991)Seki, Matsumura, Fujii \& Kasami}]{Seki:etal:91}
+Seki, Hiroyuki, Takashi Matsumura, Mamoru Fujii \& Tadao Kasami. 1991.
+\newblock On {M}ultiple {C}ontext-{F}ree {G}rammars.
+\newblock \emph{Theoretical Computer Science} 88(2). 191--229.
+
+\bibitem[{Shen(2006)}]{Shen:06}
+Shen, Libin. 2006.
+\newblock \emph{Statistical {LTAG} parsing}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Shen et~al.(2008)Shen, Champollion \& Joshi}]{Shen:etal:08}
+Shen, Libin, Lucas Champollion \& Aravind~K. Joshi. 2008.
+\newblock {LTAG}-spinal and the treebank: {A} new resource for incremental,
+  dependency and semantic parsing.
+\newblock \emph{Language Resources and Evaluation} 42(1). 1--19.
+
+\bibitem[{Shieber(1984)}]{Shieber:84}
+Shieber, Stuart~M. 1984.
+\newblock Direct parsing of {ID/LP} grammars.
+\newblock \emph{Linguistics and Philosophy} 7(2). 135--154.
+
+\bibitem[{Shieber(1985)}]{Shieber:85}
+Shieber, Stuart~M. 1985.
+\newblock Evidence against the context-freeness of natural language.
+\newblock \emph{Linguistics and Philosophy} 8. 333--343.
+
+\bibitem[{Shieber(1994)}]{Shieber:94}
+Shieber, Stuart~M. 1994.
+\newblock Restricting the weak-generative capacity of {S}ynchronous
+  {Tree-Adjoining Grammar}.
+\newblock \emph{Computational Intelligence} 10(4). 371--385.
+
+\bibitem[{Shieber \& Schabes(1990)}]{Shieber:Schabes:90}
+Shieber, Stuart~M. \& Yves Schabes. 1990.
+\newblock Synchronous {T}ree-{A}djoining {G}rammars.
+\newblock In \emph{Proceedings of the 13th international conference on
+  computational linguistics ({COLING}'90)}, vol.~3, 253--258. Helsinki.
+
+\largerpage%
+
+\bibitem[{Shieber et~al.(1995)Shieber, Schabes \& Pereira}]{Shieber:etal:95}
+Shieber, Stuart~M., Yves Schabes \& Fernando C.~N. Pereira. 1995.
+\newblock Principles and implementation of deductive parsing.
+\newblock \emph{Journal of Logic Programming} 24(1{\&}2). 3--36.
+
+\bibitem[{S\o{}gaard et~al.(2007)S\o{}gaard, Lichte \&
+  Maier}]{Sogaard:Lichte:Maier:07}
+S\o{}gaard, Anders, Timm Lichte \& Wolfgang Maier. 2007.
+\newblock The complexity of linguistically motivated extensions of
+  {Tree-Adjoining Grammar}.
+\newblock In \emph{Proceedings of the 7th international conference on recent
+  advances in natural language processing ({RANLP} 2007)}, Borovets, Bulgaria.
+
+\largerpage%
+
+\bibitem[{Stabler(1994)}]{Stabler:94}
+Stabler, Edward~P. 1994.
+\newblock The finite connectivity of linguistic structure.
+\newblock In C.~Clifton, L.~Frazier \& K.~Rayner (eds.), \emph{Perspectives on
+  sentence processing}, 303--336. Hillsdale, NJ: Lawrence Erlbaum.
+
+\bibitem[{Stabler(1997)}]{Stabler:97}
+Stabler, Edward~P. 1997.
+\newblock Derivational minimalism.
+\newblock In Christian Retor\'e (ed.), \emph{Logical aspects of computational
+  linguistics} (Lecture Notes in Computer Science 1328), 68--95. New York:
+  Springer.
+
+\bibitem[{Stainton(1998)}]{Stainton:98}
+Stainton, Robert~J. 1998.
+\newblock Quantifier phrases, meaningfulness ``in isolation'', and ellipsis.
+\newblock \emph{Linguistics and Philosophy} 21. 311--340.
+
+\bibitem[{Stainton(2006)}]{Stainton:06}
+Stainton, Robert~J. 2006.
+\newblock \emph{Words and thoughts. {S}ubsentences, ellipsis, and the
+  philosophy of language}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{von Stechow(1990)}]{Stechow:90}
+von Stechow, Arnim. 1990.
+\newblock Status government and coherence in {G}erman.
+\newblock In G\"unther Grewendorf \& Wolfgang Sternefeld (eds.),
+  \emph{Scrambling and barriers}, Amsterdam: John Benjamins.
+
+\bibitem[{von Stechow \& Sternefeld(1988)}]{Stechow:Sternefeld:88}
+von Stechow, Arnim \& Wolfgang Sternefeld. 1988.
+\newblock \emph{{B}austeine syntaktischen {W}issens}.
+\newblock Opladen: Westdeutscher Verlag.
+
+\bibitem[{Steedman(1985)}]{Steedman:85}
+Steedman, Mark. 1985.
+\newblock Dependency and co\"ordination in the grammar of {D}utch and
+  {E}nglish.
+\newblock \emph{Language} 61(3). 523--568.
+\newblock \urlprefix\url{http://www.jstor.org/stable/414385}.
+
+\bibitem[{Steedman(1990)}]{Steedman:90}
+Steedman, Mark. 1990.
+\newblock Gapping as constituent coordination.
+\newblock \emph{Linguistics and Philosophy} 13. 207--263.
+
+\bibitem[{Steedman(2000)}]{Steedman:00}
+Steedman, Mark. 2000.
+\newblock \emph{The syntactic process}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[{Steiner(2009)}]{Steiner:09}
+Steiner, Ilona. 2009.
+\newblock Partial agreement in {G}erman: {A} processing issue?
+\newblock In Sam Featherston \& Susanne Winkler (eds.), \emph{The fruits of
+  empirical linguistics} (Studies in Generative Grammar 102), 239--259. Berlin:
+  de Gruyter.
+
+\bibitem[{Steinitz(1992)}]{Steinitz:92}
+Steinitz, Renate. 1992.
+\newblock {``Modern'': Argumentstruktur, ``Traditionell'': Valenz -- Versuch
+  eines Br\"uckenschlags}.
+\newblock \emph{Linguistische Berichte} 137. 33--44.
+
+\bibitem[{Sternefeld(2006)}]{Sternefeld:06}
+Sternefeld, Wolfgang. 2006.
+\newblock \emph{Eine morphologisch motivierte generative {B}eschreibung des
+  {D}eutschen}.
+\newblock Tübingen: Stauffenburg Verlag.
+\newblock 2 B\"ande.
+
+\bibitem[{Sternefeld(2008)}]{Sternefeld:08}
+Sternefeld, Wolfgang. 2008.
+\newblock Complex predicates in {G}erman.
+\newblock Talk given at the University of Hiroshima, 22.02.2008.
+\newblock
+  \urlprefix\url{http://www2.sfs.uni-tuebingen.de/~wolfgang/Downloads/ComplexPredicates.pdf}.
+
+\bibitem[{Stokhof \& van Lambalgen(2011)}]{Stokhof:Lambalgen:11}
+Stokhof, Martin \& Michiel van Lambalgen. 2011.
+\newblock Abstractions and idealisations: {T}he construction of modern
+  linguistics.
+\newblock \emph{Theoretical Linguistics} 37. 1--26.
+
+\bibitem[{Storrer(1992)}]{Storrer:92}
+Storrer, Angelika. 1992.
+\newblock \emph{Verbvalenz. {T}heoretische und methodische {G}rundlagen ihrer
+  {B}eschreibung in {G}rammatikographie und {L}exikographie} (Reihe
+  Germanistische Linguistik 126).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{Storrer(1996)}]{Storrer:96}
+Storrer, Angelika. 1996.
+\newblock Verbbedeutung und {S}ituationsperspektivierung.
+\newblock In Joachim Grabowski, Gisela Harras \& Theo Herrmann (eds.),
+  \emph{{Bedeutung -- Konzepte -- Bedeutungskonzepte. Theorie und Anwendung in
+  Linguistik und Psychologie}}, 231--255. Opladen: Westdeutscher Verlag.
+
+\bibitem[{Storrer(2003)}]{Storrer:03}
+Storrer, Angelika. 2003.
+\newblock Erg\"anzungen und {A}ngaben.
+\newblock In Vilmos \'Agel, Ludwig~M. Eichinger, Hans-Werner Eroms,
+  Hans~J\"urgen Heringer \& Henning Lobin (eds.), \emph{{Dependenz und Valenz.
+  Ein internationales Handbuch der zeitgen\"ossischen Forschung}. {A}n
+  international handbook of contemporary research} (Handb\"ucher zur Sprach-
+  und Kommunikationswissenschaft 25.1), 764--780. Berlin: Walter de Gruyter.
+
+\bibitem[{Sturt \& Lombardo(2005)}]{Sturt:Lombardo:05}
+Sturt, Patrick \& Vincenzo Lombardo. 2005.
+\newblock Processing coordinated structures: {I}ncrementality and
+  connectedness.
+\newblock \emph{Cognitive Science} 29(2). 291--305.
+
+\bibitem[{Suhre(1999)}]{Suhre:99}
+Suhre, Oliver. 1999.
+\newblock \emph{Computational aspects of grammar formalism for languages with
+  freer word order}.
+\newblock T\"ubingen Universit\"at T\"ubingen Diplomarbeit.
+\newblock
+  \urlprefix\url{http://www.sfs.uni-tuebingen.de/sfb/reports/berichte/154/154abs.html}.
+\newblock Published 2000 as Volume 154 in Arbeitspapiere des SFB 340.
+
+\bibitem[{Tesni\`ere(1959)}]{Tesniere:59}
+Tesni\`ere, Lucien. 1959.
+\newblock \emph{El\'ements de syntaxe structurale}.
+\newblock Paris: Klincksieck.
+
+\bibitem[{Uszkoreit(1986)}]{Uszkoreit:86}
+Uszkoreit, Hans. 1986.
+\newblock Linear precedence in discontinuous constituents: {C}omplex fronting
+  in {G}erman.
+\newblock CSLI report CSLI-86-47 Center for the Study of Language and
+  Information, Stanford University Stanford.
+
+\bibitem[{Uszkoreit(1987)}]{Uszkoreit:87}
+Uszkoreit, Hans. 1987.
+\newblock \emph{Word order and constituent structure in {G}erman} (CSLI Lecture
+  Notes~8).
+\newblock Stanford: CSLI Publications.
+
+\bibitem[{Van~Valin(2005)}]{Valin:05}
+Van~Valin, Robert~D., Jr. 2005.
+\newblock \emph{Exploring the syntax-semantics interface}.
+\newblock Cambridge, UK: Cambridge University Press.
+
+\bibitem[{Vater(1978)}]{Vater:78}
+Vater, Heinz. 1978.
+\newblock Probleme der {V}erbvalenz.
+\newblock \emph{Leuvense Bijdragen} 67. 267--308.
+
+\bibitem[{Vater(1981)}]{Vater:81}
+Vater, Heinz. 1981.
+\newblock Valenz.
+\newblock In G.~Radden \& R.~Dirven (eds.), \emph{Kasusgrammatik und
+  {F}remdsprachendidaktik} (Anglistik \& Englischunterricht~14), 217--235.
+  Trier: Wissenschaftlicher Verlag.
+
+\bibitem[{Vijay-Shanker(1992)}]{Vijay-Shanker:92}
+Vijay-Shanker, K. 1992.
+\newblock Using descriptions of trees in a {T}ree {A}djoining {G}rammar.
+\newblock \emph{Computational Linguistics} 18(4). 481--517.
+
+\bibitem[{Vijay-Shanker \& Joshi(1988)}]{Vijay-Shanker:Joshi:88}
+Vijay-Shanker, K. \& Aravind~K. Joshi. 1988.
+\newblock Feature {S}tructures {B}ased {T}ree {A}djoining {G}rammar.
+\newblock In \emph{Proceedings of {COLING}}, 714--719. Budapest.
+
+\bibitem[{Vijay-Shanker et~al.(1987)Vijay-Shanker, Weir \&
+  Joshi}]{Vijay-Shanker:etal:87}
+Vijay-Shanker, K., David~J. Weir \& Aravind~K. Joshi. 1987.
+\newblock Characterizing structural descriptions produced by various
+  grammatical formalisms.
+\newblock In \emph{Proceedings of the 25th annual meeting of the {Association
+  for Computational Linguistics} ({ACL}'87)}, 104--111.
+\newblock \doi{10.3115/981175.981190}.
+\newblock \urlprefix\url{http://www.aclweb.org/anthology/P87-1015}.
+
+\bibitem[{Vogel(1998)}]{Vogel:98}
+Vogel, Ralf. 1998.
+\newblock \emph{Polyvalent verbs}.
+\newblock Berlin: Humboldt-Universit\"at zu Berlin dissertation.
+
+\bibitem[{Vogel(2009)}]{Vogel:09}
+Vogel, Ralf. 2009.
+\newblock Skandal im {V}erbkomplex. {B}etrachtungen zur scheinbar inkorrekten
+  {M}orphologie in infiniten {V}erbkomplexen des {D}eutschen.
+\newblock \emph{Zeitschrift f\"ur Sprachwissenschaft} 28. 307--346.
+
+\bibitem[{Wasow(1972)}]{Wasow:72}
+Wasow, Thomas. 1972.
+\newblock \emph{Anaphoric relations in {E}nglish}.
+\newblock Cambridge, MA: MIT dissertation.
+\newblock \urlprefix\url{http://hdl.handle.net/1721.1/12986}.
+
+\bibitem[{Wasow(1979)}]{Wasow:79}
+Wasow, Thomas. 1979.
+\newblock \emph{Anaphora in {G}enerative {G}rammar} (Studies in Generative
+  Linguistic Analysis~2).
+\newblock Ghent: Story-Scientia.
+
+\bibitem[{Wegener(1985)}]{Wegener:85}
+Wegener, Heide. 1985.
+\newblock \emph{Der {D}ativ im heutigen {D}eutsch} (Studien zur deutschen
+  Grammatik~28).
+\newblock T\"ubingen: Gunter Narr Verlag.
+
+\bibitem[{Weir(1988)}]{Weir:88}
+Weir, David~J. 1988.
+\newblock \emph{Characterizing mildly context-sensitive grammar formalisms}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+
+\bibitem[{Wesche(1995)}]{Wesche:95}
+Wesche, Birgit. 1995.
+\newblock \emph{Symmetric coordination} (Linguistische Arbeiten 332).
+\newblock T\"ubingen: Niemeyer.
+
+\bibitem[{Wilder(1994)}]{Wilder:94}
+Wilder, Chris. 1994.
+\newblock Coordination, {ATB} and ellipsis.
+\newblock \emph{Groninger Arbeiten zur Germanistischen Linguistik} 37.
+  291--331.
+
+\bibitem[{Wilder(1997)}]{Wilder:97}
+Wilder, Chris. 1997.
+\newblock Some properties of ellipsis in coordination.
+\newblock In Artemis Alexiadou \& T.~Alan Hall (eds.), \emph{Studies on
+  {U}niversal {G}rammar and typological variation}, 59--107. Amsterdam: John
+  Benjamins.
+
+\bibitem[{Wilder(1999)}]{Wilder:99}
+Wilder, Chris. 1999.
+\newblock Right node raising and the {LCA}.
+\newblock In \emph{Proceedings of th 18th west coast conference in formal
+  linguistics}, 586--598. Somerville, MA: Cascadilla Press.
+
+\bibitem[{Wilder(2008)}]{Wilder:08}
+Wilder, Chris. 2008.
+\newblock Shared constituents and linearization.
+\newblock In Kyle Johnson (ed.), \emph{Topics in ellipsis}, 229--258.
+  Cambridge, UK: Cambridge University Press.
+
+\bibitem[{Williams(1978)}]{Williams:78}
+Williams, Edwin~S. 1978.
+\newblock Across-the-board rule application.
+\newblock \emph{Linguistic Inquiry} 9(1). 31--43.
+
+\bibitem[{Williams(1981)}]{Williams:81}
+Williams, Edwin~S. 1981.
+\newblock Tranformationless grammar.
+\newblock \emph{Linguistic Inquiry} 12(4). 645--653.
+
+\bibitem[{Winkler(2005)}]{Winkler:05}
+Winkler, Susanne. 2005.
+\newblock \emph{Ellipsis and focus in {G}enerative {G}rammar} (Studies in
+  Generative Grammar~81).
+\newblock Berlin: Mouton de Gruyter.
+
+\bibitem[{Winkler \& Schwabe(2003)}]{Winkler:Schwabe:03}
+Winkler, Susanne \& Kerstin Schwabe. 2003.
+\newblock Exploring the interfaces from the perspective of omitted structures.
+\newblock In Kerstin Schwabe \& Susanne Winkler (eds.), \emph{The interfaces.
+  {D}eriving and interpreting omitted structures}, 1--26. Amsterdam: John
+  Benjamins.
+
+\bibitem[{Wittgenstein(1984)}]{Wittgenstein:84}
+Wittgenstein, Ludwig. 1984.
+\newblock Philosophische {U}ntersuchungen.
+\newblock In \emph{Werkausgabe {B}and 1}, Frankfurt a.\,M.: Suhrkamp.
+
+\bibitem[{W\"ollstein"=Leisten(2001)}]{Woellstein:01}
+W\"ollstein"=Leisten, Angelika. 2001.
+\newblock \emph{{Die Syntax der dritten Konstruktion}}.
+\newblock T\"ubingen: Stauffenburg Verlag.
+
+\bibitem[{Woods(1970)}]{Woods:70}
+Woods, William~A. 1970.
+\newblock Transition network grammars for natural language analysis.
+\newblock \emph{Commun. ACM} 13. 591--606.
+
+\bibitem[{Wunderlich(1985)}]{Wunderlich:85}
+Wunderlich, Dieter. 1985.
+\newblock {\"U}ber die {A}rgumente des {V}erbs.
+\newblock \emph{Linguistische Berichte} 97. 183--227.
+
+\bibitem[{Wunderlich(1988)}]{Wunderlich:88}
+Wunderlich, Dieter. 1988.
+\newblock Some problems of coordination in {G}erman.
+\newblock In Uwe Reyle \& Christian Rohrer (eds.), \emph{Natural language
+  parsing and linguistic theories}, 289--316. Dordrecht: Reidel.
+
+\bibitem[{Wurmbrand(2001)}]{Wurmbrand:01}
+Wurmbrand, Susanne. 2001.
+\newblock \emph{Infinitives. {R}estructuring and clause structure} (Studies in
+  Generative Grammar~55).
+\newblock Berlin: de Gruyter.
+
+\bibitem[{Wurmbrand(2003)}]{Wurmbrand:03}
+Wurmbrand, Susanne. 2003.
+\newblock Results of a corpus search on ``long passive''.
+\newblock \urlprefix\url{http://wurmbrand.uconn.edu/Papers/long-passive.pdf}.
+
+\bibitem[{Xia(2001)}]{Xia:01}
+Xia, Fei. 2001.
+\newblock \emph{Automatic grammar generation from two different perspectives}.
+\newblock Philadelphia: University of Pennsylvania dissertation.
+\newblock
+  \urlprefix\url{http://faculty.washington.edu/fxia/papers_from_penn/thesis.pdf}.
+
+\bibitem[{Xia et~al.(2010)Xia, Palmer \& Vijay-Shanker}]{Xia:etal:10}
+Xia, Fei, Martha Palmer \& K.~Vijay-Shanker. 2010.
+\newblock Developing {Tree-Adjoining Grammars} with lexical descriptions.
+\newblock In Srinivas Bangalore \& Aravind~K. Joshi (eds.), \emph{Using complex
+  lexical descriptions in natural language processing}, 73--110. Cambridge, MA:
+  MIT Press.
+
+\bibitem[{{XTAG Research Group}(2001)}]{xtag:01}
+{XTAG Research Group}. 2001.
+\newblock A {L}exicalized {T}ree {A}djoining {G}rammar for {E}nglish.
+\newblock Tech. rep. Institute for Research in Cognitive Science, University of
+  Pennsylvania Philadelphia.
+
+\bibitem[{Yanofsky(1978)}]{Yanofsky:78}
+Yanofsky, Nancy~M. 1978.
+\newblock {NP} utterances.
+\newblock In \emph{Papers from the 14th regional meeting of the {C}hicago
+  linguistic society}, 491--502.
+
+\bibitem[{Yatabe(2002)}]{Yatabe:02}
+Yatabe, Shuichi. 2002.
+\newblock A linearization-based theory of summative agreement in
+  peripheral-node raising constructions.
+\newblock In \emph{Proceedings of the 9th international conference on
+  {H}ead-{D}riven {P}hrase {S}tructure {G}rammar}, 391--411.
+
+\bibitem[{Zifonun(2003)}]{Zifonun:03}
+Zifonun, Gisela. 2003.
+\newblock Grundlagen der {V}alenz.
+\newblock In Vilmos \'Agel, Ludwig~M. Eichinger, Hans-Werner Eroms,
+  Hans~J\"urgen Heringer \& Henning Lobin (eds.), \emph{{Dependenz und Valenz.
+  Ein internationales Handbuch der zeitgen\"ossischen Forschung}} (Handb\"ucher
+  zur Sprach- und Kommunikationswissenschaft 25.1), 352--377. Berlin: Walter de
+  Gruyter.
+
+\bibitem[{Zifonun et~al.(1997)Zifonun, Hoffmann \& Strecker}]{Zifonun:etal:97}
+Zifonun, Gisela, Ludger Hoffmann \& Bruno Strecker. 1997.
+\newblock \emph{Grammatik der deutschen {S}prache}.
+\newblock Berlin: de Gruyter.
+
+\bibitem[{Zwicky(1986)}]{Zwicky:86}
+Zwicky, Arnold. 1986.
+\newblock Concatenation and liberation.
+\newblock In \emph{Proceedings of the twenty-second regional meeting (general
+  session) of the {C}hicago linguistics society}, 65--74.
+
+\end{thebibliography}

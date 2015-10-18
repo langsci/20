@@ -11,7 +11,7 @@ main.pdf: $(SOURCE)
 	bibtex -min-crossrefs=200 main
 	xelatex  -no-pdf main
 	makeindex -o main.ind main.idx
-	\rm main.adx
+	rm main.adx
 	authorindex -i -p main.aux > main.adx
 	sed -e 's/}{/|hyperpage}{/g' main.adx > main.adx.hyp
 	makeindex -o main.and main.adx.hyp
