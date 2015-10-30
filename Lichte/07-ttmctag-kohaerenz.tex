@@ -166,7 +166,7 @@ Um die schwache Äquivalenz mit LCFRS\is{Linear Context-Free Rewriting Systems (
 \begin{itemize}
   \item[] $|\{ v'| $ 
   \begin{itemize}
-  \item[]$\langle v,v',p\rangle \in E^+ $ und 
+  \item[]$\langle v,v'\rangle \in E^+ $ und 
   \item[]$v' \in arg(\Gamma)$ und 
   \item[]$ \langle v,h(\Gamma)\rangle \not\in E^*$ 
   \end{itemize} 
@@ -1213,7 +1213,7 @@ Dann gilt: $\forall v \in V [ \mathit{dtrs}(v) \in L( \mathit{fsa}(l_V(v))) ]$.
 Die Konkatenation der Label der unmittelbar dominierten Knoten eines Knotens $v$, d.\,h.\ der Tochterlabelstring $\mathit{dtrs}(v)$, soll also in der Sprache desjenigen endlichen Automaten sein, der mit dem Label von $v$ qua $\mathit{fsa}$ zusammenhängt. Ein kurzes Beispiel: Der Wurzelknoten mit VP-Label in Abbildung~\ref{fig-ttmctag-spinal-1} dominiert den Tochterlabelstring VP V NP NP NP (modulo Subskripte), und dieser ist in der Sprache des zum VP-Label zugehörigen endlichen Automaten in Abbildung~\ref{fig-fsa}.
 
 Die Fusionsoperation\is{Fusion} kann ohne Bezug auf Spinal-TT-MCTAG und endliche Automaten folgenderma\ss en definiert werden: 
-\begin{definition}[Fusion] \label{def-fusion} Seien $\gamma_i = \langle V_i,E_i \rangle$ mit der Präzedensrelation $\prec_i$ und $\gamma_j = \langle V_j,E_j \rangle$ mit der Präzedensrelation $\prec_j$ geordnete Bäume. $\gamma_i$ und $\gamma_j$ {\bf fusionieren} zu $\gamma_{ij} = \langle V_{ij}, E_{ij} \rangle$ mit $\prec_{ij}$ an den Knoten $v_i \in V_i$, $v_j \in V_j$, so dass gilt:
+\begin{definition}[Fusion] \label{def-fusion} Seien $\gamma_i = \langle V_i,E_i \rangle$ mit der Präzedensrelation $\prec_i$ und $\gamma_j = \langle V_j,E_j \rangle$ mit der Präzedensrelation $\prec_j$ geordnete Bäume. $\gamma_i$ und $\gamma_j$ fusionieren zu $\gamma_{ij} = \langle V_{ij}, E_{ij} \rangle$ mit $\prec_{ij}$ an den Knoten $v_i \in V_i$, $v_j \in V_j$, so dass gilt:
 \begin{itemize}
   \item $\gamma_{ij}$ ist ein Baum,
   \item $V_{ij} = V_i \cup V_j \backslash v_i$,

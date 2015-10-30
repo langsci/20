@@ -26,7 +26,8 @@ main.pdf: $(SOURCE)
 book: main.pdf 
 
 #create a png of the cover
-cover: main.pdf
+#cover: main.pdf
+cover:
 	convert main.pdf\[0\] -quality 100 -background white -alpha remove -bordercolor black -border 2  cover.png
 	display cover.png
 	convert -geometry 50x50% cover.png covertwitter.png
@@ -36,7 +37,8 @@ pod: bod createspace
  
 
 #prepare for submission to BOD
-bod: main.pdf  
+# bod: main.pdf  
+bod: 
 	sed "s/output=short/output=coverbod/" main.tex >bodcover.tex 
 	xelatex bodcover.tex 
 	xelatex bodcover.tex
@@ -44,7 +46,8 @@ bod: main.pdf
 	./filluppages 4 main.pdf bod/bodcontent.pdf 
 
 # prepare for submission to createspace
-createspace:  main.pdf
+# createspace:  main.pdf
+createspace:  
 	sed "s/output=short/output=covercreatespace/" main.tex >createspacecover.tex 
 	xelatex createspacecover.tex
 	xelatex createspacecover.tex
