@@ -1,8 +1,8 @@
 {
   "versions": [{
-    "versiontype": "published version of Syntax und Valenz",
-    "title": "",
-    "authors": [{"name": ""}],
+    "versiontype": "main",
+    "title": "Syntax und Valenz",
+    "authors": [{"name": "Timm Lichte"}],
     "publishedAt": "2015-11-02T00:00:33.000Z"
   }]
 }
